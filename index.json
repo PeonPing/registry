@@ -1415,6 +1415,27 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "murloc",
+      "display_name": "Murloc",
+      "version": "1.0.1",
+      "description": "Mgrlllll",
+      "author": { "name": "Zbigniew", "github": "ferror" },
+      "trust_tier": "community",
+      "categories": ["session.start", "task.complete"],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 1,
+      "total_size_bytes": 70354,
+      "source_repo": "ferror/openpeon-murloc",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "832137c1867822ab8e7980789e85479503683c2b882e71942379198b10de4fb6",
+      "tags": ["gaming"],
+      "preview_sounds": ["mrrgll.mp3"],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     }
   ]
 }
