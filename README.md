@@ -1,8 +1,8 @@
 # PeonPing Registry
 
-The central index of [CESP](https://peonping.com/spec) sound packs. Metadata only -- no audio files stored here.
+The central index of [CESP](https://openpeon.com/spec) sound packs. Metadata only -- no audio files stored here.
 
-Browse packs at [peonping.com/packs](https://peonping.com/packs).
+Browse packs at [openpeon.com/packs](https://openpeon.com/packs).
 
 ## How it works
 
@@ -13,12 +13,12 @@ The file `index.json` at the repo root is the single source of truth for all reg
 ## Submit a pack
 
 1. Create a GitHub repo with your pack (e.g., `yourname/peonping-mypack`)
-2. Include `peonping.json` manifest + `sounds/` directory
+2. Include `openpeon.json` manifest + `sounds/` directory
 3. Tag a release: `git tag v1.0.0 && git push origin v1.0.0`
 4. Fork this repo and add your entry to the `packs` array in `index.json` (keep alphabetical order by `name`)
 5. Open a PR -- CI will validate your entry automatically
 
-See the full guide at [peonping.com/create](https://peonping.com/create).
+See the full guide at [openpeon.com/create](https://openpeon.com/create).
 
 ## Registry entry format
 
@@ -40,7 +40,7 @@ Each entry in the `packs` array looks like this:
   "source_repo": "yourname/peonping-mypack",
   "source_ref": "v1.0.0",
   "source_path": ".",
-  "manifest_sha256": "<sha256 of peonping.json>",
+  "manifest_sha256": "<sha256 of openpeon.json>",
   "tags": ["gaming"],
   "preview_sounds": ["ready.mp3", "done.mp3"],
   "added": "2026-02-12",
