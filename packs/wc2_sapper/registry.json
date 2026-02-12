@@ -1,0 +1,22 @@
+{
+  "name": "wc2_sapper",
+  "display_name": "WC2 Goblin Sappers",
+  "version": "1.0.0",
+  "description": "The shrill sounds of goblin sappers for your terminal",
+  "author": { "name": "anwilk", "github": "anwilk" },
+  "source": {
+    "type": "github",
+    "repo": "anwilk/openpeon-wc2_sapper",
+    "ref": "v1.0.0"
+  },
+  "manifest_sha256": "c65910278a9d0c0849c1c5552a274401463230bd9b8eaa96e63119dac7395bc0",
+  "trust_tier": "community",
+  "categories": ["session.start", "task.acknowledge", "task.complete", "task.error", "input.required", "resource.limit", "user.spam"],
+  "language": "en",
+  "license": "CC-0",
+  "total_size_bytes": 300000,
+  "sound_count": 12,
+  "tags": ["gaming"],
+  "added": "2026-02-12",
+  "updated": "2026-02-12"
+}
