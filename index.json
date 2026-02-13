@@ -359,45 +359,6 @@
       "updated": "2026-02-12"
     },
     {
-      "name": "wc3_jaina",
-      "display_name": "Jaina Proudmore (WarCraft 3)",
-      "version": "1.0.0",
-      "description": "Jaina Proudmore (WarCraft 3) sound pack from WarCraft 3",
-      "author": {
-        "name": "OmegaZero",
-        "github": "OmegaZero"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "MIT",
-      "sound_count": 13,
-      "total_size_bytes": 1052426,
-      "source_repo": "OmegaZero/openpeon-jaina",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "cde6367b42906933d72ecdae706ab9217ac9f382c407cb41ef62b3eb89598b47",
-      "tags": [
-        "gaming",
-        "warcraft3",
-        "rts"
-      ],
-      "preview_sounds": [
-        "JainaCanHelp.wav",
-        "JainaWhatsThePlan.wav"
-      ],
-      "added": "2026-02-12",
-      "updated": "2026-02-12"
-    },    
-    {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
@@ -1648,6 +1609,84 @@
       "preview_sounds": [
         "ready.wav",
         "beautiful.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "wc3_corrupted_arthas",
+      "display_name": "Corrupted Arthas (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Corrupted Arthas (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 15,
+      "total_size_bytes": 322809,
+      "source_repo": "OmegaZero/openpeon-corrupted-arthas",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "f6171237f344679112b3743c1db375dbf0a02ad6893c1c2bfdcc3c95e871d27a",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "8-no-one-orders-me-around.mp3",
+        "12-frostmourn-hungers.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "wc3_jaina",
+      "display_name": "Jaina Proudmore (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Jaina Proudmore (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 13,
+      "total_size_bytes": 1052426,
+      "source_repo": "OmegaZero/openpeon-jaina",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "cde6367b42906933d72ecdae706ab9217ac9f382c407cb41ef62b3eb89598b47",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "JainaCanHelp.wav",
+        "JainaWhatsThePlan.wav"
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
