@@ -1652,6 +1652,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "wc2_human_ships",
+      "display_name": "WC2 Human Ships",
+      "version": "1.0.0",
+      "description": "Human naval unit voice lines from Warcraft II: Tides of Darkness",
+      "author": {
+        "name": "dmnd",
+        "github": "dmnd"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 22,
+      "total_size_bytes": 168954,
+      "source_repo": "dmnd/peonping-wc2_human_ships",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a6c7d3f3ee21ae56fbc19a88d0ddf7e9a4b232e71eb30b529e0b621228dc1766",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "human1.wav",
+        "acknowledge1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
       "name": "wc2_peasant",
       "display_name": "WC2 Peasant",
       "version": "1.0.0",
