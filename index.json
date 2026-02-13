@@ -1653,44 +1653,6 @@
       "updated": "2026-02-12"
     },
     {
-      "name": "st_worf",
-      "display_name": "Worf (Star Trek)",
-      "version": "1.0.0",
-      "description": "Worf (Star Trek) sound pack from Star Trek",
-      "author": {
-        "name": "OmegaZero",
-        "github": "OmegaZero"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "MIT",
-      "sound_count": 12,
-      "total_size_bytes": 458221,
-      "source_repo": "OmegaZero/openpeon-worf",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "4d2bb1759a78442d9051c966e7df8dd55b933eb95d4a99b33aaa2187259cb3b6",
-      "tags": [
-        "television",
-        "star-trek"
-      ],
-      "preview_sounds": [
-        "HailingFrequenciesOpenSir.mp3",
-        "WeAreBeingHailed.wav"
-      ],
-      "added": "2026-02-13",
-      "updated": "2026-02-13"
-    },
-    {
       "name": "sopranos",
       "display_name": "Tony Soprano",
       "version": "1.0.0",
@@ -1728,6 +1690,44 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "st_worf",
+      "display_name": "Worf (Star Trek)",
+      "version": "1.0.1",
+      "description": "Worf (Star Trek) sound pack from Star Trek",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 12,
+      "total_size_bytes": 458221,
+      "source_repo": "OmegaZero/openpeon-worf",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "f49252d83f41773bb4b373e23b05beed5898684372a5d25bce777bb409bf645b",
+      "tags": [
+        "television",
+        "star-trek"
+      ],
+      "preview_sounds": [
+        "HailingFrequenciesOpenSir.mp3",
+        "WeAreBeingHailed.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "tf2_engineer",
