@@ -8,7 +8,7 @@ In your own GitHub account, create a repo with:
 
 ```
 peonping-mypack/
-  peonping.json       # CESP v1.0 manifest
+  openpeon.json       # CESP v1.0 manifest
   sounds/
     sound1.mp3
     sound2.wav
@@ -29,9 +29,9 @@ git push origin v1.0.0
 ### 3. Compute the manifest hash
 
 ```bash
-sha256sum peonping.json
+sha256sum openpeon.json
 # or on macOS:
-shasum -a 256 peonping.json
+shasum -a 256 openpeon.json
 ```
 
 ### 4. Add your entry to index.json
@@ -56,7 +56,7 @@ Example entry:
   "source_repo": "yourname/peonping-mypack",
   "source_ref": "v1.0.0",
   "source_path": ".",
-  "manifest_sha256": "<sha256 of peonping.json>",
+  "manifest_sha256": "<sha256 of openpeon.json>",
   "tags": ["gaming"],
   "preview_sounds": ["ready.mp3", "done.mp3"],
   "added": "2026-02-12",

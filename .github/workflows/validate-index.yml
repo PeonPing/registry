@@ -1,10 +1,14 @@
 name: Validate Index
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [main]
     paths:
       - 'index.json'
+
+permissions:
+  pull-requests: write
+  contents: write
 
 jobs:
   validate:
@@ -12,9 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
       - name: Validate index.json schema
+        id: schema
         run: |
           python3 -c "
           import json, re, sys
@@ -85,13 +91,19 @@ jobs:
               print(f'Validation failed with {len(errors)} error(s):')
               for e in errors:
                   print(f'  - {e}')
+              # Write errors for review comment
+              with open('schema_errors.json', 'w') as f:
+                  json.dump(errors, f)
               sys.exit(1)
 
           print(f'index.json is valid: {len(packs)} packs')
+          with open('schema_errors.json', 'w') as f:
+              json.dump([], f)
           "
 
       - name: Detect new/changed packs
         id: detect
+        if: always()
         run: |
           python3 -c "
           import json, sys
@@ -111,10 +123,24 @@ jobs:
               base_packs = {}
 
           # Find new or changed packs
-          changed = []
+          new_packs = []
+          updated_packs = []
           for name, pack in pr_packs.items():
-              if name not in base_packs or pack != base_packs[name]:
-                  changed.append(name)
+              if name not in base_packs:
+                  new_packs.append(name)
+              elif pack != base_packs[name]:
+                  updated_packs.append(name)
+
+          changed = new_packs + updated_packs
+
+          # Write detection results
+          results = {
+              'new': new_packs,
+              'updated': updated_packs,
+              'packs': {n: pr_packs[n] for n in changed}
+          }
+          with open('detect_results.json', 'w') as f:
+              json.dump(results, f)
 
           if changed:
               names = ', '.join(changed)
@@ -127,7 +153,42 @@ jobs:
                   json.dump([], f)
           "
 
+      - name: Validate trust tier
+        id: trust
+        if: always() && steps.detect.outcome == 'success'
+        env:
+          PR_AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, sys
+
+          association = os.environ.get('PR_AUTHOR_ASSOCIATION', '')
+          is_org_member = association in ('OWNER', 'MEMBER')
+
+          with open('changed_packs.json') as f:
+              packs = json.load(f)
+
+          errors = []
+          for pack in packs:
+              tier = pack.get('trust_tier', '')
+              name = pack.get('name', '')
+              if not is_org_member and tier in ('official', 'verified'):
+                  errors.append(f'{name}: community contributors cannot use trust_tier "{tier}" (use "community")')
+
+          with open('trust_errors.json', 'w') as f:
+              json.dump(errors, f)
+
+          if errors:
+              for e in errors:
+                  print(f'Error: {e}')
+              sys.exit(1)
+          else:
+              print(f'Trust tier check passed (author association: {association})')
+          PYEOF
+
       - name: Validate pack sources
+        id: sources
+        if: always() && steps.detect.outcome == 'success'
         run: |
           python3 << 'PYEOF'
           import json, urllib.request, hashlib, sys, os
@@ -137,6 +198,8 @@ jobs:
 
           if not packs:
               print("No new/changed packs to validate")
+              with open('source_results.json', 'w') as f:
+                  json.dump({'errors': [], 'warnings': [], 'checks': {}}, f)
               sys.exit(0)
 
           ALLOWED_EXTENSIONS = {'.wav', '.mp3', '.ogg', '.flac', '.m4a'}
@@ -144,16 +207,19 @@ jobs:
           MAX_FILE_SIZE = 10 * 1024 * 1024   # 10MB max per file
           errors = []
           warnings = []
+          checks = {}  # per-pack check results
 
           for pack in packs:
               name = pack['name']
               repo = pack.get('source_repo', '')
               ref = pack.get('source_ref', 'main')
               path = pack.get('source_path', '.')
+              pack_checks = {'manifest': False, 'sha256': None, 'audio_files': []}
               print(f"\n=== Validating {name} ({repo}@{ref}) ===")
 
               if not repo:
                   errors.append(f"{name}: missing source_repo")
+                  checks[name] = pack_checks
                   continue
 
               # Build base URL
@@ -168,9 +234,11 @@ jobs:
                   req = urllib.request.urlopen(manifest_url, timeout=15)
                   manifest_bytes = req.read()
                   manifest = json.loads(manifest_bytes)
+                  pack_checks['manifest'] = True
                   print(f"  Manifest: OK ({len(manifest_bytes)} bytes)")
               except Exception as e:
                   errors.append(f"{name}: cannot fetch manifest at {manifest_url}: {e}")
+                  checks[name] = pack_checks
                   continue
 
               # 2. Verify manifest SHA256 if provided
@@ -179,14 +247,19 @@ jobs:
                   actual_sha = hashlib.sha256(manifest_bytes).hexdigest()
                   if actual_sha != claimed_sha:
                       errors.append(f"{name}: manifest SHA256 mismatch (claimed {claimed_sha[:16]}... got {actual_sha[:16]}...)")
+                      pack_checks['sha256'] = False
                   else:
+                      pack_checks['sha256'] = True
                       print(f"  SHA256: OK")
+              else:
+                  pack_checks['sha256'] = None  # not provided
 
               # 3. Validate manifest structure
               if 'name' not in manifest:
                   errors.append(f"{name}: manifest missing 'name' field")
               if 'categories' not in manifest:
                   errors.append(f"{name}: manifest missing 'categories' field")
+                  checks[name] = pack_checks
                   continue
 
               # 4. Collect all sound files
@@ -199,6 +272,7 @@ jobs:
 
               if not sound_files:
                   errors.append(f"{name}: no sound files referenced in manifest")
+                  checks[name] = pack_checks
                   continue
 
               claimed_count = pack.get('sound_count', 0)
@@ -208,66 +282,243 @@ jobs:
               print(f"  Sound files: {len(sound_files)} referenced")
 
               # 5. Spot-check up to 3 sound files exist and are audio
-              total_size = 0
-              checked = 0
               for sfile in sorted(sound_files)[:3]:
                   sound_url = f"{base}/sounds/{sfile}"
                   try:
                       req = urllib.request.urlopen(sound_url, timeout=15)
-                      data = req.read(256)  # Read first 256 bytes for magic check
+                      data = req.read(256)
                       size = int(req.headers.get('Content-Length', 0))
-                      total_size += size
 
-                      # Check file extension
                       ext = os.path.splitext(sfile)[1].lower()
                       if ext not in ALLOWED_EXTENSIONS:
                           errors.append(f"{name}: {sfile} has disallowed extension '{ext}'")
+                          pack_checks['audio_files'].append({'file': sfile, 'ok': False})
                           continue
 
-                      # Check magic bytes for common audio formats
                       is_audio = False
-                      if data[:4] == b'RIFF':  # WAV
+                      if data[:4] == b'RIFF':
                           is_audio = True
-                      elif data[:3] == b'ID3' or data[:2] == b'\xff\xfb' or data[:2] == b'\xff\xf3':  # MP3
+                      elif data[:3] == b'ID3' or data[:2] == b'\xff\xfb' or data[:2] == b'\xff\xf3':
                           is_audio = True
-                      elif data[:4] == b'OggS':  # OGG
+                      elif data[:4] == b'OggS':
                           is_audio = True
-                      elif data[:4] == b'fLaC':  # FLAC
+                      elif data[:4] == b'fLaC':
                           is_audio = True
-                      elif data[4:8] == b'ftyp':  # M4A/MP4
+                      elif data[4:8] == b'ftyp':
                           is_audio = True
 
                       if not is_audio:
-                          errors.append(f"{name}: {sfile} does not appear to be a valid audio file (magic: {data[:8].hex()})")
+                          errors.append(f"{name}: {sfile} does not appear to be a valid audio file")
+                          pack_checks['audio_files'].append({'file': sfile, 'ok': False})
                       else:
+                          pack_checks['audio_files'].append({'file': sfile, 'ok': True, 'size': size})
                           print(f"  {sfile}: OK ({ext}, {size} bytes)")
 
                       if size > MAX_FILE_SIZE:
                           errors.append(f"{name}: {sfile} is {size / 1024 / 1024:.1f}MB (max {MAX_FILE_SIZE / 1024 / 1024:.0f}MB)")
 
-                      checked += 1
                   except Exception as e:
                       errors.append(f"{name}: cannot fetch sound {sfile}: {e}")
+                      pack_checks['audio_files'].append({'file': sfile, 'ok': False})
 
-              # 6. Check claimed total size is reasonable
+              # 6. Check claimed total size
               claimed_size = pack.get('total_size_bytes', 0)
               if claimed_size and claimed_size > MAX_PACK_SIZE:
                   errors.append(f"{name}: total_size_bytes={claimed_size} exceeds {MAX_PACK_SIZE / 1024 / 1024:.0f}MB limit")
 
-              print(f"  Checked {checked}/{len(sound_files)} files")
+              checks[name] = pack_checks
+
+          # Save results
+          with open('source_results.json', 'w') as f:
+              json.dump({'errors': errors, 'warnings': warnings, 'checks': checks}, f)
 
           # Report
           print("\n" + "=" * 60)
           if warnings:
               print(f"\nWarnings ({len(warnings)}):")
               for w in warnings:
-                  print(f"  ⚠ {w}")
+                  print(f"  - {w}")
 
           if errors:
               print(f"\nErrors ({len(errors)}):")
               for e in errors:
-                  print(f"  ✗ {e}")
+                  print(f"  - {e}")
               sys.exit(1)
           else:
               print(f"\nAll {len(packs)} pack(s) validated successfully")
           PYEOF
+
+      - name: Write verdict
+        if: always()
+        env:
+          SCHEMA_RESULT: ${{ steps.schema.outcome }}
+          TRUST_RESULT: ${{ steps.trust.outcome }}
+          SOURCES_RESULT: ${{ steps.sources.outcome }}
+        run: |
+          if [ "$SCHEMA_RESULT" = "success" ] && [ "$TRUST_RESULT" = "success" ] && [ "$SOURCES_RESULT" = "success" ]; then
+            echo "pass" > verdict.txt
+          else
+            echo "fail" > verdict.txt
+          fi
+          echo "Verdict: $(cat verdict.txt)"
+
+      - name: Post review comment
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          SCHEMA_RESULT: ${{ steps.schema.outcome }}
+          TRUST_RESULT: ${{ steps.trust.outcome }}
+          SOURCES_RESULT: ${{ steps.sources.outcome }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, subprocess
+
+          pr = os.environ['PR_NUMBER']
+          schema_ok = os.environ.get('SCHEMA_RESULT') == 'success'
+          trust_ok = os.environ.get('TRUST_RESULT') == 'success'
+          sources_ok = os.environ.get('SOURCES_RESULT') == 'success'
+          all_ok = schema_ok and trust_ok and sources_ok
+
+          # Load detection results
+          detect = {}
+          try:
+              with open('detect_results.json') as f:
+                  detect = json.load(f)
+          except:
+              pass
+
+          new_packs = detect.get('new', [])
+          updated_packs = detect.get('updated', [])
+          pack_details = detect.get('packs', {})
+
+          # Load source validation results
+          source_results = {'errors': [], 'warnings': [], 'checks': {}}
+          try:
+              with open('source_results.json') as f:
+                  source_results = json.load(f)
+          except:
+              pass
+
+          # Load trust errors
+          trust_errors = []
+          try:
+              with open('trust_errors.json') as f:
+                  trust_errors = json.load(f)
+          except:
+              pass
+
+          # Load schema errors
+          schema_errors = []
+          try:
+              with open('schema_errors.json') as f:
+                  schema_errors = json.load(f)
+          except:
+              pass
+
+          # Build comment
+          icon = "white_check_mark" if all_ok else "x"
+          lines = [f"## :{icon}: Pack Registry Review\n"]
+
+          # Pack summary
+          if new_packs or updated_packs:
+              lines.append("### Packs\n")
+              for name in new_packs:
+                  p = pack_details.get(name, {})
+                  display = p.get('display_name', name)
+                  tier = p.get('trust_tier', '?')
+                  count = p.get('sound_count', '?')
+                  lang = p.get('language', '?')
+                  lines.append(f"- **{display}** (`{name}`) — NEW | {tier} | {lang} | {count} sounds")
+              for name in updated_packs:
+                  p = pack_details.get(name, {})
+                  display = p.get('display_name', name)
+                  lines.append(f"- **{display}** (`{name}`) — UPDATED")
+              lines.append("")
+
+          # Checks table
+          lines.append("### Checks\n")
+          lines.append("| Check | Result |")
+          lines.append("|---|---|")
+          lines.append(f"| Schema validation | {'pass' if schema_ok else 'FAIL'} |")
+          lines.append(f"| Trust tier | {'pass' if trust_ok else 'FAIL'} |")
+          lines.append(f"| Manifest fetch | {'pass' if sources_ok else 'FAIL'} |")
+
+          # Per-pack source checks
+          checks = source_results.get('checks', {})
+          for name, c in checks.items():
+              if c.get('sha256') is True:
+                  lines.append(f"| SHA256 ({name}) | pass |")
+              elif c.get('sha256') is False:
+                  lines.append(f"| SHA256 ({name}) | FAIL |")
+
+              audio = c.get('audio_files', [])
+              if audio:
+                  ok_count = sum(1 for a in audio if a.get('ok'))
+                  total = len(audio)
+                  status = 'pass' if ok_count == total else 'FAIL'
+                  files = ', '.join(a['file'] for a in audio)
+                  lines.append(f"| Audio spot-check ({name}) | {status} ({ok_count}/{total}: {files}) |")
+
+          lines.append("")
+
+          # Errors
+          all_errors = schema_errors + trust_errors + source_results.get('errors', [])
+          if all_errors:
+              lines.append("### Errors\n")
+              for e in all_errors:
+                  lines.append(f"- {e}")
+              lines.append("")
+
+          # Warnings
+          if source_results.get('warnings'):
+              lines.append("### Warnings\n")
+              for w in source_results['warnings']:
+                  lines.append(f"- {w}")
+              lines.append("")
+
+          # Verdict
+          if all_ok:
+              lines.append("All checks passed. Auto-approving and enabling auto-merge.")
+          else:
+              lines.append("Some checks failed. Please fix the issues above and push again.")
+
+          comment = '\n'.join(lines)
+
+          # Post comment
+          subprocess.run(
+              ['gh', 'pr', 'comment', pr, '--body', comment],
+              check=True
+          )
+          print("Posted review comment")
+          PYEOF
+
+      - name: Auto-approve
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+          if [ "$VERDICT" = "pass" ]; then
+            gh pr review "$PR_NUMBER" --approve --body "All automated checks passed."
+            echo "PR approved"
+          else
+            echo "Skipping approval — checks did not pass"
+          fi
+
+      - name: Enable auto-merge
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+          if [ "$VERDICT" = "pass" ]; then
+            gh pr merge "$PR_NUMBER" --auto --squash --delete-branch || echo "Auto-merge could not be enabled (branch protection may not be configured)"
+            echo "Auto-merge enabled"
+          else
+            echo "Skipping auto-merge — checks did not pass"
+          fi

@@ -200,6 +200,165 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "ccg_china_dozer",
+      "display_name": "C&C Generals: China Dozer",
+      "version": "1.0.0",
+      "description": "China dozer sound pack from Command & Conquer: Generals",
+      "author": {
+        "name": "YonahKarp",
+        "github": "YonahKarp"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 25,
+      "total_size_bytes": 1307964,
+      "source_repo": "YonahKarp/openpeon-ccg-china-dozer",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "7eb51f525f99f7eaa4be3ee46f89ebd908795eaa0f2b64f857b9fb1b539c3545",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "A_very_good_plan_general.mp3",
+        "Construction_built_to_spec.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "ccg_gla_worker",
+      "display_name": "C&C Generals: GLA Worker",
+      "version": "1.0.0",
+      "description": "GLA worker sound pack from Command & Conquer: Generals",
+      "author": {
+        "name": "YonahKarp",
+        "github": "YonahKarp"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 37,
+      "total_size_bytes": 1613593,
+      "source_repo": "YonahKarp/openpeon-ccg-gla-worker",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "7e65595f1a858f52be4246f4c2c0fe22ee824de052bddb9d0b3766ed73798c2a",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "I_guess_I_should_help_out.mp3",
+        "All_work_is_complete.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "counterstrike",
+      "display_name": "Counter-Strike",
+      "version": "1.0.0",
+      "description": "Classic Counter-Strike radio commands",
+      "author": {
+        "name": "colbyfayock",
+        "github": "colbyfayock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 15,
+      "total_size_bytes": 983040,
+      "source_repo": "colbyfayock/openpeon-counterstrike",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "620a1730998f238c6866f4f4b8a8415a8cb18e15e8cf5008a893d8e6a400051b",
+      "tags": [
+        "gaming",
+        "counterstrike",
+        "cs"
+      ],
+      "preview_sounds": [
+        "lock-and-load.wav",
+        "roger.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "deadlock_dynamo",
+      "display_name": "Dynamo (Deadlock)",
+      "version": "1.0.0",
+      "description": "Dynamo voice pack from Valve's Deadlock",
+      "author": {
+        "name": "mwaterman29",
+        "github": "mwaterman29"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 48,
+      "total_size_bytes": 1038668,
+      "source_repo": "mwaterman29/openpeon-deadlock-dynamo",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c1c983029329cf6e419086be004e3d4f4ccff2a7feefabfaf2eb49dac704d2de",
+      "tags": [
+        "gaming",
+        "deadlock",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "dynamo_select_06.mp3",
+        "dynamo_ping_good_job_01.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
       "name": "dota2_axe",
       "display_name": "Axe (Dota 2)",
       "version": "1.0.0",
@@ -359,45 +518,6 @@
       "updated": "2026-02-12"
     },
     {
-      "name": "wc3_jaina",
-      "display_name": "Jaina Proudmore (WarCraft 3)",
-      "version": "1.0.0",
-      "description": "Jaina Proudmore (WarCraft 3) sound pack from WarCraft 3",
-      "author": {
-        "name": "OmegaZero",
-        "github": "OmegaZero"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "MIT",
-      "sound_count": 13,
-      "total_size_bytes": 1052426,
-      "source_repo": "OmegaZero/openpeon-jaina",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "cde6367b42906933d72ecdae706ab9217ac9f382c407cb41ef62b3eb89598b47",
-      "tags": [
-        "gaming",
-        "warcraft3",
-        "rts"
-      ],
-      "preview_sounds": [
-        "JainaCanHelp.wav",
-        "JainaWhatsThePlan.wav"
-      ],
-      "added": "2026-02-12",
-      "updated": "2026-02-12"
-    },    
-    {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
@@ -555,9 +675,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
+      "display_name": "Lidský rolník (CZ)",
       "version": "1.0.0",
-      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
+      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -755,9 +875,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
+      "display_name": "Orčí peón (CZ)",
       "version": "1.0.0",
-      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
+      "description": "Orčí peón (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1612,6 +1732,79 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "warcraft-peon",
+      "display_name": "Warcraft 3 Peon",
+      "version": "1.0.0",
+      "description": "Warcraft 3 Peon sounds for OpenPeon",
+      "author": {
+        "name": "rocktane",
+        "github": "rocktane"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "task.complete"
+      ],
+      "language": "fr",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 1,
+      "total_size_bytes": 13431,
+      "source_repo": "rocktane/openpeon-warcraft-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e3bd17476b26de2cf51580991cec5ceb2c8c6db78e8f53e3b43f9ab18baaace7",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "task-complete.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "wc2_human_ships",
+      "display_name": "WC2 Human Ships",
+      "version": "1.0.0",
+      "description": "Human naval unit voice lines from Warcraft II: Tides of Darkness",
+      "author": {
+        "name": "dmnd",
+        "github": "dmnd"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 22,
+      "total_size_bytes": 168954,
+      "source_repo": "dmnd/peonping-wc2_human_ships",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a6c7d3f3ee21ae56fbc19a88d0ddf7e9a4b232e71eb30b529e0b621228dc1766",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "human1.wav",
+        "acknowledge1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
       "name": "wc2_peasant",
       "display_name": "WC2 Peasant",
       "version": "1.0.0",
@@ -1689,7 +1882,89 @@
         "beautiful.wav"
       ],
       "added": "2026-02-12",
+<<<<<<< HEAD
       "updated": "2026-02-13"
+=======
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "wc3_corrupted_arthas",
+      "display_name": "Corrupted Arthas (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Corrupted Arthas (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 15,
+      "total_size_bytes": 322809,
+      "source_repo": "OmegaZero/openpeon-corrupted-arthas",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "f6171237f344679112b3743c1db375dbf0a02ad6893c1c2bfdcc3c95e871d27a",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "8-no-one-orders-me-around.mp3",
+        "12-frostmourn-hungers.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "wc3_jaina",
+      "display_name": "Jaina Proudmore (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Jaina Proudmore (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 13,
+      "total_size_bytes": 1052426,
+      "source_repo": "OmegaZero/openpeon-jaina",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "cde6367b42906933d72ecdae706ab9217ac9f382c407cb41ef62b3eb89598b47",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "JainaCanHelp.wav",
+        "JainaWhatsThePlan.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+>>>>>>> 9a9b012fe8a10a667e84fa706b926a1d4ae507cd
     }
   ]
 }
