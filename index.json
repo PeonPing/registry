@@ -1653,6 +1653,44 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "st_worf",
+      "display_name": "Worf (Star Trek)",
+      "version": "1.0.0",
+      "description": "Worf (Star Trek) sound pack from Star Trek",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 12,
+      "total_size_bytes": 458221,
+      "source_repo": "OmegaZero/openpeon-worf",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4d2bb1759a78442d9051c966e7df8dd55b933eb95d4a99b33aaa2187259cb3b6",
+      "tags": [
+        "television",
+        "star-trek"
+      ],
+      "preview_sounds": [
+        "HailingFrequenciesOpenSir.mp3",
+        "WeAreBeingHailed.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
       "name": "sopranos",
       "display_name": "Tony Soprano",
       "version": "1.0.0",
@@ -1887,7 +1925,7 @@
     {
       "name": "wc3_corrupted_arthas",
       "display_name": "Corrupted Arthas (WarCraft 3)",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "Corrupted Arthas (WarCraft 3) sound pack from WarCraft 3",
       "author": {
         "name": "OmegaZero",
@@ -1908,17 +1946,17 @@
       "sound_count": 15,
       "total_size_bytes": 322809,
       "source_repo": "OmegaZero/openpeon-corrupted-arthas",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "f6171237f344679112b3743c1db375dbf0a02ad6893c1c2bfdcc3c95e871d27a",
+      "manifest_sha256": "94eccb9c44100aa752e4b4dc15682cc0d870f787aeefb6347810a1bce2681e4e",
       "tags": [
         "gaming",
         "warcraft3",
         "rts"
       ],
       "preview_sounds": [
-        "8-no-one-orders-me-around.mp3",
-        "12-frostmourn-hungers.mp3"
+        "SpeakFool.mp3",
+        "WhatIsItNow.mp3"
       ],
       "added": "2026-02-13",
       "updated": "2026-02-13"
