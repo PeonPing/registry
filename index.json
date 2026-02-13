@@ -303,7 +303,7 @@
       "sound_count": 15,
       "total_size_bytes": 983040,
       "source_repo": "colbyfayock/openpeon-counterstrike",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
       "manifest_sha256": "620a1730998f238c6866f4f4b8a8415a8cb18e15e8cf5008a893d8e6a400051b",
       "tags": [
