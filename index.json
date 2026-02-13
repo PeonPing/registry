@@ -516,9 +516,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
-      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -716,9 +716,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
-      "description": "Orčí peón (CZ) sound pack from Warcraft III",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1033,6 +1033,45 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "ra2_yuri",
+      "display_name": "RA2 Yuri (Yuri's Revenge)",
+      "version": "1.0.0",
+      "description": "Yuri Prime & Yuri Clone sound pack from Command & Conquer: Red Alert 2 - Yuri's Revenge",
+      "author": {
+        "name": "testy-cool",
+        "github": "testy-cool"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 55,
+      "total_size_bytes": 3353696,
+      "source_repo": "testy-cool/openpeon-ra2-yuri",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "73afb91726904c3582b7013b1984938a27d77845fcd4090d71ba1705c7c2fc6b",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "iyupsea.wav",
+        "iyupcrd.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "ra_soviet",

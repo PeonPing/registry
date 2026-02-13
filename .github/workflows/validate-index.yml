@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Validate index.json
+      - name: Validate index.json schema
         run: |
           python3 -c "
           import json, re, sys
@@ -87,3 +89,185 @@ jobs:
 
           print(f'index.json is valid: {len(packs)} packs')
           "
+
+      - name: Detect new/changed packs
+        id: detect
+        run: |
+          python3 -c "
+          import json, sys
+
+          # Load PR version
+          with open('index.json') as f:
+              pr_data = json.load(f)
+          pr_packs = {p['name']: p for p in pr_data.get('packs', [])}
+
+          # Load base version (main branch)
+          import subprocess
+          result = subprocess.run(['git', 'show', 'origin/main:index.json'], capture_output=True, text=True)
+          if result.returncode == 0:
+              base_data = json.loads(result.stdout)
+              base_packs = {p['name']: p for p in base_data.get('packs', [])}
+          else:
+              base_packs = {}
+
+          # Find new or changed packs
+          changed = []
+          for name, pack in pr_packs.items():
+              if name not in base_packs or pack != base_packs[name]:
+                  changed.append(name)
+
+          if changed:
+              names = ', '.join(changed)
+              print(f'Changed packs: {names}')
+              with open('changed_packs.json', 'w') as f:
+                  json.dump([pr_packs[n] for n in changed], f)
+          else:
+              print('No pack changes detected')
+              with open('changed_packs.json', 'w') as f:
+                  json.dump([], f)
+          "
+
+      - name: Validate pack sources
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, hashlib, sys, os
+
+          with open('changed_packs.json') as f:
+              packs = json.load(f)
+
+          if not packs:
+              print("No new/changed packs to validate")
+              sys.exit(0)
+
+          ALLOWED_EXTENSIONS = {'.wav', '.mp3', '.ogg', '.flac', '.m4a'}
+          MAX_PACK_SIZE = 50 * 1024 * 1024  # 50MB max per pack
+          MAX_FILE_SIZE = 10 * 1024 * 1024   # 10MB max per file
+          errors = []
+          warnings = []
+
+          for pack in packs:
+              name = pack['name']
+              repo = pack.get('source_repo', '')
+              ref = pack.get('source_ref', 'main')
+              path = pack.get('source_path', '.')
+              print(f"\n=== Validating {name} ({repo}@{ref}) ===")
+
+              if not repo:
+                  errors.append(f"{name}: missing source_repo")
+                  continue
+
+              # Build base URL
+              if path and path != '.':
+                  base = f"https://raw.githubusercontent.com/{repo}/{ref}/{path}"
+              else:
+                  base = f"https://raw.githubusercontent.com/{repo}/{ref}"
+
+              # 1. Fetch and validate manifest
+              manifest_url = f"{base}/openpeon.json"
+              try:
+                  req = urllib.request.urlopen(manifest_url, timeout=15)
+                  manifest_bytes = req.read()
+                  manifest = json.loads(manifest_bytes)
+                  print(f"  Manifest: OK ({len(manifest_bytes)} bytes)")
+              except Exception as e:
+                  errors.append(f"{name}: cannot fetch manifest at {manifest_url}: {e}")
+                  continue
+
+              # 2. Verify manifest SHA256 if provided
+              claimed_sha = pack.get('manifest_sha256', '')
+              if claimed_sha:
+                  actual_sha = hashlib.sha256(manifest_bytes).hexdigest()
+                  if actual_sha != claimed_sha:
+                      errors.append(f"{name}: manifest SHA256 mismatch (claimed {claimed_sha[:16]}... got {actual_sha[:16]}...)")
+                  else:
+                      print(f"  SHA256: OK")
+
+              # 3. Validate manifest structure
+              if 'name' not in manifest:
+                  errors.append(f"{name}: manifest missing 'name' field")
+              if 'categories' not in manifest:
+                  errors.append(f"{name}: manifest missing 'categories' field")
+                  continue
+
+              # 4. Collect all sound files
+              sound_files = set()
+              for cat_name, cat_data in manifest.get('categories', {}).items():
+                  for sound in cat_data.get('sounds', []):
+                      f = sound.get('file', '')
+                      if f:
+                          sound_files.add(os.path.basename(f))
+
+              if not sound_files:
+                  errors.append(f"{name}: no sound files referenced in manifest")
+                  continue
+
+              claimed_count = pack.get('sound_count', 0)
+              if claimed_count and len(sound_files) != claimed_count:
+                  warnings.append(f"{name}: sound_count={claimed_count} but manifest references {len(sound_files)} unique files")
+
+              print(f"  Sound files: {len(sound_files)} referenced")
+
+              # 5. Spot-check up to 3 sound files exist and are audio
+              total_size = 0
+              checked = 0
+              for sfile in sorted(sound_files)[:3]:
+                  sound_url = f"{base}/sounds/{sfile}"
+                  try:
+                      req = urllib.request.urlopen(sound_url, timeout=15)
+                      data = req.read(256)  # Read first 256 bytes for magic check
+                      size = int(req.headers.get('Content-Length', 0))
+                      total_size += size
+
+                      # Check file extension
+                      ext = os.path.splitext(sfile)[1].lower()
+                      if ext not in ALLOWED_EXTENSIONS:
+                          errors.append(f"{name}: {sfile} has disallowed extension '{ext}'")
+                          continue
+
+                      # Check magic bytes for common audio formats
+                      is_audio = False
+                      if data[:4] == b'RIFF':  # WAV
+                          is_audio = True
+                      elif data[:3] == b'ID3' or data[:2] == b'\xff\xfb' or data[:2] == b'\xff\xf3':  # MP3
+                          is_audio = True
+                      elif data[:4] == b'OggS':  # OGG
+                          is_audio = True
+                      elif data[:4] == b'fLaC':  # FLAC
+                          is_audio = True
+                      elif data[4:8] == b'ftyp':  # M4A/MP4
+                          is_audio = True
+
+                      if not is_audio:
+                          errors.append(f"{name}: {sfile} does not appear to be a valid audio file (magic: {data[:8].hex()})")
+                      else:
+                          print(f"  {sfile}: OK ({ext}, {size} bytes)")
+
+                      if size > MAX_FILE_SIZE:
+                          errors.append(f"{name}: {sfile} is {size / 1024 / 1024:.1f}MB (max {MAX_FILE_SIZE / 1024 / 1024:.0f}MB)")
+
+                      checked += 1
+                  except Exception as e:
+                      errors.append(f"{name}: cannot fetch sound {sfile}: {e}")
+
+              # 6. Check claimed total size is reasonable
+              claimed_size = pack.get('total_size_bytes', 0)
+              if claimed_size and claimed_size > MAX_PACK_SIZE:
+                  errors.append(f"{name}: total_size_bytes={claimed_size} exceeds {MAX_PACK_SIZE / 1024 / 1024:.0f}MB limit")
+
+              print(f"  Checked {checked}/{len(sound_files)} files")
+
+          # Report
+          print("\n" + "=" * 60)
+          if warnings:
+              print(f"\nWarnings ({len(warnings)}):")
+              for w in warnings:
+                  print(f"  ⚠ {w}")
+
+          if errors:
+              print(f"\nErrors ({len(errors)}):")
+              for e in errors:
+                  print(f"  ✗ {e}")
+              sys.exit(1)
+          else:
+              print(f"\nAll {len(packs)} pack(s) validated successfully")
+          PYEOF
