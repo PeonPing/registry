@@ -200,6 +200,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "deadlock_dynamo",
+      "display_name": "Dynamo (Deadlock)",
+      "version": "1.0.0",
+      "description": "Dynamo voice pack from Valve's Deadlock",
+      "author": {
+        "name": "mwaterman29",
+        "github": "mwaterman29"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 48,
+      "total_size_bytes": 1038668,
+      "source_repo": "mwaterman29/openpeon-deadlock-dynamo",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c1c983029329cf6e419086be004e3d4f4ccff2a7feefabfaf2eb49dac704d2de",
+      "tags": [
+        "gaming",
+        "deadlock",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "dynamo_select_06.mp3",
+        "dynamo_ping_good_job_01.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
       "name": "dota2_axe",
       "display_name": "Axe (Dota 2)",
       "version": "1.0.0",
