@@ -282,7 +282,7 @@
     {
       "name": "counterstrike",
       "display_name": "Counter-Strike",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "Classic Counter-Strike radio commands",
       "author": {
         "name": "colbyfayock",
@@ -303,9 +303,9 @@
       "sound_count": 15,
       "total_size_bytes": 983040,
       "source_repo": "colbyfayock/openpeon-counterstrike",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "ca17984b796a05c797f07bd280671021820b642ab0ed1b9b1a9e6df50e789e19",
+      "manifest_sha256": "87189d450468f7f69bf25d0292a8f6c18366063e52f4875da7adf283ff428015",
       "tags": [
         "gaming",
         "counterstrike",
