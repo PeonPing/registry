@@ -1883,6 +1883,43 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "wc2_peasant_pt-br",
+      "display_name": "WC2 Peasant (PT-BR)",
+      "version": "1.0.0",
+      "description": "Human Peasant voice lines from WarCraft II dubbed in Brazilian Portuguese",
+      "author": { "name": "Lucas Oliveira", "github": "lucaspwo" },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "pt-BR",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 18,
+      "total_size_bytes": 199836,
+      "source_repo": "lucaspwo/openpeon-wc2-peasant-pt-br",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "7e111c1f860576cc6e0041def63a9e19734262a22c9b91b5cbb4dc4fb68b30cc",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ReadyToServe.mp3",
+        "WorkComplete.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
       "name": "wc2_sapper",
       "display_name": "WC2 Goblin Sappers",
       "version": "1.0.0",
