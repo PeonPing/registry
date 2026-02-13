@@ -200,6 +200,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "ccg_gla_worker",
+      "display_name": "C&C Generals: GLA Worker",
+      "version": "1.0.0",
+      "description": "GLA worker sound pack from Command & Conquer: Generals",
+      "author": {
+        "name": "YonahKarp",
+        "github": "YonahKarp"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 37,
+      "total_size_bytes": 1613593,
+      "source_repo": "YonahKarp/openpeon-ccg-gla-worker",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "1b3f469289de5d1d2bab36849652f2e8ecc3fe3fd8dfb62a6f78138fa0d64982",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "I_guess_I_should_help_out.mp3",
+        "All_work_is_complete.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
       "name": "counterstrike",
       "display_name": "Counter-Strike",
       "version": "1.0.0",
