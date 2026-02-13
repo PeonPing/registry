@@ -1694,7 +1694,7 @@
     {
       "name": "st_worf",
       "display_name": "Worf (Star Trek)",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Worf (Star Trek) sound pack from Star Trek",
       "author": {
         "name": "OmegaZero",
@@ -1715,9 +1715,9 @@
       "sound_count": 12,
       "total_size_bytes": 458221,
       "source_repo": "OmegaZero/openpeon-worf",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "f49252d83f41773bb4b373e23b05beed5898684372a5d25bce777bb409bf645b",
+      "manifest_sha256": "3c521f4b0e6f9c70e05366ddf9e2c91c1e9f01e3aea0e15978904fceb218b164",
       "tags": [
         "television",
         "star-trek"
