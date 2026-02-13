@@ -1884,8 +1884,8 @@
     },
     {
       "name": "wc2_peasant_pt-br",
-      "display_name": "WC2 Peasant (PT-BR)",
-      "version": "1.0.0",
+      "display_name": "Human Peasant (PT-BR)",
+      "version": "1.0.1",
       "description": "Human Peasant voice lines from WarCraft II dubbed in Brazilian Portuguese",
       "author": { "name": "Lucas Oliveira", "github": "lucaspwo" },
       "trust_tier": "community",
@@ -1903,9 +1903,9 @@
       "sound_count": 18,
       "total_size_bytes": 199836,
       "source_repo": "lucaspwo/openpeon-wc2-peasant-pt-br",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "7e111c1f860576cc6e0041def63a9e19734262a22c9b91b5cbb4dc4fb68b30cc",
+      "manifest_sha256": "4c5de46ecc8790e9126b57420d9255a86272b40f11c0768c4eee7c73456ef823",
       "tags": [
         "gaming",
         "warcraft",
