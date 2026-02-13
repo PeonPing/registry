@@ -1,139 +1,152 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://openpeon.com/schema/registry-v1.json",
-  "title": "OpenPeon Registry Entry",
-  "description": "Schema for a registry.json entry in the OpenPeon pack registry",
+  "$id": "https://peonping.com/schema/registry-v1.json",
+  "title": "PeonPing Registry Index",
+  "description": "Schema for the PeonPing pack registry index.json",
   "type": "object",
-  "required": [
-    "name",
-    "display_name",
-    "version",
-    "author",
-    "source",
-    "manifest_sha256",
-    "trust_tier",
-    "categories",
-    "language",
-    "license",
-    "sound_count"
-  ],
+  "required": ["version", "packs"],
   "properties": {
-    "name": {
-      "type": "string",
-      "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$",
-      "description": "Machine-readable pack identifier"
-    },
-    "display_name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 128,
-      "description": "Human-readable pack name"
-    },
     "version": {
-      "type": "string",
-      "pattern": "^\\d+\\.\\d+\\.\\d+$",
-      "description": "Semantic version"
+      "type": "integer",
+      "const": 1,
+      "description": "Schema version"
     },
-    "description": {
-      "type": "string",
-      "maxLength": 256,
-      "description": "Short description of the pack"
-    },
-    "author": {
+    "packs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pack"
+      },
+      "description": "Array of registered sound packs"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "pack": {
       "type": "object",
-      "required": ["name", "github"],
+      "required": [
+        "name",
+        "display_name",
+        "version",
+        "trust_tier",
+        "categories",
+        "language",
+        "sound_count",
+        "source_repo",
+        "source_ref"
+      ],
       "properties": {
-        "name": { "type": "string" },
-        "github": { "type": "string" }
-      }
-    },
-    "source": {
-      "type": "object",
-      "required": ["type", "repo", "ref"],
-      "properties": {
-        "type": {
+        "name": {
           "type": "string",
-          "enum": ["github"],
-          "description": "Source type (currently only github)"
+          "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$",
+          "description": "Machine-readable pack identifier"
         },
-        "repo": {
+        "display_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "description": "Human-readable pack name"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 256,
+          "description": "Short description of the pack"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "github": { "type": "string" }
+          },
+          "description": "Pack author info"
+        },
+        "trust_tier": {
+          "type": "string",
+          "enum": ["official", "verified", "community"],
+          "description": "Trust tier based on author reputation"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "session.start",
+              "task.acknowledge",
+              "task.complete",
+              "task.error",
+              "input.required",
+              "resource.limit",
+              "user.spam",
+              "session.end",
+              "task.progress"
+            ]
+          },
+          "minItems": 1,
+          "description": "CESP event categories this pack covers"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+          "description": "BCP 47 language tag"
+        },
+        "license": {
+          "type": "string",
+          "description": "SPDX license identifier"
+        },
+        "sound_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Total number of sound entries across all categories"
+        },
+        "total_size_bytes": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total size of all files in the pack"
+        },
+        "source_repo": {
           "type": "string",
           "pattern": "^[\\w.-]+/[\\w.-]+$",
           "description": "GitHub repo in owner/repo format"
         },
-        "ref": {
+        "source_ref": {
           "type": "string",
           "description": "Git ref (tag, branch, or commit SHA)"
         },
-        "path": {
+        "source_path": {
           "type": "string",
           "description": "Path within the repo to the pack root (for monorepos)"
+        },
+        "manifest_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "SHA-256 hash of the peonping.json manifest"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Searchable tags"
+        },
+        "preview_sounds": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Filenames of representative sounds for previewing"
+        },
+        "added": {
+          "type": "string",
+          "format": "date",
+          "description": "Date the pack was added to the registry"
+        },
+        "updated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date the registry entry was last updated"
         }
-      }
-    },
-    "manifest_sha256": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$",
-      "description": "SHA-256 hash of the openpeon.json manifest"
-    },
-    "trust_tier": {
-      "type": "string",
-      "enum": ["official", "verified", "community"],
-      "description": "Trust tier based on author reputation"
-    },
-    "categories": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "enum": [
-          "session.start",
-          "task.acknowledge",
-          "task.complete",
-          "task.error",
-          "input.required",
-          "resource.limit",
-          "user.spam",
-          "session.end",
-          "task.progress"
-        ]
       },
-      "minItems": 1,
-      "description": "CESP event categories this pack covers"
-    },
-    "language": {
-      "type": "string",
-      "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
-      "description": "BCP 47 language tag"
-    },
-    "license": {
-      "type": "string",
-      "description": "SPDX license identifier"
-    },
-    "total_size_bytes": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "Total size of all files in the pack"
-    },
-    "sound_count": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "Total number of sound entries across all categories"
-    },
-    "tags": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Searchable tags"
-    },
-    "added": {
-      "type": "string",
-      "format": "date",
-      "description": "Date the pack was added to the registry"
-    },
-    "updated": {
-      "type": "string",
-      "format": "date",
-      "description": "Date the registry entry was last updated"
+      "additionalProperties": false
     }
-  },
-  "additionalProperties": false
+  }
 }

@@ -1,11 +1,55 @@
 {
   "version": 1,
-  "generated_at": "2026-02-12T20:45:27.180Z",
   "packs": [
+    {
+      "name": "acolyte_de",
+      "display_name": "Undead Acolyte (DE)",
+      "version": "1.0.0",
+      "description": "German Undead Acolyte sound pack from Warcraft III",
+      "author": {
+        "name": "Kaffeetasse",
+        "github": "Kaffeetasse"
+      },
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 31,
+      "total_size_bytes": 2506838,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "acolyte_de",
+      "manifest_sha256": "74d4953f5053c3d2f9423b7bd1af224a596d5d66d842951cd0d67ea0d31d2f34",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "AcolyteReady1.wav",
+        "AcolyteBuildingComplete1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
     {
       "name": "acolyte_ru",
       "display_name": "Undead Acolyte (Russian)",
       "version": "1.0.0",
+      "description": "Undead Acolyte (Russian) sound pack from Warcraft III",
+      "author": {
+        "name": "maksimfedin",
+        "github": "maksimfedin"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -17,16 +61,35 @@
         "user.spam"
       ],
       "language": "ru",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 30,
       "total_size_bytes": 2984156,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "acolyte_ru"
+      "source_path": "acolyte_ru",
+      "manifest_sha256": "c988eff118c207b8bd8f6902c0686e6f9e65a4901c215c8ae51b894546357a23",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "AcolyteReady1.wav",
+        "AcolyteBuildingComplete1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "aoe2",
       "display_name": "Age of Empires II Taunts",
       "version": "1.0.0",
+      "description": "Age of Empires II Taunts sound pack from Age of Empires II",
+      "author": {
+        "name": "halilb",
+        "github": "halilb"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -38,16 +101,34 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 42,
       "total_size_bytes": 630371,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "aoe2"
+      "source_path": "aoe2",
+      "manifest_sha256": "a1f0d0fb71166075a641c9f350d7f876e225c1b62627f5abc722b29d201b5dcd",
+      "tags": [
+        "gaming",
+        "age-of-empires",
+        "rts"
+      ],
+      "preview_sounds": [
+        "1-yes.mp3",
+        "1-yes.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "aom_greek",
       "display_name": "Age of Mythology - Greek Villager",
       "version": "1.0.0",
+      "description": "Age of Mythology - Greek Villager sound pack from Age of Mythology",
+      "author": {
+        "name": "amitaifrey",
+        "github": "amitaifrey"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -59,16 +140,34 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 20,
       "total_size_bytes": 1211988,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "aom_greek"
+      "source_path": "aom_greek",
+      "manifest_sha256": "c5a85333382a1008426048b063144f8e4e92cfbcaf58d99d6a4f6ced33645c46",
+      "tags": [
+        "gaming",
+        "age-of-mythology",
+        "rts"
+      ],
+      "preview_sounds": [
+        "Greeks_Villager_Male_Select_4_AoM.wav",
+        "Greeks_Villager_Male_Build_AoM.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "brewmaster_ru",
       "display_name": "Pandaren Brewmaster (Russian)",
       "version": "1.0.0",
+      "description": "Pandaren Brewmaster (Russian) sound pack from Warcraft III",
+      "author": {
+        "name": "rubywwwilde",
+        "github": "rubywwwilde"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -80,16 +179,35 @@
         "user.spam"
       ],
       "language": "ru",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 23,
       "total_size_bytes": 2551528,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "brewmaster_ru"
+      "source_path": "brewmaster_ru",
+      "manifest_sha256": "f4e23ae91110b0beb9e241661c8a4bb659cf867f7e8ff1cf5f71528f96583c11",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "AnyoneWantBeer.mp3",
+        "OneMore.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "dota2_axe",
       "display_name": "Axe (Dota 2)",
       "version": "1.0.0",
+      "description": "Axe (Dota 2) sound pack from Dota 2",
+      "author": {
+        "name": "x-n2o",
+        "github": "x-n2o"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -101,16 +219,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 20,
       "total_size_bytes": 538432,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "dota2_axe"
+      "source_path": "dota2_axe",
+      "manifest_sha256": "5c1dd1cdc3c1517ca7c554b9bab4b5ca22f99ba3cc625ec7e4c527bd266b28a8",
+      "tags": [
+        "gaming",
+        "dota2",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "AxeIsReady.mp3",
+        "AxeHappened.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "duke_nukem",
       "display_name": "Duke Nukem",
       "version": "1.0.0",
+      "description": "Duke Nukem sound pack from Duke Nukem",
+      "author": {
+        "name": "unknown",
+        "github": "unknown"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -122,16 +259,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 24,
       "total_size_bytes": 7737086,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "duke_nukem"
+      "source_path": "duke_nukem",
+      "manifest_sha256": "d31b4bc666904b66280606a16476a1db80d01a5077107611bd3ab81be21b1214",
+      "tags": [
+        "gaming",
+        "duke-nukem",
+        "fps",
+        "retro"
+      ],
+      "preview_sounds": [
+        "KickAssChewGum.wav",
+        "KaboomBaby.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "glados",
       "display_name": "GLaDOS (Portal)",
       "version": "1.0.0",
+      "description": "GLaDOS (Portal) sound pack from Portal",
+      "author": {
+        "name": "DoubleGremlin181",
+        "github": "DoubleGremlin181"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -143,16 +299,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 23,
       "total_size_bytes": 1143346,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "glados"
+      "source_path": "glados",
+      "manifest_sha256": "1e6066a66018f56092b917ae36123f84278b1fb29979642cee664760a1549d8b",
+      "tags": [
+        "gaming",
+        "portal",
+        "valve",
+        "puzzle"
+      ],
+      "preview_sounds": [
+        "Hello.mp3",
+        "GoodNews.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "hd2_helldiver",
       "display_name": "Helldiver (Helldivers 2)",
       "version": "1.0.0",
+      "description": "Helldiver (Helldivers 2) sound pack from Helldivers 2",
+      "author": {
+        "name": "ZachTaylor99",
+        "github": "ZachTaylor99"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -164,16 +339,73 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 31,
       "total_size_bytes": 616665,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "hd2_helldiver"
+      "source_path": "hd2_helldiver",
+      "manifest_sha256": "5b09c3c2ae878c99117b72a6fe444706a8e719caf95326a1878b229cbda6aa60",
+      "tags": [
+        "gaming",
+        "helldivers",
+        "shooter"
+      ],
+      "preview_sounds": [
+        "ReportingForDuty1.mp3",
+        "FoundSomething.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
+    {
+      "name": "wc3_jaina",
+      "display_name": "Jaina Proudmore (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Jaina Proudmore (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 13,
+      "total_size_bytes": 1052426,
+      "source_repo": "OmegaZero/openpeon-jaina",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "cde6367b42906933d72ecdae706ab9217ac9f382c407cb41ef62b3eb89598b47",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "JainaCanHelp.wav",
+        "JainaWhatsThePlan.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },    
     {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
+      "description": "Molag Bal sound pack from The Elder Scrolls",
+      "author": {
+        "name": "lloydaf",
+        "github": "lloydaf"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -184,16 +416,112 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 29,
       "total_size_bytes": 25545048,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "molag_bal"
+      "source_path": "molag_bal",
+      "manifest_sha256": "401792f309e0831b5995ff178a41785a3952682a769bca21fed34c018c743fca",
+      "tags": [
+        "gaming",
+        "elder-scrolls",
+        "bethesda",
+        "rpg"
+      ],
+      "preview_sounds": [
+        "greeting_1.wav",
+        "complete_1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "murloc",
+      "display_name": "Murloc",
+      "version": "1.0.0",
+      "description": "Murloc sound pack from Warcraft III",
+      "author": {
+        "name": "Ferror",
+        "github": "Ferror"
+      },
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 7,
+      "total_size_bytes": 70354,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "murloc",
+      "manifest_sha256": "e9b5c431d0fcc907d7992634c6636188d533fd7e90370018c803d89528680153",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard"
+      ],
+      "preview_sounds": [
+        "mrrgll.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "ocarina_of_time",
+      "display_name": "Ocarina of Time",
+      "version": "1.0.0",
+      "description": "Navi and friends from The Legend of Zelda: Ocarina of Time",
+      "author": {
+        "name": "kmostdiek-k",
+        "github": "kmostdiek-k"
+      },
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 13,
+      "total_size_bytes": 755172,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "ocarina_of_time",
+      "manifest_sha256": "56094abe0d6e975c7a05c48dd64ca2cb5dd33e543fa93611a3030f7835bffecb",
+      "tags": [
+        "gaming",
+        "zelda",
+        "nintendo"
+      ],
+      "preview_sounds": [
+        "OOT_Navi_Hello1.wav",
+        "OOT_Secret.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peasant",
       "display_name": "Human Peasant",
       "version": "1.0.0",
+      "description": "Human Peasant sound pack from Warcraft III",
+      "author": {
+        "name": "thomasKn",
+        "github": "thomasKn"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -205,16 +533,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 25,
       "total_size_bytes": 1310954,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peasant"
+      "source_path": "peasant",
+      "manifest_sha256": "7b32349f0c2734edc739c022d8fe3185b7be8f59e15f70743564c597c3a11848",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
+      "author": {
+        "name": "vojtabiberle",
+        "github": "vojtabiberle"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -226,16 +573,35 @@
         "user.spam"
       ],
       "language": "cs",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 25,
       "total_size_bytes": 1804107,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peasant_cz"
+      "source_path": "peasant_cz",
+      "manifest_sha256": "337d61b71f94d0d1fd35cd57ed3af6c9cb0597031f003259fd1b52df24b24245",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peasant_es",
       "display_name": "Campesino Humano (ES)",
       "version": "1.0.0",
+      "description": "Campesino Humano (ES) sound pack from Warcraft III",
+      "author": {
+        "name": "Keralin",
+        "github": "Keralin"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -247,16 +613,35 @@
         "user.spam"
       ],
       "language": "es",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 25,
       "total_size_bytes": 1342974,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peasant_es"
+      "source_path": "peasant_es",
+      "manifest_sha256": "065d7800530edee7867d73cb0fd479df0ab8df2e187bf1e3f8a5366476b73dc7",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peasant_fr",
       "display_name": "Paysan Humain (FR)",
       "version": "1.0.0",
+      "description": "Paysan Humain (FR) sound pack from Warcraft III",
+      "author": {
+        "name": "thomasKn",
+        "github": "thomasKn"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -268,16 +653,35 @@
         "user.spam"
       ],
       "language": "fr",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 25,
       "total_size_bytes": 1580126,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peasant_fr"
+      "source_path": "peasant_fr",
+      "manifest_sha256": "2662c8df5d454b554e1541b4a441d58f1620e9665a8a15388a07720e89ed31f6",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peasant_ru",
       "display_name": "Human Peasant (Russian)",
       "version": "1.0.0",
+      "description": "Human Peasant (Russian) sound pack from Warcraft III",
+      "author": {
+        "name": "maksimfedin",
+        "github": "maksimfedin"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -289,16 +693,35 @@
         "user.spam"
       ],
       "language": "ru",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 18,
       "total_size_bytes": 979198,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peasant_ru"
+      "source_path": "peasant_ru",
+      "manifest_sha256": "565dda4d4d90339f30e44a29b3456c3ca8e6228633cb64dba33b764ea6181db2",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantWhat3.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon",
       "display_name": "Orc Peon",
       "version": "1.0.0",
+      "description": "Orc Peon sound pack from Warcraft III",
+      "author": {
+        "name": "tonyyont",
+        "github": "tonyyont"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -310,16 +733,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 27,
       "total_size_bytes": 872012,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon"
+      "source_path": "peon",
+      "manifest_sha256": "565178cd55b46a66d443a9e8c001fa51926413d5e562677b43a5de2381c7fe8e",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
+      "author": {
+        "name": "vojtabiberle",
+        "github": "vojtabiberle"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -331,16 +773,75 @@
         "user.spam"
       ],
       "language": "cs",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 27,
       "total_size_bytes": 1295067,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon_cz"
+      "source_path": "peon_cz",
+      "manifest_sha256": "426491ade6b692805fde7425f80a5513b1c15ff54a65288765481328b859c186",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "peon_de",
+      "display_name": "Orc Peon (DE)",
+      "version": "1.0.0",
+      "description": "German Orc Peon sound pack from Warcraft III",
+      "author": {
+        "name": "Kaffeetasse",
+        "github": "Kaffeetasse"
+      },
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 27,
+      "total_size_bytes": 1013804,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "peon_de",
+      "manifest_sha256": "2fd9c89497333efc0c1ddac317d23b0b715d7d29e9744f4105ee189b04253e57",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonYes3.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon_es",
       "display_name": "Peon Orco (ES)",
       "version": "1.0.0",
+      "description": "Peon Orco (ES) sound pack from Warcraft III",
+      "author": {
+        "name": "Keralin",
+        "github": "Keralin"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -352,16 +853,35 @@
         "user.spam"
       ],
       "language": "es",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 27,
       "total_size_bytes": 859036,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon_es"
+      "source_path": "peon_es",
+      "manifest_sha256": "082b63a99d86a253dfc6e86061ea6723095a15bd525be0f7bebce803cc23b2f9",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon_fr",
       "display_name": "Peon Orc (FR)",
       "version": "1.0.0",
+      "description": "Peon Orc (FR) sound pack from Warcraft III",
+      "author": {
+        "name": "thomasKn",
+        "github": "thomasKn"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -373,16 +893,35 @@
         "user.spam"
       ],
       "language": "fr",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 27,
       "total_size_bytes": 971410,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon_fr"
+      "source_path": "peon_fr",
+      "manifest_sha256": "5c82c4b15252b96b123d6f8cf62efc98f62975196d2af14019a1b2a96c484c9b",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon_pl",
       "display_name": "Orc Peon (Polish)",
       "version": "1.0.0",
+      "description": "Orc Peon (Polish) sound pack from Warcraft III",
+      "author": {
+        "name": "ArturSkowronski",
+        "github": "ArturSkowronski"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -394,16 +933,35 @@
         "user.spam"
       ],
       "language": "pl",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 22,
       "total_size_bytes": 4026800,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon_pl"
+      "source_path": "peon_pl",
+      "manifest_sha256": "bdacb2d514f6e85609eebdcb77ad25ecc76a385d1f8929d16843c03c98480b12",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonWhat1.wav",
+        "PeonYes1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "peon_ru",
       "display_name": "Orc Peon (Russian)",
       "version": "1.0.0",
+      "description": "Orc Peon (Russian) sound pack from Warcraft III",
+      "author": {
+        "name": "maksimfedin",
+        "github": "maksimfedin"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -415,16 +973,35 @@
         "user.spam"
       ],
       "language": "ru",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 25,
       "total_size_bytes": 1117894,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "peon_ru"
+      "source_path": "peon_ru",
+      "manifest_sha256": "05b0076d2f5601f6bc9b6a493440b5e7b98d200b979e77a955e7f22d5b7aa886",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonReady1.wav",
+        "PeonReady1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "ra2_kirov",
       "display_name": "RA2 Kirov Airship",
       "version": "1.0.0",
+      "description": "RA2 Kirov Airship sound pack from Command & Conquer: Red Alert 2",
+      "author": {
+        "name": "i-zhirov",
+        "github": "i-zhirov"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -436,16 +1013,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 19,
       "total_size_bytes": 367012,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "ra2_kirov"
+      "source_path": "ra2_kirov",
+      "manifest_sha256": "2099a50bd9fa0db593981f80ac4141bffa4cd2626bd3d501fe32c82d7e472094",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "KirovReporting.mp3",
+        "BombardiersToYourStations.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "ra2_soviet_engineer",
       "display_name": "RA2 Soviet Engineer",
       "version": "1.0.0",
+      "description": "RA2 Soviet Engineer sound pack from Command & Conquer: Red Alert 2",
+      "author": {
+        "name": "msukkari",
+        "github": "msukkari"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -457,16 +1053,74 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 12,
       "total_size_bytes": 58190,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "ra2_soviet_engineer"
+      "source_path": "ra2_soviet_engineer",
+      "manifest_sha256": "bc588337d5dd0edfb86f0b9a727b45f2be826558dc99a4dcb3f2b2dd0718f28c",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ToolsReady.mp3",
+        "Engineering.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "ra2_yuri",
+      "display_name": "RA2 Yuri (Yuri's Revenge)",
+      "version": "1.0.0",
+      "description": "Yuri Prime & Yuri Clone sound pack from Command & Conquer: Red Alert 2 - Yuri's Revenge",
+      "author": {
+        "name": "testy-cool",
+        "github": "testy-cool"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 55,
+      "total_size_bytes": 3353696,
+      "source_repo": "testy-cool/openpeon-ra2-yuri",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "73afb91726904c3582b7013b1984938a27d77845fcd4090d71ba1705c7c2fc6b",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "iyupsea.wav",
+        "iyupcrd.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "ra_soviet",
       "display_name": "Red Alert Soviet Soldier",
       "version": "1.0.0",
+      "description": "Red Alert Soviet Soldier sound pack from Command & Conquer: Red Alert",
+      "author": {
+        "name": "JairusKhan",
+        "github": "JairusKhan"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -478,16 +1132,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 36,
       "total_size_bytes": 1239943,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "ra_soviet"
+      "source_path": "ra_soviet",
+      "manifest_sha256": "b61eac06505c37426c2e1a7e51ef64d1b15c0013b18bde5c9fa003990ce7bbf2",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "SovietAwaitingOrders.wav",
+        "SovietReadyAndWaiting.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "rick",
       "display_name": "Rick Sanchez",
       "version": "1.0.0",
+      "description": "Rick Sanchez sound pack from Rick and Morty",
+      "author": {
+        "name": "ranjitp16",
+        "github": "ranjitp16"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -499,16 +1172,34 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 14,
       "total_size_bytes": 420414,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "rick"
+      "source_path": "rick",
+      "manifest_sha256": "c0097725338aa6d9f308d1948dbb60600105f5c10f8329c091e5f974758e42e1",
+      "tags": [
+        "tv",
+        "animation",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "Rick_Sanchez_Jerry_.mp3",
+        "Rick_Sanchez_Fun.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_battlecruiser",
       "display_name": "StarCraft Battlecruiser",
       "version": "1.0.0",
+      "description": "StarCraft Battlecruiser sound pack from StarCraft",
+      "author": {
+        "name": "garysheng",
+        "github": "garysheng"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -518,16 +1209,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 13,
       "total_size_bytes": 423109,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_battlecruiser"
+      "source_path": "sc_battlecruiser",
+      "manifest_sha256": "70ea29abbb0b380def6cebda44af2d06e7191e6ee90565e4119cf0a4df472b50",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "BattlecruiserOperational.mp3",
+        "HailingFrequenciesOpen.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
       "version": "1.0.0",
+      "description": "StarCraft Firebat sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -536,16 +1246,35 @@
         "input.required"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 7,
       "total_size_bytes": 146143,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_firebat"
+      "source_path": "sc_firebat",
+      "manifest_sha256": "ddd814834e50d73c3338753fefcd801b710bbb419205bbaf81649c62d0f64c5b",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "NeedALight.mp3",
+        "ReadyToRoast.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_kerrigan",
       "display_name": "Sarah Kerrigan (StarCraft)",
       "version": "1.0.0",
+      "description": "Sarah Kerrigan (StarCraft) sound pack from StarCraft",
+      "author": {
+        "name": "garysheng",
+        "github": "garysheng"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -556,16 +1285,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 16,
       "total_size_bytes": 415163,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_kerrigan"
+      "source_path": "sc_kerrigan",
+      "manifest_sha256": "e422c233bdff9e52efae1e3e17264b1eeea2060d212c84356191c6490aa5ea96",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "KerriganReporting.mp3",
+        "ImReady.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_medic",
       "display_name": "StarCraft Medic",
       "version": "1.0.0",
+      "description": "StarCraft Medic sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -574,16 +1322,35 @@
         "input.required"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 6,
       "total_size_bytes": 234145,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_medic"
+      "source_path": "sc_medic",
+      "manifest_sha256": "e343880992853185500750f5d7cf0030b190c2e9c38aa068535a6acd045d1548",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "DoctorIsIn.mp3",
+        "PatchedUp.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_scv",
       "display_name": "StarCraft SCV",
       "version": "1.0.0",
+      "description": "StarCraft SCV sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -592,16 +1359,35 @@
         "input.required"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 8,
       "total_size_bytes": 139424,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_scv"
+      "source_path": "sc_scv",
+      "manifest_sha256": "c8336067ff6a8d2283793aa5470437fca410216d15ecff7c5a9fcaa5259b2d39",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "GoodToGoSir.mp3",
+        "GoodToGoSir.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_tank",
       "display_name": "StarCraft Siege Tank",
       "version": "1.0.0",
+      "description": "StarCraft Siege Tank sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -610,16 +1396,35 @@
         "input.required"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 6,
       "total_size_bytes": 223089,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_tank"
+      "source_path": "sc_tank",
+      "manifest_sha256": "3f4626ed5c25c6843fd26d5a3974dc732acf406e66aaa97281a039d5743a3bdd",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ReadyToRollOut.mp3",
+        "DoneAndDone.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_terran",
       "display_name": "StarCraft Terran (All Units)",
       "version": "1.0.0",
+      "description": "StarCraft Terran (All Units) sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -631,16 +1436,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 17,
       "total_size_bytes": 885414,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_terran"
+      "source_path": "sc_terran",
+      "manifest_sha256": "5afe83c6dddc3b317a79efdd14c43439c0543b005ab199697f78027d11c218b3",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ReadyToRollOut.mp3",
+        "GoodToGoSir.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sc_vessel",
       "display_name": "StarCraft Science Vessel",
       "version": "1.0.0",
+      "description": "StarCraft Science Vessel sound pack from StarCraft",
+      "author": {
+        "name": "workdd",
+        "github": "workdd"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -649,16 +1473,35 @@
         "input.required"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 6,
       "total_size_bytes": 173504,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sc_vessel"
+      "source_path": "sc_vessel",
+      "manifest_sha256": "f8c686baa9740362afc134b2fdd6935f5f26a7f567dcdea0378fa2526709f966",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ExplorerReporting.mp3",
+        "Affirmative.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sheogorath",
       "display_name": "Sheogorath",
       "version": "1.0.0",
+      "description": "Sheogorath sound pack from The Elder Scrolls",
+      "author": {
+        "name": "lloydaf",
+        "github": "lloydaf"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -669,16 +1512,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 41,
       "total_size_bytes": 14615993,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sheogorath"
+      "source_path": "sheogorath",
+      "manifest_sha256": "2c25c16b8691d4ec5ada7120bf9be40d5705e9955b653da5f84d01b8283b8ce3",
+      "tags": [
+        "gaming",
+        "elder-scrolls",
+        "bethesda",
+        "rpg"
+      ],
+      "preview_sounds": [
+        "greeting_1.wav",
+        "complete_1.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "sopranos",
       "display_name": "Tony Soprano",
       "version": "1.0.0",
+      "description": "Tony Soprano sound pack from The Sopranos",
+      "author": {
+        "name": "voider1",
+        "github": "voider1"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -690,16 +1552,34 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 32,
       "total_size_bytes": 811088,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "sopranos"
+      "source_path": "sopranos",
+      "manifest_sha256": "d1aab572caf4818ae6c5412742c59da67927d7f3cadff2376f932c65fc18f841",
+      "tags": [
+        "tv",
+        "drama",
+        "hbo"
+      ],
+      "preview_sounds": [
+        "Greeting_HiItsMe.mp3",
+        "Complete_Oooooh.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "tf2_engineer",
       "display_name": "TF2 Engineer",
       "version": "1.0.0",
+      "description": "TF2 Engineer sound pack from Team Fortress 2",
+      "author": {
+        "name": "Arie",
+        "github": "Arie"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -711,16 +1591,35 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 51,
       "total_size_bytes": 1381445,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "tf2_engineer"
+      "source_path": "tf2_engineer",
+      "manifest_sha256": "69f13fbf23b45ea515a90f032ae5ee2a1b05b0490d546acbbd2d8c0508cade35",
+      "tags": [
+        "gaming",
+        "tf2",
+        "valve",
+        "fps"
+      ],
+      "preview_sounds": [
+        "Engineer_battlecry01.mp3",
+        "Eng_quest_complete_easy_01.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     },
     {
       "name": "wc2_peasant",
       "display_name": "WC2 Peasant",
       "version": "1.0.0",
+      "description": "WC2 Peasant sound pack from Warcraft II",
+      "author": {
+        "name": "sebbeth",
+        "github": "sebbeth"
+      },
       "trust_tier": "official",
       "categories": [
         "session.start",
@@ -732,11 +1631,65 @@
         "user.spam"
       ],
       "language": "en",
+      "license": "CC-BY-NC-4.0",
       "sound_count": 21,
       "total_size_bytes": 167005,
       "source_repo": "PeonPing/og-packs",
       "source_ref": "v1.0.0",
-      "source_path": "wc2_peasant"
+      "source_path": "wc2_peasant",
+      "manifest_sha256": "dcaea0f2fbbd8b5da5717c86604cf3dc401dc35b09fdfe512cf9f19279d32d06",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ReadyToServe.mp3",
+        "JobsDone.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
+      "name": "wc2_sapper",
+      "display_name": "WC2 Goblin Sappers",
+      "version": "1.0.0",
+      "description": "The shrill sounds of goblin sappers from Warcraft II",
+      "author": {
+        "name": "anwilk",
+        "github": "anwilk"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 12,
+      "total_size_bytes": 300000,
+      "source_repo": "anwilk/openpeon-wc2_sapper",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0c4f32f3f7fb771e087bba50ad60d0f6ba2c2d4219e52b7e7664ba8b998f9434",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "ready.wav",
+        "beautiful.wav"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
     }
   ]
 }

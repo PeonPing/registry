@@ -1,26 +1,28 @@
-# OpenPeon Registry
+# PeonPing Registry
 
-The central index of [CESP](https://openpeon.com/spec) sound packs. Metadata only — no audio files stored here.
+The central index of [CESP](https://openpeon.com/spec) sound packs. Metadata only -- no audio files stored here.
 
 Browse packs at [openpeon.com/packs](https://openpeon.com/packs).
 
 ## How it works
 
-Each pack has a `registry.json` entry in `packs/<name>/` that points to the pack's source repository. An auto-generated `index.json` at the repo root lists all registered packs.
+The file `index.json` at the repo root is the single source of truth for all registered packs. Each pack entry contains flattened metadata pointing to the pack's source repository. There are no per-pack subdirectories; everything lives in `index.json`.
 
 **Index URL:** `https://PeonPing.github.io/registry/index.json`
 
 ## Submit a pack
 
-1. Create a GitHub repo with your pack (e.g., `yourname/openpeon-mypack`)
+1. Create a GitHub repo with your pack (e.g., `yourname/peonping-mypack`)
 2. Include `openpeon.json` manifest + `sounds/` directory
 3. Tag a release: `git tag v1.0.0 && git push origin v1.0.0`
-4. Fork this repo and create `packs/<your-pack>/registry.json`
-5. Open a PR
+4. Fork this repo and add your entry to the `packs` array in `index.json` (keep alphabetical order by `name`)
+5. Open a PR -- CI will validate your entry automatically
 
 See the full guide at [openpeon.com/create](https://openpeon.com/create).
 
 ## Registry entry format
+
+Each entry in the `packs` array looks like this:
 
 ```json
 {
@@ -29,19 +31,18 @@ See the full guide at [openpeon.com/create](https://openpeon.com/create).
   "version": "1.0.0",
   "description": "Short description of your pack",
   "author": { "name": "yourname", "github": "yourname" },
-  "source": {
-    "type": "github",
-    "repo": "yourname/openpeon-mypack",
-    "ref": "v1.0.0"
-  },
-  "manifest_sha256": "<sha256 of openpeon.json>",
   "trust_tier": "community",
   "categories": ["session.start", "task.complete"],
   "language": "en",
   "license": "MIT",
-  "total_size_bytes": 500000,
   "sound_count": 10,
+  "total_size_bytes": 500000,
+  "source_repo": "yourname/peonping-mypack",
+  "source_ref": "v1.0.0",
+  "source_path": ".",
+  "manifest_sha256": "<sha256 of openpeon.json>",
   "tags": ["gaming"],
+  "preview_sounds": ["ready.mp3", "done.mp3"],
   "added": "2026-02-12",
   "updated": "2026-02-12"
 }
