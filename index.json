@@ -595,9 +595,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
+      "display_name": "Lidský rolník (CZ)",
       "version": "1.0.0",
-      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
+      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -795,9 +795,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
+      "display_name": "Orčí peón (CZ)",
       "version": "1.0.0",
-      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
+      "description": "Orčí peón (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1650,6 +1650,39 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "warcraft-peon",
+      "display_name": "Warcraft 3 Peon",
+      "version": "1.0.0",
+      "description": "Warcraft 3 Peon sounds for OpenPeon",
+      "author": {
+        "name": "rocktane",
+        "github": "rocktane"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "task.complete"
+      ],
+      "language": "fr",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 1,
+      "total_size_bytes": 13431,
+      "source_repo": "rocktane/openpeon-warcraft-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e3bd17476b26de2cf51580991cec5ceb2c8c6db78e8f53e3b43f9ab18baaace7",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "task-complete.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "wc2_peasant",
