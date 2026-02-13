@@ -1828,7 +1828,7 @@
       "sound_count": 21,
       "total_size_bytes": 167005,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": "wc2_peasant",
       "manifest_sha256": "dcaea0f2fbbd8b5da5717c86604cf3dc401dc35b09fdfe512cf9f19279d32d06",
       "tags": [
