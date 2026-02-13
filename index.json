@@ -1723,8 +1723,8 @@
         "star-trek"
       ],
       "preview_sounds": [
-        "HailingFrequenciesOpenSir.mp3",
-        "WeAreBeingHailed.wav"
+        "HailingOpen.wav",
+        "WheresCaptain.wav"
       ],
       "added": "2026-02-13",
       "updated": "2026-02-13"
