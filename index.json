@@ -1677,7 +1677,7 @@
       "source_repo": "anwilk/openpeon-wc2_sapper",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "0c4f32f3f7fb771e087bba50ad60d0f6ba2c2d4219e52b7e7664ba8b998f9434",
+      "manifest_sha256": "7cd5ae07890ea0eedf9e69ab24d31732bec4636cad262460c3ebc0944778df62",
       "tags": [
         "gaming",
         "warcraft",
@@ -1689,7 +1689,7 @@
         "beautiful.wav"
       ],
       "added": "2026-02-12",
-      "updated": "2026-02-12"
+      "updated": "2026-02-13"
     }
   ]
 }
