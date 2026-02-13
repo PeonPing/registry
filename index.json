@@ -675,9 +675,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
-      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -875,9 +875,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
-      "description": "Orčí peón (CZ) sound pack from Warcraft III",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1961,6 +1961,45 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "wolf-et-pack",
+      "display_name": "Wolf:ET Pack",
+      "version": "1.0.0",
+      "description": "Wolfenstein: Enemy Territory HQ command voiceovers \u2014 Allied and Axis variants",
+      "author": {
+        "name": "Graham Mackie",
+        "github": "gmackie"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 186,
+      "total_size_bytes": 22234324,
+      "source_repo": "gmackie/wolf-et-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "23e34efeaf2238d3aface0c2a4c85f6af6440fac57fe42375919feda5c0f4ba4",
+      "tags": [
+        "gaming",
+        "fps",
+        "wolfenstein",
+        "splash-damage"
+      ],
+      "preview_sounds": [
+        "sounds/ack/allies/hq_dynplanted_a.wav",
+        "sounds/complete/allies/hq_objdest.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     }
   ]
 }
