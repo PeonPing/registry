@@ -2255,7 +2255,7 @@
     {
       "name": "wc3_peasant_pt-br",
       "display_name": "WC3 Human Peasant (PT-BR)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Human Peasant voice lines from WarCraft III dubbed in Brazilian Portuguese",
       "author": {
         "name": "Lucas Oliveira",
@@ -2276,9 +2276,9 @@
       "sound_count": 21,
       "total_size_bytes": 364120,
       "source_repo": "lucaspwo/open-peon-war3PT_BR",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "e245be2eb0a9a4cd624edbd2a70efc8cb00d2978968df2e0c835d8835ed9215f",
+      "manifest_sha256": "fbe43123e4c5a1e730c2245799b9942a347678e025341d7f955e92ac101a12e6",
       "tags": [
         "gaming",
         "warcraft",
