@@ -1352,6 +1352,47 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "sc2_stalker",
+      "display_name": "Stalker (StarCraft II)",
+      "version": "1.0.0",
+      "description": "Protoss Stalker voice lines from StarCraft II",
+      "author": {
+        "name": "Sergej Lopatkin",
+        "github": "selop"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 1318594,
+      "source_repo": "selop/peon-pack-stalker-sc2",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "e08c319eeaadb55d0c1d36332dd0e1d62d57aee7982832aec130fba11108e0a6",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "protoss",
+        "blizzard"
+      ],
+      "preview_sounds": [
+        "you-require-my-skills.mp3",
+        "i-serve-for-now.mp3"
+      ],
+      "added": "2026-02-14",
+      "updated": "2026-02-14"
+    },
+    {
       "name": "sc_battlecruiser",
       "display_name": "StarCraft Battlecruiser",
       "version": "1.0.0",
