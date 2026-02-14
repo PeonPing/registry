@@ -398,6 +398,47 @@
       "updated": "2026-02-13"
     },
     {
+      "name": "deadpool",
+      "display_name": "Deadpool (2016)",
+      "version": "1.0.0",
+      "description": "Maximum effort! Audio clips from Deadpool (2016) featuring Ryan Reynolds' iconic one-liners.",
+      "author": {
+        "name": "victor",
+        "github": "xtrimsystems"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 35,
+      "total_size_bytes": 1267975,
+      "source_repo": "xtrimsystems/peon-ping-deadpool",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "cc44c05be18d5e8e050b19826d1ed1a805d7fb835da65b1e0183254f0b192759",
+      "tags": [
+        "movie",
+        "deadpool",
+        "marvel",
+        "comedy",
+        "ryan-reynolds"
+      ],
+      "preview_sounds": [
+        "sounds/Maximum_effort.mp3",
+        "sounds/I_m_touching_myself_tonight.mp3"
+      ],
+      "added": "2026-02-14",
+      "updated": "2026-02-14"
+    },
+    {
       "name": "deadlock_dynamo",
       "display_name": "Dynamo (Deadlock)",
       "version": "1.0.0",
