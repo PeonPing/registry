@@ -143,7 +143,7 @@
       "sound_count": 442,
       "total_size_bytes": 17400824,
       "source_repo": "ghusse/openpeon_sounds",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": "aoe4-french-imperial",
       "manifest_sha256": "384378959d81c5393e4d9256723e2924fbcbfb69daca2df828859aaa6dde3ed5",
       "tags": [
@@ -152,7 +152,7 @@
         "rts"
       ],
       "preview_sounds": [
-        "sounds/session.start/French_villagerfemale_select_ihigh_chigh_01_alt01_mp3.mp3"
+        "sounds/French_villagerfemale_select_ihigh_chigh_01_alt01_mp3.mp3"
       ],
       "added": "2026-02-14",
       "updated": "2026-02-14"
