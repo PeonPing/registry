@@ -187,7 +187,7 @@
       "source_repo": "kdmnt/aom-greeks",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "5f248a449800289022f147cd8302ec8ec3c40b28cfaa926c08596db953967dc5",
+      "manifest_sha256": "c9dc36a7ce808a0215de8272edf6bd06acbcc3ab894b073d93d1e44a51ff9cfb",
       "tags": ["gaming", "age-of-mythology", "ancient-greek", "greek"],
       "preview_sounds": ["villager-male-move-vulome.mp3"],
       "added": "2026-02-14",
