@@ -233,40 +233,6 @@
       "updated": "2026-02-12"
     },
     {
-      "name": "aom-greeks",
-      "display_name": "Age of Mythology - Greeks",
-      "version": "1.0.0",
-      "description": "Ancient Greek dialogue lines from Age of Mythology villagers, soldiers, and heroes",
-      "author": {
-        "name": "Konstantinos Diamantidis",
-        "github": "kdmnt"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "task.progress",
-        "user.spam",
-        "session.end"
-      ],
-      "language": "el",
-      "license": "CC-BY-NC-4.0",
-      "sound_count": 35,
-      "total_size_bytes": 380216,
-      "source_repo": "kdmnt/aom-greeks",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "5f248a449800289022f147cd8302ec8ec3c40b28cfaa926c08596db953967dc5",
-      "tags": ["gaming", "age-of-mythology", "ancient-greek", "greek"],
-      "preview_sounds": ["villager-male-move-vulome.mp3"],
-      "added": "2026-02-14",
-      "updated": "2026-02-14"
-    },
-    {
       "name": "brewmaster_ru",
       "display_name": "Pandaren Brewmaster (Russian)",
       "version": "1.0.0",
