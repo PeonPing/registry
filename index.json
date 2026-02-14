@@ -123,7 +123,7 @@
     {
       "name": "aoe4_fr_imperial",
       "display_name": "Age of Empires IV - Imperial (FR)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "French villager voice lines from Age of Empires IV (Imperial age)",
       "author": {
         "name": "ghusse",
@@ -145,7 +145,7 @@
       "source_repo": "ghusse/openpeon_sounds",
       "source_ref": "v1.0.1",
       "source_path": "aoe4-french-imperial",
-      "manifest_sha256": "384378959d81c5393e4d9256723e2924fbcbfb69daca2df828859aaa6dde3ed5",
+      "manifest_sha256": "e9690387285599dcc21197792acb713c0b5ce00a236cf0fd3dc5158904b40e79",
       "tags": [
         "gaming",
         "age-of-empires",
