@@ -1234,6 +1234,47 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "protoss",
+      "display_name": "Protoss (StarCraft)",
+      "version": "1.0.0",
+      "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
+      "author": {
+        "name": "Cody Born",
+        "github": "codyborn"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 10,
+      "total_size_bytes": 316849,
+      "source_repo": "codyborn/protoss-sounds",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "2b94f5dbf942bc87bb47b8215965cc8e87b555f649f232ccc4ab1ced682f13a9",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "protoss",
+        "sci-fi"
+      ],
+      "preview_sounds": [
+        "sounds/protoss_carrier.mp3",
+        "sounds/protoss_pylons.mp3"
+      ],
+      "added": "2026-02-14",
+      "updated": "2026-02-14"
+    },
+    {
       "name": "ra2_kirov",
       "display_name": "RA2 Kirov Airship",
       "version": "1.0.0",
