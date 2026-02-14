@@ -2251,6 +2251,46 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "wc3_peasant_pt-br",
+      "display_name": "WC3 Human Peasant (PT-BR)",
+      "version": "1.0.0",
+      "description": "Human Peasant voice lines from WarCraft III dubbed in Brazilian Portuguese",
+      "author": {
+        "name": "Lucas Oliveira",
+        "github": "lucaspwo"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "pt-BR",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 364120,
+      "source_repo": "lucaspwo/open-peon-war3PT_BR",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e245be2eb0a9a4cd624edbd2a70efc8cb00d2978968df2e0c835d8835ed9215f",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.mp3",
+        "PeasantBuildingComplete1.mp3"
+      ],
+      "added": "2026-02-14",
+      "updated": "2026-02-14"
     }
   ]
 }
