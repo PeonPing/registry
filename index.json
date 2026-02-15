@@ -1976,6 +1976,47 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "silicon_valley",
+      "display_name": "Silicon Valley (HBO)",
+      "version": "2.0.0",
+      "description": "Quotes from HBO's Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed (40 clips with swearing)",
+      "author": {
+        "name": "rustam",
+        "github": "fortunto2"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en,ru",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 58,
+      "total_size_bytes": 2493752,
+      "source_repo": "fortunto2/openpeon-silicon-valley",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c391b64491b72d72be1a8642bc6906d7a5d95c947de60545dc4234807c64a53d",
+      "tags": [
+        "tv-show",
+        "comedy",
+        "silicon-valley",
+        "hbo",
+        "startup"
+      ],
+      "preview_sounds": [
+        "sounds/ThisGuyFucks.mp3",
+        "sounds/01_yobushki_vorobushki.mp3"
+      ],
+      "added": "2026-02-15",
+      "updated": "2026-02-15"
+    },
+    {
       "name": "solid_snake",
       "display_name": "Solid Snake",
       "version": "1.0.0",
