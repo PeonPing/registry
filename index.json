@@ -2415,7 +2415,7 @@
       "updated": "2026-02-14"
     },
     {
-      "name": "AE_qianyu_zh-cn",
+      "name": "ae_qianyu_zh-cn",
       "display_name": "明日方舟:终末地 陈千语",
       "version": "1.0.1",
       "description": "明日方舟:终末地 陈千语 语音包",
@@ -2439,17 +2439,17 @@
       "source_repo": "LiRiu/qianyu-chen-pack",
       "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "5c62553b806a826d6e5356e042796832d7c3e0d0eb536e0b4a0340e79d5394b4",
+      "manifest_sha256": "a619597e463912d93769b72df3318186fa330b7a8a4e1690d46723285980b1bb",
       "tags": [
         "gaming",
         "明日方舟:终末地",
         "arknights:endfield"
       ],
       "preview_sounds": [
-        "new/你好呀管理员，陪我练练剑吗.mp3",
-        "dang/当断即断.mp3",
-        "dang/当破即破.mp3",
-        "dang/当弃即弃.mp3"
+        "new/1.mp3",
+        "dang/1.mp3",
+        "dang/2.mp3",
+        "dang/3.mp3"
       ],
       "added": "2026-02-15",
       "updated": "2026-02-15"
