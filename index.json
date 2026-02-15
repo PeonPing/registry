@@ -393,6 +393,46 @@
       "updated": "2026-02-13"
     },
     {
+      "name": "ccg_us_dozer",
+      "display_name": "C&C Generals: USA Dozer",
+      "version": "1.0.0",
+      "description": "USA dozer sound pack from Command & Conquer: Generals",
+      "author": {
+        "name": "YonahKarp",
+        "github": "YonahKarp"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 32,
+      "total_size_bytes": 1421229,
+      "source_repo": "YonahKarp/openpeon-ccg-us-dozer",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "da99a15d9fa3bafe9ebd97ba5f64257a1ba51a62c295c5604c118b21f29311fd",
+      "tags": [
+        "gaming",
+        "command-and-conquer",
+        "ea",
+        "rts"
+      ],
+      "preview_sounds": [
+        "Lets_get_to_work.mp3",
+        "That_ones_done.mp3"
+      ],
+      "added": "2026-02-14",
+      "updated": "2026-02-14"
+    },
+    {
       "name": "counterstrike",
       "display_name": "Counter-Strike",
       "version": "1.0.2",
