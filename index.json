@@ -2264,6 +2264,44 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "tekken3_announcer",
+      "display_name": "Announcer (Tekken 3)",
+      "version": "1.0.0",
+      "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
+      "author": {
+        "name": "rootbarb",
+        "github": "rootbarb"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 12,
+      "total_size_bytes": 839060,
+      "source_repo": "rootbarb/openpeon-tekken3-announcer",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "04f73b1e90ad8eda7d9f5a5e31d6306fbc12a33e2af41bd8a4c85364cc21ef91",
+      "tags": [
+        "gaming",
+        "tekken",
+        "fighting",
+        "namco"
+      ],
+      "preview_sounds": [
+        "Fight.wav"
+      ],
+      "added": "2026-02-16",
+      "updated": "2026-02-16"
+    },
+    {
       "name": "warcraft-peon",
       "display_name": "Warcraft 3 Peon",
       "version": "1.0.0",
