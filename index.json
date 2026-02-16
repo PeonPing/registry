@@ -83,9 +83,9 @@
     },
     {
       "name": "ae_qianyu",
-      "display_name": "明日方舟:终末地 陈千语",
+      "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
       "version": "1.0.4",
-      "description": "明日方舟:终末地 陈千语 语音包",
+      "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -109,7 +109,7 @@
       "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
       "tags": [
         "gaming",
-        "明日方舟:终末地",
+        "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
         "arknights:endfield"
       ],
       "preview_sounds": [
@@ -716,6 +716,47 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "futurama_bender",
+      "display_name": "Bender (Futurama)",
+      "version": "1.0.0",
+      "description": "Bender Bending Rodriguez quotes from Futurama",
+      "author": {
+        "name": "ravenrs",
+        "github": "ravenrs"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 18,
+      "total_size_bytes": 778093,
+      "source_repo": "ravenrs/peon-ping-futurama-bender-",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "8a58349e2fa183a9cd8fa900ee5d7255cfd66f5e31f852441e4e420e3a97fa7b",
+      "tags": [
+        "futurama",
+        "bender",
+        "cartoon",
+        "robot",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "time-for-this-robot-to-get-back-to-work.mp3",
+        "ah-crap.mp3"
+      ],
+      "added": "2026-02-16",
+      "updated": "2026-02-16"
     },
     {
       "name": "glados",
@@ -2017,7 +2058,7 @@
       "name": "silicon_valley",
       "display_name": "Silicon Valley (HBO)",
       "version": "2.0.0",
-      "description": "Quotes from HBO's Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed (40 clips with swearing)",
+      "description": "Quotes from HBO's Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed (40 clips with swearing)",
       "author": {
         "name": "rustam",
         "github": "fortunto2"
