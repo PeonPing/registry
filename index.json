@@ -480,6 +480,44 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "charlie_sheen",
+      "display_name": "Charlie Sheen",
+      "version": "1.0.0",
+      "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
+      "author": {
+        "name": "rootbarb",
+        "github": "rootbarb"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 19,
+      "total_size_bytes": 16293980,
+      "source_repo": "rootbarb/openpeon-charlie-sheen",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "5e87469f61fd92ed8717d79b4f1fee3133bf78640c4addd44811da257db4dd92",
+      "tags": [
+        "celebrity",
+        "meme",
+        "interview"
+      ],
+      "preview_sounds": [
+        "Winning.wav"
+      ],
+      "added": "2026-02-16",
+      "updated": "2026-02-16"
+    },
+    {
       "name": "counterstrike",
       "display_name": "Counter-Strike",
       "version": "1.0.2",
