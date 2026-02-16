@@ -44,7 +44,7 @@
     {
       "name": "acolyte_es",
       "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Spanish Undead Acolyte sound pack from Warcraft III",
       "author": {
         "name": "lurecas",
@@ -65,7 +65,7 @@
       "sound_count": 29,
       "total_size_bytes": 2197202,
       "source_repo": "lurecas/openpeon-w3-acolyte-es",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": "acolyte_es",
       "manifest_sha256": "8a08bb9bdfadbb3a24601c51b4338c3fe0a5beba07c7ad59ba6354b60815cb18",
       "tags": [
