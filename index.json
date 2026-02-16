@@ -80,7 +80,7 @@
       ],
       "added": "2026-02-16",
       "updated": "2026-02-16"
-    },    
+    },
     {
       "name": "acolyte_ru",
       "display_name": "Undead Acolyte (Russian)",
@@ -442,7 +442,7 @@
     {
       "name": "ccg_gla_worker",
       "display_name": "C&C Generals: GLA Worker",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "GLA worker sound pack from Command & Conquer: Generals",
       "author": {
         "name": "YonahKarp",
