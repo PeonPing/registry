@@ -1084,7 +1084,7 @@
         "name": "František Záhora",
         "github": "arguit"
       },
-      "trust_tier": "official",
+      "trust_tier": "community",
       "categories": [
         "session.start",
         "task.complete",
