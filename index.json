@@ -597,7 +597,7 @@
       "updated": "2026-02-13"
     },
     {
-      "name": "d.va",
+      "name": "dva",
       "display_name": "D.Va Overwatch",
       "version": "1.0.0",
       "description": "D.Va voice lines from Overwatch - includes Korean and English lines.",
@@ -626,7 +626,7 @@
         "Blizzard",
         "Overwatch"
       ],
-      "preview_sounds": ["annyeong.mp3", "dva-online.mp3"],
+      "preview_sounds": ["dva-online.mp3"],
       "added": "2026-02-17",
       "updated": "2026-02-17"
     },
