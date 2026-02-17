@@ -756,6 +756,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "dota2_ember_spirit",
+      "display_name": "Ember Spirit (Dota 2)",
+      "version": "1.0.0",
+      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
+      "author": {
+        "name": "kmelkon",
+        "github": "kmelkon"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 26,
+      "total_size_bytes": 931168,
+      "source_repo": "kmelkon/openpeon-dota2",
+      "source_ref": "main",
+      "source_path": "dota2_ember_spirit",
+      "manifest_sha256": "14b9a86e260574aa3600569a015de55c04956c096c5139aeec8999c2f8a42fab",
+      "tags": [
+        "gaming",
+        "dota2",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "EmberSpirit.mp3",
+        "BalanceInAllThings.mp3"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
@@ -836,46 +876,6 @@
       "updated": "2026-02-17"
     },
     {
-      "name": "dota2_ember_spirit",
-      "display_name": "Ember Spirit (Dota 2)",
-      "version": "1.0.0",
-      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
-      "author": {
-        "name": "kmelkon",
-        "github": "kmelkon"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "CC-BY-NC-4.0",
-      "sound_count": 26,
-      "total_size_bytes": 931168,
-      "source_repo": "kmelkon/openpeon-dota2",
-      "source_ref": "main",
-      "source_path": "dota2_ember_spirit",
-      "manifest_sha256": "14b9a86e260574aa3600569a015de55c04956c096c5139aeec8999c2f8a42fab",
-      "tags": [
-        "gaming",
-        "dota2",
-        "valve",
-        "moba"
-      ],
-      "preview_sounds": [
-        "EmberSpirit.mp3",
-        "BalanceInAllThings.mp3"
-      ],
-      "added": "2026-02-17",
-      "updated": "2026-02-17"
-    },
-    {
       "name": "dota2_zeus",
       "display_name": "Zeus (Dota 2)",
       "version": "1.0.0",
@@ -901,7 +901,7 @@
       "source_repo": "kmelkon/openpeon-dota2",
       "source_ref": "main",
       "source_path": "dota2_zeus",
-      "manifest_sha256": "24148bc8b5f4d5c22c78ac5187033e3c3bd3314c4a11c36c50f58f060f602573",
+      "manifest_sha256": "333c7a4f7294842a9c849d0e84ecbe640d15e9674ae104ae040a7e3f3d1e8cc2",
       "tags": [
         "gaming",
         "dota2",
