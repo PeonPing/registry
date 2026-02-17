@@ -756,6 +756,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "dota2_phantom_lancer",
+      "display_name": "Phantom Lancer (Dota 2)",
+      "version": "1.0.0",
+      "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
+      "author": {
+        "name": "kmelkon",
+        "github": "kmelkon"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 28,
+      "total_size_bytes": 829847,
+      "source_repo": "kmelkon/openpeon-dota2",
+      "source_ref": "v1.0.0",
+      "source_path": "dota2_phantom_lancer",
+      "manifest_sha256": "d4db1490a124269e9b48198ab8625a44bfb8b803f9d25c6926bfc459ddb015d4",
+      "tags": [
+        "gaming",
+        "dota2",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "PhantomLancer.mp3",
+        "FromOneAnArmy.mp3"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "duke_nukem",
       "display_name": "Duke Nukem",
       "version": "1.0.0",
