@@ -1098,7 +1098,7 @@
       "source_repo": "arguit/openpeon-milujipraci",
       "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "4BD8910E7CD37ADD2F77136972087B0DAD6AC7EF6A667985CC4415E8EBC756A0",
+      "manifest_sha256": "4619e4ce72dc6d307e12f18c1ee22f3156c9790e57e1ea1ef33889a7176ba943",
       "tags": [
         "stress"
       ],
