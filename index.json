@@ -796,6 +796,46 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "dota2_witch_doctor",
+      "display_name": "Witch Doctor (Dota 2)",
+      "version": "1.0.0",
+      "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
+      "author": {
+        "name": "kmelkon",
+        "github": "kmelkon"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 26,
+      "total_size_bytes": 899825,
+      "source_repo": "kmelkon/openpeon-dota2",
+      "source_ref": "main",
+      "source_path": "dota2_witch_doctor",
+      "manifest_sha256": "941b8a21b0eb4cd6003b803199cf273bf7fc33395b0ea60855efa046fbe8bf04",
+      "tags": [
+        "gaming",
+        "dota2",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "DeDoctorisIn.mp3",
+        "LookAtItGo.mp3"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "duke_nukem",
       "display_name": "Duke Nukem",
       "version": "1.0.0",
