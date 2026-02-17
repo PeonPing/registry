@@ -993,6 +993,40 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "dva",
+      "display_name": "D.Va Overwatch",
+      "version": "1.0.0",
+      "description": "D.Va voice lines from Overwatch - includes Korean and English lines.",
+      "author": { 
+        "name": "Leo", 
+        "github": "leo-rutter" 
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start", 
+        "task.complete", 
+        "task.acknowledge", 
+        "task.error", 
+        "input.required"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 17,
+      "total_size_bytes": 285750,
+      "source_repo": "leo-rutter/d.va-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "94fe7bf6e6825d2a4dea378b49c00efff136d029b8a9b6d81b8e7afcbf4d256a",
+      "tags": [
+        "gaming",
+        "Blizzard",
+        "Overwatch"
+      ],
+      "preview_sounds": ["dva-online.mp3", "winky-face.mp3", "gg.mp3"],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "futurama_bender",
       "display_name": "Bender (Futurama)",
       "version": "1.0.0",
