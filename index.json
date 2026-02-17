@@ -716,6 +716,43 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "dobby",
+      "display_name": "Dobby the House-Elf",
+      "version": "1.0.0",
+      "description": "Dobby is here to help! A house-elf themed sound pack for OpenCode featuring Dobby from Harry Potter.",
+      "author": {
+        "name": "johmara",
+        "github": "johmara"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 6,
+      "total_size_bytes": 2523948,
+      "source_repo": "johmara/openpeon-dobby",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "1e96f9b91fec1b71ce0516900b12d9ec8e27c029f46a7589888fcdefc3e0399b",
+      "tags": [
+        "movie",
+        "harry-potter",
+        "house-elf",
+        "fantasy"
+      ],
+      "preview_sounds": [
+        "sounds/dobby-hello.wav",
+        "sounds/dobby-done.wav"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "dota2_axe",
       "display_name": "Axe (Dota 2)",
       "version": "1.0.0",
