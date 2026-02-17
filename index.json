@@ -1076,6 +1076,40 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "milujipraci",
+      "display_name": "Miluji Práci",
+      "version": "1.0.0",
+      "description": "Legendary quotes of Luboš fixing Lakatoš.",
+      "author": {
+        "name": "František Záhora",
+        "github": "arguit"
+      },
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "cs",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 30,
+      "total_size_bytes": 1917736,
+      "source_repo": "arguit/openpeon-milujipraci",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "4BD8910E7CD37ADD2F77136972087B0DAD6AC7EF6A667985CC4415E8EBC756A0",
+      "tags": [
+        "stress"
+      ],
+      "preview_sounds": [
+        "past-vedle-pasti-pico.mp3",
+        "ne-nenasadis-ho.mp3"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
