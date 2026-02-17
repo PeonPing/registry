@@ -597,6 +597,40 @@
       "updated": "2026-02-13"
     },
     {
+      "name": "D.Va",
+      "display_name": "D.Va Overwatch",
+      "version": "1.0.0",
+      "description": "D.Va voice lines from Overwatch - includes Korean and English lines.",
+      "author": { 
+        "name": "Leo", 
+        "github": "leo-rutter" 
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start", 
+        "task.complete", 
+        "task.acknowledge", 
+        "task.error", 
+        "input.required"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 17
+      "total_size_bytes": 285750,
+      "source_repo": "leo-rutter/d.va-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c64aee74e0a8638149d48c06e0f493a104a587bff87c386e3dbc4ee270d2fe80",
+      "tags": [
+        "gaming",
+        "Blizzard",
+        "Overwatch"
+      ],
+      "preview_sounds": ["annyoung.mp3", "dva-online.mp3"],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "d2_deckard_cain",
       "display_name": "Deckard Cain (Diablo 2)",
       "version": "1.0.0",
