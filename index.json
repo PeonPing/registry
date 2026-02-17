@@ -423,7 +423,7 @@
       "sound_count": 25,
       "total_size_bytes": 1307964,
       "source_repo": "YonahKarp/openpeon-ccg-china-dozer",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
       "manifest_sha256": "7eb51f525f99f7eaa4be3ee46f89ebd908795eaa0f2b64f857b9fb1b539c3545",
       "tags": [
