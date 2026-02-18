@@ -2568,6 +2568,53 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "speaki",
+      "display_name": "Petite Speaki",
+      "version": "1.0.0",
+      "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
+      "author": {
+        "name": "cjna",
+        "github": "CJNA"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ko",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 13,
+      "total_size_bytes": 1104000,
+      "source_repo": "CJNA/peon-ping-speaki",
+      "source_ref": "v1.0.0",
+      "source_path": "speaki",
+      "manifest_sha256": "e7d1a1cbd02e04143e8f0029863b67caaf074d86f7da42b9273846773f2d4822",
+      "tags": [
+        "gaming",
+        "trickcal",
+        "chibi",
+        "korean",
+        "kawaii"
+      ],
+      "preview_sounds": [
+        {
+          "file": "sounds/session_start/speaki_hello.mp3",
+          "label": "Speaki says hello!"
+        },
+        {
+          "file": "sounds/task_acknowledge/hai.mp3",
+          "label": "Hai! Got it!"
+        }
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "st_worf",
       "display_name": "Worf (Star Trek)",
       "version": "1.0.2",
