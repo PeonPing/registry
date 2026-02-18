@@ -3040,6 +3040,43 @@
       ],
       "added": "2026-02-14",
       "updated": "2026-02-14"
+    },
+    {
+      "name": "totally-spies-fr",
+      "display_name": "Totally spies (FR)",
+      "version": "1.0.0",
+      "description": "Best of Totally Spies (FR): Jerry, Clover, Sam & Alex <3",
+      "author": {
+      "name": "Capucine R.",
+      "github": "capucineROHART"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-ND",
+      "sound_count": 17,
+      "total_size_bytes": 1479709,
+      "source_repo": "capucineROHART/openpeon-totally-spies-fr",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "1bfe3cc001184b387826c064aad079a136ecac1e8454d88d10a26e732fcf6751",
+      "tags": [
+        "badies",
+        "spies"
+      ],
+      "preview_sounds": [
+        "compowder.mp3",
+        "bonjour_mesdemoiselles.mp3"
+      ],
+      "added": "2026-02-18",
+      "updated": "2026-02-18"
     }
   ]
 }
