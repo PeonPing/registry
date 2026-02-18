@@ -2843,6 +2843,46 @@
       "updated": "2026-02-13"
     },
     {
+      "name": "warcraft3-czech",
+      "display_name": "Warcraft III - Czech Peasant & Knight",
+      "version": "1.0.0",
+      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
+      "author": {
+        "name": "Tomas Pflanzer",
+        "github": "gizmax"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.acknowledge",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "cs",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 5,
+      "total_size_bytes": 350324,
+      "source_repo": "gizmax/claude-code-wc3-sounds",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "5cce63a853aee7832224c8f33bb184e6cde937d4074cbac158431f55f94a1433",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts",
+        "czech",
+        "nostalgia"
+      ],
+      "preview_sounds": [
+        "PeasantReady1.wav",
+        "PeasantBuildingComplete1.wav"
+      ],
+      "added": "2026-02-18",
+      "updated": "2026-02-18"
+    },
+    {
       "name": "wc2_human_ships",
       "display_name": "WC2 Human Ships",
       "version": "1.0.0",
