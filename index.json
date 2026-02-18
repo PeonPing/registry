@@ -2817,6 +2817,46 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "tf2_spy",
+      "display_name": "TF2 Spy",
+      "version": "1.0.0",
+      "description": "TF2 Spy sound pack from Team Fortress 2",
+      "author": {
+        "name": "Breadcat",
+        "github": "thebreadcat"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 37,
+      "total_size_bytes": 1381445,
+      "source_repo": "thebreadcat/openpeon-tf2-spy",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "a0d2c3ef0251197eba1feb5ea417e9dd381d7010871f274f9cbe4f01a81e59d0",
+      "tags": [
+        "gaming",
+        "tf2",
+        "valve",
+        "fps"
+      ],
+      "preview_sounds": [
+        "gentlemen.mp3",
+        "cheers-doctor.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-02-12"
+    },
+    {
       "name": "totally-spies-fr",
       "display_name": "Totally spies (FR)",
       "version": "1.0.1",
