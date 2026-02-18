@@ -1,3 +1,4 @@
+
 {
   "version": 1,
   "packs": [
@@ -2566,6 +2567,48 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "southpark-fr",
+      "display_name": "South Park Fr",
+      "version": "1.0.0",
+      "description": "Sons issus de la boîte à South Park (VF Game One)",
+      "author": {
+        "name": "Clément",
+        "github": "Telmalk"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "fr",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 44,
+      "total_size_bytes": 2020601,
+      "source_repo": "Telmalk/openpeon-southpark-fr",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4a2d3f8aa8f8180dc4f527efea2e43c134bc9f09df64592013cca075ab6ada07",
+      "tags": [
+        "south-park",
+        "french",
+        "comedy",
+        "tv"
+      ],
+      "preview_sounds": [
+        "sounds/howdy.mp3",
+        "sounds/respectemonautorite.mp3",
+        "sounds/ilsonttue.mp3"
+      ],
+      "added": "2026-02-18",
+      "updated": "2026-02-18"
     },
     {
       "name": "speaki",
