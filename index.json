@@ -833,6 +833,46 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "dota2_invoker",
+      "display_name": "Invoker (Dota 2)",
+      "version": "1.0.0",
+      "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
+      "author": {
+        "name": "bwarren2",
+        "github": "bwarren2"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 828573,
+      "source_repo": "bwarren2/peonpack-invoker",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "b1e8ea61f82d07332981d31e51b28dce4eb90beb5d369371149d99fe84210c3d",
+      "tags": [
+        "gaming",
+        "dota2",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "Invoker.mp3",
+        "GloriousInvocation.mp3"
+      ],
+      "added": "2026-02-17",
+      "updated": "2026-02-17"
+    },
+    {
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
