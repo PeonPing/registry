@@ -2568,44 +2568,6 @@
       "updated": "2026-02-12"
     },
     {
-      "name": "st_worf",
-      "display_name": "Worf (Star Trek)",
-      "version": "1.0.2",
-      "description": "Worf (Star Trek) sound pack from Star Trek",
-      "author": {
-        "name": "OmegaZero",
-        "github": "OmegaZero"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "MIT",
-      "sound_count": 12,
-      "total_size_bytes": 458221,
-      "source_repo": "OmegaZero/openpeon-worf",
-      "source_ref": "v1.0.2",
-      "source_path": ".",
-      "manifest_sha256": "3c521f4b0e6f9c70e05366ddf9e2c91c1e9f01e3aea0e15978904fceb218b164",
-      "tags": [
-        "television",
-        "star-trek"
-      ],
-      "preview_sounds": [
-        "HailingOpen.wav",
-        "WheresCaptain.wav"
-      ],
-      "added": "2026-02-13",
-      "updated": "2026-02-13"
-    },
-    {
       "name": "speaki",
       "display_name": "Petite Speaki",
       "version": "1.0.0",
@@ -2651,6 +2613,44 @@
       ],
       "added": "2026-02-17",
       "updated": "2026-02-17"
+    },
+    {
+      "name": "st_worf",
+      "display_name": "Worf (Star Trek)",
+      "version": "1.0.2",
+      "description": "Worf (Star Trek) sound pack from Star Trek",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 12,
+      "total_size_bytes": 458221,
+      "source_repo": "OmegaZero/openpeon-worf",
+      "source_ref": "v1.0.2",
+      "source_path": ".",
+      "manifest_sha256": "3c521f4b0e6f9c70e05366ddf9e2c91c1e9f01e3aea0e15978904fceb218b164",
+      "tags": [
+        "television",
+        "star-trek"
+      ],
+      "preview_sounds": [
+        "HailingOpen.wav",
+        "WheresCaptain.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "tekken3_announcer",
