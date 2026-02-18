@@ -2825,7 +2825,7 @@
         "name": "Breadcat",
         "github": "thebreadcat"
       },
-      "trust_tier": "official",
+      "trust_tier": "community",
       "categories": [
         "session.start",
         "task.acknowledge",
