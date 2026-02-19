@@ -1152,7 +1152,7 @@
     {
       "name": "eve-walle",
       "display_name": "EVE (Wall-E)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Sound pack featuring EVE, the sleek probe robot from Pixar's Wall-E",
       "author": {
         "name": "stphnlngdn",
@@ -1170,12 +1170,12 @@
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 22,
+      "sound_count": 21,
       "total_size_bytes": 2579136,
       "source_repo": "stphnlngdncoding/eve-walle",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "401a586c01e5ea934b209ee19839ac18fb6536260cebce67b94e427afa26d762",
+      "manifest_sha256": "c0ae34010e3a34b658ba5f6f90f790d5ebd9ed2852e1ef1d1c5a375161e2eeda",
       "tags": [
         "pixar",
         "wall-e",
