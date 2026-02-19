@@ -3025,6 +3025,51 @@
       "updated": "2026-02-12"
     },
     {
+  "name": "tf2_heavy",
+  "display_name": "TF2 Heavy",
+  "version": "1.0.0",
+  "description": "TF2 Heavy sound pack from Team Fortress 2",
+  "author": {
+    "name": "Breadcat",
+    "github": "thebreadcat"
+  },
+  "trust_tier": "community",
+  "categories": [
+    "session.start",
+    "session.end",
+    "task.acknowledge",
+    "task.progress",
+    "task.complete",
+    "task.error",
+    "input.required",
+    "resource.limit",
+    "user.spam"
+  ],
+  "language": "en",
+  "license": "CC-BY-NC-4.0",
+  "sound_count": 113,
+  "total_size_bytes": 5222535,
+  "source_repo": "thebreadcat/tf2-heavy-pack",
+  "source_ref": "v1.0.0",
+  "source_path": ".",
+  "manifest_sha256": "3bf5c407fa3bd703762d4de2e9ab6eb6d92cf8283d69e6b6cbcdfdc9a8cc6c4c",
+  "tags": [
+    "gaming",
+    "tf2",
+    "valve",
+    "fps",
+    "heavy"
+  ],
+  "preview_sounds": [
+    "heavy_go01.mp3",
+    "heavy_thanks01.mp3",
+    "heavy_goodjob02.mp3",
+    "heavy_battlecry03.mp3"
+  ],
+  "added": "2026-02-19",
+  "updated": "2026-02-19"
+},
+    {
       "name": "tf2_spy",
       "display_name": "TF2 Spy",
       "version": "1.0.0",
