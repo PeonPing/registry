@@ -1150,6 +1150,46 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "eve-walle",
+      "display_name": "EVE (Wall-E)",
+      "version": "1.0.0",
+      "description": "Sound pack featuring EVE, the sleek probe robot from Pixar's Wall-E",
+      "author": {
+        "name": "stphnlngdn",
+        "github": "stphnlngdncoding"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 22,
+      "total_size_bytes": 2579136,
+      "source_repo": "stphnlngdncoding/eve-walle",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "401a586c01e5ea934b209ee19839ac18fb6536260cebce67b94e427afa26d762",
+      "tags": [
+        "pixar",
+        "wall-e",
+        "robot",
+        "movie"
+      ],
+      "preview_sounds": [
+        "start1.wav",
+        "done1.wav"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
+    },
+    {
       "name": "futurama_bender",
       "display_name": "Bender (Futurama)",
       "version": "1.0.0",
