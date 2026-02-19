@@ -43,7 +43,7 @@
     },
     {
       "name": "acolyte_es",
-      "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
+      "display_name": "Ac\u00f3lito Muertos Vivientes Warcraft III (ES)",
       "version": "1.0.2",
       "description": "Spanish Undead Acolyte sound pack from Warcraft III",
       "author": {
@@ -123,9 +123,9 @@
     },
     {
       "name": "ae_qianyu",
-      "display_name": "明日方舟:终末地 陈千语",
+      "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
       "version": "1.0.4",
-      "description": "明日方舟:终末地 陈千语 语音包",
+      "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -149,7 +149,7 @@
       "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
       "tags": [
         "gaming",
-        "明日方舟:终末地",
+        "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
         "arknights:endfield"
       ],
       "preview_sounds": [
@@ -563,7 +563,7 @@
       "name": "charlie_sheen",
       "display_name": "Charlie Sheen",
       "version": "1.0.0",
-      "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
+      "description": "Charlie Sheen's iconic interview quotes \u2014 Winning, tiger blood, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -596,6 +596,45 @@
       ],
       "added": "2026-02-16",
       "updated": "2026-02-16"
+    },
+    {
+      "name": "clean_chimes",
+      "display_name": "Clean Chimes",
+      "version": "1.0.0",
+      "description": "Professional notification tones and chimes for a workspace-friendly experience",
+      "author": {
+        "name": "chris-halim",
+        "github": "chris-halim"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "Mixkit License",
+      "sound_count": 7,
+      "total_size_bytes": 2984006,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "main",
+      "source_path": "clean_chimes",
+      "manifest_sha256": "6c8caa737d8daf579899dd1f89da5ad513e85c55e7cea5cfa563acea6f8cb994",
+      "tags": [
+        "professional",
+        "minimal",
+        "notifications"
+      ],
+      "preview_sounds": [
+        "CC_Start.wav",
+        "CC_Complete.wav"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
     },
     {
       "name": "counterstrike",
@@ -836,7 +875,7 @@
       "name": "dota2_ember_spirit",
       "display_name": "Ember Spirit (Dota 2)",
       "version": "1.0.0",
-      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
+      "description": "Ember Spirit (Dota 2) sound pack \u2014 'Balance in all things.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -876,7 +915,7 @@
       "name": "dota2_invoker",
       "display_name": "Invoker (Dota 2)",
       "version": "1.0.0",
-      "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
+      "description": "Invoker (Dota 2) sound pack \u2014 'So begins a new age of knowledge.'",
       "author": {
         "name": "bwarren2",
         "github": "bwarren2"
@@ -916,7 +955,7 @@
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
-      "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
+      "description": "Phantom Lancer (Dota 2) sound pack \u2014 'From one: an army.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -956,7 +995,7 @@
       "name": "dota2_witch_doctor",
       "display_name": "Witch Doctor (Dota 2)",
       "version": "1.0.0",
-      "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
+      "description": "Witch Doctor (Dota 2) sound pack \u2014 'De Doctor is in!'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -996,7 +1035,7 @@
       "name": "dota2_zeus",
       "display_name": "Zeus (Dota 2)",
       "version": "1.0.0",
-      "description": "Zeus (Dota 2) sound pack — 'Your god has arrived.'",
+      "description": "Zeus (Dota 2) sound pack \u2014 'Your god has arrived.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -1231,12 +1270,51 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "league_of_legends",
+      "display_name": "League of Legends",
+      "version": "1.0.0",
+      "description": "Iconic LoL announcer and ping sounds from Summoner's Rift",
+      "author": {
+        "name": "chris-halim",
+        "github": "chris-halim"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 11,
+      "total_size_bytes": 4566618,
+      "source_repo": "PeonPing/og-packs",
+      "source_ref": "main",
+      "source_path": "league_of_legends",
+      "manifest_sha256": "8c43c51fe82215cf0bc51d8229b3e10b4884783042810e26ae3af2b2e16bffe9",
+      "tags": [
+        "gaming",
+        "league-of-legends",
+        "riot"
+      ],
+      "preview_sounds": [
+        "LOL_WelcomeToSR.wav",
+        "LOL_PentaKill.wav"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
+    },
+    {
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
-      "description": "Legendary quotes of Marcel Merčiak.",
+      "description": "Legendary quotes of Marcel Mer\u010diak.",
       "author": {
-        "name": "Marián Čamák",
+        "name": "Mari\u00e1n \u010cam\u00e1k",
         "github": "mcamak"
       },
       "trust_tier": "community",
@@ -1269,11 +1347,11 @@
     },
     {
       "name": "milujipraci",
-      "display_name": "Miluji Práci",
+      "display_name": "Miluji Pr\u00e1ci",
       "version": "1.0.0",
-      "description": "Legendary quotes of Luboš fixing Lakatoš.",
+      "description": "Legendary quotes of Lubo\u0161 fixing Lakato\u0161.",
       "author": {
-        "name": "František Záhora",
+        "name": "Franti\u0161ek Z\u00e1hora",
         "github": "arguit"
       },
       "trust_tier": "community",
@@ -1459,9 +1537,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
-      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1659,9 +1737,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
-      "description": "Orčí peón (CZ) sound pack from Warcraft III",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -1901,7 +1979,7 @@
       "name": "protoss",
       "display_name": "Protoss (StarCraft)",
       "version": "1.0.0",
-      "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
+      "description": "StarCraft Protoss voice lines and sound effects \u2014 en taro Adun!",
       "author": {
         "name": "Cody Born",
         "github": "codyborn"
@@ -2522,7 +2600,7 @@
       "name": "silicon_valley",
       "display_name": "Silicon Valley",
       "version": "2.2.0",
-      "description": "Quotes from Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by «Кубик в кубике» (59 clips with swearing)",
+      "description": "Quotes from Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by \u00ab\u041a\u0443\u0431\u0438\u043a \u0432 \u043a\u0443\u0431\u0438\u043a\u0435\u00bb (59 clips with swearing)",
       "author": {
         "name": "rustam",
         "github": "fortunto2"
@@ -2652,9 +2730,9 @@
       "name": "southpark-fr",
       "display_name": "South Park Fr",
       "version": "1.0.0",
-      "description": "Sons issus de la boîte à South Park (VF Game One)",
+      "description": "Sons issus de la bo\u00eete \u00e0 South Park (VF Game One)",
       "author": {
-        "name": "Clément",
+        "name": "Cl\u00e9ment",
         "github": "Telmalk"
       },
       "trust_tier": "community",
@@ -2694,7 +2772,7 @@
       "name": "speaki",
       "display_name": "Petite Speaki",
       "version": "1.0.0",
-      "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
+      "description": "Petite Speaki voice pack from Trickcal Chibi Go \u2014 adorable Korean character sounds for your coding sessions",
       "author": {
         "name": "cjna",
         "github": "CJNA"
@@ -2779,7 +2857,7 @@
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
-      "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
+      "description": "Tekken 3 announcer voice lines \u2014 Fight, K.O., You win!, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -2967,7 +3045,7 @@
       "name": "warcraft3-czech",
       "display_name": "Warcraft III - Czech Peasant & Knight",
       "version": "1.0.0",
-      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
+      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Hur\u00e1\u00e1\u00e1\u00e1 do pr\u00e1ce!",
       "author": {
         "name": "Tomas Pflanzer",
         "github": "gizmax"
@@ -3285,7 +3363,7 @@
       "name": "wolf-et-pack",
       "display_name": "Wolf:ET Pack",
       "version": "1.0.0",
-      "description": "Wolfenstein: Enemy Territory HQ command voiceovers — Allied and Axis variants",
+      "description": "Wolfenstein: Enemy Territory HQ command voiceovers \u2014 Allied and Axis variants",
       "author": {
         "name": "Graham Mackie",
         "github": "gmackie"
