@@ -3578,7 +3578,45 @@
       ],
       "added": "2026-02-13",
       "updated": "2026-02-13"
+    },
+    {
+      "name": "worms-armageddon",
+      "display_name": "Worms Armageddon",
+      "version": "1.0.0",
+      "description": "Classic voice samples from Worms Armageddon featuring the iconic British worm taunts and exclamations",
+      "author": {
+        "name": "Mina Tawadrous",
+        "github": "mtmac17"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 14,
+      "total_size_bytes": 179678,
+      "source_repo": "mtmac17/openpeon-worms-armageddon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "703b85cdd1601e7f37634834fb2482459abf16957d6f757ef6b0b19cd85bcc98",
+      "tags": [
+        "gaming",
+        "strategy",
+        "worms",
+        "team17",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "sounds/greeting-hello.wav",
+        "sounds/done-excellent.wav"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
     }
   ],
-  "total_packs": 82
+  "total_packs": 83
 }
