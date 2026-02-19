@@ -1187,6 +1187,43 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "marcel",
+      "display_name": "Marcel",
+      "version": "1.0.0",
+      "description": "Legendary quotes of Marcel Merčiak.",
+      "author": {
+        "name": "Marián Čamák",
+        "github": "mcamak"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "sk",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 17,
+      "total_size_bytes": 332952,
+      "source_repo": "mcamak/openpeon-marcel",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4b157bbcb7fda879b7e43469c745297272d8da8a4053c5e4b46dce9254798340",
+      "tags": [
+        "stress"
+      ],
+      "preview_sounds": [
+        "06_osemkrat-sa-nieco-pytam.mp3",
+        "16_preco-ste-ma-tak-zarezali-do-pici.mp3"
+      ],
+      "added": "2026-02-18",
+      "updated": "2026-02-18"
+    },
+    {
       "name": "milujipraci",
       "display_name": "Miluji Práci",
       "version": "1.0.0",
