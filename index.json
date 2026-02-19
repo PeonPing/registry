@@ -2017,6 +2017,59 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "ra2_peon",
+      "display_name": "Red Alert 2 Voice Lines",
+      "version": "1.0.0",
+      "description": "Classic Red Alert 2 unit voice lines for coding feedback. From conscripts to Kirov airships, let Soviet and Allied forces narrate your coding session.",
+      "author": {
+        "name": "Emiel Verkade",
+        "github": "emielver"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.progress",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 438,
+      "total_size_bytes": 3113236,
+      "source_repo": "emielver/ra2_peon",
+      "source_ref": "v1.0.0",
+      "source_path": "ra2_peon",
+      "manifest_sha256": "616469326654c69b99481d361c6108ae055582d265b17488f903e809542f7fb6",
+      "tags": [
+        "red-alert",
+        "rts",
+        "command-conquer",
+        "soviet",
+        "allied",
+        "military",
+        "gaming"
+      ],
+      "preview_sounds": [
+        "a-new-comrade-joins-us.mp3",
+        "acknowledged.mp3",
+        "cha-ching.mp3",
+        "comrade.mp3",
+        "conscript-reporting.mp3",
+        "kirov-reporting_1.mp3",
+        "kirov-reporting.mp3",
+        "orders-comrade.mp3",
+        "ready-comrade.mp3",
+        "yes-comrade.mp3"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
+    },
+    {
       "name": "ra2_kirov",
       "display_name": "RA2 Kirov Airship",
       "version": "1.0.0",
