@@ -3025,6 +3025,49 @@
       "updated": "2026-02-12"
     },
     {
+  "name": "tf2_demoman",
+  "display_name": "TF2 Demoman",
+  "version": "1.0.0",
+  "description": "TF2 Demoman sound pack from Team Fortress 2",
+  "author": {
+    "name": "Breadcat",
+    "github": "thebreadcat"
+  },
+  "trust_tier": "community",
+  "categories": [
+    "session.start",
+    "session.end",
+    "task.acknowledge",
+    "task.progress",
+    "task.complete",
+    "task.error",
+    "input.required",
+    "resource.limit",
+    "user.spam"
+  ],
+  "language": "en",
+  "license": "CC-BY-NC-4.0",
+  "sound_count": 67,
+  "total_size_bytes": 2920947,
+  "source_repo": "thebreadcat/openpeon-tf2-demoman",
+  "source_ref": "v1.0.0",
+  "source_path": ".",
+  "manifest_sha256": "5fe0b7ea4e1b0f4e6486403400b714f7d186a456e62ff210691626ed33f1a1f0",
+  "tags": [
+    "gaming",
+    "tf2",
+    "valve",
+    "fps"
+  ],
+  "preview_sounds": [
+    "demoman_battlecry01.mp3",
+    "demoman_goodjob01.mp3",
+    "demoman_autoonfire01.mp3"
+  ],
+  "added": "2026-02-19",
+  "updated": "2026-02-19"
+},
+    {
   "name": "tf2_heavy",
   "display_name": "TF2 Heavy",
   "version": "1.0.0",
