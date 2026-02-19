@@ -1212,7 +1212,7 @@
       "source_repo": "mcamak/openpeon-marcel",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "4b157bbcb7fda879b7e43469c745297272d8da8a4053c5e4b46dce9254798340",
+      "manifest_sha256": "0f4128148ebbd46fa24a670fbb94c8f6e7c6c2ebf94b552a0b466ab83194f583",
       "tags": [
         "stress"
       ],
