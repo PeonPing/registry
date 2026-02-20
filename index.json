@@ -2308,6 +2308,44 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "sc2_carrier",
+      "display_name": "Carrier (StarCraft II)",
+      "version": "1.0.0",
+      "description": "Protoss Carrier unit voice lines from StarCraft II",
+      "author": {
+        "name": "Bryce Evans",
+        "github": "bryce-evans"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "Fair Use",
+      "sound_count": 7,
+      "total_size_bytes": 214331,
+      "source_repo": "bryce-evans/openpeon-sc2-carrier",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "6a55be29c99b933e022586fd929f48519db7d3bd4ac7c54f8e461d6eafc9dd2e",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "protoss",
+        "blizzard"
+      ],
+      "preview_sounds": [
+        "carrier-has-arrived.mp3",
+        "we-are-ready.ogg"
+      ],
+      "added": "2026-02-20",
+      "updated": "2026-02-20"
+    },
+    {
       "name": "sc2_stalker",
       "display_name": "Stalker (StarCraft II)",
       "version": "1.1.0",
