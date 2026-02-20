@@ -639,11 +639,11 @@
     {
       "name": "cortana",
       "display_name": "Cortana",
-      "version": "1.0.01",
+      "version": "1.0.1",
       "description": "Cortana from Halo",
       "author": {
         "name": "A3mercury",
-        "github": "A3mercury",
+        "github": "A3mercury"
       },
       "trust_tier": "community",
       "categories": [
