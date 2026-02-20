@@ -660,7 +660,7 @@
       "sound_count": 12,
       "total_size_bytes": 699000,
       "source_repo": "A3mercury/openpeon-cortana",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
       "manifest_sha256": "cb372f7d394f458e777990f94772f07dd291dcbc45fefad64a1cb4a67a21db9b",
       "tags": [
