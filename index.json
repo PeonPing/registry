@@ -3654,7 +3654,47 @@
       ],
       "added": "2026-02-19",
       "updated": "2026-02-19"
+    },
+    {
+      "name": "zelda-a-link-to-the-past",
+      "display_name": "Zelda: A Link to the Past Sound Pack",
+      "version": "1.0.0",
+      "description": "Selected sound effects, jingles and music snippets from The Legend of Zelda: A Link to the Past",
+      "author": {
+        "name": "Henning Rokling",
+        "github": "hrokling"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 24227328,
+      "source_repo": "hrokling/zelda-a-link-to-the-past",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "48387e8e22951872eb81249a73e1a259161ce2b355e979c0fb79d9f7fc7caa4c",
+      "tags": [
+        "zelda",
+        "nintendo",
+        "retro",
+        "game"
+      ],
+      "preview_sounds": [
+        "sounds/secret.wav",
+        "sounds/fairy.wav"
+      ],
+      "added": "2026-02-20",
+      "updated": "2026-02-20"
     }
   ],
-  "total_packs": 83
+  "total_packs": 84
 }
