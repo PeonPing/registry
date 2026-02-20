@@ -320,6 +320,41 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "arc_raiders",
+      "display_name": "Arc Raiders Pack",
+      "version": "1.0.0",
+      "description": "Arc Raiders sound effects",
+      "author": { 
+        "name": "A3mercury", 
+        "github": "A3mercury" 
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end"
+       ],
+      "language": "en",
+      "license": "MCC-BY-NC-4.0T",
+      "sound_count": 7,
+      "total_size_bytes": 1100000,
+      "source_repo": "A3mercury/openpeon-arcraiders",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "ee446c88db120826d5c1ddada76006a476f3b07d14e8f01b6797ec8ddcd62b12",
+      "tags": ["gaming", "arc", "goop"],
+      "preview_sounds": [
+        "TracingVictory.mp3", 
+        "Blueprint.mp3"
+      ],
+      "added": "2026-02-20",
+      "updated": "2026-02-20"
+    },
+    {
       "name": "arnold",
       "display_name": "Arnold Schwarzenegger",
       "version": "1.0.0",
@@ -3906,5 +3941,5 @@
       "updated": "2026-02-20"
     }
   ],
-  "total_packs": 85
+  "total_packs": 86
 }
