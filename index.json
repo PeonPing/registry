@@ -1499,6 +1499,44 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "mr_meeseeks",
+      "display_name": "Mr. Meeseeks (Rick and Morty)",
+      "version": "1.0.0",
+      "description": "Look at me! Mr. Meeseeks voice lines from Rick and Morty. Can do!",
+      "author": {
+        "name": "kasperhendriks",
+        "github": "kasperhendriks"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 30,
+      "total_size_bytes": 1246342,
+      "source_repo": "kasperhendriks/openpeon-mrmeeseeks",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "94f038d50b963eefec3892a5dafef7930d5b23ec229fbefa1bd790e80965ca34",
+      "tags": [
+        "tv",
+        "animation",
+        "comedy",
+        "rick-and-morty"
+      ],
+      "preview_sounds": [
+        "sounds/im_mr_meeseeks_look_at_me.mp3",
+        "sounds/can_do.mp3",
+        "sounds/all_done.mp3"
+      ],
+      "added": "2026-02-20",
+      "updated": "2026-02-20"
+    },
+    {
       "name": "murloc",
       "display_name": "Murloc",
       "version": "1.0.0",
