@@ -637,54 +637,6 @@
       "updated": "2026-02-19"
     },
     {
-      "name": "cortana",
-      "display_name": "Cortana",
-      "version": "1.0.01",
-      "description": "Cortana from Halo",
-      "author": {
-        "name": "A3mercury",
-        "github": "A3mercury",
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit",
-        "user.spam"
-      ],
-      "language": "en",
-      "license": "CC-BY-NC-4.0",
-      "sound_count": 12,
-      "total_size_bytes": 699000,
-      "source_repo": "A3mercury/openpeon-cortana",
-      "source_ref": "v1.0.1",
-      "source_path": ".",
-      "manifest_sha256": "",
-      "tags": [
-        "gaming",
-        "halo",
-        "cortana",
-      ],
-      "preview_sounds": [
-        "MissMe.mp3",
-        "Answer.mp3",
-        "AlreadyBegun.mp3",
-        "Scanning.mp3",
-        "Ride.mp3",
-        "LocatedPillar.mp3",
-        "ThreatLevel1.mp3",
-        "SleepWell.mp3",
-        "TakeTooLong.mp3",
-        "WhatAreYouDoing.mp3",
-        "WhatAreYouTalking.mp3",
-      ],
-      "added": "2026-02-20",
-      "updated": "2026-02-20"
-    },
-    {
       "name": "counterstrike",
       "display_name": "Counter-Strike",
       "version": "1.0.2",
@@ -3827,5 +3779,5 @@
       "updated": "2026-02-20"
     }
   ],
-  "total_packs": 85
+  "total_packs": 84
 }
