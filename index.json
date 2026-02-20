@@ -345,7 +345,7 @@
       "source_repo": "A3mercury/openpeon-arcraiders",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "ee446c88db120826d5c1ddada76006a476f3b07d14e8f01b6797ec8ddcd62b12",
+      "manifest_sha256": "3df840bfb19b6815cfae30c0192c587d411b86e9d9b9fc7a63e0216848ed76ed",
       "tags": ["gaming", "arc", "goop"],
       "preview_sounds": [
         "TracingVictory.mp3", 
