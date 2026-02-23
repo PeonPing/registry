@@ -395,6 +395,47 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "arthas_ru",
+      "display_name": "Артас Рыцарь Смерти (Russian)",
+      "version": "1.0.0",
+      "description": "WC3 Death Knight Arthas — all 20 Russian voice lines mapped to CESP categories",
+      "author": {
+        "name": "samokay",
+        "github": "samokay"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 20,
+      "total_size_bytes": 8633344,
+      "source_repo": "samokay/arthas_ru",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "391eec37a929112db5106a59809d4282f9c1071de110a09783baba7626ed3d85",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "russian",
+        "arthas",
+        "death-knight"
+      ],
+      "preview_sounds": [
+        "frostmourne_hungers.wav",
+        "for_the_lich_king.wav"
+      ],
+      "added": "2026-02-22",
+      "updated": "2026-02-22"
+    },
+    {
       "name": "brewmaster_ru",
       "display_name": "Pandaren Brewmaster (Russian)",
       "version": "1.0.0",
