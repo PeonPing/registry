@@ -1583,6 +1583,43 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "minecraft_villager",
+      "display_name": "Minecraft Villager",
+      "version": "1.0.0",
+      "description": "Villager sound pack from Minecraft.",
+      "author": {
+        "name": "Eric Keränen",
+        "github": "Mahamurahti"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 16,
+      "total_size_bytes": 118573,
+      "source_repo": "Mahamurahti/openpeon-minecraft-villager",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a9a7df81f5e795203e00da5b3bd18c557531b145b5bb7dc5d55a8208f0bea425",
+      "tags": [
+        "gaming",
+        "minecraft",
+        "villager"
+      ],
+      "preview_sounds": [
+        "sounds/villager_idle1.ogg",
+        "sounds/villager_accept1.ogg"
+      ],
+      "added": "2026-02-24",
+      "updated": "2026-02-24"
+    },
+    {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
