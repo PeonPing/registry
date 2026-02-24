@@ -1611,11 +1611,11 @@
       "tags": [
         "gaming",
         "minecraft",
-        "villager"
+        "mojang"
       ],
       "preview_sounds": [
-        "sounds/villager_idle1.ogg",
-        "sounds/villager_accept1.ogg"
+        "villager_idle1.ogg",
+        "villager_accept1.ogg"
       ],
       "added": "2026-02-24",
       "updated": "2026-02-24"
