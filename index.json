@@ -3663,6 +3663,47 @@
       "updated": "2026-02-18"
     },
     {
+      "name": "warcraft3-mix",
+      "display_name": "Warcraft III Mix CZ",
+      "version": "1.0.0",
+      "description": "Mix ikonick\u00fdch \u010desk\u00fdch hl\u00e1\u0161ek z Warcraft III od r\u016fzn\u00fdch jednotek a hrdin\u016f.",
+      "author": {
+        "name": "SgtMarmite",
+        "github": "SgtMarmite"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "cs",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 225,
+      "total_size_bytes": 17949988,
+      "source_repo": "SgtMarmite/peonping-warcraft3-mix",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "9f2ab8a55ee27ea1bef2c897242c4252133470c87a7cb96bd1e05c62530a7f3a",
+      "tags": [
+        "warcraft",
+        "warcraft3",
+        "blizzard",
+        "mix",
+        "rts"
+      ],
+      "preview_sounds": [
+        "PeonWhat4.wav",
+        "ArthasYes1.wav"
+      ],
+      "added": "2026-02-24",
+      "updated": "2026-02-24"
+    },
+    {
       "name": "wc2_human_ships",
       "display_name": "WC2 Human Ships",
       "version": "1.0.0",
