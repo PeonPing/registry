@@ -1585,7 +1585,7 @@
     {
       "name": "minecraft_villager",
       "display_name": "Minecraft Villager",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Villager sound pack from Minecraft.",
       "author": {
         "name": "Eric Keränen",
@@ -1594,6 +1594,7 @@
       "trust_tier": "community",
       "categories": [
         "session.start",
+        "task.acknowledge",
         "task.complete",
         "task.error",
         "input.required",
@@ -1601,12 +1602,12 @@
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 16,
+      "sound_count": 19,
       "total_size_bytes": 118573,
       "source_repo": "Mahamurahti/openpeon-minecraft-villager",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "a9a7df81f5e795203e00da5b3bd18c557531b145b5bb7dc5d55a8208f0bea425",
+      "manifest_sha256": "16f5fc57cf0928dc2a3943c80fc41561ed5ad252b5b79a3537fa6dd9d6339217",
       "tags": [
         "gaming",
         "minecraft",
