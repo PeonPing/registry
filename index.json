@@ -2751,6 +2751,43 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "sc_dropship",
+      "display_name": "StarCraft Dropship",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Dropship voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 16,
+      "total_size_bytes": 555313,
+      "source_repo": "kschmidtjr1/openpeon-sc_dropship",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "91fc44d0ebc43b0d80d9a467a040ef8144e7485b99c57ef8a989d14947fce035",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "CanITakeYourOrder.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
       "version": "1.0.0",
@@ -2786,6 +2823,80 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "sc_ghost",
+      "display_name": "StarCraft Ghost",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Ghost unit voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 15,
+      "total_size_bytes": 505532,
+      "source_repo": "kschmidtjr1/openpeon-sc_ghost",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "5a9aefc59e38a37984f4ac1368679711bd5d7b6ed1615ce3617a67fd6227cd4e",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "SomebodyCallForAnExterminator.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "sc_goliath",
+      "display_name": "StarCraft Goliath",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Goliath unit voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 16,
+      "total_size_bytes": 586660,
+      "source_repo": "kschmidtjr1/openpeon-sc_goliath",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "38d718892738d0622667ec4389f49cb3b9a85b52416739e426c0328845697006",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "GoliathOnline.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     },
     {
       "name": "sc_kerrigan",
@@ -2902,6 +3013,43 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "sc_raynor",
+      "display_name": "StarCraft Raynor",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Jim Raynor (Marine) voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 14,
+      "total_size_bytes": 324097,
+      "source_repo": "kschmidtjr1/openpeon-sc_raynor",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "96a0ff7712a5ddb6c2f49fc9d103b25c7ce8513d0d1b1cef72323da42f6a47fd",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "RaynorHere.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     },
     {
       "name": "sc_scv",
@@ -3056,6 +3204,80 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "sc_vulture",
+      "display_name": "StarCraft Vulture",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Vulture voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 14,
+      "total_size_bytes": 469127,
+      "source_repo": "kschmidtjr1/openpeon-sc_vulture",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "b3d60f01cc6cb325cb2d5cb4237904df0585b296f07b8773e22c8651c3416693",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "AlrightBringItOn.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "sc_wraith",
+      "display_name": "StarCraft Wraith",
+      "version": "1.0.0",
+      "description": "StarCraft 1 Terran Wraith voice lines",
+      "author": {
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 17,
+      "total_size_bytes": 484303,
+      "source_repo": "kschmidtjr1/openpeon-sc_wraith",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "be75e0049a286805eb666cf7e74b1fa156661314a1b343de6b0543212ee35fd4",
+      "tags": [
+        "gaming",
+        "starcraft"
+      ],
+      "preview_sounds": [
+        "WraithAwaitingLaunchOrders.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     },
     {
       "name": "sheogorath",
@@ -3558,7 +3780,7 @@
       "added": "2026-02-19",
       "updated": "2026-02-19"
     },
-     {
+    {
       "name": "tf2_pyro",
       "display_name": "TF2 Pyro",
       "version": "1.0.1",
@@ -3602,48 +3824,48 @@
       "updated": "2026-02-25"
     },
     {
-  "name": "tf2_sniper",
-  "display_name": "TF2 Sniper",
-  "version": "1.0.0",
-  "description": "TF2 Sniper sound pack from Team Fortress 2",
-  "author": {
-    "name": "Breadcat",
-    "github": "thebreadcat"
-  },
-  "trust_tier": "community",
-  "categories": [
-    "session.start",
-    "session.end",
-    "task.acknowledge",
-    "task.progress",
-    "task.complete",
-    "task.error",
-    "input.required",
-    "resource.limit",
-    "user.spam"
-  ],
-  "language": "en",
-  "license": "CC-BY-NC-4.0",
-  "sound_count": 56,
-  "total_size_bytes": 2920947,
-  "source_repo": "thebreadcat/tf2-sniper-pack",
-  "source_ref": "v1.0.0",
-  "source_path": ".",
-  "manifest_sha256": "b7139a7c340f5dd9eafe08656989fe6539e961fee190c1fac82bf1e4321d9104",
-  "tags": [
-    "gaming",
-    "tf2",
-    "valve",
-    "fps"
-  ],
-  "preview_sounds": [
-    "sniper_battlecry03.mp3",
-    "sniper_cheers05.mp3",
-    "sniper_jaratetoss01.mp3"
-  ],
-  "added": "2026-02-19",
-  "updated": "2026-02-19"
-},
+      "name": "tf2_sniper",
+      "display_name": "TF2 Sniper",
+      "version": "1.0.0",
+      "description": "TF2 Sniper sound pack from Team Fortress 2",
+      "author": {
+        "name": "Breadcat",
+        "github": "thebreadcat"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "session.end",
+        "task.acknowledge",
+        "task.progress",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 56,
+      "total_size_bytes": 2920947,
+      "source_repo": "thebreadcat/tf2-sniper-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "b7139a7c340f5dd9eafe08656989fe6539e961fee190c1fac82bf1e4321d9104",
+      "tags": [
+        "gaming",
+        "tf2",
+        "valve",
+        "fps"
+      ],
+      "preview_sounds": [
+        "sniper_battlecry03.mp3",
+        "sniper_cheers05.mp3",
+        "sniper_jaratetoss01.mp3"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
+    },
     {
       "name": "tf2_sniper",
       "display_name": "TF2 Sniper",
