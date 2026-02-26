@@ -3509,27 +3509,30 @@
     {
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
-      "version": "1.0.0",
-      "description": "StarCraft Firebat sound pack from StarCraft",
+      "version": "2.0.0",
+      "description": "StarCraft Firebat sound pack — 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
       "author": {
-        "name": "workdd",
-        "github": "workdd"
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
       },
       "trust_tier": "official",
       "categories": [
         "session.start",
         "task.acknowledge",
         "task.complete",
-        "input.required"
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 7,
-      "total_size_bytes": 146143,
+      "sound_count": 17,
+      "total_size_bytes": 544489,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v2.0.0",
       "source_path": "sc_firebat",
-      "manifest_sha256": "ddd814834e50d73c3338753fefcd801b710bbb419205bbaf81649c62d0f64c5b",
+      "manifest_sha256": "1820390815ee8f591608b2fda4c6990de121b6f35bacb856ed6bdf17b6dd14e0",
       "tags": [
         "gaming",
         "starcraft",
@@ -3538,10 +3541,10 @@
       ],
       "preview_sounds": [
         "NeedALight.mp3",
-        "ReadyToRoast.mp3"
+        "FireItUp.mp3"
       ],
       "added": "2026-02-12",
-      "updated": "2026-02-12"
+      "updated": "2026-02-26"
     },
     {
       "name": "sc_ghost",
@@ -3699,27 +3702,30 @@
     {
       "name": "sc_medic",
       "display_name": "StarCraft Medic",
-      "version": "1.0.0",
-      "description": "StarCraft Medic sound pack from StarCraft",
+      "version": "2.0.0",
+      "description": "StarCraft Medic sound pack — 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
       "author": {
-        "name": "workdd",
-        "github": "workdd"
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
       },
       "trust_tier": "official",
       "categories": [
         "session.start",
         "task.acknowledge",
         "task.complete",
-        "input.required"
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 6,
-      "total_size_bytes": 234145,
+      "sound_count": 16,
+      "total_size_bytes": 475901,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v2.0.0",
       "source_path": "sc_medic",
-      "manifest_sha256": "e343880992853185500750f5d7cf0030b190c2e9c38aa068535a6acd045d1548",
+      "manifest_sha256": "635cab7ea7dffc208570da319edd9e4fd048900caa736f0af016a1ae8b6ab558",
       "tags": [
         "gaming",
         "starcraft",
@@ -3727,11 +3733,11 @@
         "rts"
       ],
       "preview_sounds": [
-        "DoctorIsIn.mp3",
-        "PatchedUp.mp3"
+        "PreppedAndReady.mp3",
+        "HesDeadJim.mp3"
       ],
       "added": "2026-02-12",
-      "updated": "2026-02-12"
+      "updated": "2026-02-26"
     },
     {
       "name": "sc_raynor",
@@ -3813,27 +3819,30 @@
     {
       "name": "sc_tank",
       "display_name": "StarCraft Siege Tank",
-      "version": "1.0.0",
-      "description": "StarCraft Siege Tank sound pack from StarCraft",
+      "version": "2.0.0",
+      "description": "StarCraft Siege Tank sound pack — 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
       "author": {
-        "name": "workdd",
-        "github": "workdd"
+        "name": "kschmidtjr1",
+        "github": "kschmidtjr1"
       },
       "trust_tier": "official",
       "categories": [
         "session.start",
         "task.acknowledge",
         "task.complete",
-        "input.required"
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 6,
-      "total_size_bytes": 223089,
+      "sound_count": 14,
+      "total_size_bytes": 420226,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v2.0.0",
       "source_path": "sc_tank",
-      "manifest_sha256": "3f4626ed5c25c6843fd26d5a3974dc732acf406e66aaa97281a039d5743a3bdd",
+      "manifest_sha256": "e0bbef8c48dc7a4459b129bb9cd5c691bba8e98437c98482fa81079d0b6d2842",
       "tags": [
         "gaming",
         "starcraft",
@@ -3842,10 +3851,10 @@
       ],
       "preview_sounds": [
         "ReadyToRollOut.mp3",
-        "DoneAndDone.mp3"
+        "RideOfTheValkyries.mp3"
       ],
       "added": "2026-02-12",
-      "updated": "2026-02-12"
+      "updated": "2026-02-26"
     },
     {
       "name": "sc_terran",
