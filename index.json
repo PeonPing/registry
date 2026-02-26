@@ -187,10 +187,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "anchorman_brick",
-      "manifest_sha256": "558b06838bb053ca0c3c50ee1bb8a7029f98c5f33fbc754b169b8ff7c99fa490",
+      "manifest_sha256": "169b4a1d476ceef5c020bb0ad044e43c52de3750d3d14d9f4bedf69430e794ab",
       "tags": [
         "movie-quotes",
-        "anchorman"
+        "anchorman",
+        "comedy",
+        "steve-carell",
+        "brick-tamland",
+        "will-ferrell"
       ],
       "preview_sounds": [
         "dont_know_what_yelling_about.mp3",
@@ -225,10 +229,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "anchorman_burgundy",
-      "manifest_sha256": "b45f77a444e7a4d1caae3226215933a1ece38e6f7109c45f1f8e5d19fb3de648",
+      "manifest_sha256": "40c5ab35c2639b1897ba76bd0a92d1763c18f974cef9f8b837c23f20864f47ce",
       "tags": [
         "movie-quotes",
-        "anchorman"
+        "anchorman",
+        "comedy",
+        "will-ferrell",
+        "ron-burgundy",
+        "san-diego"
       ],
       "preview_sounds": [
         "by_the_beard_of_zeus.mp3",
@@ -263,10 +271,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "anchorman_news_team",
-      "manifest_sha256": "ebb3f4bf24c2a00e1470fa03cee957f3f67bed50f9483b4f8ca3d1e0c3809a1c",
+      "manifest_sha256": "3654c1c3ac5a2a6a86e4c15dd5dbe437155a055ccc302d5c721406340b41ea5d",
       "tags": [
         "movie-quotes",
-        "anchorman"
+        "anchorman",
+        "comedy",
+        "will-ferrell",
+        "news-team",
+        "sex-panther"
       ],
       "preview_sounds": [
         "dorothy_mantooth.mp3",
@@ -579,10 +591,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "blues_brothers",
-      "manifest_sha256": "888ce02708aa3fc84dc2c1438fac9b01b9a6886a2a9a280052cef3a8a7f94c78",
+      "manifest_sha256": "933cbfc67a9267825ba7e94e3db922bbeaac5b9887b1bc35a4ab8dfce4de2772",
       "tags": [
         "movie-quotes",
-        "the-blues-brothers"
+        "the-blues-brothers",
+        "comedy",
+        "john-belushi",
+        "dan-aykroyd",
+        "blues",
+        "music"
       ],
       "preview_sounds": [
         "106_test.mp3",
@@ -617,10 +634,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "blues_brothers_elwood",
-      "manifest_sha256": "897a1aa354e140e54b37fd016956a414361f6e2b691f3977f8f922b4451a9be2",
+      "manifest_sha256": "102e9e841d843103ad998051b025bb74d3819e75db46588f2c98b0ae640a7c77",
       "tags": [
         "movie-quotes",
-        "the-blues-brothers"
+        "the-blues-brothers",
+        "comedy",
+        "dan-aykroyd",
+        "elwood-blues",
+        "blues"
       ],
       "preview_sounds": [
         "106_miles_to_chicago.mp3",
@@ -655,10 +676,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "blues_brothers_jake",
-      "manifest_sha256": "cad55f46079fd6ecf6b96c29c503e236be7d5442f82891e96fd2007ba05fc87d",
+      "manifest_sha256": "df8fd54a41f647b338f60d6d274072b45f2f46b56ca7cc4e38ef49a8578164f1",
       "tags": [
         "movie-quotes",
-        "the-blues-brothers"
+        "the-blues-brothers",
+        "comedy",
+        "john-belushi",
+        "jake-blues",
+        "blues"
       ],
       "preview_sounds": [
         "are_you_the_police.mp3",
@@ -1811,10 +1836,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "lebowski_big_lebowski",
-      "manifest_sha256": "9a9e9fec9265bdefcc511a3a419ff6ea51911e810303ce167df9ede7698e6a99",
+      "manifest_sha256": "146622212b947c987d730c43495dac8ec1a058e6b518be4f88231252938c2110",
       "tags": [
         "movie-quotes",
-        "the-big-lebowski"
+        "the-big-lebowski",
+        "comedy",
+        "coen-brothers",
+        "david-huddleston",
+        "big-lebowski"
       ],
       "preview_sounds": [
         "achievers.mp3",
@@ -1849,10 +1878,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "lebowski_jesus",
-      "manifest_sha256": "c3c5b1607626fb0dd44fe4e9746f8af0da770738c14b0e2dd74f22dbf6165a88",
+      "manifest_sha256": "8575a783ecc51dced598f00666aa348223caa5dc04582820b2eab4378f9e5862",
       "tags": [
         "movie-quotes",
-        "the-big-lebowski"
+        "the-big-lebowski",
+        "comedy",
+        "coen-brothers",
+        "john-turturro",
+        "jesus-quintana",
+        "bowling"
       ],
       "preview_sounds": [
         "date_wednesday_baby.mp3",
@@ -1887,10 +1921,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "lebowski_maude",
-      "manifest_sha256": "48960085e8a8b7d79198210ecdd0d1ca8a729b69812401e5d82110d87526eef3",
+      "manifest_sha256": "efea16ae441a213b1566d38291c94d588d0b393d122afcbdb14adbba949be45a",
       "tags": [
         "movie-quotes",
-        "the-big-lebowski"
+        "the-big-lebowski",
+        "comedy",
+        "coen-brothers",
+        "julianne-moore",
+        "maude-lebowski"
       ],
       "preview_sounds": [
         "dont_be_fatuous.mp3",
@@ -1925,10 +1963,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "lebowski_the_dude",
-      "manifest_sha256": "c72f452eb2bb2fd2dd465c3e2d356c057c7dec8d30156aecd4c17aef28175049",
+      "manifest_sha256": "6b01199a41a160864fd59732819d56787a64ef616d84dbafe6af9e4fd92f010e",
       "tags": [
         "movie-quotes",
-        "the-big-lebowski"
+        "the-big-lebowski",
+        "comedy",
+        "coen-brothers",
+        "jeff-bridges",
+        "the-dude",
+        "bowling"
       ],
       "preview_sounds": [
         "aggression_will_not_stand.mp3",
@@ -1963,10 +2006,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "lebowski_walter",
-      "manifest_sha256": "26acbd424f2e68a13529e7c75cbfac585959710c538f257c260769a61b15c17d",
+      "manifest_sha256": "81550d777d2ef679d79aff5728e0234e756efc549ce108e62f3f5a82d7379c50",
       "tags": [
         "movie-quotes",
-        "the-big-lebowski"
+        "the-big-lebowski",
+        "comedy",
+        "coen-brothers",
+        "john-goodman",
+        "walter-sobchak",
+        "bowling"
       ],
       "preview_sounds": [
         "calmer_than_you_are.mp3",
@@ -2264,10 +2312,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "office_space",
-      "manifest_sha256": "40b7ef9903be0d005d15ffe9bc6e002fbab720f9ec8fff7cd700526006413941",
+      "manifest_sha256": "1856ba4c1099eedc40b29e2de5470c38b0de3c2b582eb3c94524d942d0bfd529",
       "tags": [
         "movie-quotes",
-        "office-space"
+        "office-space",
+        "comedy",
+        "mike-judge",
+        "milton",
+        "tps-reports",
+        "work"
       ],
       "preview_sounds": [
         "believe_you_have_my_stapler.mp3",
@@ -2302,10 +2355,16 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "office_space_lumbergh",
-      "manifest_sha256": "79906a54d3d39197a08eb0fd64cf7bd638078889cacdb5a9b137b4a10d0b2905",
+      "manifest_sha256": "67a264ec9d874bb969d9a165a59549493cf59f2d8414b5f62f26bf6832bc09ee",
       "tags": [
         "movie-quotes",
-        "office-space"
+        "office-space",
+        "comedy",
+        "mike-judge",
+        "gary-cole",
+        "bill-lumbergh",
+        "work",
+        "tps-reports"
       ],
       "preview_sounds": [
         "come_in_on_saturday.mp3",
@@ -2340,10 +2399,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "office_space_peter",
-      "manifest_sha256": "f2e0df659d91d97a614426ef894cb91df8dafaf856a3efaec87b5cd64ad9c046",
+      "manifest_sha256": "a68900afb212cca02038a4d67245e22b384dc8e836555d0bd9f685a08fcdc3bb",
       "tags": [
         "movie-quotes",
-        "office-space"
+        "office-space",
+        "comedy",
+        "mike-judge",
+        "ron-livingston",
+        "peter-gibbons",
+        "work"
       ],
       "preview_sounds": [
         "case_of_the_mondays.mp3",
@@ -4172,10 +4236,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "starship_rasczak",
-      "manifest_sha256": "26305ea447c345ea93fee9a7974a1717e7bab24f0ae9a9296ef627bf70bfc807",
+      "manifest_sha256": "d0bd5e48ae57656f527117eac36c1a2387bc8555ba7617964dcd14f791b3250f",
       "tags": [
         "movie-quotes",
-        "starship-troopers"
+        "starship-troopers",
+        "sci-fi",
+        "action",
+        "michael-ironside",
+        "rasczak",
+        "military"
       ],
       "preview_sounds": [
         "civilian_vs_citizen.mp3",
@@ -4210,10 +4279,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "starship_rico",
-      "manifest_sha256": "10e7d28007e4c1bed02f8ea789c11e1915d1802c66e0f3bee79d6c7919aa208e",
+      "manifest_sha256": "29c6311f481a726b676e54933d6d363d848d1a2991e45f73524e1c1e0cc11ca2",
       "tags": [
         "movie-quotes",
-        "starship-troopers"
+        "starship-troopers",
+        "sci-fi",
+        "action",
+        "casper-van-dien",
+        "johnny-rico",
+        "military"
       ],
       "preview_sounds": [
         "buenos_aires_kill_em_all.mp3",
@@ -4248,10 +4322,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "super_troopers",
-      "manifest_sha256": "ad7ad6ece22cb07aa0781935d51ae1c46cfd2aab4fde316cac810f3bbd85c529",
+      "manifest_sha256": "0315d8ad7af938867770fd2f8579b222a0fe3503420c700e75c9ed9711e611b6",
       "tags": [
         "movie-quotes",
-        "super-troopers"
+        "super-troopers",
+        "comedy",
+        "broken-lizard",
+        "meow",
+        "highway-patrol"
       ],
       "preview_sounds": [
         "chicken_fucker.mp3",
@@ -4286,10 +4364,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "super_troopers_farva",
-      "manifest_sha256": "c8f8482162c8fa9a2638ae1625d3da619e7dc4198778d672ea93d1828900ce47",
+      "manifest_sha256": "406bc52767dc60e2e685dec9798e4409ba8ff0b28bd90faa7de9dac8aa4e66bc",
       "tags": [
         "movie-quotes",
-        "super-troopers"
+        "super-troopers",
+        "comedy",
+        "broken-lizard",
+        "kevin-heffernan",
+        "farva",
+        "liter-of-cola"
       ],
       "preview_sounds": [
         "car_ramrod.mp3",
@@ -5162,10 +5245,15 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "zoolander_derek",
-      "manifest_sha256": "5dd2bbe112cb5a087817b587c3452ada098477bc07915922cdc0f0d40018d8dc",
+      "manifest_sha256": "5e87d587f5c921ac4923978627de599d52bcfa6bf7cbf9c92173c38e0249b280",
       "tags": [
         "movie-quotes",
-        "zoolander"
+        "zoolander",
+        "comedy",
+        "ben-stiller",
+        "derek-zoolander",
+        "blue-steel",
+        "male-models"
       ],
       "preview_sounds": [
         "but_why_male_models.mp3",
@@ -5200,10 +5288,14 @@
       "source_repo": "MattBillock/openpeon-movie-packs",
       "source_ref": "v1.0.0",
       "source_path": "zoolander_hansel",
-      "manifest_sha256": "d6dd9d56390c484a0fa82fd2ae800e77dc6d4a514a6d115ef173de682984daee",
+      "manifest_sha256": "87f049012873b6637ffa8907dac80c36695504ab5a06f9143cc4b6d38ab37c24",
       "tags": [
         "movie-quotes",
-        "zoolander"
+        "zoolander",
+        "comedy",
+        "owen-wilson",
+        "hansel",
+        "so-hot-right-now"
       ],
       "preview_sounds": [
         "excuse_me_bro.mp3",
