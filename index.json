@@ -162,6 +162,88 @@
       "updated": "2026-02-15"
     },
     {
+      "name": "afewgoodmen",
+      "display_name": "A Few Good Men",
+      "version": "1.0.1",
+      "description": "A Few Good Men quotes for your Claude Code notifications. 19 clips across 7 categories.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 19,
+      "total_size_bytes": 779377,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "afewgoodmen",
+      "manifest_sha256": "a3b0a2a7d35c81b3b2acc88770f57e599eb4f313e87f6b17eca567231b72809c",
+      "tags": [
+        "movie-quotes",
+        "drama",
+        "courtroom",
+        "jack-nicholson",
+        "tom-cruise"
+      ],
+      "preview_sounds": [
+        "kaffee_hi.mp3",
+        "kaffee_im_sorry.mp3"
+      ],
+      "added": "2026-02-26",
+      "updated": "2026-02-26"
+    },
+    {
+      "name": "airplane",
+      "display_name": "Airplane!",
+      "version": "1.0.1",
+      "description": "Airplane! quotes for your Claude Code notifications. 17 clips across 7 categories.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 474374,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "airplane",
+      "manifest_sha256": "ca5b02e9bafa51578f3e06d93451942520a351df876128be7dbbf8f04f435954",
+      "tags": [
+        "movie-quotes",
+        "comedy",
+        "parody",
+        "leslie-nielsen",
+        "disaster-movie"
+      ],
+      "preview_sounds": [
+        "dont_call_me_shirley.mp3",
+        "johnny_jive.mp3"
+      ],
+      "added": "2026-02-26",
+      "updated": "2026-02-26"
+    },
+    {
       "name": "anchorman_brick",
       "display_name": "Brick Tamland",
       "version": "1.0.0",
@@ -1173,6 +1255,47 @@
       ],
       "added": "2026-02-14",
       "updated": "2026-02-14"
+    },
+    {
+      "name": "diehard",
+      "display_name": "Die Hard",
+      "version": "1.0.1",
+      "description": "Die Hard quotes for your Claude Code notifications. 16 clips across 7 categories.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 832002,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.1.0",
+      "source_path": "diehard",
+      "manifest_sha256": "85f73664b61f40649a7548f5a4db1edc2a37abe081fd98e2378d11d14c4d3002",
+      "tags": [
+        "movie-quotes",
+        "action",
+        "christmas",
+        "bruce-willis",
+        "hans-gruber",
+        "alan-rickman"
+      ],
+      "preview_sounds": [
+        "powell_welcome_to_the_party.mp3",
+        "welcome_to_the_party.mp3"
+      ],
+      "added": "2026-02-26",
+      "updated": "2026-02-26"
     },
     {
       "name": "dobby",
