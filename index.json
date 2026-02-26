@@ -162,6 +162,120 @@
       "updated": "2026-02-15"
     },
     {
+      "name": "anchorman_brick",
+      "display_name": "Brick Tamland",
+      "version": "1.0.0",
+      "description": "Non-sequiturs as a service.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 14,
+      "total_size_bytes": 309862,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "anchorman_brick",
+      "manifest_sha256": "558b06838bb053ca0c3c50ee1bb8a7029f98c5f33fbc754b169b8ff7c99fa490",
+      "tags": [
+        "movie-quotes",
+        "anchorman"
+      ],
+      "preview_sounds": [
+        "dont_know_what_yelling_about.mp3",
+        "fiberglass_insulation.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "anchorman_burgundy",
+      "display_name": "Ron Burgundy",
+      "version": "1.0.0",
+      "description": "San Diego's finest anchor, kind of a big deal.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 446242,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "anchorman_burgundy",
+      "manifest_sha256": "b45f77a444e7a4d1caae3226215933a1ece38e6f7109c45f1f8e5d19fb3de648",
+      "tags": [
+        "movie-quotes",
+        "anchorman"
+      ],
+      "preview_sounds": [
+        "by_the_beard_of_zeus.mp3",
+        "dont_act_like_youre_not_impressed.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "anchorman_news_team",
+      "display_name": "News Team",
+      "version": "1.0.0",
+      "description": "Channel 4 News Team Ensemble.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 10,
+      "total_size_bytes": 387527,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "anchorman_news_team",
+      "manifest_sha256": "ebb3f4bf24c2a00e1470fa03cee957f3f67bed50f9483b4f8ca3d1e0c3809a1c",
+      "tags": [
+        "movie-quotes",
+        "anchorman"
+      ],
+      "preview_sounds": [
+        "dorothy_mantooth.mp3",
+        "its_called_sex_panther.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
       "name": "aoe2",
       "display_name": "Age of Empires II Taunts",
       "version": "1.0.0",
@@ -438,6 +552,120 @@
       ],
       "added": "2026-02-22",
       "updated": "2026-02-22"
+    },
+    {
+      "name": "blues_brothers",
+      "display_name": "Blues Brothers",
+      "version": "1.0.0",
+      "description": "The full Blues Brothers experience.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 9,
+      "total_size_bytes": 568709,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "blues_brothers",
+      "manifest_sha256": "888ce02708aa3fc84dc2c1438fac9b01b9a6886a2a9a280052cef3a8a7f94c78",
+      "tags": [
+        "movie-quotes",
+        "the-blues-brothers"
+      ],
+      "preview_sounds": [
+        "106_test.mp3",
+        "band_is_back_together.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "blues_brothers_elwood",
+      "display_name": "Elwood Blues",
+      "version": "1.0.0",
+      "description": "Deadpan delivery, all business.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 11,
+      "total_size_bytes": 421572,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "blues_brothers_elwood",
+      "manifest_sha256": "897a1aa354e140e54b37fd016956a414361f6e2b691f3977f8f922b4451a9be2",
+      "tags": [
+        "movie-quotes",
+        "the-blues-brothers"
+      ],
+      "preview_sounds": [
+        "106_miles_to_chicago.mp3",
+        "cop_motor.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "blues_brothers_jake",
+      "display_name": "Jake Blues",
+      "version": "1.0.0",
+      "description": "Scheming, devout (sort of), on a mission from God.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 731153,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "blues_brothers_jake",
+      "manifest_sha256": "cad55f46079fd6ecf6b96c29c503e236be7d5442f82891e96fd2007ba05fc87d",
+      "tags": [
+        "movie-quotes",
+        "the-blues-brothers"
+      ],
+      "preview_sounds": [
+        "are_you_the_police.mp3",
+        "band_is_back_together.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     },
     {
       "name": "brewmaster_ru",
@@ -1558,6 +1786,196 @@
       "updated": "2026-02-19"
     },
     {
+      "name": "lebowski_big_lebowski",
+      "display_name": "The Big Lebowski",
+      "version": "1.0.0",
+      "description": "Wealthy bluster and achievement-worship.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 13,
+      "total_size_bytes": 546568,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "lebowski_big_lebowski",
+      "manifest_sha256": "9a9e9fec9265bdefcc511a3a419ff6ea51911e810303ce167df9ede7698e6a99",
+      "tags": [
+        "movie-quotes",
+        "the-big-lebowski"
+      ],
+      "preview_sounds": [
+        "achievers.mp3",
+        "are_you_employed_sir.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "lebowski_jesus",
+      "display_name": "Jesus Quintana",
+      "version": "1.0.0",
+      "description": "Nobody fucks with the Jesus. Maximum intimidation, minimum vocabulary.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 12,
+      "total_size_bytes": 294790,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "lebowski_jesus",
+      "manifest_sha256": "c3c5b1607626fb0dd44fe4e9746f8af0da770738c14b0e2dd74f22dbf6165a88",
+      "tags": [
+        "movie-quotes",
+        "the-big-lebowski"
+      ],
+      "preview_sounds": [
+        "date_wednesday_baby.mp3",
+        "gonna_fuck_you_up.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "lebowski_maude",
+      "display_name": "Maude Lebowski",
+      "version": "1.0.0",
+      "description": "Intellectual condescension as a notification sound.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 10,
+      "total_size_bytes": 269108,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "lebowski_maude",
+      "manifest_sha256": "48960085e8a8b7d79198210ecdd0d1ca8a729b69812401e5d82110d87526eef3",
+      "tags": [
+        "movie-quotes",
+        "the-big-lebowski"
+      ],
+      "preview_sounds": [
+        "dont_be_fatuous.mp3",
+        "good_man_and_thorough.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "lebowski_the_dude",
+      "display_name": "The Dude",
+      "version": "1.0.0",
+      "description": "The Dude abides... as your coding notification.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 21,
+      "total_size_bytes": 863177,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "lebowski_the_dude",
+      "manifest_sha256": "c72f452eb2bb2fd2dd465c3e2d356c057c7dec8d30156aecd4c17aef28175049",
+      "tags": [
+        "movie-quotes",
+        "the-big-lebowski"
+      ],
+      "preview_sounds": [
+        "aggression_will_not_stand.mp3",
+        "far_out_man.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "lebowski_walter",
+      "display_name": "Walter Sobchak",
+      "version": "1.0.0",
+      "description": "Unhinged Vietnam veteran energy for your coding errors.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 19,
+      "total_size_bytes": 713341,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "lebowski_walter",
+      "manifest_sha256": "26acbd424f2e68a13529e7c75cbfac585959710c538f257c260769a61b15c17d",
+      "tags": [
+        "movie-quotes",
+        "the-big-lebowski"
+      ],
+      "preview_sounds": [
+        "calmer_than_you_are.mp3",
+        "dont_roll_on_shabbos.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
@@ -1819,6 +2237,120 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "office_space",
+      "display_name": "Office Space",
+      "version": "1.0.0",
+      "description": "Office Space ensemble - Milton, the Bobs, and more.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 12,
+      "total_size_bytes": 367520,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "office_space",
+      "manifest_sha256": "40b7ef9903be0d005d15ffe9bc6e002fbab720f9ec8fff7cd700526006413941",
+      "tags": [
+        "movie-quotes",
+        "office-space"
+      ],
+      "preview_sounds": [
+        "believe_you_have_my_stapler.mp3",
+        "bob_slydell.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "office_space_lumbergh",
+      "display_name": "Bill Lumbergh",
+      "version": "1.0.0",
+      "description": "Yeah, that would be great.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 713560,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "office_space_lumbergh",
+      "manifest_sha256": "79906a54d3d39197a08eb0fd64cf7bd638078889cacdb5a9b137b4a10d0b2905",
+      "tags": [
+        "movie-quotes",
+        "office-space"
+      ],
+      "preview_sounds": [
+        "come_in_on_saturday.mp3",
+        "come_in_on_sunday.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "office_space_peter",
+      "display_name": "Peter Gibbons",
+      "version": "1.0.0",
+      "description": "Corporate soul-death as notification sounds.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 768664,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "office_space_peter",
+      "manifest_sha256": "f2e0df659d91d97a614426ef894cb91df8dafaf856a3efaec87b5cd64ad9c046",
+      "tags": [
+        "movie-quotes",
+        "office-space"
+      ],
+      "preview_sounds": [
+        "case_of_the_mondays.mp3",
+        "dont_care_if_laid_off.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     },
     {
       "name": "omar",
@@ -3615,6 +4147,158 @@
       "updated": "2026-02-23"
     },
     {
+      "name": "starship_rasczak",
+      "display_name": "Lt. Rasczak",
+      "version": "1.0.0",
+      "description": "Grizzled teacher-turned-warrior tough love.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 10,
+      "total_size_bytes": 423370,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "starship_rasczak",
+      "manifest_sha256": "26305ea447c345ea93fee9a7974a1717e7bab24f0ae9a9296ef627bf70bfc807",
+      "tags": [
+        "movie-quotes",
+        "starship-troopers"
+      ],
+      "preview_sounds": [
+        "civilian_vs_citizen.mp3",
+        "come_on_you_apes.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "starship_rico",
+      "display_name": "Johnny Rico",
+      "version": "1.0.0",
+      "description": "Gung-ho military propaganda energy for your code.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 461806,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "starship_rico",
+      "manifest_sha256": "10e7d28007e4c1bed02f8ea789c11e1915d1802c66e0f3bee79d6c7919aa208e",
+      "tags": [
+        "movie-quotes",
+        "starship-troopers"
+      ],
+      "preview_sounds": [
+        "buenos_aires_kill_em_all.mp3",
+        "for_all_you_new_people.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "super_troopers",
+      "display_name": "Super Troopers",
+      "version": "1.0.0",
+      "description": "Vermont highway patrol chaos.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 14,
+      "total_size_bytes": 615432,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "super_troopers",
+      "manifest_sha256": "ad7ad6ece22cb07aa0781935d51ae1c46cfd2aab4fde316cac810f3bbd85c529",
+      "tags": [
+        "movie-quotes",
+        "super-troopers"
+      ],
+      "preview_sounds": [
+        "chicken_fucker.mp3",
+        "desperation_stinky_cologne.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "super_troopers_farva",
+      "display_name": "Farva",
+      "version": "1.0.0",
+      "description": "The coworker nobody asked for.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 8,
+      "total_size_bytes": 363768,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "super_troopers_farva",
+      "manifest_sha256": "c8f8482162c8fa9a2638ae1625d3da619e7dc4198778d672ea93d1828900ce47",
+      "tags": [
+        "movie-quotes",
+        "super-troopers"
+      ],
+      "preview_sounds": [
+        "car_ramrod.mp3",
+        "goddamn_liter_of_cola.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
@@ -4451,6 +5135,82 @@
       ],
       "added": "2026-02-20",
       "updated": "2026-02-20"
+    },
+    {
+      "name": "zoolander_derek",
+      "display_name": "Derek Zoolander",
+      "version": "1.0.0",
+      "description": "Really, really, ridiculously good looking notifications.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 439011,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "zoolander_derek",
+      "manifest_sha256": "5dd2bbe112cb5a087817b587c3452ada098477bc07915922cdc0f0d40018d8dc",
+      "tags": [
+        "movie-quotes",
+        "zoolander"
+      ],
+      "preview_sounds": [
+        "but_why_male_models.mp3",
+        "but_why_male_models_1.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
+    },
+    {
+      "name": "zoolander_hansel",
+      "display_name": "Hansel",
+      "version": "1.0.0",
+      "description": "So hot right now.",
+      "author": {
+        "name": "Willow Billock",
+        "github": "MattBillock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 13,
+      "total_size_bytes": 453569,
+      "source_repo": "MattBillock/openpeon-movie-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "zoolander_hansel",
+      "manifest_sha256": "d6dd9d56390c484a0fa82fd2ae800e77dc6d4a514a6d115ef173de682984daee",
+      "tags": [
+        "movie-quotes",
+        "zoolander"
+      ],
+      "preview_sounds": [
+        "excuse_me_bro.mp3",
+        "gasoline_fight_accident.mp3"
+      ],
+      "added": "2026-02-25",
+      "updated": "2026-02-25"
     }
   ],
   "total_packs": 86
