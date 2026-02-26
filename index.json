@@ -1358,7 +1358,7 @@
       "sound_count": 20,
       "total_size_bytes": 538432,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.3.0",
       "source_path": "dota2_axe",
       "manifest_sha256": "5c1dd1cdc3c1517ca7c554b9bab4b5ca22f99ba3cc625ec7e4c527bd266b28a8",
       "tags": [
@@ -3044,7 +3044,7 @@
       "sound_count": 25,
       "total_size_bytes": 1117894,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.3.0",
       "source_path": "peon_ru",
       "manifest_sha256": "05b0076d2f5601f6bc9b6a493440b5e7b98d200b979e77a955e7f22d5b7aa886",
       "tags": [
@@ -3530,7 +3530,7 @@
       "sound_count": 17,
       "total_size_bytes": 544489,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v2.0.0",
+      "source_ref": "v1.3.0",
       "source_path": "sc_firebat",
       "manifest_sha256": "1820390815ee8f591608b2fda4c6990de121b6f35bacb856ed6bdf17b6dd14e0",
       "tags": [
@@ -3723,7 +3723,7 @@
       "sound_count": 16,
       "total_size_bytes": 475901,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v2.0.0",
+      "source_ref": "v1.3.0",
       "source_path": "sc_medic",
       "manifest_sha256": "635cab7ea7dffc208570da319edd9e4fd048900caa736f0af016a1ae8b6ab558",
       "tags": [
@@ -3840,7 +3840,7 @@
       "sound_count": 14,
       "total_size_bytes": 420226,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "v2.0.0",
+      "source_ref": "v1.3.0",
       "source_path": "sc_tank",
       "manifest_sha256": "e0bbef8c48dc7a4459b129bb9cd5c691bba8e98437c98482fa81079d0b6d2842",
       "tags": [
