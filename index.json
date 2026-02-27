@@ -489,6 +489,48 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "aom-italian",
+      "display_name": "Age of Mythology - Italian",
+      "version": "1.0.0",
+      "description": "Italian voice lines from Age of Mythology campaign: Arkantos, Ajax, Amanra, Kastor, Chirone and more",
+      "author": {
+        "name": "f-liva",
+        "github": "f-liva"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "task.progress",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "it",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 64,
+      "total_size_bytes": 1305582,
+      "source_repo": "f-liva/openpeon-aom-italian",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "36722f8624fe7195e6f8fd53357ddd8c3146d63aff619cbf2fca9c38d6e4ecb2",
+      "tags": [
+        "gaming",
+        "age-of-mythology",
+        "italian",
+        "rts"
+      ],
+      "preview_sounds": [
+        "arkantos-bene-cosi.mp3",
+        "ajax-era-ora.mp3"
+      ],
+      "added": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
       "name": "aom_greek",
       "display_name": "Age of Mythology - Greek Villager",
       "version": "1.0.0",
