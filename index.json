@@ -2450,6 +2450,41 @@
       "updated": "2026-02-20"
     },
     {
+      "name": "mullemeck",
+      "display_name": "Mulle Meck (SV)",
+      "version": "1.0.0",
+      "description": "Mulle meck is eager to build!",
+      "author": {
+        "name": "zyk",
+        "github": "zyk"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "session.end"
+      ],
+      "language": "sv",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 18,
+      "total_size_bytes": 330387,
+      "source_repo": "zyk/openpeon-mullemeck",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "80c6e90dd90033f41df6515006894c2d0d844dcd3d6c7ce857ade13993d8e1fd",
+      "tags": [
+        "gaming"
+      ],
+      "preview_sounds": [
+        "molijoxer_och_mojanger.mp3"
+      ],
+      "added": "2026-02-28",
+      "updated": "2026-02-28"
+    },
+    {
       "name": "murloc",
       "display_name": "Murloc",
       "version": "1.0.0",
