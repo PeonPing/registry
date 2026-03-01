@@ -5041,6 +5041,47 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "the-big-lebowski",
+      "display_name": "The Big Lebowski",
+      "version": "1.0.0",
+      "description": "The Dude abides. Iconic lines from The Big Lebowski.",
+      "author": {
+        "name": "Taylan Aydinli",
+        "github": "taylanaydinli"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 160,
+      "total_size_bytes": 6095239,
+      "source_repo": "taylan/openpeon-the-big-lebowski",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "d20f53a2b3f1cf1be898f5ed2cf34fdcfd89978b5745e682c4cf2fc0afa94d3a",
+      "tags": [
+        "movie",
+        "comedy",
+        "coen-brothers"
+      ],
+      "preview_sounds": [
+        "001-the-dude-abides.mp3",
+        "103-shut-the-fuck-up-donny.mp3"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
       "name": "totally-spies-fr",
       "display_name": "Totally spies (FR)",
       "version": "1.0.1",
