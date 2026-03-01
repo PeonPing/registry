@@ -3656,7 +3656,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_abathur",
-      "manifest_sha256": "bae5109d010be0c3a43a8729f08fe609aa5f9106bb58f0a4741cc6ab92905445",
+      "manifest_sha256": "27575eba14aa7aa695a3f4b9e3f4eb87f849ab889a6312aa08ddfc8edbeaea8f",
       "tags": [
         "gaming",
         "starcraft",
@@ -3700,7 +3700,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_abathur_zh",
-      "manifest_sha256": "b69cab4649c2408e8a36afd8e6d728f446d607985a2afaae44b49e63a9d708f2",
+      "manifest_sha256": "449c9b309fd9077fa4cca2572856be175bb0552fc921b758e36e294653b5b099",
       "tags": [
         "gaming",
         "starcraft",
@@ -3746,7 +3746,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_alarak",
-      "manifest_sha256": "1696e35cee5a104b74fc5ade0e86e89e3341b698dc1d00894d81d376d76c31f4",
+      "manifest_sha256": "2e643c1b6c53488cbf161fc43638b1a7adb5e8554531cea791802842afb567db",
       "tags": [
         "gaming",
         "starcraft",
@@ -3791,7 +3791,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_alarak_zh",
-      "manifest_sha256": "46fba38f1ada48c9256a1a646bf867162aa7e4cb7fa930506e9d405c2d0a7521",
+      "manifest_sha256": "f9910fcc3b7bef3070cfa84d80cde0e3c3a4e5cb56aaa31c5c6d9fb139ed4de4",
       "tags": [
         "gaming",
         "starcraft",
@@ -3916,7 +3916,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_stetmann",
-      "manifest_sha256": "78518865ec049daa8eeec2b704280a2d10b894afc903d349a9f172bd65ae198b",
+      "manifest_sha256": "a6879bff8143e3ca8b35b94dc910247426cc0488143c8ebb3c57c884d6abea5c",
       "tags": [
         "gaming",
         "starcraft",
@@ -3961,7 +3961,7 @@
       "source_repo": "AlexZhangji/peon-ping-sc2",
       "source_ref": "v1.0.0",
       "source_path": "sc2_stetmann_zh",
-      "manifest_sha256": "0c619e9c02c0d388bb498a2beba8b107e1a5ae284c8cdb40a58f187067a03dca",
+      "manifest_sha256": "98f1927720879e58525807e13c922bec503a2befab5deaf3442c21fbed6bb050",
       "tags": [
         "gaming",
         "starcraft",
