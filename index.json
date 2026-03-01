@@ -43,7 +43,7 @@
     },
     {
       "name": "acolyte_es",
-      "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
+      "display_name": "Ac\u00f3lito Muertos Vivientes Warcraft III (ES)",
       "version": "1.0.2",
       "description": "Spanish Undead Acolyte sound pack from Warcraft III",
       "author": {
@@ -123,9 +123,9 @@
     },
     {
       "name": "ae_qianyu",
-      "display_name": "明日方舟:终末地 陈千语",
+      "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
       "version": "1.0.4",
-      "description": "明日方舟:终末地 陈千语 语音包",
+      "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -149,7 +149,7 @@
       "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
       "tags": [
         "gaming",
-        "明日方舟:终末地",
+        "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
         "arknights:endfield"
       ],
       "preview_sounds": [
@@ -650,9 +650,9 @@
     },
     {
       "name": "arthas_ru",
-      "display_name": "Артас Рыцарь Смерти (Russian)",
+      "display_name": "\u0410\u0440\u0442\u0430\u0441 \u0420\u044b\u0446\u0430\u0440\u044c \u0421\u043c\u0435\u0440\u0442\u0438 (Russian)",
       "version": "1.0.0",
-      "description": "WC3 Death Knight Arthas — all 20 Russian voice lines mapped to CESP categories",
+      "description": "WC3 Death Knight Arthas \u2014 all 20 Russian voice lines mapped to CESP categories",
       "author": {
         "name": "samokay",
         "github": "samokay"
@@ -1020,7 +1020,7 @@
       "name": "charlie_sheen",
       "display_name": "Charlie Sheen",
       "version": "1.0.0",
-      "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
+      "description": "Charlie Sheen's iconic interview quotes \u2014 Winning, tiger blood, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -1420,7 +1420,7 @@
       "name": "dota2_ember_spirit",
       "display_name": "Ember Spirit (Dota 2)",
       "version": "1.0.0",
-      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
+      "description": "Ember Spirit (Dota 2) sound pack \u2014 'Balance in all things.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -1460,7 +1460,7 @@
       "name": "dota2_invoker",
       "display_name": "Invoker (Dota 2)",
       "version": "1.0.0",
-      "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
+      "description": "Invoker (Dota 2) sound pack \u2014 'So begins a new age of knowledge.'",
       "author": {
         "name": "bwarren2",
         "github": "bwarren2"
@@ -1500,7 +1500,7 @@
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
-      "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
+      "description": "Phantom Lancer (Dota 2) sound pack \u2014 'From one: an army.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -1540,7 +1540,7 @@
       "name": "dota2_witch_doctor",
       "display_name": "Witch Doctor (Dota 2)",
       "version": "1.0.0",
-      "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
+      "description": "Witch Doctor (Dota 2) sound pack \u2014 'De Doctor is in!'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -1580,7 +1580,7 @@
       "name": "dota2_zeus",
       "display_name": "Zeus (Dota 2)",
       "version": "1.0.0",
-      "description": "Zeus (Dota 2) sound pack — 'Your god has arrived.'",
+      "description": "Zeus (Dota 2) sound pack \u2014 'Your god has arrived.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2267,9 +2267,9 @@
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
-      "description": "Legendary quotes of Marcel Merčiak.",
+      "description": "Legendary quotes of Marcel Mer\u010diak.",
       "author": {
-        "name": "Marián Čamák",
+        "name": "Mari\u00e1n \u010cam\u00e1k",
         "github": "mcamak"
       },
       "trust_tier": "community",
@@ -2302,11 +2302,11 @@
     },
     {
       "name": "milujipraci",
-      "display_name": "Miluji Práci",
+      "display_name": "Miluji Pr\u00e1ci",
       "version": "1.0.0",
-      "description": "Legendary quotes of Luboš fixing Lakatoš.",
+      "description": "Legendary quotes of Lubo\u0161 fixing Lakato\u0161.",
       "author": {
-        "name": "František Záhora",
+        "name": "Franti\u0161ek Z\u00e1hora",
         "github": "arguit"
       },
       "trust_tier": "community",
@@ -2340,7 +2340,7 @@
       "version": "1.0.1",
       "description": "Villager sound pack from Minecraft.",
       "author": {
-        "name": "Eric Keränen",
+        "name": "Eric Ker\u00e4nen",
         "github": "Mahamurahti"
       },
       "trust_tier": "community",
@@ -2774,9 +2774,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
-      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -2974,9 +2974,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
-      "description": "Orčí peón (CZ) sound pack from Warcraft III",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -3299,7 +3299,7 @@
       "name": "protoss",
       "display_name": "Protoss (StarCraft)",
       "version": "1.0.0",
-      "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
+      "description": "StarCraft Protoss voice lines and sound effects \u2014 en taro Adun!",
       "author": {
         "name": "Cody Born",
         "github": "codyborn"
@@ -3745,7 +3745,7 @@
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
       "version": "2.0.0",
-      "description": "StarCraft Firebat sound pack — 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
+      "description": "StarCraft Firebat sound pack \u2014 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -3898,7 +3898,7 @@
       "name": "sc_marine",
       "display_name": "StarCraft Marine",
       "version": "1.0.0",
-      "description": "StarCraft Marine sound pack — iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
+      "description": "StarCraft Marine sound pack \u2014 iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -3938,7 +3938,7 @@
       "name": "sc_medic",
       "display_name": "StarCraft Medic",
       "version": "2.0.0",
-      "description": "StarCraft Medic sound pack — 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
+      "description": "StarCraft Medic sound pack \u2014 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -4015,7 +4015,7 @@
       "name": "sc_scv",
       "display_name": "StarCraft SCV",
       "version": "2.0.0",
-      "description": "StarCraft SCV sound pack — expanded with 19 sounds across all 7 CESP categories",
+      "description": "StarCraft SCV sound pack \u2014 expanded with 19 sounds across all 7 CESP categories",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -4055,7 +4055,7 @@
       "name": "sc_tank",
       "display_name": "StarCraft Siege Tank",
       "version": "2.0.0",
-      "description": "StarCraft Siege Tank sound pack — 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
+      "description": "StarCraft Siege Tank sound pack \u2014 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -4285,7 +4285,7 @@
       "name": "silicon_valley",
       "display_name": "Silicon Valley",
       "version": "2.2.0",
-      "description": "Quotes from Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by «Кубик в кубике» (59 clips with swearing)",
+      "description": "Quotes from Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by \u00ab\u041a\u0443\u0431\u0438\u043a \u0432 \u043a\u0443\u0431\u0438\u043a\u0435\u00bb (59 clips with swearing)",
       "author": {
         "name": "rustam",
         "github": "fortunto2"
@@ -4415,9 +4415,9 @@
       "name": "southpark-fr",
       "display_name": "South Park Fr",
       "version": "1.0.0",
-      "description": "Sons issus de la boîte à South Park (VF Game One)",
+      "description": "Sons issus de la bo\u00eete \u00e0 South Park (VF Game One)",
       "author": {
-        "name": "Clément",
+        "name": "Cl\u00e9ment",
         "github": "Telmalk"
       },
       "trust_tier": "community",
@@ -4457,7 +4457,7 @@
       "name": "speaki",
       "display_name": "Petite Speaki",
       "version": "1.0.0",
-      "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
+      "description": "Petite Speaki voice pack from Trickcal Chibi Go \u2014 adorable Korean character sounds for your coding sessions",
       "author": {
         "name": "cjna",
         "github": "CJNA"
@@ -4540,9 +4540,9 @@
     },
     {
       "name": "starrail-kafka-peon-pack",
-      "display_name": "崩坏星穹铁道-卡芙卡语音包",
+      "display_name": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
       "version": "1.0.1",
-      "description": "崩坏星穹铁道-卡芙卡语音包",
+      "description": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
       "author": {
         "name": "0w0miki",
         "github": "0w0miki"
@@ -4664,6 +4664,646 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "stronghold-abbot",
+      "display_name": "The Abbot (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Abbot voice lines from Stronghold Crusader \u2014 scheming monastery lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 14,
+      "total_size_bytes": 632044,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-abbot",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e508bd071d3588b3366c4f53adcfa536547e642d3300d88b197e5aa68b88065e",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ab_add_player_01.wav",
+        "ab_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-caliph",
+      "display_name": "The Caliph (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Caliph voice lines from Stronghold Crusader \u2014 fierce desert warlord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 573128,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-caliph",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "2485102d79dbd44fe54838417adeec3d412abe72cda3bac8a425c4d54be5015c",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ca_add_player_01.wav",
+        "ca_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-emir",
+      "display_name": "The Emir (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Emir voice lines from Stronghold Crusader \u2014 cautious Arabian ally",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 592932,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-emir",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "97f273510f6fa2996d4892b5670bb9ceb8765f48305670c0a937c04742b7b64d",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "em_add_player_01.wav",
+        "em_vict_02.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-frederick",
+      "display_name": "Emperor Frederick (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "Emperor Frederick voice lines from Stronghold Crusader \u2014 imperial European lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 691176,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-frederick",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "11aa20e629093fc3e9fd0e85060bdc018615aa869c08bfcdbd4ecee75fdde6f6",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "fr_add_player_01.wav",
+        "fr_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-marshal",
+      "display_name": "The Marshal (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Marshal voice lines from Stronghold Crusader \u2014 gruff military commander",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 559604,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-marshal",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "289cb74a33869bdfff83ffa41d7dcc81c45bc991ce8cc941d8e8bf150b598b8b",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ma_add_player_01.wav",
+        "ma_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-nizar",
+      "display_name": "Nizar (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "Nizar voice lines from Stronghold Crusader \u2014 mysterious assassin lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 526252,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-nizar",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "8f2f2b9bbc03f4417bfa1636df7a1820e7dd338143e8684ebda93913562813c1",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ni_add_player_01.wav",
+        "ni_vict_04.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-philip",
+      "display_name": "King Philip (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "King Philip voice lines from Stronghold Crusader \u2014 vain French king",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 730976,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-philip",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0e6f44c4d8d5a7739374318ceef044c02ff3eeb7d71bebfb2ce98c61aa966707",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ph_add_player_01.wav",
+        "ph_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-pig",
+      "display_name": "The Pig (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Pig voice lines from Stronghold Crusader \u2014 brutal villain lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 974852,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-pig",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e232aca1ac6098fa5b32ba55948640a422f8e5b1676560aa8ad4f063c05dbd31",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "pg_add_player.wav",
+        "pg_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-rat",
+      "display_name": "The Rat (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Rat voice lines from Stronghold Crusader \u2014 scheming cowardly villain",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 1229628,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-rat",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "81ebfb8f4aa0e3be2c1f709c6ded198eddd54062ec43b4fc1dd3dbea03720e4e",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "rt_add_player.wav",
+        "rt_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-richard",
+      "display_name": "Richard the Lionheart (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "Richard the Lionheart voice lines from Stronghold Crusader \u2014 noble crusader king",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 632016,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-richard",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a65b997b7207ffc7325e20f42c4bbb4090423ee402cfc3d117b1737a1dba9a14",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "ri_add_player_01.wav",
+        "ri_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-saladin",
+      "display_name": "Saladin (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "Saladin voice lines from Stronghold Crusader \u2014 honourable opposing sultan",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 695456,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-saladin",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "81e8a8a7068f3328fee3dcb384545144c9a64618bdfca2bd468e3098f23b3c41",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "sa_add_player_01.wav",
+        "sa_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-sheriff",
+      "display_name": "The Sheriff (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Sheriff voice lines from Stronghold Crusader \u2014 greedy villain lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 17,
+      "total_size_bytes": 681348,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-sheriff",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "7bf9ebf1eb7cf42efa0a258e08659783248ec3eec4beb05bb8eb57c8dfdcc643",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "sh_add_player_01.wav",
+        "sh_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-snake",
+      "display_name": "The Snake (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Snake voice lines from Stronghold Crusader \u2014 sly manipulative villain",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 810120,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-snake",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "181fc51d31c140d5c0fbaa01e841f0b37b36f17937ff17093c325f55e3fe1098",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "sn_add_player.wav",
+        "sn_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-sultan",
+      "display_name": "The Sultan (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Sultan voice lines from Stronghold Crusader \u2014 poetic Arabian ally",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 741172,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-sultan",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "cc6c0c17ea47ffc772caf2f1c2f57f81d384e6f7afda84c4d1892d93dd8913cd",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "su_add_player_01.wav",
+        "su_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-wazir",
+      "display_name": "The Wazir (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Wazir voice lines from Stronghold Crusader \u2014 aggressive desert ally",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 16,
+      "total_size_bytes": 614516,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-wazir",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0a570b59120ade5e8212b5da35659693d5c7078226db0243dbed52c88f96a6ce",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "wa_add_player_01.wav",
+        "wa_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "stronghold-wolf",
+      "display_name": "The Wolf (Stronghold Crusader)",
+      "version": "1.0.0",
+      "description": "The Wolf voice lines from Stronghold Crusader \u2014 ruthless villain lord",
+      "author": {
+        "name": "Marko Jevic",
+        "github": "koyev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 15,
+      "total_size_bytes": 694048,
+      "source_repo": "openpeon-stronghold/openpeon-stronghold-wolf",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "78ad857b195c6fa9916669f901f018bd3bbbe78aad81fd8eba1749a9347deca9",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly"
+      ],
+      "preview_sounds": [
+        "wf_add_player.wav",
+        "wf_vict_01.wav"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
       "name": "super_troopers",
       "display_name": "Super Troopers",
       "version": "1.0.0",
@@ -4752,7 +5392,7 @@
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
-      "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
+      "description": "Tekken 3 announcer voice lines \u2014 Fight, K.O., You win!, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -5155,7 +5795,7 @@
       "name": "warcraft3-czech",
       "display_name": "Warcraft III - Czech Peasant & Knight",
       "version": "1.0.0",
-      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
+      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Hur\u00e1\u00e1\u00e1\u00e1 do pr\u00e1ce!",
       "author": {
         "name": "Tomas Pflanzer",
         "github": "gizmax"
@@ -5195,7 +5835,7 @@
       "name": "warcraft3-mix",
       "display_name": "Warcraft III Mix CZ",
       "version": "1.0.0",
-      "description": "Mix ikonických českých hlášek z Warcraft III od různých jednotek a hrdinů.",
+      "description": "Mix ikonick\u00fdch \u010desk\u00fdch hl\u00e1\u0161ek z Warcraft III od r\u016fzn\u00fdch jednotek a hrdin\u016f.",
       "author": {
         "name": "SgtMarmite",
         "github": "SgtMarmite"
@@ -5514,7 +6154,7 @@
       "name": "wolf-et-pack",
       "display_name": "Wolf:ET Pack",
       "version": "1.0.0",
-      "description": "Wolfenstein: Enemy Territory HQ command voiceovers — Allied and Axis variants",
+      "description": "Wolfenstein: Enemy Territory HQ command voiceovers \u2014 Allied and Axis variants",
       "author": {
         "name": "Graham Mackie",
         "github": "gmackie"
