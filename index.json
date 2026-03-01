@@ -4708,7 +4708,7 @@
     {
       "name": "stronghold-abbot",
       "display_name": "The Abbot (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Abbot voice lines from Stronghold Crusader — scheming monastery lord",
       "author": {
         "name": "Marko Jevic",
@@ -4729,7 +4729,7 @@
       "sound_count": 14,
       "total_size_bytes": 632044,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-abbot",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "a1edd8950bfac88b4af48153d99e547c62d559e2d90f1500f9177092329d3138",
       "tags": [
@@ -4748,7 +4748,7 @@
     {
       "name": "stronghold-caliph",
       "display_name": "The Caliph (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Caliph voice lines from Stronghold Crusader — fierce desert warlord",
       "author": {
         "name": "Marko Jevic",
@@ -4769,7 +4769,7 @@
       "sound_count": 15,
       "total_size_bytes": 573128,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-caliph",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "66a44434883063793689cb4fb0cb077350e3ff46bd548f0ac36aae000aba7bfb",
       "tags": [
@@ -4788,7 +4788,7 @@
     {
       "name": "stronghold-emir",
       "display_name": "The Emir (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Emir voice lines from Stronghold Crusader — cautious Arabian ally",
       "author": {
         "name": "Marko Jevic",
@@ -4809,7 +4809,7 @@
       "sound_count": 15,
       "total_size_bytes": 592932,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-emir",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "9f1cda7e93ed2c66cf843a74f0e611fc91a50e1f4602d5e53c78ee4214eb9874",
       "tags": [
@@ -4828,7 +4828,7 @@
     {
       "name": "stronghold-frederick",
       "display_name": "Emperor Frederick (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Emperor Frederick voice lines from Stronghold Crusader — imperial European lord",
       "author": {
         "name": "Marko Jevic",
@@ -4849,7 +4849,7 @@
       "sound_count": 16,
       "total_size_bytes": 691176,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-frederick",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "e4d338048466188e71e9e365f7a68f7043815cc428d73da934493230e50a3c27",
       "tags": [
@@ -4868,7 +4868,7 @@
     {
       "name": "stronghold-marshal",
       "display_name": "The Marshal (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Marshal voice lines from Stronghold Crusader — gruff military commander",
       "author": {
         "name": "Marko Jevic",
@@ -4889,7 +4889,7 @@
       "sound_count": 16,
       "total_size_bytes": 559604,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-marshal",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "bae00c488e968d178e9a3bf3fcbd16024a3b38901e4eb46109f6387692afe0d1",
       "tags": [
@@ -4908,7 +4908,7 @@
     {
       "name": "stronghold-nizar",
       "display_name": "Nizar (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Nizar voice lines from Stronghold Crusader — mysterious assassin lord",
       "author": {
         "name": "Marko Jevic",
@@ -4929,7 +4929,7 @@
       "sound_count": 15,
       "total_size_bytes": 526252,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-nizar",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "9afc56969581fe2594d0d97ca174f191c29448c8f3e87ad431abc4d8c28e395e",
       "tags": [
@@ -4948,7 +4948,7 @@
     {
       "name": "stronghold-philip",
       "display_name": "King Philip (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "King Philip voice lines from Stronghold Crusader — vain French king",
       "author": {
         "name": "Marko Jevic",
@@ -4969,7 +4969,7 @@
       "sound_count": 15,
       "total_size_bytes": 730976,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-philip",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "fc5b132916fbc5281c0691f29fd10be37dd528f2efe409e59d9592b90562f886",
       "tags": [
@@ -4988,7 +4988,7 @@
     {
       "name": "stronghold-pig",
       "display_name": "The Pig (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Pig voice lines from Stronghold Crusader — brutal villain lord",
       "author": {
         "name": "Marko Jevic",
@@ -5009,7 +5009,7 @@
       "sound_count": 16,
       "total_size_bytes": 974852,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-pig",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "93b46e16a3d80d5bc69a23fc61d8d89e8807f9856c4212a7fc7fb3c604586bf7",
       "tags": [
@@ -5028,7 +5028,7 @@
     {
       "name": "stronghold-rat",
       "display_name": "The Rat (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Rat voice lines from Stronghold Crusader — scheming cowardly villain",
       "author": {
         "name": "Marko Jevic",
@@ -5049,7 +5049,7 @@
       "sound_count": 16,
       "total_size_bytes": 1229628,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-rat",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "dbf0b6650707af881fe1c852fe2e89ce23c4630035c6fb2086f7f6ef15b61952",
       "tags": [
@@ -5068,7 +5068,7 @@
     {
       "name": "stronghold-richard",
       "display_name": "Richard the Lionheart (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Richard the Lionheart voice lines from Stronghold Crusader — noble crusader king",
       "author": {
         "name": "Marko Jevic",
@@ -5089,7 +5089,7 @@
       "sound_count": 17,
       "total_size_bytes": 632016,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-richard",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "eb6841797c1f05eaaba4e8b38d7306de416f6b41da84f3e9ba9e9ff474073710",
       "tags": [
@@ -5108,7 +5108,7 @@
     {
       "name": "stronghold-saladin",
       "display_name": "Saladin (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Saladin voice lines from Stronghold Crusader — honourable opposing sultan",
       "author": {
         "name": "Marko Jevic",
@@ -5129,7 +5129,7 @@
       "sound_count": 16,
       "total_size_bytes": 695456,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-saladin",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "886a2d121f83cddd6165f2774166fde260d8f5fe988f8ee7c890655d5548b453",
       "tags": [
@@ -5148,7 +5148,7 @@
     {
       "name": "stronghold-sheriff",
       "display_name": "The Sheriff (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Sheriff voice lines from Stronghold Crusader — greedy villain lord",
       "author": {
         "name": "Marko Jevic",
@@ -5169,7 +5169,7 @@
       "sound_count": 17,
       "total_size_bytes": 681348,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-sheriff",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "3eed9c2db8ee4dced7471c237b15ff45d03457e1b5f5b9ddff263a286f093fa2",
       "tags": [
@@ -5188,7 +5188,7 @@
     {
       "name": "stronghold-snake",
       "display_name": "The Snake (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Snake voice lines from Stronghold Crusader — sly manipulative villain",
       "author": {
         "name": "Marko Jevic",
@@ -5209,7 +5209,7 @@
       "sound_count": 15,
       "total_size_bytes": 810120,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-snake",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "835241e341582962a711e6b43f38c62a7ef888f1d05c38383f33de9c92105258",
       "tags": [
@@ -5228,7 +5228,7 @@
     {
       "name": "stronghold-sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Sultan voice lines from Stronghold Crusader — poetic Arabian ally",
       "author": {
         "name": "Marko Jevic",
@@ -5249,7 +5249,7 @@
       "sound_count": 16,
       "total_size_bytes": 741172,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-sultan",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "3d1d674ff86c786b7438dfe4f78ba25d576ac553ae423389bc9537580ec29612",
       "tags": [
@@ -5268,7 +5268,7 @@
     {
       "name": "stronghold-wazir",
       "display_name": "The Wazir (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Wazir voice lines from Stronghold Crusader — aggressive desert ally",
       "author": {
         "name": "Marko Jevic",
@@ -5289,7 +5289,7 @@
       "sound_count": 16,
       "total_size_bytes": 614516,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-wazir",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "afca00bc76509e5bfa3a22438462bb6c382ff188e9a4c2424feedcf4fcd556db",
       "tags": [
@@ -5308,7 +5308,7 @@
     {
       "name": "stronghold-wolf",
       "display_name": "The Wolf (Stronghold Crusader)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The Wolf voice lines from Stronghold Crusader — ruthless villain lord",
       "author": {
         "name": "Marko Jevic",
@@ -5329,7 +5329,7 @@
       "sound_count": 15,
       "total_size_bytes": 694048,
       "source_repo": "openpeon-stronghold/openpeon-stronghold-wolf",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "bdd7d88c4dbdb2d646de21fff3b9fb228a5a6abcc2a61bee9b2e48a72bb3c722",
       "tags": [
