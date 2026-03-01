@@ -2694,7 +2694,7 @@
     {
       "name": "omar",
       "display_name": "Omar Little (The Wire)",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Omar comin'. Iconic Omar Little lines from The Wire.",
       "author": {
         "name": "Taylan Aydinli",
@@ -2717,9 +2717,9 @@
       "sound_count": 32,
       "total_size_bytes": 1075304,
       "source_repo": "taylan/openpeon-omar",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.1.1",
       "source_path": ".",
-      "manifest_sha256": "aa085fa9824dfd3d78676205346368c59d24969b6e86067b5800a9f736b5e32b",
+      "manifest_sha256": "74aab994a66bfa2ddca57acbc40e562dad8b9162319b765e7dbb49cbbc07e860",
       "tags": [
         "tv",
         "the-wire",
@@ -2730,7 +2730,7 @@
         "indeed.mp3"
       ],
       "added": "2026-02-20",
-      "updated": "2026-02-21"
+      "updated": "2026-03-01"
     },
     {
       "name": "peasant",
