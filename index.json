@@ -3630,6 +3630,187 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "sc2_abathur",
+      "display_name": "StarCraft II Abathur",
+      "version": "1.0.0",
+      "description": "Abathur (Evolution Master) voice lines from StarCraft II Co-op Commanders",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 1335193,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_abathur",
+      "manifest_sha256": "bae5109d010be0c3a43a8729f08fe609aa5f9106bb58f0a4741cc6ab92905445",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "zerg",
+        "blizzard",
+        "sc2",
+        "abathur"
+      ],
+      "preview_sounds": [
+        "AbathurCommander_Evolution00.ogg",
+        "AbathurCommander_Thanks00.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "sc2_abathur_zh",
+      "display_name": "StarCraft II Abathur (Chinese)",
+      "version": "1.0.0",
+      "description": "Abathur voice lines from StarCraft II Co-op - Chinese localization",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 1211820,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_abathur_zh",
+      "manifest_sha256": "b69cab4649c2408e8a36afd8e6d728f446d607985a2afaae44b49e63a9d708f2",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "zerg",
+        "blizzard",
+        "sc2",
+        "abathur",
+        "chinese",
+        "zh"
+      ],
+      "preview_sounds": [
+        "AbathurCommander_Evolution00.ogg",
+        "AbathurCommander_Thanks00.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "sc2_alarak",
+      "display_name": "StarCraft II Alarak",
+      "version": "1.0.0",
+      "description": "Alarak (Tal'darim Highlord) voice lines from StarCraft II Co-op Commanders",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 1065856,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_alarak",
+      "manifest_sha256": "1696e35cee5a104b74fc5ade0e86e89e3341b698dc1d00894d81d376d76c31f4",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "protoss",
+        "blizzard",
+        "sc2",
+        "alarak",
+        "taldarim"
+      ],
+      "preview_sounds": [
+        "AlarakCommander_LockFirst00.ogg",
+        "AlarakCommander_StructureOvercharge03.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "sc2_alarak_zh",
+      "display_name": "StarCraft II Alarak (Chinese)",
+      "version": "1.0.0",
+      "description": "Alarak voice lines from StarCraft II Co-op - Chinese localization",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 23,
+      "total_size_bytes": 1203957,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_alarak_zh",
+      "manifest_sha256": "46fba38f1ada48c9256a1a646bf867162aa7e4cb7fa930506e9d405c2d0a7521",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "protoss",
+        "blizzard",
+        "sc2",
+        "alarak",
+        "chinese",
+        "zh"
+      ],
+      "preview_sounds": [
+        "AlarakCommander_LockFirst00.ogg",
+        "AlarakCommander_StructureOvercharge03.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
       "name": "sc2_carrier",
       "display_name": "Carrier (StarCraft II)",
       "version": "1.0.0",
@@ -3707,6 +3888,97 @@
       ],
       "added": "2026-02-14",
       "updated": "2026-02-15"
+    },
+    {
+      "name": "sc2_stetmann",
+      "display_name": "StarCraft II Stetmann",
+      "version": "1.0.0",
+      "description": "Egon Stetmann (Mad Scientist & Gary) voice lines from StarCraft II Co-op Commanders",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 885886,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_stetmann",
+      "manifest_sha256": "78518865ec049daa8eeec2b704280a2d10b894afc903d349a9f172bd65ae198b",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "terran",
+        "blizzard",
+        "sc2",
+        "stetmann",
+        "gary"
+      ],
+      "preview_sounds": [
+        "StetmannCommander_GaryUpgradeComplete02.ogg",
+        "StetmannCommander_Auto_UnitsLost00.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
+    },
+    {
+      "name": "sc2_stetmann_zh",
+      "display_name": "StarCraft II Stetmann (Chinese)",
+      "version": "1.0.0",
+      "description": "Stetmann voice lines from StarCraft II Co-op - Chinese localization",
+      "author": {
+        "name": "AlexZhangji",
+        "github": "AlexZhangji"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 998277,
+      "source_repo": "AlexZhangji/peon-ping-sc2",
+      "source_ref": "v1.0.0",
+      "source_path": "sc2_stetmann_zh",
+      "manifest_sha256": "0c619e9c02c0d388bb498a2beba8b107e1a5ae284c8cdb40a58f187067a03dca",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "terran",
+        "blizzard",
+        "sc2",
+        "stetmann",
+        "chinese",
+        "zh"
+      ],
+      "preview_sounds": [
+        "StetmannCommander_GaryUpgradeComplete02.ogg",
+        "StetmannCommander_Auto_UnitsLost00.ogg"
+      ],
+      "added": "2026-03-01",
+      "updated": "2026-03-01"
     },
     {
       "name": "sc_battlecruiser",
