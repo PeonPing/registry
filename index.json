@@ -4,7 +4,7 @@
         {
             "name": "abbot",
             "display_name": "The Abbot (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Abbot voice lines from Stronghold Crusader \u2014 scheming monastery lord",
             "author": {
                 "name": "Marko Jevic",
@@ -25,9 +25,9 @@
             "sound_count": 14,
             "total_size_bytes": 440163,
             "source_repo": "openpeon-stronghold/abbot",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "e36ef4bdbc2cbc1a676e083bd3baeca15fc98b983f37a3591f5a1a38f5d7594c",
+            "manifest_sha256": "3c0b417aa7da75ebfe4e5a38f4165e49e1d2c959399cb4262c6c89f5445d4722",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -39,7 +39,7 @@
                 "ab_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "acolyte_de",
@@ -899,7 +899,7 @@
         {
             "name": "caliph",
             "display_name": "The Caliph (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Caliph voice lines from Stronghold Crusader \u2014 diplomatic desert lord",
             "author": {
                 "name": "Marko Jevic",
@@ -920,9 +920,9 @@
             "sound_count": 15,
             "total_size_bytes": 411300,
             "source_repo": "openpeon-stronghold/caliph",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "2b1528d2e6ba87583e95f8937f2f4b45fbfa293f6e3aa2b4625d49eeffed2a7d",
+            "manifest_sha256": "79887314dda6b12ea17239243b7fc804d49568dd09ea34103794fb2635c2484a",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -934,7 +934,7 @@
                 "ca_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "cc_commando",
@@ -1777,7 +1777,7 @@
         {
             "name": "emir",
             "display_name": "The Emir (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Emir voice lines from Stronghold Crusader \u2014 fierce Arabian lord",
             "author": {
                 "name": "Marko Jevic",
@@ -1798,9 +1798,9 @@
             "sound_count": 15,
             "total_size_bytes": 447740,
             "source_repo": "openpeon-stronghold/emir",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "1f4ab98fd0cc0614f15836a7ad6fc17ea19d1fe9272bb991874f708cf496736a",
+            "manifest_sha256": "f04d78914cb97fd1efd5073353749b07c7c0cfaa93ffa0e68d25c5f09ec13068",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -1812,7 +1812,7 @@
                 "em_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "eve-walle",
@@ -1857,7 +1857,7 @@
         {
             "name": "frederick",
             "display_name": "Emperor Frederick (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "Emperor Frederick voice lines from Stronghold Crusader \u2014 noble crusader emperor",
             "author": {
                 "name": "Marko Jevic",
@@ -1878,9 +1878,9 @@
             "sound_count": 16,
             "total_size_bytes": 492354,
             "source_repo": "openpeon-stronghold/frederick",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "ce79802bcd528a65c4d0d8d07efa1e4bb326180f0d7367fae542eaaaf9d01065",
+            "manifest_sha256": "5664f21f012a223e99acade238ae05b5067bf4a1b890a4fce9fe49dd1a1ee608",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -1892,7 +1892,7 @@
                 "fr_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "futurama_bender",
@@ -2506,7 +2506,7 @@
         {
             "name": "marshal",
             "display_name": "The Marshal (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Marshal voice lines from Stronghold Crusader \u2014 loyal European lord",
             "author": {
                 "name": "Marko Jevic",
@@ -2527,9 +2527,9 @@
             "sound_count": 16,
             "total_size_bytes": 414691,
             "source_repo": "openpeon-stronghold/marshal",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "6505b6ab2424ec877948343be3cad00be4575e5cdd4350a2af3120579f33add3",
+            "manifest_sha256": "3dfc2204cf3042979215eb1156028211568812be10387d553ce2793a62e43308",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -2541,7 +2541,7 @@
                 "ma_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "milujipraci",
@@ -2768,7 +2768,7 @@
         {
             "name": "nizar",
             "display_name": "Nizar (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "Nizar voice lines from Stronghold Crusader \u2014 cunning assassin lord",
             "author": {
                 "name": "Marko Jevic",
@@ -2789,9 +2789,9 @@
             "sound_count": 15,
             "total_size_bytes": 374791,
             "source_repo": "openpeon-stronghold/nizar",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "38f7aecb0ced6dc5736565a4b31a48d995af376cd3dcc3efd63d6cffe200e63a",
+            "manifest_sha256": "b91c40548497273ad8e7f62c0e0824c27f6c39c69924161ded940840486dcaa0",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -2803,7 +2803,7 @@
                 "ni_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "ocarina_of_time",
@@ -3498,7 +3498,7 @@
         {
             "name": "philip",
             "display_name": "King Philip (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "King Philip voice lines from Stronghold Crusader \u2014 proud king of France",
             "author": {
                 "name": "Marko Jevic",
@@ -3519,9 +3519,9 @@
             "sound_count": 15,
             "total_size_bytes": 519760,
             "source_repo": "openpeon-stronghold/philip",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "dbbe560a020abbc57d86b1eab0c7e0615191ae7fc7d2f925b46acc7ed2584e30",
+            "manifest_sha256": "886d5cbc5b4dda72f7bdca2493b7ae9b701068d543a628621844e6367b47cff0",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -3533,12 +3533,12 @@
                 "ph_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "pig",
             "display_name": "The Pig (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Pig voice lines from Stronghold Crusader \u2014 brutal villain lord",
             "author": {
                 "name": "Marko Jevic",
@@ -3559,9 +3559,9 @@
             "sound_count": 16,
             "total_size_bytes": 683058,
             "source_repo": "openpeon-stronghold/pig",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "129c6f9c3ef0694103092fa26b02d817c566ed60c6c99c6eedf7fcf2ee5b1fec",
+            "manifest_sha256": "ac5b8d3e2cefd5910de015886ea43300c151cc5bac015b464fd5402bf3c3185c",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -3573,7 +3573,7 @@
                 "pg_taunt_04.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "postal2_pl",
@@ -3956,7 +3956,7 @@
         {
             "name": "rat",
             "display_name": "The Rat (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Rat voice lines from Stronghold Crusader \u2014 scheming cowardly villain",
             "author": {
                 "name": "Marko Jevic",
@@ -3977,9 +3977,9 @@
             "sound_count": 16,
             "total_size_bytes": 881950,
             "source_repo": "openpeon-stronghold/rat",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "035279c4036b51a3b9c59b9c90fbd35756641b47de4714f76bee1d15f4f21f91",
+            "manifest_sha256": "1aada8fcea5a947b088184fcc83faed5c6055aef6ec9ecb2d4670656fc8bc35b",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -3991,12 +3991,12 @@
                 "rt_taunt_03.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "richard",
             "display_name": "King Richard (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "King Richard voice lines from Stronghold Crusader \u2014 noble English crusader king",
             "author": {
                 "name": "Marko Jevic",
@@ -4017,9 +4017,9 @@
             "sound_count": 17,
             "total_size_bytes": 470547,
             "source_repo": "openpeon-stronghold/richard",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "ae3fb2703f7128ea7371515a11ab89ba1384d0a733dd56b33cc242dd2d34dce0",
+            "manifest_sha256": "746b599e8de22a37cee307ea0fe985f5f49dbfa30e8383565bc962075ea341bf",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -4031,7 +4031,7 @@
                 "ri_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "rick",
@@ -4075,7 +4075,7 @@
         {
             "name": "saladin",
             "display_name": "Saladin (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "Saladin voice lines from Stronghold Crusader \u2014 honourable sultan of Egypt",
             "author": {
                 "name": "Marko Jevic",
@@ -4096,9 +4096,9 @@
             "sound_count": 16,
             "total_size_bytes": 521774,
             "source_repo": "openpeon-stronghold/saladin",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "040d7a7390858602c8bba8753bd4511f40f13d3a63e3390e4bb8533c3d84827e",
+            "manifest_sha256": "a69066b32fa7043abf8e5efe4cf400c7a2d092b82f7e592fdffbf2a6466828ba",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -4110,7 +4110,7 @@
                 "sa_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "sc2_abathur",
@@ -5081,7 +5081,7 @@
         {
             "name": "sheriff",
             "display_name": "The Sheriff (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Sheriff voice lines from Stronghold Crusader \u2014 greedy corrupt villain",
             "author": {
                 "name": "Marko Jevic",
@@ -5102,9 +5102,9 @@
             "sound_count": 17,
             "total_size_bytes": 514215,
             "source_repo": "openpeon-stronghold/sheriff",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "c82e3003339938097eddd95a0e5af808db60eaa4d7e36bf755f643538750c3b4",
+            "manifest_sha256": "7ec84b9c75553ad91512292754826e7a324ed944a86bca031f1b26baae405cc8",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -5116,7 +5116,7 @@
                 "sh_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "silicon_valley",
@@ -5161,7 +5161,7 @@
         {
             "name": "snake",
             "display_name": "The Snake (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Snake voice lines from Stronghold Crusader \u2014 treacherous villain lord",
             "author": {
                 "name": "Marko Jevic",
@@ -5182,9 +5182,9 @@
             "sound_count": 15,
             "total_size_bytes": 597564,
             "source_repo": "openpeon-stronghold/snake",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "2b29eeb8d8be88fb5f1b098c92d6b4d7f69e1caad491d24223feab538ee9702f",
+            "manifest_sha256": "68a4c7aff879f703f8155ed7bf0bb1ae07e42475570beb5830a8f5d103db703e",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -5196,7 +5196,7 @@
                 "sn_taunt_02.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "solid_snake",
@@ -5543,7 +5543,7 @@
         {
             "name": "sultan",
             "display_name": "The Sultan (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Sultan voice lines from Stronghold Crusader \u2014 powerful desert sultan",
             "author": {
                 "name": "Marko Jevic",
@@ -5564,9 +5564,9 @@
             "sound_count": 16,
             "total_size_bytes": 530804,
             "source_repo": "openpeon-stronghold/sultan",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "8451d16dd09680ce7876631a0f64fbe12064d5fa2ea279b8ea8e2afe885e3b79",
+            "manifest_sha256": "4c96baa45153a2d32c480fc7343c0d578e6a43d23f24f2792c35e4ced7a15e9b",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -5578,7 +5578,7 @@
                 "su_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "super_troopers",
@@ -6152,7 +6152,7 @@
         {
             "name": "wazir",
             "display_name": "The Wazir (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Wazir voice lines from Stronghold Crusader \u2014 scheming Arabian lord",
             "author": {
                 "name": "Marko Jevic",
@@ -6173,9 +6173,9 @@
             "sound_count": 16,
             "total_size_bytes": 443110,
             "source_repo": "openpeon-stronghold/wazir",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "0b79f4d5aa61528b04880f33c27bffdfd9f2ef6100ae8f5821fe92596c2ef673",
+            "manifest_sha256": "4fd9b5a3a31c6f65144bf813df803ff666553ce98162b31ba8e896436c405ca9",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -6187,7 +6187,7 @@
                 "wa_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "wc2_human_ships",
@@ -6470,7 +6470,7 @@
         {
             "name": "wolf",
             "display_name": "The Wolf (Stronghold Crusader)",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "description": "The Wolf voice lines from Stronghold Crusader \u2014 ruthless villain lord",
             "author": {
                 "name": "Marko Jevic",
@@ -6491,9 +6491,9 @@
             "sound_count": 15,
             "total_size_bytes": 474837,
             "source_repo": "openpeon-stronghold/wolf",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": ".",
-            "manifest_sha256": "4f8422d4bf80c2bc3fe77a995500aba6f4e563a245e13bfb21ed66c75c24a393",
+            "manifest_sha256": "852f33dbda764cffe8e0350375dc106431a7644695d26f70bc955726810d3d51",
             "tags": [
                 "gaming",
                 "stronghold",
@@ -6505,7 +6505,7 @@
                 "wf_taunt_05.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-02"
+            "updated": "2026-03-03"
         },
         {
             "name": "wolf-et-pack",
