@@ -88,7 +88,7 @@ jobs:
                   errors.append(f'{prefix}: trust_tier \"{tier}\" not in {VALID_TIERS}')
 
           if errors:
-              print(f'Validation failed with {len(errors)} error(s):')
+              print(f'Validation failed with {len(errors)} {"error" if len(errors) == 1 else "errors"}:')
               for e in errors:
                   print(f'  - {e}')
               # Write errors for review comment
@@ -396,7 +396,130 @@ jobs:
                   print(f"  - {e}")
               sys.exit(1)
           else:
-              print(f"\nAll {len(packs)} pack(s) validated successfully")
+              print(f"\nAll {len(packs)} {'pack' if len(packs) == 1 else 'packs'} validated successfully")
+          PYEOF
+
+      - name: Install ffmpeg
+        if: always() && steps.detect.outcome == 'success'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null 2>&1
+          ffprobe -version | head -1
+
+      - name: Validate audio quality
+        id: quality
+        if: always() && steps.detect.outcome == 'success'
+        run: |
+          python3 << 'PYEOF'
+          import json, os, subprocess, sys, tarfile, tempfile, urllib.request
+
+          with open('changed_packs.json') as f:
+              packs = json.load(f)
+
+          if not packs:
+              print("No changed packs — skipping quality check")
+              with open('quality_results.json', 'w') as f:
+                  json.dump([], f)
+              sys.exit(0)
+
+          all_results = []
+          any_rejected = False
+
+          for pack in packs:
+              name = pack['name']
+              repo = pack.get('source_repo', '')
+              ref = pack.get('source_ref', 'main')
+              path = pack.get('source_path', '.').strip('/')
+
+              print(f"\n=== Quality check: {name} ({repo}@{ref}) ===")
+
+              if not repo:
+                  all_results.append({'pack_name': name, 'error': 'missing source_repo', 'verdict': 'REJECTED'})
+                  any_rejected = True
+                  continue
+
+              # Download pack tarball
+              tarball_url = f"https://github.com/{repo}/archive/{ref}.tar.gz"
+              pack_dir = tempfile.mkdtemp(prefix=f"qc-{name}-")
+              try:
+                  tmp = tempfile.NamedTemporaryFile(suffix=".tar.gz", delete=False)
+                  urllib.request.urlretrieve(tarball_url, tmp.name)
+
+                  with tarfile.open(tmp.name, "r:gz") as tf:
+                      members = tf.getmembers()
+                      top = members[0].name.split("/")[0]
+                      prefix_path = f"{top}/{path}/" if path and path != "." else f"{top}/"
+
+                      for m in members:
+                          if m.name.startswith(prefix_path) and m.name != prefix_path.rstrip("/"):
+                              rel = m.name[len(prefix_path):]
+                              if not rel:
+                                  continue
+                              dest = os.path.join(pack_dir, rel)
+                              if m.isdir():
+                                  os.makedirs(dest, exist_ok=True)
+                              elif m.isfile():
+                                  os.makedirs(os.path.dirname(dest), exist_ok=True)
+                                  with tf.extractfile(m) as src:
+                                      with open(dest, "wb") as dst:
+                                          dst.write(src.read())
+
+                  os.unlink(tmp.name)
+                  # Debug: show extracted contents
+                  for root, dirs, files in os.walk(pack_dir):
+                      for fname in files:
+                          fpath = os.path.join(root, fname)
+                          rel = os.path.relpath(fpath, pack_dir)
+                          print(f"  extracted: {rel}")
+              except Exception as e:
+                  print(f"  Download failed: {e}")
+                  all_results.append({'pack_name': name, 'error': f'download failed: {e}', 'verdict': 'REJECTED'})
+                  any_rejected = True
+                  continue
+
+              # Run quality check
+              result = subprocess.run(
+                  ['python3', '.github/scripts/quality-check.py',
+                   pack_dir,
+                   '--output-json', f'quality_{name}.json',
+                   '--output-markdown', f'quality_{name}.md',
+                   '--quiet'],
+                  capture_output=True, text=True, timeout=300
+              )
+
+              if result.returncode != 0:
+                  print(f"  quality-check.py exit code: {result.returncode}")
+                  if result.stderr:
+                      print(f"  stderr: {result.stderr[:500]}")
+                  if result.stdout:
+                      print(f"  stdout: {result.stdout[:500]}")
+
+              try:
+                  with open(f'quality_{name}.json') as f:
+                      pack_result = json.load(f)
+              except Exception:
+                  pack_result = {'pack_name': name, 'error': 'quality check script failed', 'verdict': 'REJECTED'}
+
+              all_results.append(pack_result)
+
+              verdict = pack_result.get('verdict', 'REJECTED')
+              total_blocks = pack_result.get('total_blocks', 0)
+              total_warns = pack_result.get('total_warns', 0)
+              total_files = pack_result.get('total_files', 0)
+              print(f"  {verdict}: {total_files} files, {total_blocks} blocks, {total_warns} warns")
+
+              if verdict == 'REJECTED':
+                  any_rejected = True
+
+          # Write combined results
+          with open('quality_results.json', 'w') as f:
+              json.dump(all_results, f, indent=2, default=str)
+
+          if any_rejected:
+              print("\nOne or more packs REJECTED by quality check")
+              sys.exit(1)
+          else:
+              print("\nAll packs passed quality check")
           PYEOF
 
       - name: Write verdict
@@ -405,8 +528,10 @@ jobs:
           SCHEMA_RESULT: ${{ steps.schema.outcome }}
           TRUST_RESULT: ${{ steps.trust.outcome }}
           SOURCES_RESULT: ${{ steps.sources.outcome }}
+          QUALITY_RESULT: ${{ steps.quality.outcome }}
         run: |
-          if [ "$SCHEMA_RESULT" = "success" ] && [ "$TRUST_RESULT" = "success" ] && [ "$SOURCES_RESULT" = "success" ]; then
+          if [ "$SCHEMA_RESULT" = "success" ] && [ "$TRUST_RESULT" = "success" ] \
+             && [ "$SOURCES_RESULT" = "success" ] && [ "$QUALITY_RESULT" = "success" ]; then
             echo "pass" > verdict.txt
           else
             echo "fail" > verdict.txt
@@ -422,6 +547,7 @@ jobs:
           SCHEMA_RESULT: ${{ steps.schema.outcome }}
           TRUST_RESULT: ${{ steps.trust.outcome }}
           SOURCES_RESULT: ${{ steps.sources.outcome }}
+          QUALITY_RESULT: ${{ steps.quality.outcome }}
         run: |
           python3 << 'PYEOF'
           import json, os, subprocess
@@ -430,7 +556,8 @@ jobs:
           schema_ok = os.environ.get('SCHEMA_RESULT') == 'success'
           trust_ok = os.environ.get('TRUST_RESULT') == 'success'
           sources_ok = os.environ.get('SOURCES_RESULT') == 'success'
-          all_ok = schema_ok and trust_ok and sources_ok
+          quality_ok = os.environ.get('QUALITY_RESULT') == 'success'
+          all_ok = schema_ok and trust_ok and sources_ok and quality_ok
 
           # Load detection results
           detect = {}
@@ -509,10 +636,100 @@ jobs:
                   ok_count = sum(1 for a in audio if a.get('ok'))
                   total = len(audio)
                   status = 'pass' if ok_count == total else 'FAIL'
-                  files = ', '.join(a['file'] for a in audio)
-                  lines.append(f"| Audio spot-check ({name}) | {status} ({ok_count}/{total}: {files}) |")
+                  file_list = '<br>'.join(f'• {a["file"]}' for a in audio)
+                  lines.append(f"| Audio spot-check ({name}) | {status} ({ok_count}/{total})<br>{file_list} |")
 
+          lines.append(f"| Audio quality | {'pass' if quality_ok else 'FAIL'} |")
           lines.append("")
+
+          # Quality check results
+          try:
+              with open('quality_results.json') as f:
+                  quality_results = json.load(f)
+          except:
+              quality_results = []
+
+          if quality_results:
+              lines.append("### Audio Quality\n")
+              for qr in quality_results:
+                  verdict = qr.get('verdict', 'REJECTED')
+                  qname = qr.get('display_name', qr.get('pack_name', '?'))
+                  nfiles = qr.get('total_files', 0)
+                  nblocks = qr.get('total_blocks', 0)
+                  nwarns = qr.get('total_warns', 0)
+
+                  if verdict == 'GOLD':
+                      qicon = ':star:'
+                      label = 'All quality checks passed'
+                  elif verdict == 'SILVER':
+                      qicon = ':white_check_mark:'
+                      label = f'Accepted with {nwarns} {"warning" if nwarns == 1 else "warnings"}'
+                  else:
+                      qicon = ':x:'
+                      label = f'{nblocks} blocking {"issue" if nblocks == 1 else "issues"} must be fixed'
+
+                  lines.append(f"#### {qicon} {qname}: {verdict}\n")
+                  lines.append(f"{nfiles} audio files analyzed — **{label}**\n")
+
+                  # Error shortcut (missing manifest, no sounds dir, etc.)
+                  if qr.get('error'):
+                      lines.append(f"> **Error:** {qr['error']}\n")
+                      continue
+
+                  # REJECTED: show all blocking issues with file details
+                  if verdict == 'REJECTED' and nblocks > 0:
+                      lines.append("**Blocking issues** — these must be fixed before the pack can be accepted:\n")
+                      lines.append("| File | Issue |")
+                      lines.append("|---|---|")
+                      blocked_files = [f for f in qr.get('files', []) if f.get('blocks')]
+                      for bf in blocked_files:
+                          for b in bf['blocks']:
+                              lines.append(f"| `{bf['file']}` | {b} |")
+                      lines.append("")
+
+                  # SILVER or REJECTED with warnings: show warnings with file details
+                  warned_files = [f for f in qr.get('files', []) if f.get('warns')]
+                  if warned_files:
+                      if verdict == 'REJECTED':
+                          lines.append("**Warnings** — not blocking, but recommended to address:\n")
+                      else:
+                          lines.append("**Warnings** — pack is accepted, but please consider addressing these in a future release:\n")
+                      # Group warnings by type for a cleaner summary
+                      warn_groups = {}
+                      for wf in warned_files:
+                          for w in wf.get('warns', []):
+                              warn_groups.setdefault(w, []).append(wf['file'])
+
+                      if len(warned_files) <= 10:
+                          # Few enough to show inline table
+                          lines.append("| File | Issue |")
+                          lines.append("|---|---|")
+                          for wf in warned_files:
+                              for w in wf.get('warns', []):
+                                  lines.append(f"| `{wf['file']}` | {w} |")
+                          lines.append("")
+                      else:
+                          # Many warnings — group by issue type
+                          for issue, files in sorted(warn_groups.items(), key=lambda x: -len(x[1])):
+                              file_list = ', '.join(f'`{f}`' for f in files[:8])
+                              extra = f' and {len(files) - 8} more' if len(files) > 8 else ''
+                              lines.append(f"- **{issue}** ({len(files)} files): {file_list}{extra}")
+                          lines.append("")
+
+                  # Threshold reference (collapsible)
+                  lines.append("<details><summary>Threshold reference</summary>\n")
+                  lines.append("| Check | Block | Warn |")
+                  lines.append("|---|---|---|")
+                  lines.append("| Volume (true peak) | — | >= -0.5 dBTP |")
+                  lines.append("| Dead air at start | > 2000 ms | > 500 ms |")
+                  lines.append("| Dead air at end | > 2000 ms | > 500 ms |")
+                  lines.append("| Loudness (LUFS) | < -70.0 | < -35.0 or > -8.0 |")
+                  lines.append("| Bitrate | — | < 64 kbps |")
+                  lines.append("| Sample rate | < 8000 Hz | < 16000 Hz |")
+                  lines.append("| Duration | > 20.0s or < 0.1s | > 5.0s |")
+                  lines.append("\n</details>\n")
+
+              lines.append("")
 
           # Errors
           all_errors = schema_errors + trust_errors + source_results.get('errors', [])
@@ -545,31 +762,34 @@ jobs:
           print("Posted review comment")
           PYEOF
 
-      - name: Auto-approve
-        if: always()
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
-          if [ "$VERDICT" = "pass" ]; then
-            gh pr review "$PR_NUMBER" --approve --body "All automated checks passed."
-            echo "PR approved"
-          else
-            echo "Skipping approval — checks did not pass"
-          fi
+      # NOTE: Auto-approve and auto-merge temporarily disabled for fork testing.
+      # These steps are restored in the upstream PR (Phase 3).
+      #
+      # - name: Auto-approve
+      #   if: always()
+      #   continue-on-error: true
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     PR_NUMBER: ${{ github.event.pull_request.number }}
+      #   run: |
+      #     VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+      #     if [ "$VERDICT" = "pass" ]; then
+      #       gh pr review "$PR_NUMBER" --approve --body "All automated checks passed."
+      #       echo "PR approved"
+      #     else
+      #       echo "Skipping approval — checks did not pass"
+      #     fi
 
-      - name: Enable auto-merge
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
-          if [ "$VERDICT" = "pass" ]; then
-            gh pr merge "$PR_NUMBER" --auto --squash --delete-branch || echo "Auto-merge could not be enabled (branch protection may not be configured)"
-            echo "Auto-merge enabled"
-          else
-            echo "Skipping auto-merge — checks did not pass"
-          fi
+      # - name: Enable auto-merge
+      #   if: always()
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     PR_NUMBER: ${{ github.event.pull_request.number }}
+      #   run: |
+      #     VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+      #     if [ "$VERDICT" = "pass" ]; then
+      #       gh pr merge "$PR_NUMBER" --auto --squash --delete-branch || echo "Auto-merge could not be enabled (branch protection may not be configured)"
+      #       echo "Auto-merge enabled"
+      #     else
+      #       echo "Skipping auto-merge — checks did not pass"
+      #     fi
