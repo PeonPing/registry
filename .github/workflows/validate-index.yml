@@ -443,7 +443,9 @@ jobs:
               pack_dir = tempfile.mkdtemp(prefix=f"qc-{name}-")
               try:
                   tmp = tempfile.NamedTemporaryFile(suffix=".tar.gz", delete=False)
-                  urllib.request.urlretrieve(tarball_url, tmp.name)
+                  resp = urllib.request.urlopen(tarball_url, timeout=60)
+                  with open(tmp.name, 'wb') as dl:
+                      dl.write(resp.read())
 
                   with tarfile.open(tmp.name, "r:gz") as tf:
                       members = tf.getmembers()
@@ -521,6 +523,16 @@ jobs:
           else:
               print("\nAll packs passed quality check")
           PYEOF
+
+      - name: Upload quality results
+        if: always() && steps.quality.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-results
+          path: |
+            quality_results.json
+            quality_*.md
+          retention-days: 90
 
       - name: Write verdict
         if: always()
@@ -762,34 +774,31 @@ jobs:
           print("Posted review comment")
           PYEOF
 
-      # NOTE: Auto-approve and auto-merge temporarily disabled for fork testing.
-      # These steps are restored in the upstream PR (Phase 3).
-      #
-      # - name: Auto-approve
-      #   if: always()
-      #   continue-on-error: true
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     PR_NUMBER: ${{ github.event.pull_request.number }}
-      #   run: |
-      #     VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
-      #     if [ "$VERDICT" = "pass" ]; then
-      #       gh pr review "$PR_NUMBER" --approve --body "All automated checks passed."
-      #       echo "PR approved"
-      #     else
-      #       echo "Skipping approval — checks did not pass"
-      #     fi
+      - name: Auto-approve
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+          if [ "$VERDICT" = "pass" ]; then
+            gh pr review "$PR_NUMBER" --approve --body "All automated checks passed."
+            echo "PR approved"
+          else
+            echo "Skipping approval — checks did not pass"
+          fi
 
-      # - name: Enable auto-merge
-      #   if: always()
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     PR_NUMBER: ${{ github.event.pull_request.number }}
-      #   run: |
-      #     VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
-      #     if [ "$VERDICT" = "pass" ]; then
-      #       gh pr merge "$PR_NUMBER" --auto --squash --delete-branch || echo "Auto-merge could not be enabled (branch protection may not be configured)"
-      #       echo "Auto-merge enabled"
-      #     else
-      #       echo "Skipping auto-merge — checks did not pass"
-      #     fi
+      - name: Enable auto-merge
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+          if [ "$VERDICT" = "pass" ]; then
+            gh pr merge "$PR_NUMBER" --auto --squash --delete-branch || echo "Auto-merge could not be enabled (branch protection may not be configured)"
+            echo "Auto-merge enabled"
+          else
+            echo "Skipping auto-merge — checks did not pass"
+          fi
