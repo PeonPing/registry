@@ -3700,6 +3700,51 @@
             "updated": "2026-02-14"
         },
         {
+            "name": "r2d2",
+            "display_name": "R2D2",
+            "version": "1.0.0",
+            "description": "R2D2 from Star Wars",
+            "author": {
+                "name": "A3mercury",
+                "githubc": "A3mercury"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 12,
+            "total_size_bytes": 407040,
+            "source_repo": "A3mercury/openpeon-r2d2",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "d2b93a046f26749393eb380ad5b75a0444af36a93bfabb4333cfa3db07beb6f2",
+            "tags": [
+                "movies",
+                "star wars",
+                "r2d2",
+                "robot"
+            ],
+            "preview_sounds": [
+                "Activate.mp3",
+                "Acknowledge.mp3",
+                "Complete1.mp3",
+                "Error1.mp3",
+                "Input1.mp3",
+                "ResourceLimit.mp3",
+                "UserSpam.mp3"
+            ],
+            "added": "2026-03-02",
+            "updated": "2026-03-02"
+        },
+        {
             "name": "ra2_eva_commander",
             "display_name": "RA2 EVA Commander",
             "version": "1.0.1",
@@ -6710,5 +6755,5 @@
             "updated": "2026-02-25"
         }
     ],
-    "total_packs": 166
+    "total_packs": 167
 }
