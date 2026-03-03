@@ -1298,6 +1298,45 @@
             "updated": "2026-02-16"
         },
         {
+            "name": "d2_sorceress",
+            "display_name": "Sorceress (Diablo 2)",
+            "version": "1.0.0",
+            "description": "The voice lines of the Sorceress, the iconic farming class in Diablo II",
+            "author": {
+                "name": "hwaniiidev",
+                "github": "hwaniiidev"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 19,
+            "total_size_bytes": 764790,
+            "source_repo": "hwaniiidev/openpeon-d2-packs",
+            "source_ref": "v1.0.0",
+            "source_path": "sorceress",
+            "manifest_sha256": "49162e41d3d7945233138e4bb611fe2a290fd699a68403869aa0f770e87a6d9f",
+            "tags": [
+                "gaming",
+                "diablo",
+                "blizzard",
+                "rpg"
+            ],
+            "preview_sounds": [
+                "Sor_timetodie.wav"
+            ],
+            "added": "2026-03-02",
+            "updated": "2026-03-02"
+        },
+        {
             "name": "deadlock_dynamo",
             "display_name": "Dynamo (Deadlock)",
             "version": "1.0.0",
