@@ -3062,6 +3062,47 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "otto",
+      "display_name": "电棍otto",
+      "version": "1.0.0",
+      "description": "大家好啊，我是电棍",
+      "author": {
+        "name": "Bielelele",
+        "github": "Biatbang"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 33,
+      "total_size_bytes": 1414686,
+      "source_repo": "BiatBang/openpeon-otto",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0ce67cd3cc429661546ab708046eef15996df858c07261e8e440c81bf9a2097e",
+      "tags": [
+        "otto",
+        "电棍",
+        "侯国玉"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "session_start_2.mp3"
+      ],
+      "added": "2026-03-03",
+      "updated": "2026-03-03"
+    },
+    {
       "name": "peasant",
       "display_name": "Human Peasant",
       "version": "1.0.0",
