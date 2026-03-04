@@ -1100,6 +1100,27 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "cxq-peon",
+      "display_name": "My Sound Pack",
+      "version": "1.0.0",
+      "description": "Short description of your pack",
+      "author": { "name": "cxq", "github": "cxq0101" },
+      "trust_tier": "community",
+      "categories": ["session.start", "task.complete", "task.error"],
+      "language": "zh-CN",
+      "license": "MIT",
+      "sound_count": 10,
+      "total_size_bytes": 500000,
+      "source_repo": "cxq0101/cxq-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "085a0d02adba2c6011d3e6ab288c54b132cf332c4bd316eefc4006316a5bfdda",
+      "tags": ["gaming"],
+      "preview_sounds": ["sounds/baby.mp3", "sounds/gali.mp3"],
+      "added": "2026-03-04",
+      "updated": "2026-03-04"
+    },
+    {
       "name": "charlie_sheen",
       "display_name": "Charlie Sheen",
       "version": "1.0.0",
