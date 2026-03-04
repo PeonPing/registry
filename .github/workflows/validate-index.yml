@@ -268,7 +268,7 @@ jobs:
                   for sound in cat_data.get('sounds', []):
                       f = sound.get('file', '')
                       if f:
-                          sound_files.add(os.path.basename(f))
+                          sound_files.add(f)
 
               if not sound_files:
                   errors.append(f"{name}: no sound files referenced in manifest")
@@ -283,7 +283,7 @@ jobs:
 
               # 5. Spot-check up to 3 sound files exist and are audio
               for sfile in sorted(sound_files)[:3]:
-                  sound_url = f"{base}/sounds/{sfile}"
+                  sound_url = f"{base}/{sfile}"
                   try:
                       req = urllib.request.urlopen(sound_url, timeout=15)
                       data = req.read(256)
