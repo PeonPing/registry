@@ -2178,6 +2178,49 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "jarvis-mk2",
+      "display_name": "J.A.R.V.I.S.",
+      "version": "1.1.0",
+      "description": "Paul Bettany-inspired AI butler. Calm, dry, never panicked. 66 lines of composure under absurdity.",
+      "author": {
+        "name": "FlynnCruse",
+        "github": "FlynnCruse"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 66,
+      "total_size_bytes": 2815323,
+      "source_repo": "FlynnCruse/openpeon-jarvis",
+      "source_ref": "v1.1.0",
+      "source_path": ".",
+      "manifest_sha256": "4555c823df52c512f194e177cc28d2ad9202aba62ea078dc04f2cbb359010668",
+      "tags": [
+        "movie",
+        "marvel",
+        "mcu",
+        "ai",
+        "british",
+        "tts",
+        "elevenlabs"
+      ],
+      "preview_sounds": [
+        "sounds/session_start_1.mp3",
+        "sounds/complete_2.mp3"
+      ],
+      "added": "2026-03-03",
+      "updated": "2026-03-03"
+    },
+    {
       "name": "kaamelott",
       "display_name": "Kaamelott",
       "version": "1.0.0",
