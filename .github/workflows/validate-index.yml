@@ -401,6 +401,177 @@ jobs:
               print(f"\nAll {len(packs)} {'pack' if len(packs) == 1 else 'packs'} validated successfully")
           PYEOF
 
+      - name: Validate category coverage
+        id: coverage
+        if: always() && steps.detect.outcome == 'success'
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, urllib.error, sys, time
+
+          CORE_CATEGORIES = [
+              'session.start', 'task.acknowledge', 'task.complete',
+              'task.error', 'input.required', 'resource.limit',
+          ]
+          MIN_TOTAL_SOUNDS = 6
+          WARN_TOTAL_SOUNDS = 12
+          MAX_MANIFEST_BYTES = 256 * 1024  # 256 KB
+          FETCH_TIMEOUT = 15
+          MAX_RETRIES = 3
+          RETRY_DELAYS = [2, 5]  # seconds between retries
+
+          def is_transient(exc):
+              """Return True for errors worth retrying."""
+              transient_types = (ConnectionResetError, ConnectionAbortedError, TimeoutError, OSError)
+              if isinstance(exc, transient_types):
+                  return True
+              if isinstance(exc, urllib.error.URLError) and not isinstance(exc, urllib.error.HTTPError):
+                  return True
+              if isinstance(exc, urllib.error.HTTPError) and exc.code >= 500:
+                  return True
+              return False
+
+          def fetch_manifest(url):
+              """Fetch manifest with retry and size cap. Returns bytes or raises."""
+              last_exc = None
+              for attempt in range(MAX_RETRIES):
+                  try:
+                      req = urllib.request.urlopen(url, timeout=FETCH_TIMEOUT)
+                      data = req.read(MAX_MANIFEST_BYTES + 1)
+                      if len(data) > MAX_MANIFEST_BYTES:
+                          raise ValueError(f"manifest exceeds {MAX_MANIFEST_BYTES // 1024} KB limit")
+                      return data
+                  except Exception as e:
+                      last_exc = e
+                      if not is_transient(e) or attempt == MAX_RETRIES - 1:
+                          raise
+                      delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+                      print(f"  Attempt {attempt + 1} failed ({e}), retrying in {delay}s...")
+                      time.sleep(delay)
+
+          with open('changed_packs.json') as f:
+              packs = json.load(f)
+
+          if not packs:
+              print("No changed packs — skipping coverage check")
+              with open('coverage_results.json', 'w') as f:
+                  json.dump({'errors': [], 'warnings': [], 'packs': {}}, f)
+              sys.exit(0)
+
+          errors = []
+          warnings = []
+          pack_results = {}
+          any_fail = False
+
+          for pack in packs:
+              name = pack['name']
+              repo = pack.get('source_repo', '')
+              ref = pack.get('source_ref', 'main')
+              path = pack.get('source_path', '.')
+
+              print(f"\n=== Coverage check: {name} ({repo}@{ref}) ===")
+
+              if not repo:
+                  errors.append(f"{name}: missing source_repo")
+                  pack_results[name] = {'pass': False, 'error': 'missing source_repo'}
+                  any_fail = True
+                  continue
+
+              # Build manifest URL (same pattern as sources step)
+              if path and path != '.':
+                  base = f"https://raw.githubusercontent.com/{repo}/{ref}/{path}"
+              else:
+                  base = f"https://raw.githubusercontent.com/{repo}/{ref}"
+
+              manifest_url = f"{base}/openpeon.json"
+              try:
+                  manifest_bytes = fetch_manifest(manifest_url)
+                  manifest = json.loads(manifest_bytes)
+              except Exception as e:
+                  errors.append(f"{name}: cannot fetch manifest: {e}")
+                  pack_results[name] = {'pass': False, 'error': str(e)}
+                  any_fail = True
+                  continue
+
+              categories = manifest.get('categories', {})
+
+              # Count sounds per category and collect unique files
+              cat_counts = {}
+              all_files = set()
+              for cat_name, cat_data in categories.items():
+                  sounds = cat_data.get('sounds', [])
+                  cat_counts[cat_name] = len(sounds)
+                  for s in sounds:
+                      f = s.get('file', '')
+                      if f:
+                          all_files.add(f)
+
+              total_sounds = len(all_files)
+
+              # Check core categories
+              missing_core = [c for c in CORE_CATEGORIES if cat_counts.get(c, 0) == 0]
+              thin_core = [c for c in CORE_CATEGORIES if cat_counts.get(c, 0) == 1]
+
+              pack_pass = True
+
+              # FAIL: missing core categories
+              if missing_core:
+                  errors.append(f"{name}: missing core categories: {', '.join(missing_core)}")
+                  pack_pass = False
+
+              # FAIL: fewer than 6 total unique sounds
+              if total_sounds < MIN_TOTAL_SOUNDS:
+                  errors.append(f"{name}: only {total_sounds} unique sounds (minimum {MIN_TOTAL_SOUNDS})")
+                  pack_pass = False
+
+              # WARN: thin core categories (exactly 1 sound)
+              if thin_core:
+                  warnings.append(f"{name}: core categories with only 1 sound: {', '.join(thin_core)}")
+
+              # WARN: total sounds below median
+              if total_sounds < WARN_TOTAL_SOUNDS:
+                  warnings.append(f"{name}: only {total_sounds} total sounds (median packs have {WARN_TOTAL_SOUNDS}+)")
+
+              if not pack_pass:
+                  any_fail = True
+
+              # Report per-category counts
+              for c in CORE_CATEGORIES:
+                  count = cat_counts.get(c, 0)
+                  status = 'missing' if count == 0 else ('thin' if count == 1 else 'ok')
+                  print(f"  {c}: {count} sounds ({status})")
+              print(f"  Total unique sounds: {total_sounds}")
+              print(f"  Result: {'FAIL' if not pack_pass else 'PASS'}")
+
+              pack_results[name] = {
+                  'categories': {c: cat_counts.get(c, 0) for c in CORE_CATEGORIES},
+                  'total_sounds': total_sounds,
+                  'missing_core': missing_core,
+                  'thin_core': thin_core,
+                  'pass': pack_pass,
+              }
+
+          # Save results
+          with open('coverage_results.json', 'w') as f:
+              json.dump({'errors': errors, 'warnings': warnings, 'packs': pack_results}, f)
+
+          # Report
+          print("\n" + "=" * 60)
+          if warnings:
+              print(f"\nWarnings ({len(warnings)}):")
+              for w in warnings:
+                  print(f"  - {w}")
+
+          if errors:
+              print(f"\nErrors ({len(errors)}):")
+              for e in errors:
+                  print(f"  - {e}")
+
+          if any_fail:
+              sys.exit(1)
+          else:
+              print(f"\nAll {len(packs)} {'pack' if len(packs) == 1 else 'packs'} passed coverage check")
+          PYEOF
+
       - name: Install ffmpeg
         if: always() && steps.detect.outcome == 'success'
         run: |
@@ -413,7 +584,37 @@ jobs:
         if: always() && steps.detect.outcome == 'success'
         run: |
           python3 << 'PYEOF'
-          import json, os, subprocess, sys, tarfile, tempfile, urllib.request
+          import json, os, subprocess, sys, tarfile, tempfile, time, urllib.request, urllib.error
+
+          DOWNLOAD_TIMEOUT = 60
+          MAX_RETRIES = 3
+          RETRY_DELAYS = [2, 5]  # seconds between retries
+
+          def is_transient(exc):
+              """Return True for errors worth retrying."""
+              transient_types = (ConnectionResetError, ConnectionAbortedError, TimeoutError, OSError)
+              if isinstance(exc, transient_types):
+                  return True
+              if isinstance(exc, urllib.error.URLError) and not isinstance(exc, urllib.error.HTTPError):
+                  return True
+              if isinstance(exc, urllib.error.HTTPError) and exc.code >= 500:
+                  return True
+              return False
+
+          def download_with_retry(url, dest_path):
+              """Download URL to dest_path with retry on transient errors."""
+              for attempt in range(MAX_RETRIES):
+                  try:
+                      resp = urllib.request.urlopen(url, timeout=DOWNLOAD_TIMEOUT)
+                      with open(dest_path, 'wb') as dl:
+                          dl.write(resp.read())
+                      return
+                  except Exception as e:
+                      if not is_transient(e) or attempt == MAX_RETRIES - 1:
+                          raise
+                      delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+                      print(f"  Attempt {attempt + 1} failed ({e}), retrying in {delay}s...")
+                      time.sleep(delay)
 
           with open('changed_packs.json') as f:
               packs = json.load(f)
@@ -445,9 +646,7 @@ jobs:
               pack_dir = tempfile.mkdtemp(prefix=f"qc-{name}-")
               try:
                   tmp = tempfile.NamedTemporaryFile(suffix=".tar.gz", delete=False)
-                  resp = urllib.request.urlopen(tarball_url, timeout=60)
-                  with open(tmp.name, 'wb') as dl:
-                      dl.write(resp.read())
+                  download_with_retry(tarball_url, tmp.name)
 
                   with tarfile.open(tmp.name, "r:gz") as tf:
                       members = tf.getmembers()
@@ -542,10 +741,12 @@ jobs:
           SCHEMA_RESULT: ${{ steps.schema.outcome }}
           TRUST_RESULT: ${{ steps.trust.outcome }}
           SOURCES_RESULT: ${{ steps.sources.outcome }}
+          COVERAGE_RESULT: ${{ steps.coverage.outcome }}
           QUALITY_RESULT: ${{ steps.quality.outcome }}
         run: |
           if [ "$SCHEMA_RESULT" = "success" ] && [ "$TRUST_RESULT" = "success" ] \
-             && [ "$SOURCES_RESULT" = "success" ] && [ "$QUALITY_RESULT" = "success" ]; then
+             && [ "$SOURCES_RESULT" = "success" ] && [ "$COVERAGE_RESULT" = "success" ] \
+             && [ "$QUALITY_RESULT" = "success" ]; then
             echo "pass" > verdict.txt
           else
             echo "fail" > verdict.txt
@@ -561,6 +762,7 @@ jobs:
           SCHEMA_RESULT: ${{ steps.schema.outcome }}
           TRUST_RESULT: ${{ steps.trust.outcome }}
           SOURCES_RESULT: ${{ steps.sources.outcome }}
+          COVERAGE_RESULT: ${{ steps.coverage.outcome }}
           QUALITY_RESULT: ${{ steps.quality.outcome }}
         run: |
           python3 << 'PYEOF'
@@ -570,8 +772,9 @@ jobs:
           schema_ok = os.environ.get('SCHEMA_RESULT') == 'success'
           trust_ok = os.environ.get('TRUST_RESULT') == 'success'
           sources_ok = os.environ.get('SOURCES_RESULT') == 'success'
+          coverage_ok = os.environ.get('COVERAGE_RESULT') == 'success'
           quality_ok = os.environ.get('QUALITY_RESULT') == 'success'
-          all_ok = schema_ok and trust_ok and sources_ok and quality_ok
+          all_ok = schema_ok and trust_ok and sources_ok and coverage_ok and quality_ok
 
           # Load detection results
           detect = {}
@@ -636,6 +839,7 @@ jobs:
           lines.append(f"| Schema validation | {'pass' if schema_ok else 'FAIL'} |")
           lines.append(f"| Trust tier | {'pass' if trust_ok else 'FAIL'} |")
           lines.append(f"| Manifest fetch | {'pass' if sources_ok else 'FAIL'} |")
+          lines.append(f"| Category coverage | {'pass' if coverage_ok else 'FAIL'} |")
 
           # Per-pack source checks
           checks = source_results.get('checks', {})
@@ -745,8 +949,68 @@ jobs:
 
               lines.append("")
 
+          # Category coverage results
+          coverage_results = {'errors': [], 'warnings': [], 'packs': {}}
+          try:
+              with open('coverage_results.json') as f:
+                  coverage_results = json.load(f)
+          except:
+              pass
+
+          cov_packs = coverage_results.get('packs', {})
+          if cov_packs:
+              lines.append("### Category Coverage\n")
+              for cname, cdata in cov_packs.items():
+                  if cdata.get('error'):
+                      lines.append(f"#### :x: {cname}: FAIL\n")
+                      lines.append(f"> **Error:** {cdata['error']}\n")
+                      continue
+
+                  cpass = cdata.get('pass', False)
+                  total = cdata.get('total_sounds', 0)
+                  cats = cdata.get('categories', {})
+                  missing = cdata.get('missing_core', [])
+                  thin = cdata.get('thin_core', [])
+                  populated = sum(1 for v in cats.values() if v > 0)
+
+                  if not cpass:
+                      cicon = ':x:'
+                      clabel = 'FAIL'
+                  elif thin:
+                      cicon = ':warning:'
+                      clabel = 'PASS (with warnings)'
+                  else:
+                      cicon = ':white_check_mark:'
+                      clabel = 'PASS'
+
+                  lines.append(f"#### {cicon} {cname}: {clabel}\n")
+                  lines.append(f"{total} sounds across {populated}/6 core categories")
+                  if missing:
+                      lines.append(f" — **missing: {', '.join(missing)}**")
+                  lines.append("\n")
+
+                  lines.append("| Category | Sounds | Status |")
+                  lines.append("|---|---|---|")
+                  for cat in ['session.start', 'task.acknowledge', 'task.complete', 'task.error', 'input.required', 'resource.limit']:
+                      count = cats.get(cat, 0)
+                      if count == 0:
+                          status = ':x: missing'
+                      elif count == 1:
+                          status = ':warning: thin'
+                      else:
+                          status = ':white_check_mark:'
+                      lines.append(f"| {cat} | {count} | {status} |")
+                  lines.append("")
+
+                  if not cpass:
+                      lines.append("> Packs must populate all 6 core categories with at least 1 sound each, and have >= 6 total sounds.\n")
+                  elif thin:
+                      lines.append("> Pack is accepted, but please consider addressing thin categories in a future release.\n")
+
+              lines.append("")
+
           # Errors
-          all_errors = schema_errors + trust_errors + source_results.get('errors', [])
+          all_errors = schema_errors + trust_errors + source_results.get('errors', []) + coverage_results.get('errors', [])
           if all_errors:
               lines.append("### Errors\n")
               for e in all_errors:
@@ -754,9 +1018,10 @@ jobs:
               lines.append("")
 
           # Warnings
-          if source_results.get('warnings'):
+          all_warnings = source_results.get('warnings', []) + coverage_results.get('warnings', [])
+          if all_warnings:
               lines.append("### Warnings\n")
-              for w in source_results['warnings']:
+              for w in all_warnings:
                   lines.append(f"- {w}")
               lines.append("")
 
