@@ -4281,6 +4281,49 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "red-alert-1-eva",
+      "display_name": "Red Alert 1 - EVA",
+      "version": "1.0.0",
+      "description": "EVA - Red Alert 1 (only uses voicelines from Red Alert 1 EVA)",
+      "author": {
+        "name": "Florin Bunau",
+        "github": "fbunau"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 43,
+      "total_size_bytes": 918742,
+      "source_repo": "fbunau/openpeon-red-alert-1-eva",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "783702e361ec8e4b54ca0312ac0428f64ce6d62d2af0305a330c50ec0ceb99c1",
+      "tags": [
+        "eva",
+        "gaming",
+        "command-and-conquer",
+        "red-alert",
+        "rts",
+        "westwood"
+      ],
+      "preview_sounds": [
+        "sounds/start2_allied_forces_selected.WAV",
+        "sounds/complete1_mission_accomplished.WAV"
+      ],
+      "added": "2026-03-05",
+      "updated": "2026-03-05"
+    },
+    {
       "name": "richard",
       "display_name": "King Richard (Stronghold Crusader)",
       "version": "1.2.1",
@@ -6285,6 +6328,49 @@
       ],
       "added": "2026-03-01",
       "updated": "2026-03-01"
+    },
+    {
+      "name": "tiberian-sun-eva",
+      "display_name": "Tiberian Sun EVA",
+      "version": "1.0.0",
+      "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
+      "author": {
+        "name": "Florin Bunau",
+        "github": "fbunau"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 28,
+      "total_size_bytes": 3351232,
+      "source_repo": "fbunau/openpeon-tiberian-sun-eva",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4836dbd00832eba4606b973e237e3d5fc456d9ed97068c5eb10a9ba174b9d3cd",
+      "tags": [
+        "eva",
+        "gaming",
+        "command-and-conquer",
+        "tiberian-sun",
+        "rts",
+        "westwood"
+      ],
+      "preview_sounds": [
+        "sounds/start1_gdi_selected.WAV",
+        "sounds/complete1_mission_accomplished.WAV"
+      ],
+      "added": "2026-03-05",
+      "updated": "2026-03-05"
     },
     {
       "name": "totally-spies-fr",
