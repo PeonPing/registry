@@ -6332,7 +6332,7 @@
     {
       "name": "tiberian-sun-eva",
       "display_name": "Tiberian Sun EVA",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
       "author": {
         "name": "Florin Bunau",
@@ -6354,9 +6354,9 @@
       "sound_count": 28,
       "total_size_bytes": 3351232,
       "source_repo": "fbunau/openpeon-tiberian-sun-eva",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "4836dbd00832eba4606b973e237e3d5fc456d9ed97068c5eb10a9ba174b9d3cd",
+      "manifest_sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
       "tags": [
         "eva",
         "gaming",
