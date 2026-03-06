@@ -4443,6 +4443,88 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "rick-and-morty",
+      "display_name": "Rick and Morty (NSFW)",
+      "version": "1.0.0",
+      "description": "Rick and Morty voice lines. Contains mature language.",
+      "author": {
+        "name": "Mr3zee",
+        "github": "Mr3zee"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 107,
+      "total_size_bytes": 3862701,
+      "source_repo": "Mr3zee/peonping-rick-and-morty",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "16750522933e3ed0f7c64cdbe55457064742c4883fccc5820bdc25ab6a934af4",
+      "tags": [
+        "tv-show",
+        "rick-and-morty",
+        "nsfw",
+        "adult-swim"
+      ],
+      "preview_sounds": [
+        "20_minutes_adventure.mp3",
+        "yes_im_gonna_fucking_do_it.mp3"
+      ],
+      "added": "2026-03-06",
+      "updated": "2026-03-06"
+    },
+    {
+      "name": "rick-and-morty-clean",
+      "display_name": "Rick and Morty",
+      "version": "1.0.0",
+      "description": "Rick and Morty voice lines. Family-friendly edition.",
+      "author": {
+        "name": "Mr3zee",
+        "github": "Mr3zee"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 85,
+      "total_size_bytes": 3029196,
+      "source_repo": "Mr3zee/peonping-rick-and-morty-clean",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "ebcd59885339d663b5f8afd6343931f704ed49ba475aa8c01311283e5808d283",
+      "tags": [
+        "tv-show",
+        "rick-and-morty",
+        "clean",
+        "adult-swim"
+      ],
+      "preview_sounds": [
+        "20_minutes_adventure.mp3",
+        "im_not_looking_for_judgement_just_a_yes_or_no.mp3"
+      ],
+      "added": "2026-03-06",
+      "updated": "2026-03-06"
+    },
+    {
       "name": "saladin",
       "display_name": "Saladin (Stronghold Crusader)",
       "version": "1.2.1",
