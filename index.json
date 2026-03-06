@@ -7184,6 +7184,44 @@
       "quality": "flagged"
     },
     {
+      "name": "worms-armageddon",
+      "display_name": "Worms Armageddon",
+      "version": "1.0.0",
+      "description": "Classic voice samples from Worms Armageddon featuring the iconic British worm taunts and exclamations",
+      "author": {
+        "name": "Mina Tawadrous",
+        "github": "mtmac17"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 14,
+      "total_size_bytes": 179678,
+      "source_repo": "mtmac17/openpeon-worms-armageddon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "d596c5402477d614746f7e1b4c9f904dabfbe786fdf5ebab22e3909ac2e12ef5",
+      "tags": [
+        "gaming",
+        "strategy",
+        "worms",
+        "team17",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "sounds/greeting-hello.wav",
+        "sounds/done-excellent.wav"
+      ],
+      "added": "2026-02-19",
+      "updated": "2026-02-19"
+    },
+    {
       "name": "wow-tauren",
       "display_name": "World of Warcraft (Tauren)",
       "version": "1.0.0",
@@ -7224,44 +7262,6 @@
       ],
       "added": "2026-03-06",
       "updated": "2026-03-06"
-    },
-    {
-      "name": "worms-armageddon",
-      "display_name": "Worms Armageddon",
-      "version": "1.0.0",
-      "description": "Classic voice samples from Worms Armageddon featuring the iconic British worm taunts and exclamations",
-      "author": {
-        "name": "Mina Tawadrous",
-        "github": "mtmac17"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.complete",
-        "task.error",
-        "input.required"
-      ],
-      "language": "en",
-      "license": "MIT",
-      "sound_count": 14,
-      "total_size_bytes": 179678,
-      "source_repo": "mtmac17/openpeon-worms-armageddon",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "d596c5402477d614746f7e1b4c9f904dabfbe786fdf5ebab22e3909ac2e12ef5",
-      "tags": [
-        "gaming",
-        "strategy",
-        "worms",
-        "team17",
-        "comedy"
-      ],
-      "preview_sounds": [
-        "sounds/greeting-hello.wav",
-        "sounds/done-excellent.wav"
-      ],
-      "added": "2026-02-19",
-      "updated": "2026-02-19"
     },
     {
       "name": "zelda-a-link-to-the-past",
