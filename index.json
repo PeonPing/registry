@@ -7184,6 +7184,48 @@
       "quality": "flagged"
     },
     {
+      "name": "wow-tauren",
+      "display_name": "World of Warcraft (Tauren)",
+      "version": "1.0.0",
+      "description": "Voice lines from the Tauren race in World of Warcraft",
+      "author": {
+        "name": "Taylan Aydinli",
+        "github": "taylan"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 126,
+      "total_size_bytes": 1869598,
+      "source_repo": "taylan/openpeon-wow-tauren",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "180d75917016f43df26636d06b798028135a3607e5e07ce0dd3fcbd15000a1b6",
+      "tags": [
+        "gaming",
+        "blizzard",
+        "world-of-warcraft"
+      ],
+      "preview_sounds": [
+        "sounds/0765-for-the-horde.ogg",
+        "sounds/0240-mess-with-the-bull-you-get-the-horns.ogg",
+        "sounds/0788-mana-is-needed.ogg"
+      ],
+      "added": "2026-03-06",
+      "updated": "2026-03-06"
+    },
+    {
       "name": "worms-armageddon",
       "display_name": "Worms Armageddon",
       "version": "1.0.0",
