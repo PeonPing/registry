@@ -2411,6 +2411,48 @@
       "updated": "2026-02-27"
     },
     {
+      "name": "kiriko",
+      "display_name": "Kiriko (Overwatch)",
+      "version": "1.0.0",
+      "description": "Kiriko voice lines from Overwatch -- the kitsune spirit guide",
+      "author": {
+        "name": "jiangzhuo",
+        "github": "jiangzhuo"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end",
+        "task.progress"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 805761,
+      "source_repo": "jiangzhuo/peonping-kiriko",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "16197e81499e0286c01bd2c937576b289149b25c06480f592bbcb4b22345ee22",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-08",
+      "updated": "2026-03-08"
+    },
+    {
       "name": "lcars",
       "display_name": "LCARS (Star Trek TNG)",
       "version": "1.0.0",
