@@ -3352,8 +3352,13 @@
       "categories": [
         "session.start",
         "session.end",
+        "task.acknowledge",
         "task.complete",
-        "task.error"
+        "task.error",
+        "task.progress",
+        "input.required",
+        "resource.limit",
+        "user.spam"
       ],
       "language": "tr",
       "license": "Personal Use Only",
