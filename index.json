@@ -4406,7 +4406,7 @@
     {
       "name": "red-alert-1-eva",
       "display_name": "Red Alert 1 - EVA",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "EVA - Red Alert 1 (only uses voicelines from Red Alert 1 EVA)",
       "author": {
         "name": "Florin Bunau",
@@ -4426,11 +4426,11 @@
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 43,
-      "total_size_bytes": 918742,
+      "total_size_bytes": 3286098,
       "source_repo": "fbunau/openpeon-red-alert-1-eva",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "783702e361ec8e4b54ca0312ac0428f64ce6d62d2af0305a330c50ec0ceb99c1",
+      "manifest_sha256": "d7879df08fa5ca15ae2be3308b86e01678512cf8d7ea43e044824c5696856c82",
       "tags": [
         "eva",
         "gaming",
@@ -4444,7 +4444,7 @@
         "sounds/complete1_mission_accomplished.WAV"
       ],
       "added": "2026-03-05",
-      "updated": "2026-03-05"
+      "updated": "2026-03-09"
     },
     {
       "name": "richard",
@@ -6537,7 +6537,7 @@
     {
       "name": "tiberian-sun-eva",
       "display_name": "Tiberian Sun EVA",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
       "author": {
         "name": "Florin Bunau",
@@ -6557,11 +6557,11 @@
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 23,
-      "total_size_bytes": 3351232,
+      "total_size_bytes": 12241344,
       "source_repo": "fbunau/openpeon-tiberian-sun-eva",
-      "source_ref": "v1.0.2",
+      "source_ref": "v1.0.3",
       "source_path": ".",
-      "manifest_sha256": "bded7d4909df434ea78597d2e1ae9006ddfcd1ca025f5de0079692eca17f25d2",
+      "manifest_sha256": "1f5cb88f70b539826d863e80ffd6029611e275a6aaf6f25a796e79e65e64a353",
       "tags": [
         "eva",
         "gaming",
@@ -6575,7 +6575,7 @@
         "sounds/complete1_mission_accomplished.WAV"
       ],
       "added": "2026-03-05",
-      "updated": "2026-03-05"
+      "updated": "2026-03-09"
     },
     {
       "name": "totally-spies-fr",
