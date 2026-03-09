@@ -2494,6 +2494,45 @@
       "updated": "2026-03-08"
     },
     {
+      "name": "op-kurtlar-vadisi",
+      "display_name": "Kurtlar Vadisi Sound Pack",
+      "version": "1.0.0",
+      "description": "Kurtlar Vadisi Sound Pack (Episodes 1–97)",
+      "author": { 
+        "name": "Ismail Sefa Nazlim", 
+        "github": "maskapsiz" 
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start", 
+        "session.end", 
+        "task.complete", 
+        "task.fail", 
+        "notification"
+      ],
+      "language": "tr",
+      "license": "Personal Use Only",
+      "sound_count": 173,
+      "total_size_bytes": 4989197,
+      "source_repo": "maskapsiz/op-kurtlar-vadisi",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0e3338e297c8d6878426a01a55a9838539699fb27c0f6d62eeb673932438120d",
+      "tags": [
+        "racon", 
+        "tv-series",
+        "kurtlar-vadisi",
+        "suleyman-cakir"
+      ],
+      "preview_sounds": [
+        "37/377_suleyman_cakir_istanbulun_seferidir.mp3", 
+        "46/293_bak_aslan_bey_ben_mafya_babasiyim.mp3", 
+        "05/223_ne_guzel_istanbul_be.mp3"
+      ],
+      "added": "2026-02-12",
+      "updated": "2026-03-09"
+    },
+    {
       "name": "lcars",
       "display_name": "LCARS (Star Trek TNG)",
       "version": "1.0.0",
