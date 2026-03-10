@@ -7428,6 +7428,46 @@
       "updated": "2026-03-06"
     },
     {
+      "name": "yasuo-pack",
+      "display_name": "Yasuo (League of Legends)",
+      "version": "1.0.0",
+      "description": "Yasuo voice lines from League of Legends (Chinese voice version)",
+      "author": {
+        "name": "b2ns",
+        "github": "b2ns"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 12,
+      "total_size_bytes": 1966100,
+      "source_repo": "b2ns/peon-yasuo-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e90bb892d0f452fc1a168c06569cad1f861b59bc76944a82f32f38eaa6e61473",
+      "tags": [
+        "gaming",
+        "league-of-legends",
+        "yasuo",
+        "moba"
+      ],
+      "preview_sounds": [
+        "sounds/start.mp3",
+        "sounds/complete.wav"
+      ],
+      "added": "2026-03-10",
+      "updated": "2026-03-10"
+    },
+    {
       "name": "zelda-a-link-to-the-past",
       "display_name": "Zelda: A Link to the Past Sound Pack",
       "version": "1.0.0",
