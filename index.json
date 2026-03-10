@@ -902,6 +902,47 @@
       "quality": "flagged"
     },
     {
+      "name": "boris_ru",
+      "display_name": "Дед Борис (Russian)",
+      "version": "1.0.0",
+      "description": "Дед Борис — AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
+      "author": {
+        "name": "malakhov-dmitrii",
+        "github": "malakhov-dmitrii"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 37,
+      "total_size_bytes": 2047525,
+      "source_repo": "malakhov-dmitrii/openpeon-boris-ru",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "411594e5dcbcd7f6b8ab4e0e9e43361efbb5da0bf9b2c613a59d6cc19d8f1939",
+      "tags": [
+        "ai-generated",
+        "elevenlabs",
+        "russian",
+        "original-character",
+        "humor"
+      ],
+      "preview_sounds": [
+        "complete-4.mp3",
+        "error-5.mp3"
+      ],
+      "added": "2026-03-10",
+      "updated": "2026-03-10"
+    },
+    {
       "name": "brewmaster_de",
       "display_name": "Pandaren Brewmaster (DE)",
       "version": "1.0.1",
