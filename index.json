@@ -3342,7 +3342,7 @@
     {
       "name": "op-kurtlar-vadisi",
       "display_name": "Kurtlar Vadisi Sound Pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Kurtlar Vadisi Sound Pack (Episodes 1–97)",
       "author": {
         "name": "Ismail Sefa Nazlim",
@@ -3362,12 +3362,12 @@
       ],
       "language": "tr",
       "license": "Personal Use Only",
-      "sound_count": 173,
+      "sound_count": 164,
       "total_size_bytes": 4989197,
       "source_repo": "maskapsiz/op-kurtlar-vadisi",
-      "source_ref": "v1.0.0",
+      "source_ref": "V1.1.0",
       "source_path": ".",
-      "manifest_sha256": "4abfb560f6fd3f83c15ab74e4075a11f5fcb7893a596b8f62e8fb8a0df964060",
+      "manifest_sha256": "60a29ed5bfe67d16fa11ee21c80ec093391bcff8f82a59a7b86af6fb8a286a81",
       "tags": [
         "racon",
         "tv-series",
@@ -3380,7 +3380,7 @@
         "05/223_ne_guzel_istanbul_be.mp3"
       ],
       "added": "2026-02-12",
-      "updated": "2026-03-09"
+      "updated": "2026-03-10"
     },
     {
       "name": "otto",
