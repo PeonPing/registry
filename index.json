@@ -6653,6 +6653,41 @@
       "updated": "2026-03-01"
     },
     {
+      "name": "theburntpeanut",
+      "display_name": "TheBurntPeanut",
+      "version": "1.0.0",
+      "description": "Sound pack using clips from TheBurntPeanut",
+      "author": {
+        "name": "Buupu",
+        "github": "Buupu"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 16,
+      "total_size_bytes": 1663420,
+      "source_repo": "Buupu/openpeon-theburntpeanut",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "988cf52994d7a3046cfdc12942f1e03aa7a9b2cdf50049de14f4a727fa0255d5",
+      "tags": [
+        "streamer",
+        "theburntpeanut",
+        "goop"
+      ],
+      "added": "2026-03-11",
+      "updated": "2026-03-11"
+    },
+    {
       "name": "tiberian-sun-eva",
       "display_name": "Tiberian Sun EVA",
       "version": "1.0.3",
