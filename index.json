@@ -6674,9 +6674,9 @@
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 16,
-      "total_size_bytes": 1663420,
+      "total_size_bytes": 1619944,
       "source_repo": "Buupu/openpeon-theburntpeanut",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
       "manifest_sha256": "988cf52994d7a3046cfdc12942f1e03aa7a9b2cdf50049de14f4a727fa0255d5",
       "tags": [
