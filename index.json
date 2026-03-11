@@ -652,6 +652,40 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "arc-raiders-emotes",
+      "display_name": "Arc Raiders Emotes",
+      "version": "1.0.0",
+      "description": "Arc Raiders emote voice lines — hey there, let's boogie, don't shoot, and more",
+      "author": {
+        "name": "Buupu",
+        "github": "Buupu"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 6,
+      "total_size_bytes": 720767,
+      "source_repo": "Buupu/openpeon-arc-raiders",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "05672b8041f5622a170778292b592853cd011b7716b896da6169554c2d6c9e9e",
+      "tags": [
+        "gaming",
+        "arc-raiders",
+        "emotes"
+      ],
+      "added": "2026-03-11",
+      "updated": "2026-03-11"
+    },
+    {
       "name": "arc_raiders",
       "display_name": "Arc Raiders Pack",
       "version": "1.0.0",
@@ -689,40 +723,6 @@
       ],
       "added": "2026-02-20",
       "updated": "2026-02-20"
-    },
-    {
-      "name": "arc-raiders-emotes",
-      "display_name": "Arc Raiders Emotes",
-      "version": "1.0.0",
-      "description": "Arc Raiders emote voice lines — hey there, let's boogie, don't shoot, and more",
-      "author": {
-        "name": "Buupu",
-        "github": "Buupu"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "input.required",
-        "resource.limit",
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error"
-      ],
-      "language": "en",
-      "license": "CC-BY-NC-4.0",
-      "sound_count": 6,
-      "total_size_bytes": 720767,
-      "source_repo": "Buupu/openpeon-arc-raiders",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "252fd71fcdca63f9ac7d4ec2ddc338e21a5ec8baf3fda0e7fa6cbeac9b352ab9",
-      "tags": [
-        "gaming",
-        "arc-raiders",
-        "emotes"
-      ],
-      "added": "2026-03-11",
-      "updated": "2026-03-11"
     },
     {
       "name": "arnold",
