@@ -7470,8 +7470,8 @@
     },
     {
       "name": "yasuo-pack",
-      "display_name": "Yasuo (League of Legends)",
-      "version": "1.0.0",
+      "display_name": "Yasuo(亚索)",
+      "version": "1.1.0",
       "description": "Yasuo voice lines from League of Legends (Chinese voice version)",
       "author": {
         "name": "b2ns",
@@ -7492,9 +7492,9 @@
       "sound_count": 12,
       "total_size_bytes": 1966100,
       "source_repo": "b2ns/peon-yasuo-pack",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
-      "manifest_sha256": "e90bb892d0f452fc1a168c06569cad1f861b59bc76944a82f32f38eaa6e61473",
+      "manifest_sha256": "c458e730725acf579a0f747bbbdf7befcae74daaa2ea0b9fa6360d17cf2fa7aa",
       "tags": [
         "gaming",
         "league-of-legends",
@@ -7502,11 +7502,11 @@
         "moba"
       ],
       "preview_sounds": [
-        "sounds/start.mp3",
-        "sounds/complete.wav"
+        "sounds/Death-is-like-the-wind-always-by-my-side.mp3",
+        "sounds/Sorye-ge-ton.wav"
       ],
       "added": "2026-03-10",
-      "updated": "2026-03-10"
+      "updated": "2026-03-11"
     },
     {
       "name": "zelda-a-link-to-the-past",
