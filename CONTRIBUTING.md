@@ -36,6 +36,8 @@ sha256sum openpeon.json
 shasum -a 256 openpeon.json
 ```
 
+⚠️ NOTE: On Windows, ensure that the file uses LF for the line endings, not CRLF.
+
 ### 4. Add your entry to index.json
 
 Fork this repo, then add your pack entry to the `packs` array in `index.json`. Keep entries in alphabetical order by `name`. Set `trust_tier` to `"community"`.
