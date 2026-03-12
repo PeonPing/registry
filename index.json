@@ -1318,7 +1318,7 @@
       "sound_count": 7,
       "total_size_bytes": 2984006,
       "source_repo": "PeonPing/og-packs",
-      "source_ref": "main",
+      "source_ref": "master",
       "source_path": "clean_chimes",
       "manifest_sha256": "6c8caa737d8daf579899dd1f89da5ad513e85c55e7cea5cfa563acea6f8cb994",
       "tags": [
@@ -1612,6 +1612,49 @@
       "updated": "2026-02-14"
     },
     {
+      "name": "deep-dive-banter",
+      "display_name": "Deep Dive Banter",
+      "version": "0.1.0",
+      "description": "Unofficial AI host parody clips for OpenPeon, mined and tightened from Google's Audio Overviews, mostly from NotebookLM.",
+      "author": {
+        "name": "Nelson",
+        "github": "nelsonjchen"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 43,
+      "total_size_bytes": 1314766,
+      "source_repo": "nelsonjchen/openpeon-deepdive",
+      "source_ref": "master",
+      "source_path": ".",
+      "manifest_sha256": "46b3f65218cfe1b3f2519f417f71fbe0125401c2c493f2b0dfc16f1a9ccb5160",
+      "tags": [
+        "ai-generated",
+        "notebooklm",
+        "google-audio-overview",
+        "podcast",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "sounds/session-start-welcome-to-the-deep-dive.mp3",
+        "sounds/task-progress-lets-unpack-this.mp3",
+        "sounds/task-complete-full-circle.mp3"
+      ],
+      "added": "2026-03-11",
+      "updated": "2026-03-11"
+    },
+    {
       "name": "diehard",
       "display_name": "Die Hard",
       "version": "1.0.1",
@@ -1754,7 +1797,7 @@
       "sound_count": 26,
       "total_size_bytes": 931168,
       "source_repo": "kmelkon/openpeon-dota2",
-      "source_ref": "main",
+      "source_ref": "master",
       "source_path": "dota2_ember_spirit",
       "manifest_sha256": "14b9a86e260574aa3600569a015de55c04956c096c5139aeec8999c2f8a42fab",
       "tags": [
