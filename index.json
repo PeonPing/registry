@@ -2291,6 +2291,48 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "guppi",
+      "display_name": "GUPPI",
+      "version": "1.0.0",
+      "description": "GUPPI AI assistant voice pack from the Bobiverse novels, generated with Qwen3 TTS voice cloning.",
+      "author": {
+        "name": "Rob Prouse",
+        "github": "rprouse"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam",
+        "session.end",
+        "task.progress"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 74,
+      "total_size_bytes": 12264376,
+      "source_repo": "rprouse/guppi-sound-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "10178923ce309ac7f5f8e4b3c3ea3c5ebc6205a38a3c684ea851c9a5bbb8fed8",
+      "tags": [
+        "sci-fi",
+        "fiction",
+        "bobiverse",
+        "ai"
+      ],
+      "preview_sounds": [
+        "status_ready.wav",
+        "transfer_of_replicant_hardware_to.wav"
+      ],
+      "added": "2026-03-12",
+      "updated": "2026-03-12"
+    },
+    {
       "name": "hal_2001",
       "display_name": "HAL 9000 (2001: A Space Odyssey)",
       "version": "1.0.0",
