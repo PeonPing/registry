@@ -1613,7 +1613,7 @@
     },
     {
       "name": "deep-dive-banter",
-      "display_name": "Deep Dive Banter",
+      "display_name": "Google Audio Overview Deep Dive",
       "version": "0.1.0",
       "description": "Unofficial AI host parody clips for OpenPeon, mined and tightened from Google's Audio Overviews, mostly from NotebookLM.",
       "author": {
@@ -1638,7 +1638,7 @@
       "source_repo": "nelsonjchen/openpeon-deepdive",
       "source_ref": "master",
       "source_path": ".",
-      "manifest_sha256": "46b3f65218cfe1b3f2519f417f71fbe0125401c2c493f2b0dfc16f1a9ccb5160",
+      "manifest_sha256": "b417912c8e454d9670cecb292e0b63979434bdaa81d832c82661dd0a6b6f5729",
       "tags": [
         "ai-generated",
         "notebooklm",
