@@ -6806,6 +6806,48 @@
       "updated": "2026-03-10"
     },
     {
+      "name": "tweety",
+      "display_name": "Tweety Bird",
+      "version": "0.0.1",
+      "description": "Tweety Bird sound pack",
+      "author": {
+        "name": "Yrenia and Nelson",
+        "github": "yrenia-nelson"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 26,
+      "total_size_bytes": 1487499,
+      "source_repo": "yrenia-nelson/openpeon-tweety",
+      "source_ref": "master",
+      "source_path": ".",
+      "manifest_sha256": "7abcb5ab16ef8fd5e2f12dd25837d539858f49d335d210bf5b289b497d9ba171",
+      "tags": [
+        "cartoon",
+        "looney-tunes",
+        "tweety",
+        "warner-bros",
+        "mel-blanc"
+      ],
+      "preview_sounds": [
+        "sounds/session-start-hello-putty-cat.mp3",
+        "sounds/task-complete-you-take-it-from-here-buddy.mp3",
+        "sounds/task-error-you-oughta-be-ashamed-of-yourself-bad-old-putty-cat.mp3"
+      ],
+      "added": "2026-03-12",
+      "updated": "2026-03-12"
+    },
+    {
       "name": "warcraft-peon",
       "display_name": "Warcraft 3 Peon",
       "version": "1.0.0",
