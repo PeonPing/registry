@@ -7249,7 +7249,7 @@
     {
       "name": "wc2_peon_ru",
       "display_name": "Орк-батрак (Russian)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Орк-батрак из Warcraft II (русская озвучка от СПК)",
       "author": {
         "name": "Artyom Mezin",
@@ -7270,9 +7270,9 @@
       "sound_count": 22,
       "total_size_bytes": 424904,
       "source_repo": "Sogl/openpeon-wc2-peon-ru",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "c505ab7af92d37baa7a543052ddd0af0c4c75731c7756332bebba1b7b2526f48",
+      "manifest_sha256": "cb84e0d71fd4d3ae55dcf0cde097c0557aaf27a502cd301a628b20d417c8a904",
       "tags": [
         "gaming",
         "warcraft",
