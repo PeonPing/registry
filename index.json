@@ -7248,9 +7248,9 @@
     },
     {
       "name": "wc2_peon_ru",
-      "display_name": "Орк-батрак (Russian)",
+      "display_name": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a (Russian)",
       "version": "1.0.1",
-      "description": "Орк-батрак из Warcraft II (русская озвучка от СПК)",
+      "description": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a \u0438\u0437 Warcraft II (\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043e\u0437\u0432\u0443\u0447\u043a\u0430 \u043e\u0442 \u0421\u041f\u041a)",
       "author": {
         "name": "Artyom Mezin",
         "github": "Sogl"
@@ -7908,6 +7908,180 @@
       ],
       "added": "2026-02-25",
       "updated": "2026-02-25"
+    },
+    {
+      "name": "djt",
+      "display_name": "Donald J. Trump",
+      "version": "1.0.0",
+      "description": "Donald J. Trump quotes for your Claude Code notifications. 33 clips across 7 categories. Mix of real speech and AI-generated coding-contextual lines (FakeYou TTS).",
+      "author": {
+        "name": "bdrang",
+        "github": "BaraqD"
+      },
+      "trust_tier": "community",
+      "license": "fair-use",
+      "language": "en",
+      "tags": [
+        "political-quotes",
+        "trump",
+        "djt",
+        "usa",
+        "comedy",
+        "ai-generated"
+      ],
+      "source_repo": "BaraqD/pack-djt",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "sound_count": 47,
+      "total_size_bytes": 4997450,
+      "manifest_sha256": "31a674ccf4c9bd67bf5e86a194115aaec1f5bf62c9b5e8aa8e6172ea41f4c38e",
+      "preview_sounds": [
+        "nobody_codes_better.wav",
+        "youre_hired.wav",
+        "respect_my_authoritah.wav"
+      ],
+      "added": "2026-03-15",
+      "updated": "2026-03-15"
+    },
+    {
+      "name": "simpsons",
+      "display_name": "The Simpsons",
+      "version": "1.0.0",
+      "description": "The Simpsons quotes for your Claude Code notifications. 17 clips across 7 categories.",
+      "author": {
+        "name": "bdrang",
+        "github": "BaraqD"
+      },
+      "trust_tier": "community",
+      "license": "fair-use",
+      "language": "en",
+      "tags": [
+        "tv-quotes",
+        "simpsons",
+        "animated",
+        "comedy",
+        "bart",
+        "burns",
+        "ned",
+        "ralph"
+      ],
+      "source_repo": "BaraqD/pack-simpsons",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "sound_count": 17,
+      "total_size_bytes": 541169,
+      "manifest_sha256": "80beb12d9865131431cb5aa8ceef66e72a26f1199ebb1f72d9c8ec91c7c7635f",
+      "preview_sounds": [
+        "hi-dily-hey.mp3",
+        "Mr-Burns-pish-posh.mp3",
+        "wooky1.mp3"
+      ],
+      "added": "2026-03-15",
+      "updated": "2026-03-15"
+    },
+    {
+      "name": "seinfeld_kramer",
+      "display_name": "Kramer (Seinfeld)",
+      "version": "1.0.0",
+      "description": "Cosmo Kramer quotes for your Claude Code notifications. 18 clips across 7 categories.",
+      "author": {
+        "name": "bdrang",
+        "github": "BaraqD"
+      },
+      "trust_tier": "community",
+      "license": "fair-use",
+      "language": "en",
+      "tags": [
+        "tv-quotes",
+        "seinfeld",
+        "kramer",
+        "cosmo",
+        "comedy",
+        "90s"
+      ],
+      "source_repo": "BaraqD/pack-seinfeld_kramer",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "sound_count": 18,
+      "total_size_bytes": 476063,
+      "manifest_sha256": "0e9b71a09ed08296c2ba6c3fda83f3a92f39a08387aa7aaaf6d03c58dcc6916a",
+      "preview_sounds": [
+        "giddy-up.wav",
+        "pretzels.wav",
+        "payback.wav"
+      ],
+      "added": "2026-03-15",
+      "updated": "2026-03-15"
+    },
+    {
+      "name": "southpark_cartman",
+      "display_name": "Cartman (South Park)",
+      "version": "1.0.0",
+      "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS \u2014 Eric Cartman Angry model).",
+      "author": {
+        "name": "bdrang",
+        "github": "BaraqD"
+      },
+      "trust_tier": "community",
+      "license": "fair-use",
+      "language": "en",
+      "tags": [
+        "tv-quotes",
+        "south-park",
+        "cartman",
+        "comedy",
+        "animated",
+        "ai-generated"
+      ],
+      "source_repo": "BaraqD/pack-southpark_cartman",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "sound_count": 25,
+      "total_size_bytes": 3113784,
+      "manifest_sha256": "21b9d222f5979dd002aa5b7ed93dd64c56c89df235cb27b971befd71eee5b08f",
+      "preview_sounds": [
+        "respect_my_authoritah.wav",
+        "kickass.wav",
+        "screw_you_guys.wav"
+      ],
+      "added": "2026-03-15",
+      "updated": "2026-03-15"
     }
   ],
   "total_packs": 173
