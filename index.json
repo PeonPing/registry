@@ -3070,6 +3070,126 @@
       "quality": "flagged"
     },
     {
+      "name": "lol_fiddlesticks",
+      "display_name": "Fiddlesticks",
+      "version": "1.0.0",
+      "description": "Fiddlesticks (Rework) voice lines from League of Legends — the ancient fear demon",
+      "author": {
+        "name": "huynhtan",
+        "github": "danhuynhdev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 29,
+      "total_size_bytes": 1217278,
+      "source_repo": "danhuynhdev/openpeon_lol_fiddlesticks",
+      "source_ref": "v1.0.0",
+      "source_path": "lol_fiddlesticks",
+      "manifest_sha256": "0ff1bf943230f22f39325a29e6ac3d9db04535310c1637821b44cc56695f3ff0",
+      "tags": [
+        "gaming",
+        "league-of-legends",
+        "moba",
+        "riot"
+      ],
+      "preview_sounds": [
+        "MoveFirst_1.ogg",
+        "Kill_2.ogg"
+      ],
+      "added": "2026-03-19",
+      "updated": "2026-03-19"
+    },
+    {
+      "name": "lol_fiddlesticks_classic",
+      "display_name": "Fiddlesticks - Classic (Pre-Rework)",
+      "version": "1.0.0",
+      "description": "Classic pre-rework Fiddlesticks voice lines from League of Legends",
+      "author": {
+        "name": "huynhtan",
+        "github": "danhuynhdev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 20,
+      "total_size_bytes": 483759,
+      "source_repo": "danhuynhdev/openpeon_lol_fiddlesticks",
+      "source_ref": "v1.0.0",
+      "source_path": "lol_fiddlesticks_classic",
+      "manifest_sha256": "8e4a340cc44612f401f68c04aa31f6ff338f8839cb5984cb33ee248a05b22c18",
+      "tags": [
+        "gaming",
+        "league-of-legends",
+        "moba",
+        "riot"
+      ],
+      "preview_sounds": [
+        "Select_old.ogg",
+        "Move_1_old2.ogg"
+      ],
+      "added": "2026-03-19",
+      "updated": "2026-03-19"
+    },
+    {
+      "name": "lol_fiddlesticks_surprise_party",
+      "display_name": "Fiddlesticks - Surprise Party",
+      "version": "1.0.0",
+      "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends — the demon clown",
+      "author": {
+        "name": "huynhtan",
+        "github": "danhuynhdev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 33,
+      "total_size_bytes": 1353669,
+      "source_repo": "danhuynhdev/openpeon_lol_fiddlesticks",
+      "source_ref": "v1.0.0",
+      "source_path": "lol_fiddlesticks_surprise_party",
+      "manifest_sha256": "3d6fff4a43985bbf27458a5fd227e671263a17af2a17cce9d3e46cdfef2ec124",
+      "tags": [
+        "gaming",
+        "league-of-legends",
+        "moba",
+        "riot"
+      ],
+      "preview_sounds": [
+        "MoveFirst_0.ogg",
+        "Kill_0.ogg"
+      ],
+      "added": "2026-03-19",
+      "updated": "2026-03-19"
+    },
+    {
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
