@@ -1676,7 +1676,7 @@
       "source_repo": "nelsonjchen/openpeon-deepdive",
       "source_ref": "master",
       "source_path": ".",
-      "manifest_sha256": "b417912c8e454d9670cecb292e0b63979434bdaa81d832c82661dd0a6b6f5729",
+      "manifest_sha256": "472020560b5a9861288250fd2cad5036b038ba44c2e0c69739cef7504da4b6c0",
       "tags": [
         "ai-generated",
         "notebooklm",
