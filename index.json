@@ -1658,7 +1658,7 @@
         "name": "Nelson",
         "github": "nelsonjchen"
       },
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "categories": [
         "input.required",
         "resource.limit",
@@ -2739,7 +2739,7 @@
         "name": "Nelson",
         "github": "nelsonjchen"
       },
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "categories": [
         "session.start",
         "task.acknowledge",
