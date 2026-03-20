@@ -2731,6 +2731,47 @@
       "updated": "2026-02-27"
     },
     {
+      "name": "katamari-damacy",
+      "display_name": "Katamari Damacy",
+      "version": "0.4.1",
+      "description": "Sound clips from Katamari Damacy",
+      "author": {
+        "name": "Nelson",
+        "github": "nelsonjchen"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "task.progress"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 33,
+      "total_size_bytes": 1508180,
+      "source_repo": "nelsonjchen/openpeon-katamari",
+      "source_ref": "master",
+      "source_path": ".",
+      "manifest_sha256": "34d807aaeb7f22174e20f2c773d2fda92870ca7e5ebf6c625d1e0866f5576250",
+      "tags": [
+        "gaming",
+        "katamari",
+        "namco",
+        "playstation"
+      ],
+      "preview_sounds": [
+        "sounds/session-start-katamari-groove.mp3",
+        "sounds/task-complete-yahoo.mp3"
+      ],
+      "added": "2026-03-20",
+      "updated": "2026-03-20"
+    },
+    {
       "name": "kiriko",
       "display_name": "Kiriko (Overwatch)",
       "version": "1.0.0",
