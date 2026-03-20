@@ -6843,6 +6843,48 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "stronghold-german-genie",
+      "display_name": "Stronghold Genie German",
+      "version": "1.0.0",
+      "description": "German voice lines from the Genie narrator and advisors in Stronghold Crusader",
+      "author": {
+        "name": "Martin Schwarz",
+        "github": "mrtnsch"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "fair-use",
+      "sound_count": 21,
+      "total_size_bytes": 1469520,
+      "source_repo": "mrtnsch/openpeon-stronghold-german-genie",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "dd5589f792da18c6bcf76372714422b18f4b286253f893988112caef68b6c336",
+      "tags": [
+        "gaming",
+        "stronghold",
+        "rts",
+        "firefly",
+        "german"
+      ],
+      "preview_sounds": [
+        "General_Startgame.mp3",
+        "Space_Warning8.mp3",
+        "Resource_Need1.mp3"
+      ],
+      "added": "2026-03-20",
+      "updated": "2026-03-20"
+    },
+    {
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
