@@ -7176,9 +7176,9 @@
       "updated": "2026-02-19"
     },
     {
-      "name": "tf2-medic",
+      "name": "tf2_medic",
       "display_name": "TF2 Medic",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Team Fortress 2 Medic voice lines as a CESP sound pack",
       "author": {
         "name": "rexarski",
@@ -7199,9 +7199,9 @@
       "language": "en",
       "license": "MIT",
       "sound_count": 119,
-      "total_size_bytes": 17125075,
+      "total_size_bytes": 17062906,
       "source_repo": "rexarski/peon-ping-tf2-medic-pack",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
       "manifest_sha256": "0a3feb8fe4aed305bc0e95c150e4a95600953a34b57bc94ee9a350e4bd17dcb5",
       "tags": [
