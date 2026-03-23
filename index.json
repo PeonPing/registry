@@ -3292,50 +3292,6 @@
       "updated": "2026-03-09"
     },
     {
-      "name": "honor_of_kings",
-      "display_name": "Honor of Kings (王者荣耀)",
-      "version": "1.0.0",
-      "description": "Honor of Kings game announcement voice lines and XiShi character VO",
-      "author": {
-        "name": "zenvor",
-        "github": "zenvor"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "input.required",
-        "resource.limit",
-        "session.end",
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "task.progress",
-        "user.spam"
-      ],
-      "language": "zh",
-      "license": "MIT",
-      "sound_count": 80,
-      "total_size_bytes": 30458254,
-      "source_repo": "zenvor/openpeon-honor-of-kings",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "4815b7b2c5011325b9946c7e8f133e81cc96e1d79fa7779466a32c9f99ceb21f",
-      "tags": [
-        "gaming",
-        "moba",
-        "honor-of-kings",
-        "chinese",
-        "tencent",
-        "wang-zhe-rong-yao"
-      ],
-      "preview_sounds": [
-        "welcome-to-kings-canyon.wav",
-        "pentakill-1.wav"
-      ],
-      "added": "2026-03-23",
-      "updated": "2026-03-23"
-    },
-    {
       "name": "jarvis",
       "display_name": "J.A.R.V.I.S.",
       "version": "1.0.0",
