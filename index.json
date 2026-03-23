@@ -7738,6 +7738,47 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "teemo-kr",
+      "display_name": "티모 (한국어)",
+      "version": "1.0.0",
+      "description": "리그 오브 레전드 2024 ASU 티모 한국어 음성팩. 밴들시티 정찰대장 티모 출동!",
+      "author": {
+        "name": "hphannah",
+        "github": "hphannah"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ko",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 14,
+      "total_size_bytes": 638352,
+      "source_repo": "hphannah/peon-ping-teemo-ko",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "45fe75ae8314d4b67cda7508d6b76fd046bd1b010f52ce04e96d9225e3c88fb1",
+      "tags": [
+        "league-of-legends",
+        "teemo",
+        "korean",
+        "gaming",
+        "lol"
+      ],
+      "preview_sounds": [
+        "ready-to-launch.mp3",
+        "yes-sir.mp3"
+      ],
+      "added": "2026-03-23",
+      "updated": "2026-03-23"
+    },
+    {
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
