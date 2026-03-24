@@ -1693,6 +1693,49 @@
       "updated": "2026-03-11"
     },
     {
+      "name": "doomfist",
+      "display_name": "Doomfist (Overwatch)",
+      "version": "1.0.0",
+      "description": "Doomfist voice lines from Overwatch -- the successor to the gauntlet",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 463872,
+      "source_repo": "heron--/peonping-doomfist",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c8f7d5f7208591a4465a9347ee3293c57f7fa68e51aa63b62dbfad28533fadc5",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "sounds/session_start_1.mp3",
+        "sounds/task_complete_1.mp3",
+        "sounds/task_error_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "demon-slayer-akaza",
       "display_name": "Demon Slayer - Akaza",
       "version": "1.0.0",
