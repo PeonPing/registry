@@ -6523,6 +6523,48 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "pokemon-gen1",
+      "display_name": "Pokemon Gen 1",
+      "version": "1.0.0",
+      "description": "Cries of the original 151 Pokemon from Generation 1",
+      "author": {
+        "name": "devauxbr",
+        "github": "devauxbr"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 151,
+      "total_size_bytes": 2057299,
+      "source_repo": "devauxbr/pokemon-gen1",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "12674b3d8cee14ab517674327672539b1d42cfe3689e8d71e6bb06388b97f60f",
+      "tags": [
+        "gaming",
+        "pokemon",
+        "nintendo",
+        "gen1"
+      ],
+      "preview_sounds": [
+        "pikachu.ogg",
+        "charizard.ogg"
+      ],
+      "added": "2026-03-25",
+      "updated": "2026-03-25"
+    },
+    {
       "name": "postal2_pl",
       "display_name": "Postal 2 (Polish)",
       "version": "1.0.1",
