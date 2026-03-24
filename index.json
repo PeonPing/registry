@@ -4269,6 +4269,49 @@
       "updated": "2026-03-16"
     },
     {
+      "name": "moira",
+      "display_name": "Moira (Overwatch)",
+      "version": "1.0.0",
+      "description": "Moira voice lines from Overwatch -- the geneticist who will reshape humanity",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 46,
+      "total_size_bytes": 615552,
+      "source_repo": "heron--/peonping-moira",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "0544bd6863634580ca3f70a9cd1737ac5246e1b0ba337b992dcc1b66dc362cd2",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps",
+        "irish"
+      ],
+      "preview_sounds": [
+        "task_complete_6.mp3",
+        "session_start_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "molag_bal",
       "display_name": "Molag Bal",
       "version": "1.0.0",
