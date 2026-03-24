@@ -4007,46 +4007,6 @@
       "updated": "2026-03-03"
     },
     {
-      "name": "jetpack_cat",
-      "display_name": "Overwatch - Jetpack Cat",
-      "version": "1.0.0",
-      "description": "Jetpack Cat voice lines from Overwatch -- the rocket-powered feline support hero",
-      "author": {
-        "name": "heron--",
-        "github": "heron--"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "input.required",
-        "session.end",
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error"
-      ],
-      "language": "en",
-      "license": "fair-use",
-      "sound_count": 10,
-      "total_size_bytes": 212352,
-      "source_repo": "heron--/peonping-jetpack_cat",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "f9d7193fd0d414787703807ea653297bec789377a1cbf12ae0da1ebc43d7d1a3",
-      "tags": [
-        "gaming",
-        "overwatch",
-        "blizzard",
-        "fps",
-        "cat"
-      ],
-      "preview_sounds": [
-        "session_start_1.mp3",
-        "task_complete_1.mp3"
-      ],
-      "added": "2026-03-24",
-      "updated": "2026-03-24"
-    },
-    {
       "name": "junker_queen",
       "display_name": "Overwatch - Junker Queen",
       "version": "1.0.0",
