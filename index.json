@@ -284,6 +284,48 @@
       "updated": "2026-02-26"
     },
     {
+      "name": "ana",
+      "display_name": "Overwatch - Ana",
+      "version": "1.0.0",
+      "description": "Ana voice lines from Overwatch -- the veteran sniper and founding Overwatch member",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 479424,
+      "source_repo": "heron--/peonping-ana",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "fc73abb72062e6a3e1acefec70a082603584018081d6ade16f4763b8fc8ea03a",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "anchorman_brick",
       "display_name": "Brick Tamland",
       "version": "1.0.0",
@@ -848,6 +890,48 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "baptiste",
+      "display_name": "Overwatch - Baptiste",
+      "version": "1.0.0",
+      "description": "Baptiste voice lines from Overwatch -- the combat medic who fights for a better world",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 414336,
+      "source_repo": "heron--/peonping-baptiste",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "9f88148ab039d305c952228b3d47846460ec8e7f2ad318ce47f5c3ddaf7626bd",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "bastion",
       "display_name": "Overwatch - Bastion",
       "version": "1.0.0",
@@ -1139,6 +1223,48 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "brigitte",
+      "display_name": "Overwatch - Brigitte",
+      "version": "1.0.0",
+      "description": "Brigitte voice lines from Overwatch -- the shield maiden and squire of Reinhardt",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 398784,
+      "source_repo": "heron--/peonping-brigitte",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4848531e5dae7a78bbf9212588e5fba8fd5692f9083adf2c34207cf038425119",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
     },
     {
       "name": "caliph",
@@ -3922,6 +4048,48 @@
       "updated": "2026-03-23"
     },
     {
+      "name": "illari",
+      "display_name": "Overwatch - Illari",
+      "version": "1.0.0",
+      "description": "Illari voice lines from Overwatch -- the Inti warrior who channels the power of the sun",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 440448,
+      "source_repo": "heron--/peonping-illari",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "932640038a267a7fa9130eeeddd1b74be06d7587029a3d843c7a286d083dd309",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "jarvis",
       "display_name": "J.A.R.V.I.S.",
       "version": "1.0.0",
@@ -4077,6 +4245,48 @@
       "source_ref": "v1.0.0",
       "source_path": ".",
       "manifest_sha256": "d3784a869911cde43d22b13ba1dda97fad3ac3f93a5a5d52f875375f1c39e72a",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
+      "name": "juno",
+      "display_name": "Overwatch - Juno",
+      "version": "1.0.0",
+      "description": "Juno voice lines from Overwatch -- the Mars colony medic with orbital tech",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 488256,
+      "source_repo": "heron--/peonping-juno",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "1b5337f1c73ab0b9f5c129e04d74fe2fc1639c412c6bd7a6393dd177fb65884e",
       "tags": [
         "gaming",
         "overwatch",
@@ -4509,6 +4719,48 @@
       "quality": "flagged"
     },
     {
+      "name": "lifeweaver",
+      "display_name": "Overwatch - Lifeweaver",
+      "version": "1.0.0",
+      "description": "Lifeweaver voice lines from Overwatch -- the biolight architect who sculpts life itself",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 447744,
+      "source_repo": "heron--/peonping-lifeweaver",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4f5da805a8617fb593fe1833098febc688970e46f59ef944560bd62e5eb937dc",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "lol_fiddlesticks",
       "display_name": "Fiddlesticks",
       "version": "1.0.0",
@@ -4627,6 +4879,48 @@
       ],
       "added": "2026-03-19",
       "updated": "2026-03-19"
+    },
+    {
+      "name": "lucio",
+      "display_name": "Overwatch - Lucio",
+      "version": "1.0.0",
+      "description": "Lucio voice lines from Overwatch -- the freedom-fighting DJ who heals with music",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 404736,
+      "source_repo": "heron--/peonping-lucio",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "85c3e14c40139598e0b02b5440b4272fe150705b388b1cb7d61209b9ea989eae",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
     },
     {
       "name": "marcel",
@@ -4776,6 +5070,48 @@
       "source_ref": "v1.0.0",
       "source_path": ".",
       "manifest_sha256": "d36e2c656acb8bc4a0a1d3db9c2496620ccd63ba832e0dafcf2524834d113eb3",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
+      "name": "mercy",
+      "display_name": "Overwatch - Mercy",
+      "version": "1.0.0",
+      "description": "Mercy voice lines from Overwatch -- the guardian angel and peerless healer",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 452736,
+      "source_repo": "heron--/peonping-mercy",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "d66e4a152d236326bfd10f5b18fa3296ec888e3c8f015c97f54c52600e905548",
       "tags": [
         "gaming",
         "overwatch",
@@ -10833,6 +11169,48 @@
       ],
       "added": "2026-02-20",
       "updated": "2026-02-20"
+    },
+    {
+      "name": "zenyatta",
+      "display_name": "Overwatch - Zenyatta",
+      "version": "1.0.0",
+      "description": "Zenyatta voice lines from Overwatch -- the omnic monk who seeks enlightenment through conflict",
+      "author": {
+        "name": "heron--",
+        "github": "heron--"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 45,
+      "total_size_bytes": 659520,
+      "source_repo": "heron--/peonping-zenyatta",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "824ee09c892878562ed1ba20b61bfd1dd67ee01494abd9d8d2bc1573792e147c",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "fps"
+      ],
+      "preview_sounds": [
+        "session_start_1.mp3",
+        "task_complete_1.mp3"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
     },
     {
       "name": "zoolander_derek",
