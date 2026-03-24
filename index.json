@@ -9242,6 +9242,48 @@
       "updated": "2026-03-06"
     },
     {
+      "name": "wrecking_ball",
+      "display_name": "Wrecking Ball (Overwatch)",
+      "version": "1.0.0",
+      "description": "Hammond / Wrecking Ball voice lines from Overwatch — the champion hamster pilot",
+      "author": {
+        "name": "wahidfaird",
+        "github": "wahidfaird"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 38,
+      "total_size_bytes": 1663607,
+      "source_repo": "wahidfarid/peon-ping-wrecking-ball",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "369bab8ec404bb2c4fe76e80e062300eb69e86657a94c4887cad8899517e7c36",
+      "tags": [
+        "gaming",
+        "overwatch",
+        "blizzard",
+        "mech",
+        "hamster"
+      ],
+      "preview_sounds": [
+        "sounds/weapons_operational_grapple_primed_hamster_pumped.ogg",
+        "sounds/the_hamster_summons_you.ogg",
+        "sounds/system_malfunction.ogg"
+      ],
+      "added": "2026-03-24",
+      "updated": "2026-03-24"
+    },
+    {
       "name": "yasuo-pack",
       "display_name": "Yasuo(亚索)",
       "version": "1.1.0",
