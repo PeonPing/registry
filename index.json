@@ -4129,6 +4129,31 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "jan_pawel_2",
+      "display_name": "Jan Pawel 2",
+      "version": "1.0.2",
+      "description": "Jan Pawel 2, the greatest Pole of all time.",
+      "author": { "name": "Pan Jawel", "github": "pan-jawel" },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.error",
+        "input.required"
+      ],
+      "language": "pl",
+      "license": "personal-use",
+      "sound_count": 12,
+      "source_repo": "pan-jawel/openpeon-jp2",
+      "source_ref": "v1.0.2",
+      "source_path": ".",
+      "manifest_sha256": "81ec74e12ff170988291acc77d5e16869d6f6c94cb7c92c871e0b567f3d6bf17",
+      "tags": ["polish"],
+      "preview_sounds": ["badzmy-lagodni.mp3", "co-mam-robic.mp3"],
+      "added": "2026-03-25",
+      "updated": "2026-03-25"
+    },
+    {
       "name": "jarvis",
       "display_name": "J.A.R.V.I.S.",
       "version": "1.0.0",
