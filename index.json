@@ -9205,6 +9205,44 @@
       "updated": "2026-02-13"
     },
     {
+      "name": "stalker_ua",
+      "display_name": "S.T.A.L.K.E.R. (Ukrainian)",
+      "version": "1.0.0",
+      "description": "Ukrainian voice lines from the S.T.A.L.K.E.R. series",
+      "author": {
+        "name": "Andrii Myronenko",
+        "github": "andrii-myronenko"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "uk",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 19,
+      "total_size_bytes": 651143,
+      "source_repo": "andrii-myronenko/openpeon-stalker-ua-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a6707edaf4c9b9dc37dbdb33eb3074d938d0e935978e3ca2c09cbf52278c497b",
+      "tags": [
+        "gaming",
+        "stalker",
+        "ukrainian"
+      ],
+      "preview_sounds": [
+        "barman_hello_1.ogg",
+        "bandit_help_2.ogg"
+      ],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
       "name": "starrail-kafka-peon-pack",
       "display_name": "崩坏星穹铁道-卡芙卡语音包",
       "version": "1.0.1",
@@ -9242,44 +9280,6 @@
       ],
       "added": "2026-02-23",
       "updated": "2026-02-23"
-    },
-    {
-      "name": "stalker_ua",
-      "display_name": "S.T.A.L.K.E.R. (Ukrainian)",
-      "version": "1.0.0",
-      "description": "Ukrainian voice lines from the S.T.A.L.K.E.R. series",
-      "author": {
-        "name": "Andrii Myronenko",
-        "github": "andrii-myronenko"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "input.required",
-        "resource.limit",
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error"
-      ],
-      "language": "uk",
-      "license": "CC-BY-NC-4.0",
-      "sound_count": 19,
-      "total_size_bytes": 651143,
-      "source_repo": "andrii-myronenko/openpeon-stalker-ua-pack",
-      "source_ref": "v1.0.0",
-      "source_path": ".",
-      "manifest_sha256": "a6707edaf4c9b9dc37dbdb33eb3074d938d0e935978e3ca2c09cbf52278c497b",
-      "tags": [
-        "gaming",
-        "stalker",
-        "ukrainian"
-      ],
-      "preview_sounds": [
-        "barman_hello_1.ogg",
-        "bandit_help_2.ogg"
-      ],
-      "added": "2026-03-28",
-      "updated": "2026-03-28"
     },
     {
       "name": "starship_rasczak",
