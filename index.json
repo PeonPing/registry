@@ -2093,6 +2093,654 @@
       "updated": "2026-03-16"
     },
     {
+      "name": "ds_akaza",
+      "display_name": "Demon Slayer - Akaza",
+      "version": "1.1.0",
+      "description": "Akaza (Upper Moon 3) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 13,
+      "total_size_bytes": 867899,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "akaza",
+      "manifest_sha256": "4be168192fd7ff709ee75e5754896cfbf24b1d7d2d76c502fb40be76bb0900ae",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_doma",
+      "display_name": "Demon Slayer - Doma",
+      "version": "1.1.0",
+      "description": "Doma (Upper Moon Two) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 11,
+      "total_size_bytes": 828439,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "doma",
+      "manifest_sha256": "f109508e628e7ae9a2ae5bc6d57ee9846112cdf702a4a675a396f4ce42cc4e34",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_enmu",
+      "display_name": "Demon Slayer - Enmu",
+      "version": "1.1.0",
+      "description": "Enmu (Lower Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 9,
+      "total_size_bytes": 503188,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "enmu",
+      "manifest_sha256": "5b186f1894d4e3b38584f7f1f20c83f1f62f7883e907d2449cbc936067330058",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_giyu",
+      "display_name": "Demon Slayer - Giyu Tomioka",
+      "version": "1.1.0",
+      "description": "Giyu Tomioka voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 11,
+      "total_size_bytes": 489257,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "giyu",
+      "manifest_sha256": "0be361d261291a413bdda11ad3a5e95f1a0fc842ac4cc8f5e383f6e0022b626f",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_gyomei",
+      "display_name": "Demon Slayer - Gyomei Himejima",
+      "version": "1.1.0",
+      "description": "Gyomei Himejima voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 9,
+      "total_size_bytes": 589212,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "gyomei",
+      "manifest_sha256": "10c2fd9206166981733cce5ab16c66d9c853057bf97da202b7dea2fe3156e877",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_inosuke",
+      "display_name": "Demon Slayer - Inosuke Hashibira",
+      "version": "1.1.0",
+      "description": "Inosuke Hashibira voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 12,
+      "total_size_bytes": 755194,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "inosuke",
+      "manifest_sha256": "f493fea984c54b0234cf39f0faf4fd7b427063ff759c683f6b616d8e5502be03",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_kokushibo",
+      "display_name": "Demon Slayer - Kokushibo",
+      "version": "1.1.0",
+      "description": "Kokushibo (Upper Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 9,
+      "total_size_bytes": 410813,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "kokushibo",
+      "manifest_sha256": "60e74b2438813efc0575d330f73828f01df6a6b941b823103f6b397f3c03b54c",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_mitsuri",
+      "display_name": "Demon Slayer - Mitsuri Kanroji",
+      "version": "1.1.0",
+      "description": "Mitsuri Kanroji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 8,
+      "total_size_bytes": 563509,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "mitsuri",
+      "manifest_sha256": "7665c65db9acddc764d83b924262a290562b1ff5f9a4223022ef34175573ec3f",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_muichiro",
+      "display_name": "Demon Slayer - Muichiro Tokito",
+      "version": "1.1.0",
+      "description": "Muichiro Tokito voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 10,
+      "total_size_bytes": 542861,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "muichiro",
+      "manifest_sha256": "3afb1a80fe330cc3d8088f6092ebf2ef4719322aff139172fc637b6e8167494a",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_muzan",
+      "display_name": "Demon Slayer - Muzan Kibutsuji",
+      "version": "1.1.0",
+      "description": "Muzan Kibutsuji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 15,
+      "total_size_bytes": 832037,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "muzan",
+      "manifest_sha256": "9c3207d1ea63ec8b9f3707ac54c39c991c6a2fae069c652d122751f583c87e5f",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_nezuko",
+      "display_name": "Demon Slayer - Nezuko Kamado",
+      "version": "1.1.0",
+      "description": "Nezuko Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 15,
+      "total_size_bytes": 716857,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "nezuko",
+      "manifest_sha256": "32d9d7fe59c7fc79b6506b959c8490de603dcedb8114b1e29a908eada7bb8d73",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_obanai",
+      "display_name": "Demon Slayer - Obanai Iguro",
+      "version": "1.1.0",
+      "description": "Obanai Iguro voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 18,
+      "total_size_bytes": 1415311,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "obanai",
+      "manifest_sha256": "6032c4372de92bbb587c460ecc076f668d7e86e0a10dabac8f7d65a860097b77",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_rengoku",
+      "display_name": "Demon Slayer - Kyojuro Rengoku",
+      "version": "1.1.0",
+      "description": "Kyojuro Rengoku voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 14,
+      "total_size_bytes": 860650,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "rengoku",
+      "manifest_sha256": "648e5e8dbffbc0f3410eb7f1a91a3922a1ac5ad0a19014c4ee444d32444ace1a",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_sanemi",
+      "display_name": "Demon Slayer - Sanemi Shinazugawa",
+      "version": "1.1.0",
+      "description": "Sanemi Shinazugawa voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 10,
+      "total_size_bytes": 491700,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "sanemi",
+      "manifest_sha256": "6d19047f3cd24c24d70662da8d316a1e7dd9afe6ce6104a98de9a3f3eca6ccb1",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_shinobu",
+      "display_name": "Demon Slayer - Shinobu Kocho",
+      "version": "1.1.0",
+      "description": "Shinobu Kocho voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 10,
+      "total_size_bytes": 608746,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "shinobu",
+      "manifest_sha256": "f44f1667418b708d53fe7a21e9f08aa0aeb9df545f7a72fd6c3426bd43ec6a84",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_tanjiro",
+      "display_name": "Demon Slayer - Tanjiro Kamado",
+      "version": "1.1.0",
+      "description": "Tanjiro Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 16,
+      "total_size_bytes": 1011011,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "tanjiro",
+      "manifest_sha256": "eb9440eea5ea376e25913f97ba08dec7305e600021bdca1f0e001c23c196195f",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_tengen",
+      "display_name": "Demon Slayer - Tengen Uzui",
+      "version": "1.1.0",
+      "description": "Tengen Uzui voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 11,
+      "total_size_bytes": 875785,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "tengen",
+      "manifest_sha256": "5a6c0fa03b9ba779044899591dc7a5e946bf8e0a4dbd8177046af8fe36878b22",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
+      "name": "ds_zenitsu",
+      "display_name": "Demon Slayer - Zenitsu Agatsuma",
+      "version": "1.1.0",
+      "description": "Zenitsu Agatsuma voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
+      "author": {
+        "name": "dunzkoi",
+        "github": "dunzkoi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "ja",
+      "license": "fan-community",
+      "sound_count": 11,
+      "total_size_bytes": 600461,
+      "source_repo": "dunzkoi/openpeon-demon-slayer",
+      "source_ref": "v1.1.0",
+      "source_path": "zenitsu",
+      "manifest_sha256": "0172468de8c4685aa2bd04f18668c65e257e9434e5e94e8868b3126110378897",
+      "tags": [
+        "anime",
+        "demon-slayer",
+        "kimetsu-no-yaiba",
+        "japanese"
+      ],
+      "preview_sounds": [],
+      "added": "2026-03-28",
+      "updated": "2026-03-28"
+    },
+    {
       "name": "duke_nukem",
       "display_name": "Duke Nukem",
       "version": "1.0.0",
