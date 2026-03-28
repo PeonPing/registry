@@ -5,7 +5,7 @@
       "name": "abbot",
       "display_name": "The Abbot (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Abbot voice lines from Stronghold Crusader \u2014 scheming monastery lord",
+      "description": "The Abbot voice lines from Stronghold Crusader — scheming monastery lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -83,7 +83,7 @@
     },
     {
       "name": "acolyte_es",
-      "display_name": "Ac\u00f3lito Muertos Vivientes Warcraft III (ES)",
+      "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
       "version": "1.0.2",
       "description": "Spanish Undead Acolyte sound pack from Warcraft III",
       "author": {
@@ -163,9 +163,9 @@
     },
     {
       "name": "ae_qianyu",
-      "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
+      "display_name": "明日方舟:终末地 陈千语",
       "version": "1.0.4",
-      "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
+      "description": "明日方舟:终末地 陈千语 语音包",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -189,7 +189,7 @@
       "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
       "tags": [
         "gaming",
-        "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
+        "明日方舟:终末地",
         "arknights:endfield"
       ],
       "preview_sounds": [
@@ -697,7 +697,7 @@
       "name": "arc-raiders-emotes",
       "display_name": "Arc Raiders Emotes",
       "version": "1.0.0",
-      "description": "Arc Raiders emote voice lines \u2014 hey there, let's boogie, don't shoot, and more",
+      "description": "Arc Raiders emote voice lines — hey there, let's boogie, don't shoot, and more",
       "author": {
         "name": "Buupu",
         "github": "Buupu"
@@ -808,9 +808,9 @@
     },
     {
       "name": "arthas_ru",
-      "display_name": "\u0410\u0440\u0442\u0430\u0441 \u0420\u044b\u0446\u0430\u0440\u044c \u0421\u043c\u0435\u0440\u0442\u0438 (Russian)",
+      "display_name": "Артас Рыцарь Смерти (Russian)",
       "version": "1.0.0",
-      "description": "WC3 Death Knight Arthas \u2014 all 20 Russian voice lines mapped to CESP categories",
+      "description": "WC3 Death Knight Arthas — all 20 Russian voice lines mapped to CESP categories",
       "author": {
         "name": "samokay",
         "github": "samokay"
@@ -1105,9 +1105,9 @@
     },
     {
       "name": "boris_ru",
-      "display_name": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 (Russian)",
+      "display_name": "Дед Борис (Russian)",
       "version": "1.0.0",
-      "description": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 \u2014 AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
+      "description": "Дед Борис — AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
       "author": {
         "name": "malakhov-dmitrii",
         "github": "malakhov-dmitrii"
@@ -1270,7 +1270,7 @@
       "name": "caliph",
       "display_name": "The Caliph (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Caliph voice lines from Stronghold Crusader \u2014 diplomatic desert lord",
+      "description": "The Caliph voice lines from Stronghold Crusader — diplomatic desert lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -1512,7 +1512,7 @@
       "name": "charlie_sheen",
       "display_name": "Charlie Sheen",
       "version": "1.0.0",
-      "description": "Charlie Sheen's iconic interview quotes \u2014 Winning, tiger blood, and more.",
+      "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -1675,7 +1675,7 @@
       "name": "cute-minimal",
       "display_name": "Cute UI",
       "version": "1.0.1",
-      "description": "Simple, cute UI/UX interface sounds \u2014 light and playful coding event feedback",
+      "description": "Simple, cute UI/UX interface sounds — light and playful coding event feedback",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -1945,690 +1945,6 @@
       "updated": "2026-03-11"
     },
     {
-      "name": "demon-slayer-akaza",
-      "display_name": "Demon Slayer - Akaza",
-      "version": "1.0.0",
-      "description": "Akaza (Upper Moon 3) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 10,
-      "total_size_bytes": 741331,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "akaza",
-      "manifest_sha256": "6c26201d8cc69678492f636ce95de940b612767eda35f3cdf76553e6b578c071",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "akaza-donooo.mp3",
-        "akaza-voice-pt-1.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-doma",
-      "display_name": "Demon Slayer - Doma",
-      "version": "1.0.0",
-      "description": "Doma (Upper Moon Two) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 9,
-      "total_size_bytes": 823419,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "doma",
-      "manifest_sha256": "5521c4277344cfc7781cefd12ab7fee009623a576c42291abdbd09ecbc174f32",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "doma-03.mp3",
-        "doma-04.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-enmu",
-      "display_name": "Demon Slayer - Enmu",
-      "version": "1.0.0",
-      "description": "Enmu (Lower Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 8,
-      "total_size_bytes": 447983,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "enmu",
-      "manifest_sha256": "8e0c371f97f96145ca7c74e2c422d86b20665435b1e4b786ec91309f69d39fe2",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "enmu-02.mp3",
-        "enmu-03.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-giyu",
-      "display_name": "Demon Slayer - Giyu Tomioka",
-      "version": "1.0.0",
-      "description": "Giyu Tomioka voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 9,
-      "total_size_bytes": 466280,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "giyu",
-      "manifest_sha256": "9117fd0aa3ba36d801099108c8e1560083c5af88c81cdf3824745c094952b585",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "giyuu-pt-1.mp3",
-        "giyu-01.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-gyomei",
-      "display_name": "Demon Slayer - Gyomei Himejima",
-      "version": "1.0.0",
-      "description": "Gyomei Himejima voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 7,
-      "total_size_bytes": 706611,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "gyomei",
-      "manifest_sha256": "19ebd7f1a3dbe7d22c1a3a27f15b32e295cb3496308850f046823c3fe73fd241",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "gyomei-voice1.mp3",
-        "gyomei-voice2.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-inosuke",
-      "display_name": "Demon Slayer - Inosuke Hashibira",
-      "version": "1.0.0",
-      "description": "Inosuke Hashibira voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 10,
-      "total_size_bytes": 695635,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "inosuke",
-      "manifest_sha256": "29757e87c8ee414ba5ff7046d1c12f18497436946b4328e57ba198289b46c59c",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "im-comin-trough-inosuke.mp3",
-        "inosuke-06.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-kokushibo",
-      "display_name": "Demon Slayer - Kokushibo",
-      "version": "1.0.0",
-      "description": "Kokushibo (Upper Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 7,
-      "total_size_bytes": 282010,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "kokushibo",
-      "manifest_sha256": "587fc94ebbf90491935ba7f7624ce55621ec811ced52af5c4e00d793e6a3e083",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "kokushibo-01.mp3",
-        "kokushibo-02.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-mitsuri",
-      "display_name": "Demon Slayer - Mitsuri Kanroji",
-      "version": "1.0.0",
-      "description": "Mitsuri Kanroji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 6,
-      "total_size_bytes": 552904,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "mitsuri",
-      "manifest_sha256": "6fc6d255845199c96bd28450a4835391d465f807ed3bb7ba03a97ac5bfb460cd",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "mitsuri-voice1.mp3",
-        "mitsuri-voice2.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-muichiro",
-      "display_name": "Demon Slayer - Muichiro Tokito",
-      "version": "1.0.0",
-      "description": "Muichiro Tokito voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 9,
-      "total_size_bytes": 607500,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "muichiro",
-      "manifest_sha256": "bdd3dd66fdd9911b743ce05e804b181dc66fee284a52fa18c0f234fd7f6ec1d3",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "muichiro.mp3",
-        "muichiro-tokito.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-muzan",
-      "display_name": "Demon Slayer - Muzan Kibutsuji",
-      "version": "1.0.0",
-      "description": "Muzan Kibutsuji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 23,
-      "total_size_bytes": 1346007,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "muzan",
-      "manifest_sha256": "7b101d38bcd3475b1c6dfade0713dae335a6782012410d18b14b046b092e190b",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "muzan-voice-pt-1.mp3",
-        "muzan-voice-pt-2.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-nezuko",
-      "display_name": "Demon Slayer - Nezuko Kamado",
-      "version": "1.0.0",
-      "description": "Nezuko Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 14,
-      "total_size_bytes": 703803,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "nezuko",
-      "manifest_sha256": "30b1509856d1b3ea9a6b0cb5541b7c178eb91af0163a89f4b77ea772b7aed179",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "nezuko-yes.mp3",
-        "nezuko-cute.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-obanai",
-      "display_name": "Demon Slayer - Obanai Iguro",
-      "version": "1.0.0",
-      "description": "Obanai Iguro voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 16,
-      "total_size_bytes": 1545505,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "obanai",
-      "manifest_sha256": "d744e74d3aa55386c01f339ad0e8949cdb816865dfda4473b417ebb8d2447575",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "obanai-intro.mp3",
-        "obanai-pt-1.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-rengoku",
-      "display_name": "Demon Slayer - Kyojuro Rengoku",
-      "version": "1.0.0",
-      "description": "Kyojuro Rengoku voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 13,
-      "total_size_bytes": 844115,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "rengoku",
-      "manifest_sha256": "c42a1fd261b5a916c2b1757831e2300c342ac1f399cfa6fb2bbfa9c45f73eab3",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "rengoku-name.mp3",
-        "rengoku-laugh.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-sanemi",
-      "display_name": "Demon Slayer - Sanemi Shinazugawa",
-      "version": "1.0.0",
-      "description": "Sanemi Shinazugawa voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 7,
-      "total_size_bytes": 605552,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "sanemi",
-      "manifest_sha256": "1cc746738a62340c5200d30caa97892e69a2c7153a4460d46d2e6028ab088c59",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "oi-oi-sanemi.mp3",
-        "sanemi-voice1.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-shinobu",
-      "display_name": "Demon Slayer - Shinobu Kocho",
-      "version": "1.0.0",
-      "description": "Shinobu Kocho voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 9,
-      "total_size_bytes": 516057,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "shinobu",
-      "manifest_sha256": "f5c58d652afe229ea66d827a06eb2b5663899ca437524a34353f8971032ec2ba",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "shinobu-moshi-moshiiiiii.mp3",
-        "shinobu-02.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-tanjiro",
-      "display_name": "Demon Slayer - Tanjiro Kamado",
-      "version": "1.0.0",
-      "description": "Tanjiro Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 20,
-      "total_size_bytes": 1414447,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "tanjiro",
-      "manifest_sha256": "630da9bdca357c8c464f915bddc1ec5dadabd0f5b7f3ee8ee2abed88e5044ef7",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "tanjiro-his-name.mp3",
-        "tanjiro-voice.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-tengen",
-      "display_name": "Demon Slayer - Tengen Uzui",
-      "version": "1.0.0",
-      "description": "Tengen Uzui voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 9,
-      "total_size_bytes": 888467,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "tengen",
-      "manifest_sha256": "cea58250e02357675d5316929a2159b677e16ed02dced82a91948cf41797c621",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "tengen-nanda.mp3",
-        "tengen-voice1.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
-      "name": "demon-slayer-zenitsu",
-      "display_name": "Demon Slayer - Zenitsu Agatsuma",
-      "version": "1.0.0",
-      "description": "Zenitsu Agatsuma voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
-      "author": {
-        "name": "dunzkoi",
-        "github": "dunzkoi"
-      },
-      "trust_tier": "community",
-      "categories": [
-        "session.start",
-        "task.acknowledge",
-        "task.complete",
-        "task.error",
-        "input.required",
-        "resource.limit"
-      ],
-      "language": "ja",
-      "license": "fan-community",
-      "sound_count": 10,
-      "total_size_bytes": 871720,
-      "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.0.0",
-      "source_path": "zenitsu",
-      "manifest_sha256": "d8292fc99007f4e12f474a7e7622da2d2fbaef119360b846587a265a50771fbc",
-      "tags": [
-        "anime",
-        "demon-slayer",
-        "japanese"
-      ],
-      "preview_sounds": [
-        "zenitsu-lightning-breath.mp3",
-        "zenitsu.mp3"
-      ],
-      "added": "2026-03-22",
-      "updated": "2026-03-22"
-    },
-    {
       "name": "diehard",
       "display_name": "Die Hard",
       "version": "1.0.1",
@@ -2674,7 +1990,7 @@
       "name": "djkhaled",
       "display_name": "DJ Khaled",
       "version": "1.0.0",
-      "description": "DJ Khaled catchphrases as coding notification sounds \u2014 Another one! We the best! Major key alert!",
+      "description": "DJ Khaled catchphrases as coding notification sounds — Another one! We the best! Major key alert!",
       "author": {
         "name": "mevinmathew23",
         "github": "mevinmathew23"
@@ -2919,7 +2235,7 @@
       "name": "dota2_ember_spirit",
       "display_name": "Ember Spirit (Dota 2)",
       "version": "1.0.0",
-      "description": "Ember Spirit (Dota 2) sound pack \u2014 'Balance in all things.'",
+      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2959,7 +2275,7 @@
       "name": "dota2_invoker",
       "display_name": "Invoker (Dota 2)",
       "version": "1.0.0",
-      "description": "Invoker (Dota 2) sound pack \u2014 'So begins a new age of knowledge.'",
+      "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
       "author": {
         "name": "bwarren2",
         "github": "bwarren2"
@@ -2999,7 +2315,7 @@
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
-      "description": "Phantom Lancer (Dota 2) sound pack \u2014 'From one: an army.'",
+      "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -3039,7 +2355,7 @@
       "name": "dota2_witch_doctor",
       "display_name": "Witch Doctor (Dota 2)",
       "version": "1.0.0",
-      "description": "Witch Doctor (Dota 2) sound pack \u2014 'De Doctor is in!'",
+      "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -3079,7 +2395,7 @@
       "name": "dota2_zeus",
       "display_name": "Zeus (Dota 2)",
       "version": "1.0.0",
-      "description": "Zeus (Dota 2) sound pack \u2014 'Your god has arrived.'",
+      "description": "Zeus (Dota 2) sound pack — 'Your god has arrived.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -3119,7 +2435,7 @@
       "name": "dreamy-minimal",
       "display_name": "Dreamy Beeps",
       "version": "1.0.1",
-      "description": "Soft, dreamy tonal beeps \u2014 gentle and unobtrusive coding event sounds",
+      "description": "Soft, dreamy tonal beeps — gentle and unobtrusive coding event sounds",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -3155,7 +2471,7 @@
     },
     {
       "name": "ds1-carvings",
-      "display_name": "Dark Souls \u2013 Carvings",
+      "display_name": "Dark Souls – Carvings",
       "version": "1.0.0",
       "description": "Gough's infamous carvings from Dark Souls as sound effects for various events.",
       "author": {
@@ -3194,7 +2510,7 @@
     },
     {
       "name": "ds1-siegmeyer",
-      "display_name": "Dark Souls \u2013 Siegmeyer of Catarina",
+      "display_name": "Dark Souls – Siegmeyer of Catarina",
       "version": "1.0.1",
       "description": "A sound pack with a big heart and bigger armor.",
       "author": {
@@ -3237,7 +2553,7 @@
     },
     {
       "name": "ds1-solaire",
-      "display_name": "Dark Souls \u2013 Solaire of Astora",
+      "display_name": "Dark Souls – Solaire of Astora",
       "version": "1.0.2",
       "description": "A sound pack for true warriors of sunlight.",
       "author": {
@@ -3281,7 +2597,7 @@
     {
       "name": "ds_akaza",
       "display_name": "Demon Slayer - Akaza",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Akaza (Upper Moon 3) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3298,12 +2614,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 13,
-      "total_size_bytes": 867899,
+      "sound_count": 11,
+      "total_size_bytes": 752283,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "akaza",
-      "manifest_sha256": "4be168192fd7ff709ee75e5754896cfbf24b1d7d2d76c502fb40be76bb0900ae",
+      "manifest_sha256": "0330b9d3f1ecbcbdd8725895e377811f2e6b3acc2e1c87210fe444eb63131b81",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3317,7 +2633,7 @@
     {
       "name": "ds_doma",
       "display_name": "Demon Slayer - Doma",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Doma (Upper Moon Two) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3337,9 +2653,9 @@
       "sound_count": 11,
       "total_size_bytes": 828439,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "doma",
-      "manifest_sha256": "f109508e628e7ae9a2ae5bc6d57ee9846112cdf702a4a675a396f4ce42cc4e34",
+      "manifest_sha256": "837ca66023fc6772e23c11bab135a8e590a5c1d9f8a1c600355926f0211d92d5",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3353,7 +2669,7 @@
     {
       "name": "ds_enmu",
       "display_name": "Demon Slayer - Enmu",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Enmu (Lower Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3373,9 +2689,9 @@
       "sound_count": 9,
       "total_size_bytes": 503188,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "enmu",
-      "manifest_sha256": "5b186f1894d4e3b38584f7f1f20c83f1f62f7883e907d2449cbc936067330058",
+      "manifest_sha256": "dcc02f7134445c33e60480880cdd1b5746df94ccc81ac0ace4194baf8c65a416",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3389,7 +2705,7 @@
     {
       "name": "ds_giyu",
       "display_name": "Demon Slayer - Giyu Tomioka",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Giyu Tomioka voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3406,12 +2722,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 11,
-      "total_size_bytes": 489257,
+      "sound_count": 10,
+      "total_size_bytes": 448462,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "giyu",
-      "manifest_sha256": "0be361d261291a413bdda11ad3a5e95f1a0fc842ac4cc8f5e383f6e0022b626f",
+      "manifest_sha256": "c37f55f2b0c9709721b24efaeb59892397e3c3b4930e7dfa11affefaf3ea6e14",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3425,7 +2741,7 @@
     {
       "name": "ds_gyomei",
       "display_name": "Demon Slayer - Gyomei Himejima",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Gyomei Himejima voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3445,9 +2761,9 @@
       "sound_count": 9,
       "total_size_bytes": 589212,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "gyomei",
-      "manifest_sha256": "10c2fd9206166981733cce5ab16c66d9c853057bf97da202b7dea2fe3156e877",
+      "manifest_sha256": "9096a4e0125414ea5230d8a89b78d468bbf48f5d18b112fc0af2a6b38ae747bb",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3461,7 +2777,7 @@
     {
       "name": "ds_inosuke",
       "display_name": "Demon Slayer - Inosuke Hashibira",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Inosuke Hashibira voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3481,9 +2797,9 @@
       "sound_count": 12,
       "total_size_bytes": 755194,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "inosuke",
-      "manifest_sha256": "f493fea984c54b0234cf39f0faf4fd7b427063ff759c683f6b616d8e5502be03",
+      "manifest_sha256": "ff4e4ce693f5aa583d73b25c7a1fc11cf56e33f90f192fc6668ca3942ba9b674",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3497,7 +2813,7 @@
     {
       "name": "ds_kokushibo",
       "display_name": "Demon Slayer - Kokushibo",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Kokushibo (Upper Moon One) voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3517,9 +2833,9 @@
       "sound_count": 9,
       "total_size_bytes": 410813,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "kokushibo",
-      "manifest_sha256": "60e74b2438813efc0575d330f73828f01df6a6b941b823103f6b397f3c03b54c",
+      "manifest_sha256": "5a7bbe1d307c36e48c66c49657b5272d03ca81519e681c1c4ff8251e2acaad7a",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3533,7 +2849,7 @@
     {
       "name": "ds_mitsuri",
       "display_name": "Demon Slayer - Mitsuri Kanroji",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Mitsuri Kanroji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3550,12 +2866,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 8,
-      "total_size_bytes": 563509,
+      "sound_count": 7,
+      "total_size_bytes": 481530,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "mitsuri",
-      "manifest_sha256": "7665c65db9acddc764d83b924262a290562b1ff5f9a4223022ef34175573ec3f",
+      "manifest_sha256": "7c42b3aee2f21c71d36416de020c7a7b51314824ee2ad92e4633718fefb3b4ee",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3569,7 +2885,7 @@
     {
       "name": "ds_muichiro",
       "display_name": "Demon Slayer - Muichiro Tokito",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Muichiro Tokito voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3589,9 +2905,9 @@
       "sound_count": 10,
       "total_size_bytes": 542861,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "muichiro",
-      "manifest_sha256": "3afb1a80fe330cc3d8088f6092ebf2ef4719322aff139172fc637b6e8167494a",
+      "manifest_sha256": "58b0af52f42298d09e96700227e66d262b161079a739c51422ffc565b0aab557",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3605,7 +2921,7 @@
     {
       "name": "ds_muzan",
       "display_name": "Demon Slayer - Muzan Kibutsuji",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Muzan Kibutsuji voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3622,12 +2938,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 15,
-      "total_size_bytes": 832037,
+      "sound_count": 13,
+      "total_size_bytes": 769965,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "muzan",
-      "manifest_sha256": "9c3207d1ea63ec8b9f3707ac54c39c991c6a2fae069c652d122751f583c87e5f",
+      "manifest_sha256": "4362689c9e05313bbbdd0ddeeeecc6cd6a34f5a1e71487bc3f6c56d619d20501",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3641,7 +2957,7 @@
     {
       "name": "ds_nezuko",
       "display_name": "Demon Slayer - Nezuko Kamado",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Nezuko Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3658,12 +2974,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 15,
-      "total_size_bytes": 716857,
+      "sound_count": 13,
+      "total_size_bytes": 672828,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "nezuko",
-      "manifest_sha256": "32d9d7fe59c7fc79b6506b959c8490de603dcedb8114b1e29a908eada7bb8d73",
+      "manifest_sha256": "e0bbaf5102b101f7c65cf7afcaf983a5551809bdc2fe0f7305fcf88836fa4900",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3677,7 +2993,7 @@
     {
       "name": "ds_obanai",
       "display_name": "Demon Slayer - Obanai Iguro",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Obanai Iguro voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3697,9 +3013,9 @@
       "sound_count": 18,
       "total_size_bytes": 1415311,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "obanai",
-      "manifest_sha256": "6032c4372de92bbb587c460ecc076f668d7e86e0a10dabac8f7d65a860097b77",
+      "manifest_sha256": "ba7c2891ae31bce0b0c3f327702d10e28833d296b5c9886fa1bf34e2d24d8eb9",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3713,7 +3029,7 @@
     {
       "name": "ds_rengoku",
       "display_name": "Demon Slayer - Kyojuro Rengoku",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Kyojuro Rengoku voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3730,12 +3046,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 14,
-      "total_size_bytes": 860650,
+      "sound_count": 11,
+      "total_size_bytes": 627404,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "rengoku",
-      "manifest_sha256": "648e5e8dbffbc0f3410eb7f1a91a3922a1ac5ad0a19014c4ee444d32444ace1a",
+      "manifest_sha256": "262dfb0e796ac38ba8ee48ff833481fb4a04956015d5a78d6f0e15d2f1058cae",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3749,7 +3065,7 @@
     {
       "name": "ds_sanemi",
       "display_name": "Demon Slayer - Sanemi Shinazugawa",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Sanemi Shinazugawa voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3769,9 +3085,9 @@
       "sound_count": 10,
       "total_size_bytes": 491700,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "sanemi",
-      "manifest_sha256": "6d19047f3cd24c24d70662da8d316a1e7dd9afe6ce6104a98de9a3f3eca6ccb1",
+      "manifest_sha256": "ae1efad1237e4db5e70c10927fdc3638e3fbb3176eb689f3f890363cc9178ac0",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3785,7 +3101,7 @@
     {
       "name": "ds_shinobu",
       "display_name": "Demon Slayer - Shinobu Kocho",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Shinobu Kocho voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3805,9 +3121,9 @@
       "sound_count": 10,
       "total_size_bytes": 608746,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "shinobu",
-      "manifest_sha256": "f44f1667418b708d53fe7a21e9f08aa0aeb9df545f7a72fd6c3426bd43ec6a84",
+      "manifest_sha256": "2274615900fc0f060b9adc3abf3b6a454e42ce1a958debc8c3f2247d330bd337",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3821,7 +3137,7 @@
     {
       "name": "ds_tanjiro",
       "display_name": "Demon Slayer - Tanjiro Kamado",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Tanjiro Kamado voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3841,9 +3157,9 @@
       "sound_count": 16,
       "total_size_bytes": 1011011,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "tanjiro",
-      "manifest_sha256": "eb9440eea5ea376e25913f97ba08dec7305e600021bdca1f0e001c23c196195f",
+      "manifest_sha256": "e6a708a7d940997c37c9f055aea199c6c083475d28c683cb056c8d756e99b715",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3857,7 +3173,7 @@
     {
       "name": "ds_tengen",
       "display_name": "Demon Slayer - Tengen Uzui",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Tengen Uzui voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3877,9 +3193,9 @@
       "sound_count": 11,
       "total_size_bytes": 875785,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "tengen",
-      "manifest_sha256": "5a6c0fa03b9ba779044899591dc7a5e946bf8e0a4dbd8177046af8fe36878b22",
+      "manifest_sha256": "917bf7f6e3f87d90a08ad7fcceae2e3a7bc8a571041c8885fa99b97abb1f43c2",
       "tags": [
         "anime",
         "demon-slayer",
@@ -3893,7 +3209,7 @@
     {
       "name": "ds_zenitsu",
       "display_name": "Demon Slayer - Zenitsu Agatsuma",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Zenitsu Agatsuma voice pack from Demon Slayer (Kimetsu no Yaiba) - Fan community voice pack",
       "author": {
         "name": "dunzkoi",
@@ -3910,12 +3226,12 @@
       ],
       "language": "ja",
       "license": "fan-community",
-      "sound_count": 11,
-      "total_size_bytes": 600461,
+      "sound_count": 9,
+      "total_size_bytes": 494574,
       "source_repo": "dunzkoi/openpeon-demon-slayer",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.2.0",
       "source_path": "zenitsu",
-      "manifest_sha256": "0172468de8c4685aa2bd04f18668c65e257e9434e5e94e8868b3126110378897",
+      "manifest_sha256": "281bba07723e81bf0eb92160d8f998804310358f8ff630c3d84fdd8f5d6280de",
       "tags": [
         "anime",
         "demon-slayer",
@@ -4050,7 +3366,7 @@
       "name": "emir",
       "display_name": "The Emir (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Emir voice lines from Stronghold Crusader \u2014 fierce Arabian lord",
+      "description": "The Emir voice lines from Stronghold Crusader — fierce Arabian lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -4172,7 +3488,7 @@
       "name": "frederick",
       "display_name": "Emperor Frederick (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Emperor Frederick voice lines from Stronghold Crusader \u2014 noble crusader emperor",
+      "description": "Emperor Frederick voice lines from Stronghold Crusader — noble crusader emperor",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -4693,7 +4009,7 @@
     },
     {
       "name": "high_elf_builder_ru",
-      "display_name": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c \u0412\u044b\u0441\u0448\u0438\u0445 \u042d\u043b\u044c\u0444\u043e\u0432 (Russian)",
+      "display_name": "Строитель Высших Эльфов (Russian)",
       "version": "1.1.0",
       "description": "High Elf Builder voice lines from Warcraft III (Russian)",
       "author": {
@@ -4734,7 +4050,7 @@
     },
     {
       "name": "honor_of_kings",
-      "display_name": "Honor of Kings (\u738b\u8005\u8363\u8000)",
+      "display_name": "Honor of Kings (王者荣耀)",
       "version": "1.0.1",
       "description": "Honor of Kings game announcement voice lines and XiShi character VO",
       "author": {
@@ -5531,7 +4847,7 @@
       "name": "lol_fiddlesticks",
       "display_name": "Fiddlesticks",
       "version": "1.0.0",
-      "description": "Fiddlesticks (Rework) voice lines from League of Legends \u2014 the ancient fear demon",
+      "description": "Fiddlesticks (Rework) voice lines from League of Legends — the ancient fear demon",
       "author": {
         "name": "huynhtan",
         "github": "danhuynhdev"
@@ -5611,7 +4927,7 @@
       "name": "lol_fiddlesticks_surprise_party",
       "display_name": "Fiddlesticks - Surprise Party",
       "version": "1.0.0",
-      "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends \u2014 the demon clown",
+      "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends — the demon clown",
       "author": {
         "name": "huynhtan",
         "github": "danhuynhdev"
@@ -5693,9 +5009,9 @@
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
-      "description": "Legendary quotes of Marcel Mer\u010diak.",
+      "description": "Legendary quotes of Marcel Merčiak.",
       "author": {
-        "name": "Mari\u00e1n \u010cam\u00e1k",
+        "name": "Marián Čamák",
         "github": "mcamak"
       },
       "trust_tier": "community",
@@ -5730,7 +5046,7 @@
       "name": "marshal",
       "display_name": "The Marshal (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Marshal voice lines from Stronghold Crusader \u2014 loyal European lord",
+      "description": "The Marshal voice lines from Stronghold Crusader — loyal European lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -5894,11 +5210,11 @@
     },
     {
       "name": "milujipraci",
-      "display_name": "Miluji Pr\u00e1ci",
+      "display_name": "Miluji Práci",
       "version": "1.0.0",
-      "description": "Legendary quotes of Lubo\u0161 fixing Lakato\u0161.",
+      "description": "Legendary quotes of Luboš fixing Lakatoš.",
       "author": {
-        "name": "Franti\u0161ek Z\u00e1hora",
+        "name": "František Záhora",
         "github": "arguit"
       },
       "trust_tier": "community",
@@ -5932,7 +5248,7 @@
       "version": "1.0.1",
       "description": "Villager sound pack from Minecraft.",
       "author": {
-        "name": "Eric Ker\u00e4nen",
+        "name": "Eric Keränen",
         "github": "Mahamurahti"
       },
       "trust_tier": "community",
@@ -6010,7 +5326,7 @@
       "name": "modern-varied",
       "display_name": "Modern GUI",
       "version": "1.0.1",
-      "description": "Futuristic synth UI sounds \u2014 hightech confirms, cybernetic alerts, and power-up sweeps",
+      "description": "Futuristic synth UI sounds — hightech confirms, cybernetic alerts, and power-up sweeps",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -6240,7 +5556,7 @@
       "name": "nezuai-varied",
       "display_name": "UI Sound Design",
       "version": "1.0.1",
-      "description": "Designed UI sound effects \u2014 whooshes, beeps, sweeps, and thuds for coding events",
+      "description": "Designed UI sound effects — whooshes, beeps, sweeps, and thuds for coding events",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -6278,7 +5594,7 @@
       "name": "nightflame-minimal",
       "display_name": "Nightflame Menu UI",
       "version": "1.0.1",
-      "description": "Minimal UI sound effects pack \u2014 sweeps, whooshes, and buzzy tones for coding event feedback",
+      "description": "Minimal UI sound effects pack — sweeps, whooshes, and buzzy tones for coding event feedback",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -6315,7 +5631,7 @@
       "name": "nizar",
       "display_name": "Nizar (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Nizar voice lines from Stronghold Crusader \u2014 cunning assassin lord",
+      "description": "Nizar voice lines from Stronghold Crusader — cunning assassin lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -6565,7 +5881,7 @@
       "name": "op-kurtlar-vadisi",
       "display_name": "Kurtlar Vadisi Sound Pack",
       "version": "1.1.0",
-      "description": "Kurtlar Vadisi Sound Pack (Episodes 1\u201397)",
+      "description": "Kurtlar Vadisi Sound Pack (Episodes 1–97)",
       "author": {
         "name": "Ismail Sefa Nazlim",
         "github": "maskapsiz"
@@ -6648,9 +5964,9 @@
     },
     {
       "name": "otto",
-      "display_name": "\u7535\u68cdotto",
+      "display_name": "电棍otto",
       "version": "1.0.0",
-      "description": "\u5927\u5bb6\u597d\u554a\uff0c\u6211\u662f\u7535\u68cd",
+      "description": "大家好啊，我是电棍",
       "author": {
         "name": "Bielelele",
         "github": "Biatbang"
@@ -6677,8 +5993,8 @@
       "manifest_sha256": "0ce67cd3cc429661546ab708046eef15996df858c07261e8e440c81bf9a2097e",
       "tags": [
         "otto",
-        "\u7535\u68cd",
-        "\u4faf\u56fd\u7389"
+        "电棍",
+        "侯国玉"
       ],
       "preview_sounds": [
         "session_start_1.mp3",
@@ -6729,9 +6045,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
+      "display_name": "Lidský rolník (CZ)",
       "version": "1.0.0",
-      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
+      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -6929,9 +6245,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
+      "display_name": "Orčí peón (CZ)",
       "version": "1.0.0",
-      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
+      "description": "Orčí peón (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -7213,7 +6529,7 @@
       "name": "philip",
       "display_name": "King Philip (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "King Philip voice lines from Stronghold Crusader \u2014 proud king of France",
+      "description": "King Philip voice lines from Stronghold Crusader — proud king of France",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -7253,7 +6569,7 @@
       "name": "pig",
       "display_name": "The Pig (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Pig voice lines from Stronghold Crusader \u2014 brutal villain lord",
+      "description": "The Pig voice lines from Stronghold Crusader — brutal villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -7457,7 +6773,7 @@
       "name": "protoss",
       "display_name": "Protoss (StarCraft)",
       "version": "1.0.0",
-      "description": "StarCraft Protoss voice lines and sound effects \u2014 en taro Adun!",
+      "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
       "author": {
         "name": "Cody Born",
         "github": "codyborn"
@@ -7879,7 +7195,7 @@
       "name": "rat",
       "display_name": "The Rat (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Rat voice lines from Stronghold Crusader \u2014 scheming cowardly villain",
+      "description": "The Rat voice lines from Stronghold Crusader — scheming cowardly villain",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -8046,7 +7362,7 @@
       "name": "richard",
       "display_name": "King Richard (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "King Richard voice lines from Stronghold Crusader \u2014 noble English crusader king",
+      "description": "King Richard voice lines from Stronghold Crusader — noble English crusader king",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -8249,7 +7565,7 @@
       "name": "saladin",
       "display_name": "Saladin (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Saladin voice lines from Stronghold Crusader \u2014 honourable sultan of Egypt",
+      "description": "Saladin voice lines from Stronghold Crusader — honourable sultan of Egypt",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -8715,7 +8031,7 @@
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
       "version": "2.0.0",
-      "description": "StarCraft Firebat sound pack \u2014 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
+      "description": "StarCraft Firebat sound pack — 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -8868,7 +8184,7 @@
       "name": "sc_marine",
       "display_name": "StarCraft Marine",
       "version": "1.0.0",
-      "description": "StarCraft Marine sound pack \u2014 iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
+      "description": "StarCraft Marine sound pack — iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -8908,7 +8224,7 @@
       "name": "sc_medic",
       "display_name": "StarCraft Medic",
       "version": "2.0.0",
-      "description": "StarCraft Medic sound pack \u2014 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
+      "description": "StarCraft Medic sound pack — 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -8985,7 +8301,7 @@
       "name": "sc_scv",
       "display_name": "StarCraft SCV",
       "version": "2.0.0",
-      "description": "StarCraft SCV sound pack \u2014 expanded with 19 sounds across all 7 CESP categories",
+      "description": "StarCraft SCV sound pack — expanded with 19 sounds across all 7 CESP categories",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -9025,7 +8341,7 @@
       "name": "sc_tank",
       "display_name": "StarCraft Siege Tank",
       "version": "2.0.0",
-      "description": "StarCraft Siege Tank sound pack \u2014 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
+      "description": "StarCraft Siege Tank sound pack — 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -9298,7 +8614,7 @@
       "name": "sheriff",
       "display_name": "The Sheriff (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Sheriff voice lines from Stronghold Crusader \u2014 greedy corrupt villain",
+      "description": "The Sheriff voice lines from Stronghold Crusader — greedy corrupt villain",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -9380,7 +8696,7 @@
       "name": "silicon_valley",
       "display_name": "Silicon Valley",
       "version": "2.2.0",
-      "description": "Quotes from Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by \u00ab\u041a\u0443\u0431\u0438\u043a \u0432 \u043a\u0443\u0431\u0438\u043a\u0435\u00bb (59 clips with swearing)",
+      "description": "Quotes from Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by «Кубик в кубике» (59 clips with swearing)",
       "author": {
         "name": "rustam",
         "github": "fortunto2"
@@ -9465,7 +8781,7 @@
       "name": "snake",
       "display_name": "The Snake (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Snake voice lines from Stronghold Crusader \u2014 treacherous villain lord",
+      "description": "The Snake voice lines from Stronghold Crusader — treacherous villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -9721,9 +9037,9 @@
       "name": "southpark-fr",
       "display_name": "South Park Fr",
       "version": "1.0.0",
-      "description": "Sons issus de la bo\u00eete \u00e0 South Park (VF Game One)",
+      "description": "Sons issus de la boîte à South Park (VF Game One)",
       "author": {
-        "name": "Cl\u00e9ment",
+        "name": "Clément",
         "github": "Telmalk"
       },
       "trust_tier": "community",
@@ -9764,7 +9080,7 @@
       "name": "southpark_cartman",
       "display_name": "Cartman (South Park)",
       "version": "1.0.0",
-      "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS \u2014 Eric Cartman Angry model).",
+      "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS — Eric Cartman Angry model).",
       "author": {
         "name": "bdrang",
         "github": "BaraqD"
@@ -9807,7 +9123,7 @@
       "name": "speaki",
       "display_name": "Petite Speaki",
       "version": "1.0.0",
-      "description": "Petite Speaki voice pack from Trickcal Chibi Go \u2014 adorable Korean character sounds for your coding sessions",
+      "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
       "author": {
         "name": "cjna",
         "github": "CJNA"
@@ -9890,9 +9206,9 @@
     },
     {
       "name": "starrail-kafka-peon-pack",
-      "display_name": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
+      "display_name": "崩坏星穹铁道-卡芙卡语音包",
       "version": "1.0.1",
-      "description": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
+      "description": "崩坏星穹铁道-卡芙卡语音包",
       "author": {
         "name": "0w0miki",
         "github": "0w0miki"
@@ -10059,7 +9375,7 @@
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Sultan voice lines from Stronghold Crusader \u2014 powerful desert sultan",
+      "description": "The Sultan voice lines from Stronghold Crusader — powerful desert sultan",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -10224,9 +9540,9 @@
     },
     {
       "name": "teemo-kr",
-      "display_name": "\ud2f0\ubaa8 (\ud55c\uad6d\uc5b4)",
+      "display_name": "티모 (한국어)",
       "version": "1.0.1",
-      "description": "\ub9ac\uadf8 \uc624\ube0c \ub808\uc804\ub4dc 2024 ASU \ud2f0\ubaa8 \ud55c\uad6d\uc5b4 \uc74c\uc131\ud329. \ubc34\ub4e4\uc2dc\ud2f0 \uc815\ucc30\ub300\uc7a5 \ud2f0\ubaa8 \ucd9c\ub3d9!",
+      "description": "리그 오브 레전드 2024 ASU 티모 한국어 음성팩. 밴들시티 정찰대장 티모 출동!",
       "author": {
         "name": "hphannah",
         "github": "hphannah"
@@ -10267,7 +9583,7 @@
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
-      "description": "Tekken 3 announcer voice lines \u2014 Fight, K.O., You win!, and more.",
+      "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -11035,7 +10351,7 @@
       "name": "warcraft3-czech",
       "display_name": "Warcraft III - Czech Peasant & Knight",
       "version": "1.0.0",
-      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Hur\u00e1\u00e1\u00e1\u00e1 do pr\u00e1ce!",
+      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
       "author": {
         "name": "Tomas Pflanzer",
         "github": "gizmax"
@@ -11075,7 +10391,7 @@
       "name": "warcraft3-mix",
       "display_name": "Warcraft III Mix CZ",
       "version": "1.0.0",
-      "description": "Mix ikonick\u00fdch \u010desk\u00fdch hl\u00e1\u0161ek z Warcraft III od r\u016fzn\u00fdch jednotek a hrdin\u016f.",
+      "description": "Mix ikonických českých hlášek z Warcraft III od různých jednotek a hrdinů.",
       "author": {
         "name": "SgtMarmite",
         "github": "SgtMarmite"
@@ -11116,7 +10432,7 @@
       "name": "wazir",
       "display_name": "The Wazir (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Wazir voice lines from Stronghold Crusader \u2014 scheming Arabian lord",
+      "description": "The Wazir voice lines from Stronghold Crusader — scheming Arabian lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -11274,9 +10590,9 @@
     },
     {
       "name": "wc2_peon_ru",
-      "display_name": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a (Russian)",
+      "display_name": "Орк-батрак (Russian)",
       "version": "1.0.1",
-      "description": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a \u0438\u0437 Warcraft II (\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043e\u0437\u0432\u0443\u0447\u043a\u0430 \u043e\u0442 \u0421\u041f\u041a)",
+      "description": "Орк-батрак из Warcraft II (русская озвучка от СПК)",
       "author": {
         "name": "Artyom Mezin",
         "github": "Sogl"
@@ -11698,7 +11014,7 @@
       "name": "wolf",
       "display_name": "The Wolf (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Wolf voice lines from Stronghold Crusader \u2014 ruthless villain lord",
+      "description": "The Wolf voice lines from Stronghold Crusader — ruthless villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -11738,7 +11054,7 @@
       "name": "wolf-et-pack",
       "display_name": "Wolf:ET Pack",
       "version": "1.0.0",
-      "description": "Wolfenstein: Enemy Territory HQ command voiceovers \u2014 Allied and Axis variants",
+      "description": "Wolfenstein: Enemy Territory HQ command voiceovers — Allied and Axis variants",
       "author": {
         "name": "Graham Mackie",
         "github": "gmackie"
@@ -11858,7 +11174,7 @@
       "name": "wrecking_ball",
       "display_name": "Wrecking Ball (Overwatch)",
       "version": "1.0.0",
-      "description": "Hammond / Wrecking Ball voice lines from Overwatch \u2014 the champion hamster pilot",
+      "description": "Hammond / Wrecking Ball voice lines from Overwatch — the champion hamster pilot",
       "author": {
         "name": "wahidfaird",
         "github": "wahidfaird"
@@ -11898,7 +11214,7 @@
     },
     {
       "name": "yasuo-pack",
-      "display_name": "Yasuo(\u4e9a\u7d22)",
+      "display_name": "Yasuo(亚索)",
       "version": "1.1.0",
       "description": "Yasuo voice lines from League of Legends (Chinese voice version)",
       "author": {
@@ -12146,5 +11462,5 @@
       "updated": "2026-02-25"
     }
   ],
-  "total_packs": 173
+  "total_packs": 284
 }
