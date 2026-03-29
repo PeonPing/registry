@@ -7821,6 +7821,47 @@
       "updated": "2026-02-20"
     },
     {
+      "name": "sc2_scv_kr",
+      "display_name": "건설로봇 SCV (StarCraft II, 한국어)",
+      "version": "1.0.0",
+      "description": "테란 건설로봇(SCV) 한국어 음성 — StarCraft II Korean voice lines",
+      "author": {
+        "name": "heecheonkim",
+        "github": "hekkim"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "ko",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 28,
+      "total_size_bytes": 4812612,
+      "source_repo": "hekkim/openpeon-sc2-scv-kr",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "1ec56360be28ad8883ca6cb01ff29577bbf296903208f9ac1efcb53a8160c5b9",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "blizzard",
+        "korean",
+        "terran"
+      ],
+      "preview_sounds": [
+        "SCVReady1_KR.wav",
+        "SCVYes1_KR.wav"
+      ],
+      "added": "2026-03-29",
+      "updated": "2026-03-29"
+    },
+    {
       "name": "sc2_stalker",
       "display_name": "Stalker (StarCraft II)",
       "version": "1.1.0",
