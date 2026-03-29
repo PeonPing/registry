@@ -5006,6 +5006,46 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "mambo_pack",
+      "display_name": "Mambo Pack",
+      "version": "1.0.0",
+      "description": "Fun yet restrained Mambo voice pack — Chinese meme-flavored coding companion",
+      "author": {
+        "name": "nicoaz",
+        "github": "nicoaz"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 21,
+      "total_size_bytes": 273325,
+      "source_repo": "nicoaz/openpeon-mambopack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "a619d6ad27337efcbf02477fc61b247a600522b2b245e8678edbe365a81680bb",
+      "tags": [
+        "chinese",
+        "meme",
+        "mambo",
+        "original"
+      ],
+      "preview_sounds": [
+        "start_mambo.mp3",
+        "done.mp3"
+      ],
+      "added": "2026-03-30",
+      "updated": "2026-03-30"
+    },
+    {
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
@@ -11541,5 +11581,5 @@
       "updated": "2026-02-25"
     }
   ],
-  "total_packs": 284
+  "total_packs": 287
 }
