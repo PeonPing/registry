@@ -4051,7 +4051,7 @@
     {
       "name": "honor_of_kings",
       "display_name": "Honor of Kings (王者荣耀)",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Honor of Kings game announcement voice lines and XiShi character VO",
       "author": {
         "name": "zenvor",
@@ -4071,12 +4071,12 @@
       ],
       "language": "zh",
       "license": "MIT",
-      "sound_count": 80,
-      "total_size_bytes": 30255486,
-      "source_repo": "zenvor/openpeon-honor-of-kings",
-      "source_ref": "v1.0.1",
-      "source_path": ".",
-      "manifest_sha256": "2147d931af39a004c17a58e6a7b738fd15b5490f73276428c2bd98068bf1e32e",
+      "sound_count": 90,
+      "total_size_bytes": 39173608,
+      "source_repo": "zenvor/openpeon-packs",
+      "source_ref": "honor_of_kings/v1.0.2",
+      "source_path": "honor_of_kings",
+      "manifest_sha256": "00fe87ff3f7525e8f928946b5e4a919c810bfb23349127b2b6affd4a9d05d199",
       "tags": [
         "gaming",
         "moba",
@@ -4090,7 +4090,7 @@
         "pentakill-1.wav"
       ],
       "added": "2026-03-23",
-      "updated": "2026-03-23"
+      "updated": "2026-03-30"
     },
     {
       "name": "illari",
@@ -6938,7 +6938,7 @@
     {
       "name": "ra2_eva_commander",
       "display_name": "RA2 EVA Commander",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Red Alert 2 Allied EVA commander voice lines mixed with Tanya responses.",
       "author": {
         "name": "zenvor",
@@ -6957,12 +6957,12 @@
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 23,
-      "total_size_bytes": 1369358,
-      "source_repo": "zenvor/openpeon-ra2-eva-commander",
-      "source_ref": "v1.0.1",
-      "source_path": ".",
-      "manifest_sha256": "e219c745cb3e5704d39e075b24dee48b4a87f4e49947ee8bb4b6b9b6435f8bf2",
+      "sound_count": 22,
+      "total_size_bytes": 1252499,
+      "source_repo": "zenvor/openpeon-packs",
+      "source_ref": "ra2_eva_commander/v1.0.2",
+      "source_path": "ra2_eva_commander",
+      "manifest_sha256": "fff8facf594358a0ebad16a21ebe85eea38f6a6507c72a6fe84723b08a084cd6",
       "tags": [
         "gaming",
         "red-alert",
@@ -6975,7 +6975,7 @@
         "yeah-baby.wav"
       ],
       "added": "2026-03-02",
-      "updated": "2026-03-02"
+      "updated": "2026-03-30"
     },
     {
       "name": "ra2_kirov",
