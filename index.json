@@ -9666,7 +9666,7 @@
         "name": "Jamez Bondos",
         "github": "jamez-bondos"
       },
-      "trust_tier": "verified",
+      "trust_tier": "community",
       "categories": [
         "session.start",
         "task.acknowledge",
@@ -9674,7 +9674,7 @@
         "task.complete",
         "task.error",
         "input.required",
-        "user.spam"
+        "resource.limit"
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
@@ -9683,7 +9683,7 @@
       "source_repo": "jamez-bondos/peonping-tanya",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "7142bc07e304df43ac7dfb7bcca89e891d644f53cc7aa8a5ce4ec676da16afe3",
+      "manifest_sha256": "27eac2364c5d50d56f0b209b9b225393aec9e95912c860a74606619a7e223a0f",
       "tags": [
         "gaming",
         "red-alert",
