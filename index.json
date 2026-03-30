@@ -4051,7 +4051,7 @@
     {
       "name": "honor_of_kings",
       "display_name": "Honor of Kings (王者荣耀)",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Honor of Kings game announcement voice lines and XiShi character VO",
       "author": {
         "name": "zenvor",
@@ -4072,11 +4072,11 @@
       "language": "zh",
       "license": "MIT",
       "sound_count": 90,
-      "total_size_bytes": 39173608,
+      "total_size_bytes": 39119304,
       "source_repo": "zenvor/openpeon-packs",
-      "source_ref": "honor_of_kings/v1.0.2",
+      "source_ref": "honor_of_kings/v1.0.3",
       "source_path": "honor_of_kings",
-      "manifest_sha256": "00fe87ff3f7525e8f928946b5e4a919c810bfb23349127b2b6affd4a9d05d199",
+      "manifest_sha256": "f567f0d799152d871da774529dacf6815958474fcb0834832e0de7e96ee4b65b",
       "tags": [
         "gaming",
         "moba",
