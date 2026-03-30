@@ -9658,6 +9658,47 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "tanya_ra2",
+      "display_name": "Tanya (Red Alert 2)",
+      "version": "1.0.0",
+      "description": "Tanya voice lines from Command & Conquer: Red Alert 2.",
+      "author": {
+        "name": "Jamez Bondos",
+        "github": "jamez-bondos"
+      },
+      "trust_tier": "verified",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.progress",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 15,
+      "total_size_bytes": 60854,
+      "source_repo": "jamez-bondos/peonping-tanya",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "7142bc07e304df43ac7dfb7bcca89e891d644f53cc7aa8a5ce4ec676da16afe3",
+      "tags": [
+        "gaming",
+        "red-alert",
+        "cnc",
+        "rts",
+        "tanya"
+      ],
+      "preview_sounds": [
+        "locked-and-loaded.mp3",
+        "yeah-baby.mp3"
+      ],
+      "added": "2026-03-30",
+      "updated": "2026-03-30"
+    },
+    {
       "name": "teemo-kr",
       "display_name": "티모 (한국어)",
       "version": "1.0.1",
