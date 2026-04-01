@@ -11498,7 +11498,7 @@
     {
       "name": "worms-pt",
       "display_name": "Worms Armageddon (PT-BR)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Brazilian Portuguese soundpack from Worms Armageddon.",
       "author": {
         "name": "vmrfreitas",
@@ -11518,7 +11518,7 @@
       "license": "CC-BY-NC-4.0",
       "sound_count": 33,
       "source_repo": "vmrfreitas/openpeon-worms-pt",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
       "tags": [
         "gaming",
