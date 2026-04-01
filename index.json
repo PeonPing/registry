@@ -6703,20 +6703,20 @@
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 16,
-      "total_size_bytes": 88632,
+      "sound_count": 35,
+      "total_size_bytes": 665926,
       "source_repo": "AlvaroGraca-TomTom/openpeon-pikmin",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "f3dc65dd8fec5819279f67322fe0bfdc216c7cfd04821d472c01e1f2db5fc7a4",
+      "manifest_sha256": "0ede643dc0d71665b4c30bb35ea5e26c03ac814e486de65caf350419fa46ec1b",
       "tags": [
         "gaming",
         "pikmin",
         "nintendo"
       ],
       "preview_sounds": [
-        "greeting-pikmin.mp3",
-        "attention-whistle.mp3"
+        "pikmin.mp3",
+        "pikmin-olimar-whistle.mp3"
       ],
       "added": "2026-04-01",
       "updated": "2026-04-01"
