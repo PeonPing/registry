@@ -6697,7 +6697,9 @@
       "trust_tier": "community",
       "categories": [
         "input.required",
+        "resource.limit",
         "session.start",
+        "task.acknowledge",
         "task.complete",
         "task.error"
       ],
@@ -6708,7 +6710,7 @@
       "source_repo": "AlvaroGraca-TomTom/openpeon-pikmin",
       "source_ref": "v1.1.0",
       "source_path": ".",
-      "manifest_sha256": "80ad99921c1b4dd224114f5f9f227eaeac3e1ac558b6511053b9f86d41fa0c0e",
+      "manifest_sha256": "b35f1e3860166f3bbc03e2de594000b5e18b9f85e968ab5fff27987bfdff6e9f",
       "tags": [
         "gaming",
         "pikmin",
