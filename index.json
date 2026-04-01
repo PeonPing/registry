@@ -6686,6 +6686,42 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "pikmin",
+      "display_name": "Pikmin",
+      "version": "1.0.0",
+      "description": "Adorable Pikmin sound effects from the Nintendo classic. Pluck, carry, whistle, and occasionally perish.",
+      "author": {
+        "name": "Alvaro Graca",
+        "github": "AlvaroGraca-TomTom"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "session.start",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 16,
+      "total_size_bytes": 88632,
+      "source_repo": "AlvaroGraca-TomTom/openpeon-pikmin",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "f3dc65dd8fec5819279f67322fe0bfdc216c7cfd04821d472c01e1f2db5fc7a4",
+      "tags": [
+        "gaming",
+        "pikmin",
+        "nintendo"
+      ],
+      "preview_sounds": [
+        "greeting-pikmin.mp3",
+        "attention-whistle.mp3"
+      ],
+      "added": "2026-04-01",
+      "updated": "2026-04-01"
+    },
+    {
       "name": "pokemon-gen1",
       "display_name": "Pokemon Gen 1",
       "version": "1.0.0",
