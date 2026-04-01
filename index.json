@@ -11169,6 +11169,47 @@
       "updated": "2026-03-04"
     },
     {
+      "name": "wc3_lich",
+      "display_name": "Undead Lich (Warcraft III)",
+      "version": "1.0.0",
+      "description": "Undead Lich hero and Kel'Thuzad voice lines from Warcraft III — 44 sounds across both characters",
+      "author": {
+        "name": "iamunhoz",
+        "github": "iamunhoz"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 44,
+      "total_size_bytes": 4560542,
+      "source_repo": "iamunhoz/openpeon-wc3-lich",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "83390cb4da47b7a2badee74d47d1d1ededcbbc3f5523dd5f82aac7ce4cdbd72b",
+      "tags": [
+        "gaming",
+        "warcraft",
+        "blizzard",
+        "rts",
+        "undead"
+      ],
+      "preview_sounds": [
+        "HeroLichReady1.wav",
+        "HeroLichWhat1.wav"
+      ],
+      "added": "2026-04-01",
+      "updated": "2026-04-01"
+    },
+    {
       "name": "wc3_peasant_pt-br",
       "display_name": "WC3 Human Peasant (PT-BR)",
       "version": "1.0.1",
@@ -11744,5 +11785,5 @@
       "updated": "2026-02-25"
     }
   ],
-  "total_packs": 287
+  "total_packs": 292
 }
