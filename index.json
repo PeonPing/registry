@@ -6688,7 +6688,7 @@
     {
       "name": "pikmin",
       "display_name": "Pikmin",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Adorable Pikmin sound effects from the Nintendo classic. Pluck, carry, whistle, and occasionally perish.",
       "author": {
         "name": "Alvaro Graca",
@@ -6706,9 +6706,9 @@
       "sound_count": 35,
       "total_size_bytes": 665926,
       "source_repo": "AlvaroGraca-TomTom/openpeon-pikmin",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
-      "manifest_sha256": "0ede643dc0d71665b4c30bb35ea5e26c03ac814e486de65caf350419fa46ec1b",
+      "manifest_sha256": "80ad99921c1b4dd224114f5f9f227eaeac3e1ac558b6511053b9f86d41fa0c0e",
       "tags": [
         "gaming",
         "pikmin",
