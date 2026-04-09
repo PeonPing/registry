@@ -11354,6 +11354,48 @@
       "updated": "2026-02-19"
     },
     {
+      "name": "worms-armageddon-fi",
+      "display_name": "Worms Armageddon (FI)",
+      "version": "1.0.0",
+      "description": "Legendary voices from Worms Armageddon in the Finnish language",
+      "author": {
+        "name": "rennehir",
+        "github": "rennehir"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "session.end",
+        "task.complete",
+        "task.error",
+        "task.start",
+        "input.required",
+        "notification"
+      ],
+      "language": "fi",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 54,
+      "total_size_bytes": 15587994,
+      "source_repo": "rennehir/openpeon-finnish-worms",
+      "source_ref": "v2.0.0",
+      "source_path": ".",
+      "manifest_sha256": "243e4a7e17c278ee1944a97788bcaa76125d53c87fed1c468315506e639bb7bc",
+      "tags": [
+        "gaming",
+        "strategy",
+        "worms",
+        "team17",
+        "comedy",
+        "finnish"
+      ],
+      "preview_sounds": [
+        "sounds/bummer.ogg",
+        "sounds/comeonthen.ogg"
+      ],
+      "added": "2026-04-09",
+      "updated": "2026-04-09"
+    },
+    {
       "name": "worms-armageddon-ptbr",
       "display_name": "Worms Armageddon (PT-BR)",
       "version": "1.0.2",
