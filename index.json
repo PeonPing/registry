@@ -10167,6 +10167,48 @@
       "updated": "2026-03-11"
     },
     {
+      "name": "tiberian-sun-cabal",
+      "display_name": "Tiberian Sun CABAL",
+      "version": "1.0.0",
+      "description": "CABAL - Tiberian Sun (only uses voicelines from Tiberian Sun CABAL)",
+      "author": {
+        "name": "Gus El Khoury Seoane",
+        "github": "gustakasn0v"
+      },
+      "trust_tier": "verified",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 43,
+      "total_size_bytes": 12334026,
+      "source_repo": "gustakasn0v/openpeon-tiberian-sun-cabal",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "e64aa9cf4351bcff399b4cf37f8b2d7e8e6854b32cfae1faafa0beafedd8693b",
+      "tags": [
+        "cabal",
+        "gaming",
+        "command-and-conquer",
+        "tiberian-sun",
+        "rts",
+        "westwood"
+      ],
+      "preview_sounds": [
+        "sounds/establishing_battlefield_control_standby.WAV",
+      ],
+      "added": "2026-04-10",
+      "updated": "2026-04-10"
+    },
+    {
       "name": "tiberian-sun-eva",
       "display_name": "Tiberian Sun EVA",
       "version": "1.0.3",
