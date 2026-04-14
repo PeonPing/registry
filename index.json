@@ -4408,6 +4408,46 @@
       "updated": "2026-02-27"
     },
     {
+      "name": "kart_zhangmiao_2d4ebd0a",
+      "display_name": "代号鸢 张渺 留音匣",
+      "version": "1.0.0",
+      "description": "sound pack of 代号鸢 张渺 留音匣",
+      "author": {
+        "name": "LiRiu",
+        "github": "LiRiu"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "zh-CN",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 10,
+      "total_size_bytes": 964890,
+      "source_repo": "LiRiu/kart-zhangmiao-2d4ebd0a-pack",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "4e4c0a654f95abeedf3cb51f40716ec9cda77cac9a84ca0b02681ab5d859ae9c",
+      "tags": [
+        "code:kart"
+      ],
+      "preview_sounds": [
+        "sounds/4.mp3",
+        "sounds/1.mp3",
+        "sounds/2.mp3",
+        "sounds/3.mp3",
+        "sounds/3.mp3",
+        "sounds/3.mp3"
+      ],
+      "added": "2026-04-14",
+      "updated": "2026-04-14"
+    },
+    {
       "name": "katamari-damacy",
       "display_name": "Katamari Damacy",
       "version": "0.4.1",
