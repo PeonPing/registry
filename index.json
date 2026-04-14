@@ -42,6 +42,81 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "abes-oddysee-abe",
+      "display_name": "Abe's Oddysee - Abe",
+      "version": "1.0.0",
+      "description": "Sound pack featuring voice clips of Abe from Oddworld: Abe's Oddysee.",
+      "author": {
+        "name": "Ioseb Laghidze",
+        "github": "onebadninja"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 11,
+      "total_size_bytes": 455988,
+      "source_repo": "OneBadNinja/openpeon-abes-oddyssey-abe",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "733c24ccc3bfc76998b374239e0d468b80c6e6d7c0e96bb5f400f960930ad4cd",
+      "tags": [
+        "gaming",
+        "oddworld"
+      ],
+      "preview_sounds": [
+        "Hello.mp3",
+        "Chanting.mp3"
+      ],
+      "added": "2026-04-14",
+      "updated": "2026-04-14"
+    },
+    {
+      "name": "abes-oddysee-slig",
+      "display_name": "Abe's Oddysee - Slig",
+      "version": "1.0.0",
+      "description": "Sound pack featuring voice clips of Slig from Oddworld: Abe's Oddysee.",
+      "author": {
+        "name": "Ioseb Laghidze",
+        "github": "onebadninja"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 9,
+      "total_size_bytes": 285062,
+      "source_repo": "OneBadNinja/openpeon-abes-oddyssey-slig",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "89848738736cfa0a8225c3af614a138e563d042d76b57968e9523e67468c185d",
+      "tags": [
+        "gaming",
+        "oddworld"
+      ],
+      "preview_sounds": [
+        "Here_Boy.mp3",
+        "Help.mp3"
+      ],
+      "added": "2026-04-14",
+      "updated": "2026-04-14"
+    },
+    {
       "name": "acolyte_de",
       "display_name": "Undead Acolyte (DE)",
       "version": "1.0.0",
