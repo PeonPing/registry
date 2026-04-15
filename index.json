@@ -610,7 +610,7 @@
     {
       "name": "aoe2-villager-turkish-female",
       "display_name": "Age of Empires 2 Turkish (Female)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Female Turkish villager voice lines from Age of Empires II",
       "author": {
         "name": "Yusuf Kinatas",
@@ -631,9 +631,9 @@
       "sound_count": 18,
       "total_size_bytes": 228642,
       "source_repo": "yusufkinatas/peon-ping-custom-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": "aoe2-villager-turkish-female",
-      "manifest_sha256": "9d6011a9e596eef1a607e1fb607060ba65538eafc573e298705c16a5f8efbdd6",
+      "manifest_sha256": "327916a5e60a45bc470f826efd23be06e1fff31c3e91893c1c8be35fd43874c9",
       "tags": [
         "gaming",
         "aoe",
@@ -651,7 +651,7 @@
     {
       "name": "aoe2-villager-turkish-male",
       "display_name": "Age of Empires 2 Turkish (Male)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Male Turkish villager voice lines from Age of Empires II",
       "author": {
         "name": "Yusuf Kinatas",
@@ -672,9 +672,9 @@
       "sound_count": 18,
       "total_size_bytes": 259557,
       "source_repo": "yusufkinatas/peon-ping-custom-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": "aoe2-villager-turkish-male",
-      "manifest_sha256": "b25d44c89654a9b322ff7a1f3d3f4e6d13372d1b9a42d0c46c6757a79469e027",
+      "manifest_sha256": "a68b832338ed8c76ab04fbe27418bbe1939b91a6ab9336ee8e822b68a33fb909",
       "tags": [
         "gaming",
         "aoe",
@@ -692,7 +692,7 @@
     {
       "name": "aoe3-villager-turkish",
       "display_name": "Age of Empires 3 Turkish",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Ottoman Turkish villager voice lines from Age of Empires III",
       "author": {
         "name": "Yusuf Kinatas",
@@ -712,9 +712,9 @@
       "sound_count": 15,
       "total_size_bytes": 438548,
       "source_repo": "yusufkinatas/peon-ping-custom-packs",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": "aoe3-villager-turkish",
-      "manifest_sha256": "fa102ca835724330fb3b1a8cafde640c061ebb6b39823949efd0f9e8146455eb",
+      "manifest_sha256": "92a6f3d850ad6e9ba0b4ce26bb187f690b1f874fc4d8ba7e6c4c177090f4d1de",
       "tags": [
         "gaming",
         "aoe",
