@@ -619,6 +619,7 @@
       "trust_tier": "community",
       "categories": [
         "input.required",
+        "resource.limit",
         "session.start",
         "task.acknowledge",
         "task.complete",
@@ -632,7 +633,7 @@
       "source_repo": "yusufkinatas/peon-ping-custom-packs",
       "source_ref": "v1.0.0",
       "source_path": "aoe2-villager-turkish-female",
-      "manifest_sha256": "4a3094bf46c5d7c08e4ac1a4763a51345191b747f073efdcbd794f3a3e6a814e",
+      "manifest_sha256": "9d6011a9e596eef1a607e1fb607060ba65538eafc573e298705c16a5f8efbdd6",
       "tags": [
         "gaming",
         "aoe",
@@ -659,6 +660,7 @@
       "trust_tier": "community",
       "categories": [
         "input.required",
+        "resource.limit",
         "session.start",
         "task.acknowledge",
         "task.complete",
@@ -672,7 +674,7 @@
       "source_repo": "yusufkinatas/peon-ping-custom-packs",
       "source_ref": "v1.0.0",
       "source_path": "aoe2-villager-turkish-male",
-      "manifest_sha256": "893cce2b5ff6a32bcb4bc89a837557caa50953c33429f4d3eaf0215823298989",
+      "manifest_sha256": "b25d44c89654a9b322ff7a1f3d3f4e6d13372d1b9a42d0c46c6757a79469e027",
       "tags": [
         "gaming",
         "aoe",
