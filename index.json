@@ -608,6 +608,127 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "aoe2-villager-turkish-female",
+      "display_name": "Age of Empires 2 Turkish (Female)",
+      "version": "1.0.0",
+      "description": "Female Turkish villager voice lines from Age of Empires II",
+      "author": {
+        "name": "Yusuf Kinatas",
+        "github": "yusufkinatas"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "tr",
+      "license": "MIT",
+      "sound_count": 18,
+      "total_size_bytes": 228642,
+      "source_repo": "yusufkinatas/peon-ping-custom-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "aoe2-villager-turkish-female",
+      "manifest_sha256": "4a3094bf46c5d7c08e4ac1a4763a51345191b747f073efdcbd794f3a3e6a814e",
+      "tags": [
+        "gaming",
+        "aoe",
+        "aoe2",
+        "rts",
+        "turkish"
+      ],
+      "preview_sounds": [
+        "Evet_F.ogg",
+        "Oduncu_F.ogg"
+      ],
+      "added": "2026-04-15",
+      "updated": "2026-04-15"
+    },
+    {
+      "name": "aoe2-villager-turkish-male",
+      "display_name": "Age of Empires 2 Turkish (Male)",
+      "version": "1.0.0",
+      "description": "Male Turkish villager voice lines from Age of Empires II",
+      "author": {
+        "name": "Yusuf Kinatas",
+        "github": "yusufkinatas"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "tr",
+      "license": "MIT",
+      "sound_count": 18,
+      "total_size_bytes": 259557,
+      "source_repo": "yusufkinatas/peon-ping-custom-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "aoe2-villager-turkish-male",
+      "manifest_sha256": "893cce2b5ff6a32bcb4bc89a837557caa50953c33429f4d3eaf0215823298989",
+      "tags": [
+        "gaming",
+        "aoe",
+        "aoe2",
+        "rts",
+        "turkish"
+      ],
+      "preview_sounds": [
+        "Evet_M.ogg",
+        "Oduncu_M.ogg"
+      ],
+      "added": "2026-04-15",
+      "updated": "2026-04-15"
+    },
+    {
+      "name": "aoe3-villager-turkish",
+      "display_name": "Age of Empires 3 Turkish",
+      "version": "1.0.0",
+      "description": "Ottoman Turkish villager voice lines from Age of Empires III",
+      "author": {
+        "name": "Yusuf Kinatas",
+        "github": "yusufkinatas"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "tr",
+      "license": "MIT",
+      "sound_count": 15,
+      "total_size_bytes": 438548,
+      "source_repo": "yusufkinatas/peon-ping-custom-packs",
+      "source_ref": "v1.0.0",
+      "source_path": "aoe3-villager-turkish",
+      "manifest_sha256": "fa102ca835724330fb3b1a8cafde640c061ebb6b39823949efd0f9e8146455eb",
+      "tags": [
+        "gaming",
+        "aoe",
+        "aoe3",
+        "rts",
+        "turkish",
+        "ottoman"
+      ],
+      "preview_sounds": [
+        "Selam.ogg",
+        "Oduncu.ogg"
+      ],
+      "added": "2026-04-15",
+      "updated": "2026-04-15"
+    },
+    {
       "name": "aoe4_fr_imperial",
       "display_name": "Age of Empires IV - French Villager Voices",
       "version": "1.0.2",
