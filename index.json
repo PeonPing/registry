@@ -7980,6 +7980,45 @@
       "updated": "2026-03-03"
     },
     {
+      "name": "sanguosha-sound-pack",
+      "display_name": "Sanguosha Hero Voice Pack",
+      "version": "1.0.0",
+      "description": "A sound pack inspired by Sanguosha (三国杀 / Three Kingdoms Kill), the classic Chinese card game. Features authentic in-game hero voice lines — battles, stratagems, victories and defeats — mapped to AI coding tool events.",
+      "author": {
+        "name": "MFK",
+        "github": "MarkSunDev"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "session.end",
+        "task.progress",
+        "user.spam"
+      ],
+      "language": "zh",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 100,
+      "total_size_bytes": 1284409,
+      "source_repo": "MarkSunDev/MFK-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "469248b40c5ba8903552c845dc1cdcecd8a796d3a974eac5f348919503aa853b",
+      "tags": [
+        "gaming",
+        "sanguosha",
+        "three-kingdoms",
+        "chinese",
+        "card-game"
+      ],
+      "added": "2026-04-17",
+      "updated": "2026-04-17"
+    },
+    {
       "name": "sc2_abathur",
       "display_name": "StarCraft II Abathur",
       "version": "1.0.0",
