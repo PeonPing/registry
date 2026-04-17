@@ -6223,7 +6223,7 @@
     {
       "name": "orb-ping",
       "display_name": "Orb Ping",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "A peonping pack using sounds from Tools for Humanity's Orb.",
       "author": {
         "name": "Seán Olszewski",
@@ -6232,20 +6232,22 @@
       "trust_tier": "community",
       "categories": [
         "input.required",
+        "resource.limit",
         "session.end",
         "session.start",
+        "task.acknowledge",
         "task.complete",
         "task.error",
         "task.progress"
       ],
       "language": "en",
       "license": "fair-use",
-      "sound_count": 18,
-      "total_size_bytes": 6714336,
+      "sound_count": 19,
+      "total_size_bytes": 6825880,
       "source_repo": "SeanROlszewski/orb-peonping",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "e5659f17fd3cb3f6ef7344113dc8341def14be75a4ab040c38fceff13b70036c",
+      "manifest_sha256": "ffe02722306ad9e6a6964950bcdef351a3a80c7592e9453f2506aec46134048e",
       "tags": [
         "orb",
         "worldcoin",
