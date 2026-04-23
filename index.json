@@ -9946,6 +9946,47 @@
       "updated": "2026-04-08"
     },
     {
+      "name": "sts2_shopkeeper",
+      "display_name": "Slay the Spire 2 Shop Keeper",
+      "version": "1.0.0",
+      "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 — shop keeper grunts, thanks, and disappointed grumbles",
+      "author": {
+        "name": "flavono123",
+        "github": "flavono123"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 27,
+      "total_size_bytes": 9073188,
+      "source_repo": "flavono123/sts2-shopkeeper-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "189e0323b3e6f73387e3ce2e199d75cdf9eaaf66533e6524a172525125a5cad2",
+      "tags": [
+        "gaming",
+        "slay-the-spire",
+        "mega-crit",
+        "roguelike",
+        "deckbuilder"
+      ],
+      "preview_sounds": [
+        "merchant_welcome_1.wav",
+        "merchant_disappointment_1.wav"
+      ],
+      "added": "2026-04-22",
+      "updated": "2026-04-22"
+    },
+    {
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
