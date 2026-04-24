@@ -9946,6 +9946,49 @@
       "updated": "2026-04-08"
     },
     {
+      "name": "sts2_regent",
+      "display_name": "Slay the Spire 2 Regent",
+      "version": "1.0.1",
+      "description": "Regent voice lines from Slay the Spire 2 — a playable character voiced by Mark Ota, with greetings, impatient quips, triumphant cheers, and hurt cries across three intensity levels",
+      "author": {
+        "name": "flavono123",
+        "github": "flavono123"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 70,
+      "total_size_bytes": 13458124,
+      "source_repo": "flavono123/sts2-regent-peon",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "bae40409e9d6ef3089c47710331bd89cc894a03e41467b0702cb8aeed97732ce",
+      "tags": [
+        "gaming",
+        "slay-the-spire",
+        "mega-crit",
+        "roguelike",
+        "deckbuilder",
+        "regent",
+        "playable-character"
+      ],
+      "preview_sounds": [
+        "regent_greeting_1.wav",
+        "regent_impatient_1.wav"
+      ],
+      "added": "2026-04-24",
+      "updated": "2026-04-24"
+    },
+    {
       "name": "sts2_shopkeeper",
       "display_name": "Slay the Spire 2 Shop Keeper",
       "version": "1.0.0",
