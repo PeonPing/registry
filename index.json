@@ -9948,7 +9948,7 @@
     {
       "name": "sts2_shopkeeper",
       "display_name": "Slay the Spire 2 Shop Keeper",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 — shop keeper grunts, thanks, and disappointed grumbles",
       "author": {
         "name": "flavono123",
@@ -9967,11 +9967,11 @@
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 27,
-      "total_size_bytes": 9073188,
+      "total_size_bytes": 4157862,
       "source_repo": "flavono123/sts2-shopkeeper-peon",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "189e0323b3e6f73387e3ce2e199d75cdf9eaaf66533e6524a172525125a5cad2",
+      "manifest_sha256": "ef94dac31d76ddf89ccff3aa8973084559a09cba7d51f72af54c49f59df27d44",
       "tags": [
         "gaming",
         "slay-the-spire",
@@ -9984,7 +9984,7 @@
         "merchant_disappointment_1.wav"
       ],
       "added": "2026-04-22",
-      "updated": "2026-04-22"
+      "updated": "2026-04-24"
     },
     {
       "name": "sts2_the_kin",
