@@ -9946,6 +9946,48 @@
       "updated": "2026-04-08"
     },
     {
+      "name": "sts2_ancients",
+      "display_name": "Slay the Spire 2 Ancients",
+      "version": "1.0.1",
+      "description": "DARV, NEOW, NONUPEIPE, and TANX voice lines from Slay the Spire 2 — a pantheon of four of the nine Ancients, with the rest silent until Mega Crit patches them in",
+      "author": {
+        "name": "flavono123",
+        "github": "flavono123"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 62,
+      "total_size_bytes": 19874504,
+      "source_repo": "flavono123/sts2-ancients-peon",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "2e77fdef0553ec04418f02c4bbfc1d77ab234fab785f0e343d30531284469b5a",
+      "tags": [
+        "gaming",
+        "slay-the-spire",
+        "mega-crit",
+        "roguelike",
+        "deckbuilder",
+        "ancients"
+      ],
+      "preview_sounds": [
+        "darv_pain_1.wav",
+        "nonupeipe_welcome_1.wav"
+      ],
+      "added": "2026-04-24",
+      "updated": "2026-04-24"
+    },
+    {
       "name": "sts2_regent",
       "display_name": "Slay the Spire 2 Regent",
       "version": "1.0.1",
