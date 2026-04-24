@@ -9989,7 +9989,7 @@
     {
       "name": "sts2_the_kin",
       "display_name": "Slay the Spire 2 The Kin",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "The Kin (kin_minion + kin_leader) boss voice lines from Slay the Spire 2 — cult chants, rallies, and death cries",
       "author": {
         "name": "flavono123",
@@ -10008,11 +10008,11 @@
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 43,
-      "total_size_bytes": 10818560,
+      "total_size_bytes": 7080230,
       "source_repo": "flavono123/sts2-the-kin-peon",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "9732be7f65c11a60f76ca728086894936d6fc60a8d2b5c1810fd17c4a3f8f304",
+      "manifest_sha256": "c363791ade2ec65f87d4e62a458383f6a4d26d0d6dddcde6a8ccc324f1db8f98",
       "tags": [
         "gaming",
         "slay-the-spire",
