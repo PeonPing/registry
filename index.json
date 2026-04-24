@@ -10030,6 +10030,48 @@
       "updated": "2026-04-24"
     },
     {
+      "name": "sts2_twotailrats",
+      "display_name": "Slay the Spire 2 Two-Tailed Rats",
+      "version": "1.0.1",
+      "description": "Two-Tailed Rats monster voice lines from Slay the Spire 2 — hurt yelps, attack snarls, and death squeaks voiced by Mars Orach",
+      "author": {
+        "name": "flavono123",
+        "github": "flavono123"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 37,
+      "total_size_bytes": 5919430,
+      "source_repo": "flavono123/sts2-twotailrats-peon",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "e28724a20aa4d782a7fdb3dc632fc9ede25d9fbfebbd4c7c160e5367d5ff97cf",
+      "tags": [
+        "gaming",
+        "slay-the-spire",
+        "mega-crit",
+        "roguelike",
+        "deckbuilder",
+        "monster"
+      ],
+      "preview_sounds": [
+        "twotailrats_summon_1.wav",
+        "twotailrats_hurt_1.wav"
+      ],
+      "added": "2026-04-24",
+      "updated": "2026-04-24"
+    },
+    {
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
