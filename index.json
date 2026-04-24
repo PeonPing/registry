@@ -9987,6 +9987,49 @@
       "updated": "2026-04-22"
     },
     {
+      "name": "sts2_the_kin",
+      "display_name": "Slay the Spire 2 The Kin",
+      "version": "1.0.0",
+      "description": "The Kin (kin_minion + kin_leader) boss voice lines from Slay the Spire 2 — cult chants, rallies, and death cries",
+      "author": {
+        "name": "flavono123",
+        "github": "flavono123"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 43,
+      "total_size_bytes": 10818560,
+      "source_repo": "flavono123/sts2-the-kin-peon",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "9732be7f65c11a60f76ca728086894936d6fc60a8d2b5c1810fd17c4a3f8f304",
+      "tags": [
+        "gaming",
+        "slay-the-spire",
+        "mega-crit",
+        "roguelike",
+        "deckbuilder",
+        "the-kin",
+        "boss"
+      ],
+      "preview_sounds": [
+        "kin_leader_rally_1.wav",
+        "kin_minion_hurt_1.wav"
+      ],
+      "added": "2026-04-24",
+      "updated": "2026-04-24"
+    },
+    {
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
