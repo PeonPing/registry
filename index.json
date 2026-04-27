@@ -9883,6 +9883,35 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "stromberg",
+      "display_name": "Bernd Stromberg",
+      "version": "1.0.0",
+      "description": "Bernd Stromberg voice lines from the German TV series and films (2004–2014).",
+      "author": { "name": "Heiko Does", "github": "nekator" },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "MIT",
+      "sound_count": 22,
+      "total_size_bytes": 1223148,
+      "source_repo": "nekator/stromberg-peon-ping",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "84e40034800ef5f3325b31de30ed51c53e0127d9acfb3011051ba27b3667efd1",
+      "tags": ["tv", "german", "comedy"],
+      "preview_sounds": ["psychokrieg.mp3", "wattepusten.mp3"],
+      "added": "2026-04-27",
+      "updated": "2026-04-27"
+    },
+    {
       "name": "stronghold-german-genie",
       "display_name": "Stronghold Genie German",
       "version": "1.0.0",
