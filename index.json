@@ -5,7 +5,7 @@
       "name": "abbot",
       "display_name": "The Abbot (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Abbot voice lines from Stronghold Crusader — scheming monastery lord",
+      "description": "The Abbot voice lines from Stronghold Crusader \u2014 scheming monastery lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -158,7 +158,7 @@
     },
     {
       "name": "acolyte_es",
-      "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
+      "display_name": "Ac\u00f3lito Muertos Vivientes Warcraft III (ES)",
       "version": "1.0.2",
       "description": "Spanish Undead Acolyte sound pack from Warcraft III",
       "author": {
@@ -238,9 +238,9 @@
     },
     {
       "name": "ae_qianyu",
-      "display_name": "明日方舟:终末地 陈千语",
+      "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
       "version": "1.0.4",
-      "description": "明日方舟:终末地 陈千语 语音包",
+      "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -264,7 +264,7 @@
       "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
       "tags": [
         "gaming",
-        "明日方舟:终末地",
+        "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
         "arknights:endfield"
       ],
       "preview_sounds": [
@@ -895,7 +895,7 @@
       "name": "arc-raiders-emotes",
       "display_name": "Arc Raiders Emotes",
       "version": "1.0.0",
-      "description": "Arc Raiders emote voice lines — hey there, let's boogie, don't shoot, and more",
+      "description": "Arc Raiders emote voice lines \u2014 hey there, let's boogie, don't shoot, and more",
       "author": {
         "name": "Buupu",
         "github": "Buupu"
@@ -1045,9 +1045,9 @@
     },
     {
       "name": "arthas_ru",
-      "display_name": "Артас Рыцарь Смерти (Russian)",
+      "display_name": "\u0410\u0440\u0442\u0430\u0441 \u0420\u044b\u0446\u0430\u0440\u044c \u0421\u043c\u0435\u0440\u0442\u0438 (Russian)",
       "version": "1.0.0",
-      "description": "WC3 Death Knight Arthas — all 20 Russian voice lines mapped to CESP categories",
+      "description": "WC3 Death Knight Arthas \u2014 all 20 Russian voice lines mapped to CESP categories",
       "author": {
         "name": "samokay",
         "github": "samokay"
@@ -1212,9 +1212,9 @@
     },
     {
       "name": "boris_ru",
-      "display_name": "Дед Борис (Russian)",
+      "display_name": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 (Russian)",
       "version": "1.0.0",
-      "description": "Дед Борис — AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
+      "description": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 \u2014 AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
       "author": {
         "name": "malakhov-dmitrii",
         "github": "malakhov-dmitrii"
@@ -1377,7 +1377,7 @@
       "name": "caliph",
       "display_name": "The Caliph (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Caliph voice lines from Stronghold Crusader — diplomatic desert lord",
+      "description": "The Caliph voice lines from Stronghold Crusader \u2014 diplomatic desert lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -1619,7 +1619,7 @@
       "name": "charlie_sheen",
       "display_name": "Charlie Sheen",
       "version": "1.0.0",
-      "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
+      "description": "Charlie Sheen's iconic interview quotes \u2014 Winning, tiger blood, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -1655,9 +1655,9 @@
     },
     {
       "name": "claptrap-fr",
-      "display_name": "ClapTrap (FR) — Borderlands 2",
+      "display_name": "ClapTrap (FR) \u2014 Borderlands 2",
       "version": "1.0.0",
-      "description": "Répliques de ClapTrap en français depuis Borderlands 2",
+      "description": "R\u00e9pliques de ClapTrap en fran\u00e7ais depuis Borderlands 2",
       "author": {
         "name": "Jean-Baptiste Choquet",
         "github": "Jechoque42"
@@ -1822,7 +1822,7 @@
       "name": "cute-minimal",
       "display_name": "Cute UI",
       "version": "1.0.1",
-      "description": "Simple, cute UI/UX interface sounds — light and playful coding event feedback",
+      "description": "Simple, cute UI/UX interface sounds \u2014 light and playful coding event feedback",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -2095,7 +2095,7 @@
       "name": "djkhaled",
       "display_name": "DJ Khaled",
       "version": "1.0.0",
-      "description": "DJ Khaled catchphrases as coding notification sounds — Another one! We the best! Major key alert!",
+      "description": "DJ Khaled catchphrases as coding notification sounds \u2014 Another one! We the best! Major key alert!",
       "author": {
         "name": "mevinmathew23",
         "github": "mevinmathew23"
@@ -2340,7 +2340,7 @@
       "name": "dota2_ember_spirit",
       "display_name": "Ember Spirit (Dota 2)",
       "version": "1.0.0",
-      "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
+      "description": "Ember Spirit (Dota 2) sound pack \u2014 'Balance in all things.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2380,7 +2380,7 @@
       "name": "dota2_invoker",
       "display_name": "Invoker (Dota 2)",
       "version": "1.0.0",
-      "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
+      "description": "Invoker (Dota 2) sound pack \u2014 'So begins a new age of knowledge.'",
       "author": {
         "name": "bwarren2",
         "github": "bwarren2"
@@ -2420,7 +2420,7 @@
       "name": "dota2_phantom_lancer",
       "display_name": "Phantom Lancer (Dota 2)",
       "version": "1.0.0",
-      "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
+      "description": "Phantom Lancer (Dota 2) sound pack \u2014 'From one: an army.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2460,7 +2460,7 @@
       "name": "dota2_witch_doctor",
       "display_name": "Witch Doctor (Dota 2)",
       "version": "1.0.0",
-      "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
+      "description": "Witch Doctor (Dota 2) sound pack \u2014 'De Doctor is in!'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2500,7 +2500,7 @@
       "name": "dota2_zeus",
       "display_name": "Zeus (Dota 2)",
       "version": "1.0.0",
-      "description": "Zeus (Dota 2) sound pack — 'Your god has arrived.'",
+      "description": "Zeus (Dota 2) sound pack \u2014 'Your god has arrived.'",
       "author": {
         "name": "kmelkon",
         "github": "kmelkon"
@@ -2540,7 +2540,7 @@
       "name": "dreamy-minimal",
       "display_name": "Dreamy Beeps",
       "version": "1.0.1",
-      "description": "Soft, dreamy tonal beeps — gentle and unobtrusive coding event sounds",
+      "description": "Soft, dreamy tonal beeps \u2014 gentle and unobtrusive coding event sounds",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -2576,7 +2576,7 @@
     },
     {
       "name": "ds1-carvings",
-      "display_name": "Dark Souls – Carvings",
+      "display_name": "Dark Souls \u2013 Carvings",
       "version": "1.0.0",
       "description": "Gough's infamous carvings from Dark Souls as sound effects for various events.",
       "author": {
@@ -2615,7 +2615,7 @@
     },
     {
       "name": "ds1-siegmeyer",
-      "display_name": "Dark Souls – Siegmeyer of Catarina",
+      "display_name": "Dark Souls \u2013 Siegmeyer of Catarina",
       "version": "1.0.1",
       "description": "A sound pack with a big heart and bigger armor.",
       "author": {
@@ -2658,7 +2658,7 @@
     },
     {
       "name": "ds1-solaire",
-      "display_name": "Dark Souls – Solaire of Astora",
+      "display_name": "Dark Souls \u2013 Solaire of Astora",
       "version": "1.0.2",
       "description": "A sound pack for true warriors of sunlight.",
       "author": {
@@ -3471,7 +3471,7 @@
       "name": "emir",
       "display_name": "The Emir (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Emir voice lines from Stronghold Crusader — fierce Arabian lord",
+      "description": "The Emir voice lines from Stronghold Crusader \u2014 fierce Arabian lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -3593,7 +3593,7 @@
       "name": "frederick",
       "display_name": "Emperor Frederick (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Emperor Frederick voice lines from Stronghold Crusader — noble crusader emperor",
+      "description": "Emperor Frederick voice lines from Stronghold Crusader \u2014 noble crusader emperor",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -4152,7 +4152,7 @@
     },
     {
       "name": "high_elf_builder_ru",
-      "display_name": "Строитель Высших Эльфов (Russian)",
+      "display_name": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c \u0412\u044b\u0441\u0448\u0438\u0445 \u042d\u043b\u044c\u0444\u043e\u0432 (Russian)",
       "version": "1.1.0",
       "description": "High Elf Builder voice lines from Warcraft III (Russian)",
       "author": {
@@ -4193,7 +4193,7 @@
     },
     {
       "name": "honor_of_kings",
-      "display_name": "Honor of Kings (王者荣耀)",
+      "display_name": "Honor of Kings (\u738b\u8005\u8363\u8000)",
       "version": "1.0.2",
       "description": "Honor of Kings game announcement voice lines and XiShi character VO",
       "author": {
@@ -4281,7 +4281,7 @@
       "name": "impossible-mission",
       "display_name": "Impossible Mission (C64, 1984)",
       "version": "1.0.0",
-      "description": "Digitized speech from Impossible Mission (Epyx, 1984) for the Commodore 64 — one of the earliest examples of voice synthesis in a home computer game.",
+      "description": "Digitized speech from Impossible Mission (Epyx, 1984) for the Commodore 64 \u2014 one of the earliest examples of voice synthesis in a home computer game.",
       "author": {
         "name": "trjh",
         "github": "trjh"
@@ -4316,6 +4316,58 @@
         "session_start.mp3",
         "task_acknowledge.mp3"
       ]
+    },
+    {
+      "name": "itysl",
+      "display_name": "I Think You Should Leave",
+      "version": "1.0.0",
+      "description": "Tim Robinson voice lines from I Think You Should Leave with Tim Robinson",
+      "author": {
+        "name": "michelkazi",
+        "github": "michelkazi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 2070304,
+      "source_repo": "michelkazi/openpeon-itysl",
+      "source_ref": "v1.0.0",
+      "source_path": "",
+      "manifest_sha256": "e1fff295b4fe9f1d03ae189af07acdcd4a2aa10828b98c02c67824272b2f8471",
+      "tags": [
+        "comedy",
+        "tim-robinson",
+        "itysl",
+        "i-think-you-should-leave",
+        "netflix",
+        "sketch-comedy"
+      ],
+      "preview_sounds": [
+        {
+          "file": "sounds/whoever_did_this_just_confess.mp3",
+          "label": "Whoever did this just confess"
+        },
+        {
+          "file": "sounds/big_fat_load_of_cum_then.mp3",
+          "label": "Big fat load of cum then"
+        },
+        {
+          "file": "sounds/i_dont_know_what_any_of_this_shit_is.mp3",
+          "label": "I don't know what any of this shit is and I'm fucking scared"
+        }
+      ],
+      "added": "2026-04-27",
+      "updated": "2026-04-27"
     },
     {
       "name": "jan_pawel_2",
@@ -4645,9 +4697,9 @@
     },
     {
       "name": "kart_zhangmiao_2d4ebd0a",
-      "display_name": "代号鸢 张渺 留音匣",
+      "display_name": "\u4ee3\u53f7\u9e22 \u5f20\u6e3a \u7559\u97f3\u5323",
       "version": "1.0.0",
-      "description": "sound pack of 代号鸢 张渺 留音匣",
+      "description": "sound pack of \u4ee3\u53f7\u9e22 \u5f20\u6e3a \u7559\u97f3\u5323",
       "author": {
         "name": "LiRiu",
         "github": "LiRiu"
@@ -5020,7 +5072,7 @@
       "name": "lol_fiddlesticks",
       "display_name": "Fiddlesticks",
       "version": "1.0.0",
-      "description": "Fiddlesticks (Rework) voice lines from League of Legends — the ancient fear demon",
+      "description": "Fiddlesticks (Rework) voice lines from League of Legends \u2014 the ancient fear demon",
       "author": {
         "name": "huynhtan",
         "github": "danhuynhdev"
@@ -5100,7 +5152,7 @@
       "name": "lol_fiddlesticks_surprise_party",
       "display_name": "Fiddlesticks - Surprise Party",
       "version": "1.0.0",
-      "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends — the demon clown",
+      "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends \u2014 the demon clown",
       "author": {
         "name": "huynhtan",
         "github": "danhuynhdev"
@@ -5182,7 +5234,7 @@
       "name": "mambo_pack",
       "display_name": "Mambo Pack",
       "version": "1.0.0",
-      "description": "Fun yet restrained Mambo voice pack — Chinese meme-flavored coding companion",
+      "description": "Fun yet restrained Mambo voice pack \u2014 Chinese meme-flavored coding companion",
       "author": {
         "name": "nicoaz",
         "github": "nicoaz"
@@ -5222,9 +5274,9 @@
       "name": "marcel",
       "display_name": "Marcel",
       "version": "1.0.0",
-      "description": "Legendary quotes of Marcel Merčiak.",
+      "description": "Legendary quotes of Marcel Mer\u010diak.",
       "author": {
-        "name": "Marián Čamák",
+        "name": "Mari\u00e1n \u010cam\u00e1k",
         "github": "mcamak"
       },
       "trust_tier": "community",
@@ -5259,7 +5311,7 @@
       "name": "marshal",
       "display_name": "The Marshal (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Marshal voice lines from Stronghold Crusader — loyal European lord",
+      "description": "The Marshal voice lines from Stronghold Crusader \u2014 loyal European lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -5423,11 +5475,11 @@
     },
     {
       "name": "milujipraci",
-      "display_name": "Miluji Práci",
+      "display_name": "Miluji Pr\u00e1ci",
       "version": "1.0.0",
-      "description": "Legendary quotes of Luboš fixing Lakatoš.",
+      "description": "Legendary quotes of Lubo\u0161 fixing Lakato\u0161.",
       "author": {
-        "name": "František Záhora",
+        "name": "Franti\u0161ek Z\u00e1hora",
         "github": "arguit"
       },
       "trust_tier": "community",
@@ -5461,7 +5513,7 @@
       "version": "1.0.1",
       "description": "Villager sound pack from Minecraft.",
       "author": {
-        "name": "Eric Keränen",
+        "name": "Eric Ker\u00e4nen",
         "github": "Mahamurahti"
       },
       "trust_tier": "community",
@@ -5539,7 +5591,7 @@
       "name": "modern-varied",
       "display_name": "Modern GUI",
       "version": "1.0.1",
-      "description": "Futuristic synth UI sounds — hightech confirms, cybernetic alerts, and power-up sweeps",
+      "description": "Futuristic synth UI sounds \u2014 hightech confirms, cybernetic alerts, and power-up sweeps",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -5769,7 +5821,7 @@
       "name": "nezuai-varied",
       "display_name": "UI Sound Design",
       "version": "1.0.1",
-      "description": "Designed UI sound effects — whooshes, beeps, sweeps, and thuds for coding events",
+      "description": "Designed UI sound effects \u2014 whooshes, beeps, sweeps, and thuds for coding events",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -5807,7 +5859,7 @@
       "name": "nightflame-minimal",
       "display_name": "Nightflame Menu UI",
       "version": "1.0.1",
-      "description": "Minimal UI sound effects pack — sweeps, whooshes, and buzzy tones for coding event feedback",
+      "description": "Minimal UI sound effects pack \u2014 sweeps, whooshes, and buzzy tones for coding event feedback",
       "author": {
         "name": "Mark Chitty",
         "github": "TechPdM"
@@ -5925,7 +5977,7 @@
       "name": "nizar",
       "display_name": "Nizar (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Nizar voice lines from Stronghold Crusader — cunning assassin lord",
+      "description": "Nizar voice lines from Stronghold Crusader \u2014 cunning assassin lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -6219,7 +6271,7 @@
       "name": "op-kurtlar-vadisi",
       "display_name": "Kurtlar Vadisi Sound Pack",
       "version": "1.1.0",
-      "description": "Kurtlar Vadisi Sound Pack (Episodes 1–97)",
+      "description": "Kurtlar Vadisi Sound Pack (Episodes 1\u201397)",
       "author": {
         "name": "Ismail Sefa Nazlim",
         "github": "maskapsiz"
@@ -6264,7 +6316,7 @@
       "version": "1.0.2",
       "description": "A peonping pack using sounds from Tools for Humanity's Orb.",
       "author": {
-        "name": "Seán Olszewski",
+        "name": "Se\u00e1n Olszewski",
         "github": "SeanROlszewski"
       },
       "trust_tier": "community",
@@ -6344,9 +6396,9 @@
     },
     {
       "name": "otto",
-      "display_name": "电棍otto",
+      "display_name": "\u7535\u68cdotto",
       "version": "1.0.0",
-      "description": "大家好啊，我是电棍",
+      "description": "\u5927\u5bb6\u597d\u554a\uff0c\u6211\u662f\u7535\u68cd",
       "author": {
         "name": "Bielelele",
         "github": "Biatbang"
@@ -6373,8 +6425,8 @@
       "manifest_sha256": "0ce67cd3cc429661546ab708046eef15996df858c07261e8e440c81bf9a2097e",
       "tags": [
         "otto",
-        "电棍",
-        "侯国玉"
+        "\u7535\u68cd",
+        "\u4faf\u56fd\u7389"
       ],
       "preview_sounds": [
         "session_start_1.mp3",
@@ -6465,9 +6517,9 @@
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidský rolník (CZ)",
+      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
       "version": "1.0.0",
-      "description": "Lidský rolník (CZ) sound pack from Warcraft III",
+      "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -6665,9 +6717,9 @@
     },
     {
       "name": "peon_cz",
-      "display_name": "Orčí peón (CZ)",
+      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
       "version": "1.0.0",
-      "description": "Orčí peón (CZ) sound pack from Warcraft III",
+      "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
       "author": {
         "name": "vojtabiberle",
         "github": "vojtabiberle"
@@ -6949,7 +7001,7 @@
       "name": "philip",
       "display_name": "King Philip (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "King Philip voice lines from Stronghold Crusader — proud king of France",
+      "description": "King Philip voice lines from Stronghold Crusader \u2014 proud king of France",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -6989,7 +7041,7 @@
       "name": "pig",
       "display_name": "The Pig (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Pig voice lines from Stronghold Crusader — brutal villain lord",
+      "description": "The Pig voice lines from Stronghold Crusader \u2014 brutal villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -7231,7 +7283,7 @@
       "name": "protoss",
       "display_name": "Protoss (StarCraft)",
       "version": "1.0.0",
-      "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
+      "description": "StarCraft Protoss voice lines and sound effects \u2014 en taro Adun!",
       "author": {
         "name": "Cody Born",
         "github": "codyborn"
@@ -7653,7 +7705,7 @@
       "name": "rat",
       "display_name": "The Rat (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Rat voice lines from Stronghold Crusader — scheming cowardly villain",
+      "description": "The Rat voice lines from Stronghold Crusader \u2014 scheming cowardly villain",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -7820,7 +7872,7 @@
       "name": "richard",
       "display_name": "King Richard (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "King Richard voice lines from Stronghold Crusader — noble English crusader king",
+      "description": "King Richard voice lines from Stronghold Crusader \u2014 noble English crusader king",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -8024,9 +8076,20 @@
       "display_name": "Rocky (Project Hail Mary)",
       "version": "1.0.1",
       "description": "Rocky the Eridian from Project Hail Mary, synthesized via Chatterbox voice cloning. Dropped articles, triple-word emphasis, signature 'question?' suffix.",
-      "author": { "name": "Akshat1903", "github": "Akshat1903" },
+      "author": {
+        "name": "Akshat1903",
+        "github": "Akshat1903"
+      },
       "trust_tier": "community",
-      "categories": ["session.start", "task.acknowledge", "task.complete", "task.error", "input.required", "user.spam", "resource.limit"],
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam",
+        "resource.limit"
+      ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
       "sound_count": 58,
@@ -8035,8 +8098,19 @@
       "source_ref": "v1.0.1",
       "source_path": "rocky_pack",
       "manifest_sha256": "858d70b007308c669815fb4d6dba60c36aed857ce17d39be2fbf60de71ead516",
-      "tags": ["rocky", "project-hail-mary", "eridian", "sci-fi", "cloned-voice", "chatterbox"],
-      "preview_sounds": ["HelloFriend.wav", "ScienceTime.wav", "FistBumpUnderstand.wav"],
+      "tags": [
+        "rocky",
+        "project-hail-mary",
+        "eridian",
+        "sci-fi",
+        "cloned-voice",
+        "chatterbox"
+      ],
+      "preview_sounds": [
+        "HelloFriend.wav",
+        "ScienceTime.wav",
+        "FistBumpUnderstand.wav"
+      ],
       "added": "2026-04-24",
       "updated": "2026-04-24"
     },
@@ -8044,7 +8118,7 @@
       "name": "saladin",
       "display_name": "Saladin (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "Saladin voice lines from Stronghold Crusader — honourable sultan of Egypt",
+      "description": "Saladin voice lines from Stronghold Crusader \u2014 honourable sultan of Egypt",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -8084,7 +8158,7 @@
       "name": "sanguosha-sound-pack",
       "display_name": "Sanguosha Hero Voice Pack",
       "version": "1.0.0",
-      "description": "A sound pack inspired by Sanguosha (三国杀 / Three Kingdoms Kill), the classic Chinese card game. Features authentic in-game hero voice lines — battles, stratagems, victories and defeats — mapped to AI coding tool events.",
+      "description": "A sound pack inspired by Sanguosha (\u4e09\u56fd\u6740 / Three Kingdoms Kill), the classic Chinese card game. Features authentic in-game hero voice lines \u2014 battles, stratagems, victories and defeats \u2014 mapped to AI coding tool events.",
       "author": {
         "name": "MFK",
         "github": "MarkSunDev"
@@ -8340,9 +8414,9 @@
     },
     {
       "name": "sc2_scv_kr",
-      "display_name": "건설로봇 SCV (StarCraft II, 한국어)",
+      "display_name": "\uac74\uc124\ub85c\ubd07 SCV (StarCraft II, \ud55c\uad6d\uc5b4)",
       "version": "1.0.0",
-      "description": "테란 건설로봇(SCV) 한국어 음성 — StarCraft II Korean voice lines",
+      "description": "\ud14c\ub780 \uac74\uc124\ub85c\ubd07(SCV) \ud55c\uad6d\uc5b4 \uc74c\uc131 \u2014 StarCraft II Korean voice lines",
       "author": {
         "name": "heecheonkim",
         "github": "hekkim"
@@ -8590,7 +8664,7 @@
       "name": "sc_firebat",
       "display_name": "StarCraft Firebat",
       "version": "2.0.0",
-      "description": "StarCraft Firebat sound pack — 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
+      "description": "StarCraft Firebat sound pack \u2014 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -8743,7 +8817,7 @@
       "name": "sc_marine",
       "display_name": "StarCraft Marine",
       "version": "1.0.0",
-      "description": "StarCraft Marine sound pack — iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
+      "description": "StarCraft Marine sound pack \u2014 iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -8783,7 +8857,7 @@
       "name": "sc_medic",
       "display_name": "StarCraft Medic",
       "version": "2.0.0",
-      "description": "StarCraft Medic sound pack — 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
+      "description": "StarCraft Medic sound pack \u2014 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -8897,7 +8971,7 @@
       "name": "sc_scv",
       "display_name": "StarCraft SCV",
       "version": "2.0.0",
-      "description": "StarCraft SCV sound pack — expanded with 19 sounds across all 7 CESP categories",
+      "description": "StarCraft SCV sound pack \u2014 expanded with 19 sounds across all 7 CESP categories",
       "author": {
         "name": "harrymunro",
         "github": "harrymunro"
@@ -8937,7 +9011,7 @@
       "name": "sc_tank",
       "display_name": "StarCraft Siege Tank",
       "version": "2.0.0",
-      "description": "StarCraft Siege Tank sound pack — 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
+      "description": "StarCraft Siege Tank sound pack \u2014 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
       "author": {
         "name": "kschmidtjr1",
         "github": "kschmidtjr1"
@@ -9210,7 +9284,7 @@
       "name": "sheriff",
       "display_name": "The Sheriff (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Sheriff voice lines from Stronghold Crusader — greedy corrupt villain",
+      "description": "The Sheriff voice lines from Stronghold Crusader \u2014 greedy corrupt villain",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -9292,7 +9366,7 @@
       "name": "silicon_valley",
       "display_name": "Silicon Valley",
       "version": "2.2.0",
-      "description": "Quotes from Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by «Кубик в кубике» (59 clips with swearing)",
+      "description": "Quotes from Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by \u00ab\u041a\u0443\u0431\u0438\u043a \u0432 \u043a\u0443\u0431\u0438\u043a\u0435\u00bb (59 clips with swearing)",
       "author": {
         "name": "rustam",
         "github": "fortunto2"
@@ -9377,7 +9451,7 @@
       "name": "snake",
       "display_name": "The Snake (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Snake voice lines from Stronghold Crusader — treacherous villain lord",
+      "description": "The Snake voice lines from Stronghold Crusader \u2014 treacherous villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -9633,7 +9707,7 @@
       "name": "southpark_cartman",
       "display_name": "Cartman (South Park)",
       "version": "1.0.0",
-      "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS — Eric Cartman Angry model).",
+      "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS \u2014 Eric Cartman Angry model).",
       "author": {
         "name": "bdrang",
         "github": "BaraqD"
@@ -9676,7 +9750,7 @@
       "name": "speaki",
       "display_name": "Petite Speaki",
       "version": "1.0.0",
-      "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
+      "description": "Petite Speaki voice pack from Trickcal Chibi Go \u2014 adorable Korean character sounds for your coding sessions",
       "author": {
         "name": "cjna",
         "github": "CJNA"
@@ -9797,9 +9871,9 @@
     },
     {
       "name": "starrail-kafka-peon-pack",
-      "display_name": "崩坏星穹铁道-卡芙卡语音包",
+      "display_name": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
       "version": "1.0.1",
-      "description": "崩坏星穹铁道-卡芙卡语音包",
+      "description": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
       "author": {
         "name": "0w0miki",
         "github": "0w0miki"
@@ -9924,8 +9998,11 @@
       "name": "stromberg",
       "display_name": "Bernd Stromberg",
       "version": "1.0.0",
-      "description": "Bernd Stromberg voice lines from the German TV series and films (2004–2014).",
-      "author": { "name": "Heiko Does", "github": "nekator" },
+      "description": "Bernd Stromberg voice lines from the German TV series and films (2004\u20132014).",
+      "author": {
+        "name": "Heiko Does",
+        "github": "nekator"
+      },
       "trust_tier": "community",
       "categories": [
         "session.start",
@@ -9944,8 +10021,15 @@
       "source_ref": "v1.0.0",
       "source_path": ".",
       "manifest_sha256": "84e40034800ef5f3325b31de30ed51c53e0127d9acfb3011051ba27b3667efd1",
-      "tags": ["tv", "german", "comedy"],
-      "preview_sounds": ["psychokrieg.mp3", "wattepusten.mp3"],
+      "tags": [
+        "tv",
+        "german",
+        "comedy"
+      ],
+      "preview_sounds": [
+        "psychokrieg.mp3",
+        "wattepusten.mp3"
+      ],
       "added": "2026-04-27",
       "updated": "2026-04-27"
     },
@@ -9995,7 +10079,7 @@
       "name": "stronghold-peasant-es",
       "display_name": "Stronghold Peasant (ES)",
       "version": "1.0.1",
-      "description": "Spanish peasant voice lines from Stronghold HD (Firefly Studios) — medieval worker responding to your commands",
+      "description": "Spanish peasant voice lines from Stronghold HD (Firefly Studios) \u2014 medieval worker responding to your commands",
       "author": {
         "name": "Matias Saggiorato",
         "github": "msaggiorato"
@@ -10037,7 +10121,7 @@
       "name": "sts2_ancients",
       "display_name": "Slay the Spire 2 Ancients",
       "version": "1.0.1",
-      "description": "DARV, NEOW, NONUPEIPE, and TANX voice lines from Slay the Spire 2 — a pantheon of four of the nine Ancients, with the rest silent until Mega Crit patches them in",
+      "description": "DARV, NEOW, NONUPEIPE, and TANX voice lines from Slay the Spire 2 \u2014 a pantheon of four of the nine Ancients, with the rest silent until Mega Crit patches them in",
       "author": {
         "name": "flavono123",
         "github": "flavono123"
@@ -10079,7 +10163,7 @@
       "name": "sts2_regent",
       "display_name": "Slay the Spire 2 Regent",
       "version": "1.0.1",
-      "description": "Regent voice lines from Slay the Spire 2 — a playable character voiced by Mark Ota, with greetings, impatient quips, triumphant cheers, and hurt cries across three intensity levels",
+      "description": "Regent voice lines from Slay the Spire 2 \u2014 a playable character voiced by Mark Ota, with greetings, impatient quips, triumphant cheers, and hurt cries across three intensity levels",
       "author": {
         "name": "flavono123",
         "github": "flavono123"
@@ -10122,7 +10206,7 @@
       "name": "sts2_shopkeeper",
       "display_name": "Slay the Spire 2 Shop Keeper",
       "version": "1.0.1",
-      "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 — shop keeper grunts, thanks, and disappointed grumbles",
+      "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 \u2014 shop keeper grunts, thanks, and disappointed grumbles",
       "author": {
         "name": "flavono123",
         "github": "flavono123"
@@ -10163,7 +10247,7 @@
       "name": "sts2_the_kin",
       "display_name": "Slay the Spire 2 The Kin",
       "version": "1.0.1",
-      "description": "The Kin (kin_minion + kin_leader) boss voice lines from Slay the Spire 2 — cult chants, rallies, and death cries",
+      "description": "The Kin (kin_minion + kin_leader) boss voice lines from Slay the Spire 2 \u2014 cult chants, rallies, and death cries",
       "author": {
         "name": "flavono123",
         "github": "flavono123"
@@ -10206,7 +10290,7 @@
       "name": "sts2_twotailrats",
       "display_name": "Slay the Spire 2 Two-Tailed Rats",
       "version": "1.0.1",
-      "description": "Two-Tailed Rats monster voice lines from Slay the Spire 2 — hurt yelps, attack snarls, and death squeaks voiced by Mars Orach",
+      "description": "Two-Tailed Rats monster voice lines from Slay the Spire 2 \u2014 hurt yelps, attack snarls, and death squeaks voiced by Mars Orach",
       "author": {
         "name": "flavono123",
         "github": "flavono123"
@@ -10248,7 +10332,7 @@
       "name": "sultan",
       "display_name": "The Sultan (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Sultan voice lines from Stronghold Crusader — powerful desert sultan",
+      "description": "The Sultan voice lines from Stronghold Crusader \u2014 powerful desert sultan",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -10454,9 +10538,9 @@
     },
     {
       "name": "teemo-kr",
-      "display_name": "티모 (한국어)",
+      "display_name": "\ud2f0\ubaa8 (\ud55c\uad6d\uc5b4)",
       "version": "1.0.1",
-      "description": "리그 오브 레전드 2024 ASU 티모 한국어 음성팩. 밴들시티 정찰대장 티모 출동!",
+      "description": "\ub9ac\uadf8 \uc624\ube0c \ub808\uc804\ub4dc 2024 ASU \ud2f0\ubaa8 \ud55c\uad6d\uc5b4 \uc74c\uc131\ud329. \ubc34\ub4e4\uc2dc\ud2f0 \uc815\ucc30\ub300\uc7a5 \ud2f0\ubaa8 \ucd9c\ub3d9!",
       "author": {
         "name": "hphannah",
         "github": "hphannah"
@@ -10497,7 +10581,7 @@
       "name": "tekken3_announcer",
       "display_name": "Announcer (Tekken 3)",
       "version": "1.0.0",
-      "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
+      "description": "Tekken 3 announcer voice lines \u2014 Fight, K.O., You win!, and more.",
       "author": {
         "name": "rootbarb",
         "github": "rootbarb"
@@ -11166,7 +11250,7 @@
         "user.spam"
       ],
       "language": "en",
-      "license": "All audio © Riot Games — personal/non-commercial use only",
+      "license": "All audio \u00a9 Riot Games \u2014 personal/non-commercial use only",
       "sound_count": 68,
       "total_size_bytes": 2320270,
       "source_repo": "valer23/openpeon-tryndamere-pack",
@@ -11351,7 +11435,7 @@
       "name": "warcraft3-czech",
       "display_name": "Warcraft III - Czech Peasant & Knight",
       "version": "1.0.0",
-      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
+      "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Hur\u00e1\u00e1\u00e1\u00e1 do pr\u00e1ce!",
       "author": {
         "name": "Tomas Pflanzer",
         "github": "gizmax"
@@ -11391,7 +11475,7 @@
       "name": "warcraft3-mix",
       "display_name": "Warcraft III Mix CZ",
       "version": "1.0.0",
-      "description": "Mix ikonických českých hlášek z Warcraft III od různých jednotek a hrdinů.",
+      "description": "Mix ikonick\u00fdch \u010desk\u00fdch hl\u00e1\u0161ek z Warcraft III od r\u016fzn\u00fdch jednotek a hrdin\u016f.",
       "author": {
         "name": "SgtMarmite",
         "github": "SgtMarmite"
@@ -11432,7 +11516,7 @@
       "name": "wazir",
       "display_name": "The Wazir (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Wazir voice lines from Stronghold Crusader — scheming Arabian lord",
+      "description": "The Wazir voice lines from Stronghold Crusader \u2014 scheming Arabian lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -11590,9 +11674,9 @@
     },
     {
       "name": "wc2_peon_ru",
-      "display_name": "Орк-батрак (Russian)",
+      "display_name": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a (Russian)",
       "version": "1.0.1",
-      "description": "Орк-батрак из Warcraft II (русская озвучка от СПК)",
+      "description": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a \u0438\u0437 Warcraft II (\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043e\u0437\u0432\u0443\u0447\u043a\u0430 \u043e\u0442 \u0421\u041f\u041a)",
       "author": {
         "name": "Artyom Mezin",
         "github": "Sogl"
@@ -11890,7 +11974,7 @@
       "name": "wc3_lich",
       "display_name": "Undead Lich (Warcraft III)",
       "version": "1.0.0",
-      "description": "Undead Lich hero and Kel'Thuzad voice lines from Warcraft III — 44 sounds across both characters",
+      "description": "Undead Lich hero and Kel'Thuzad voice lines from Warcraft III \u2014 44 sounds across both characters",
       "author": {
         "name": "iamunhoz",
         "github": "iamunhoz"
@@ -12055,7 +12139,7 @@
       "name": "wolf",
       "display_name": "The Wolf (Stronghold Crusader)",
       "version": "1.2.1",
-      "description": "The Wolf voice lines from Stronghold Crusader — ruthless villain lord",
+      "description": "The Wolf voice lines from Stronghold Crusader \u2014 ruthless villain lord",
       "author": {
         "name": "Marko Jevic",
         "github": "koyev"
@@ -12255,7 +12339,7 @@
       "name": "wrecking_ball",
       "display_name": "Wrecking Ball (Overwatch)",
       "version": "1.0.0",
-      "description": "Hammond / Wrecking Ball voice lines from Overwatch — the champion hamster pilot",
+      "description": "Hammond / Wrecking Ball voice lines from Overwatch \u2014 the champion hamster pilot",
       "author": {
         "name": "wahidfaird",
         "github": "wahidfaird"
@@ -12295,7 +12379,7 @@
     },
     {
       "name": "yasuo-pack",
-      "display_name": "Yasuo(亚索)",
+      "display_name": "Yasuo(\u4e9a\u7d22)",
       "version": "1.1.0",
       "description": "Yasuo voice lines from League of Legends (Chinese voice version)",
       "author": {
