@@ -3873,7 +3873,7 @@
     {
       "name": "gothic_2_nameless_hero",
       "display_name": "Gothic (Bezimienny)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Nameless hero sound pack from Gothic 2",
       "author": {
         "name": "Robert Harezlak",
@@ -3893,7 +3893,7 @@
       "sound_count": 18,
       "total_size_bytes": 753664,
       "source_repo": "Rxbsxn/openpeon-gothic",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.1.0",
       "source_path": ".",
       "manifest_sha256": "ed3f3764522bdc68846cfcba8bdfc8f95281bf8a4ca862ac35df518462400c76",
       "tags": [
@@ -3907,7 +3907,7 @@
         "jestem_tu_nowy.mp3"
       ],
       "added": "2026-03-23",
-      "updated": "2026-03-23"
+      "updated": "2026-04-27"
     },
     {
       "name": "guppi",
