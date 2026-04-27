@@ -3713,6 +3713,44 @@
       "updated": "2026-02-16"
     },
     {
+      "name": "gabriel-ultrakill",
+      "display_name": "Gabriel (ULTRAKILL)",
+      "version": "1.0.0",
+      "description": "Gabriel voice lines from ULTRAKILL for OpenPeon/CESP.",
+      "author": {
+        "name": "Thomas G. Lopes",
+        "github": "TGlide"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 25,
+      "total_size_bytes": 2523525,
+      "source_repo": "TGlide/openpeon-gabriel-ultrakill",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "519ba18384bae4089b7ca13e93d1171971a5daee84e42050694545c469719a40",
+      "tags": [
+        "gaming",
+        "ultrakill",
+        "gabriel"
+      ],
+      "preview_sounds": [
+        "sounds/start/machine.mp3",
+        "sounds/complete/behold.mp3"
+      ],
+      "added": "2026-04-27",
+      "updated": "2026-04-27"
+    },
+    {
       "name": "genji",
       "display_name": "Overwatch - Genji",
       "version": "1.0.0",
