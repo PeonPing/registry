@@ -1127,6 +1127,46 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "balatro",
+      "display_name": "Balatro",
+      "version": "1.0.1",
+      "description": "Sound effects from Balatro by Localthunk \u2014 card flips, win jingles, and Jimbo across all 7 CESP categories",
+      "author": {
+        "name": "cole.boren",
+        "github": "williycole"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 12,
+      "total_size_bytes": 402558,
+      "source_repo": "williycole/openpeon-balatro",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "459be1657848ec3cdc5932bcea7cd9e3a1f72b25b7483194f0b08781b4228183",
+      "tags": [
+        "gaming",
+        "balatro",
+        "cards",
+        "roguelike"
+      ],
+      "preview_sounds": [
+        "acknowledge_1_jimbo.mp3",
+        "complete_1_win.ogg"
+      ],
+      "added": "2026-04-28",
+      "updated": "2026-04-28"
+    },
+    {
       "name": "baptiste",
       "display_name": "Overwatch - Baptiste",
       "version": "1.0.0",
