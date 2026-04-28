@@ -4318,6 +4318,58 @@
       ]
     },
     {
+      "name": "itysl",
+      "display_name": "I Think You Should Leave",
+      "version": "1.0.0",
+      "description": "Tim Robinson voice lines from I Think You Should Leave with Tim Robinson",
+      "author": {
+        "name": "michelkazi",
+        "github": "michelkazi"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 2070304,
+      "source_repo": "michelkazi/openpeon-itysl",
+      "source_ref": "v1.0.0",
+      "source_path": "",
+      "manifest_sha256": "63c40d14c94279f67604554bfb132c054ef5f79e9e20813ae2fd4cced5d7cb11",
+      "tags": [
+        "comedy",
+        "tim-robinson",
+        "itysl",
+        "i-think-you-should-leave",
+        "netflix",
+        "sketch-comedy"
+      ],
+      "preview_sounds": [
+        {
+          "file": "sounds/whoever_did_this_just_confess.mp3",
+          "label": "Whoever did this just confess"
+        },
+        {
+          "file": "sounds/big_fat_load_of_cum_then.mp3",
+          "label": "Big fat load of cum then"
+        },
+        {
+          "file": "sounds/i_dont_know_what_any_of_this_shit_is.mp3",
+          "label": "I don't know what any of this shit is and I'm fucking scared"
+        }
+      ],
+      "added": "2026-04-27",
+      "updated": "2026-04-27"
+    },
+    {
       "name": "jan_pawel_2",
       "display_name": "Jan Pawel 2",
       "version": "1.0.6",
