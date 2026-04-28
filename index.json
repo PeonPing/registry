@@ -9995,6 +9995,46 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "storm-spirit",
+      "display_name": "Storm Spirit (Dota 2)",
+      "version": "1.0.0",
+      "description": "Dota 2 Storm Spirit voice lines \u2014 Raijin Thunderkeg cackling, denying, and storming through your terminal",
+      "author": {
+        "name": "m1z23r",
+        "github": "m1z23r"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "resource.limit",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "fair-use",
+      "sound_count": 34,
+      "total_size_bytes": 1309888,
+      "source_repo": "m1z23r/openpeon-storm",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "f3a378f609a23315483ee90e4d26c46154832a597a383cfd65e4067987280a66",
+      "tags": [
+        "gaming",
+        "dota2",
+        "moba",
+        "valve"
+      ],
+      "preview_sounds": [
+        "sounds/session-start/arrived.mp3",
+        "sounds/task-error/denied.mp3"
+      ],
+      "added": "2026-04-28",
+      "updated": "2026-04-28"
+    },
+    {
       "name": "stromberg",
       "display_name": "Bernd Stromberg",
       "version": "1.0.0",
