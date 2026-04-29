@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# Vim / Neovim
+*.swp
+*.swo
+.*.swp
+Session.vim
+tags
+.netrwhist
+
+# Emacs
+\#*\#
+.#*
+*.elc
+.emacs.desktop
+.emacs.d/
+auto-save-list
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
