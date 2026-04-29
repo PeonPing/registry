@@ -3508,6 +3508,44 @@
       "updated": "2026-03-24"
     },
     {
+      "name": "elise",
+      "display_name": "Elise",
+      "version": "1.0.0",
+      "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
+      "author": {
+        "name": "Utensils",
+        "github": "utensils"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 20,
+      "total_size_bytes": 514126,
+      "source_repo": "utensils/claudette-openpeon-elise",
+      "source_ref": "f459b7459566156c105a54686df89d7d9098952f",
+      "source_path": ".",
+      "manifest_sha256": "7297fc4c114deec7ce9d6e2962b4b0f37c62204b79b010a399fe66bf3ccad43a",
+      "tags": [
+        "tts",
+        "elevenlabs",
+        "ai-voice",
+        "claudette"
+      ],
+      "preview_sounds": [
+        "session_start_01.mp3",
+        "task_complete_01.mp3"
+      ],
+      "added": "2026-04-29",
+      "updated": "2026-04-29"
+    },
+    {
       "name": "emir",
       "display_name": "The Emir (Stronghold Crusader)",
       "version": "1.2.1",
