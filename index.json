@@ -381,7 +381,7 @@
       "sound_count": 24,
       "total_size_bytes": 779285,
       "source_repo": "utensils/openpeon-alan-rickman-soundpack",
-      "source_ref": "e1ebd8ab0255f8fabc29e3c8f2acdb738b1641a4",
+      "source_ref": "v1.0.0",
       "source_path": ".",
       "manifest_sha256": "7fff4547690203a0f5c0d3907a1279ea126b52b71435e42536db58b697e1d7bd",
       "tags": [
@@ -396,7 +396,7 @@
         "task_complete_01.mp3"
       ],
       "added": "2026-04-29",
-      "updated": "2026-04-29"
+      "updated": "2026-04-30"
     },
     {
       "name": "ana",
@@ -3569,10 +3569,10 @@
       "license": "MIT",
       "sound_count": 24,
       "total_size_bytes": 621715,
-      "source_repo": "utensils/claudette-openpeon-elise",
-      "source_ref": "7fce074ffc29ed33f4401ee4bfba0a6697b1fd1f",
+      "source_repo": "utensils/openpeon-elise-soundpack",
+      "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "dda9192e7114fb0de7a62d8a010687eaf9e43f65ff96c0c9bd497371d031e6a3",
+      "manifest_sha256": "0cc2fb59b1ea58ca6c791b556bbf561b802edd56a22a7938bff9619bdac80c58",
       "tags": [
         "tts",
         "elevenlabs",
