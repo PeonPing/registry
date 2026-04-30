@@ -359,6 +359,46 @@
       "updated": "2026-02-26"
     },
     {
+      "name": "alan-rickman",
+      "display_name": "Alan Rickman",
+      "version": "1.0.0",
+      "description": "Claudette notification sounds, voiced in the manner of the late Alan Rickman. Slow. Deliberate. Faintly amused.",
+      "author": {
+        "name": "Utensils",
+        "github": "utensils"
+      },
+      "trust_tier": "verified",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "sound_count": 24,
+      "total_size_bytes": 779285,
+      "source_repo": "utensils/openpeon-alan-rickman-soundpack",
+      "source_ref": "e1ebd8ab0255f8fabc29e3c8f2acdb738b1641a4",
+      "source_path": ".",
+      "manifest_sha256": "7fff4547690203a0f5c0d3907a1279ea126b52b71435e42536db58b697e1d7bd",
+      "tags": [
+        "tts",
+        "ai-voice",
+        "alan-rickman",
+        "claudette",
+        "spoken-word"
+      ],
+      "preview_sounds": [
+        "session_start_01.mp3",
+        "task_complete_01.mp3"
+      ],
+      "added": "2026-04-29",
+      "updated": "2026-04-29"
+    },
+    {
       "name": "ana",
       "display_name": "Overwatch - Ana",
       "version": "1.0.0",
