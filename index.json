@@ -4041,7 +4041,9 @@
       "categories": [
         "session.start",
         "task.complete",
+        "task.acknowledge",
         "task.error",
+        "resource.limit",
         "input.required"
       ],
       "language": "en",
@@ -4051,7 +4053,7 @@
       "source_repo": "cybersnus/gta-sa-peonping",
       "source_ref": "v1.0.0",
       "source_path": ".",
-      "manifest_sha256": "3b4cad35027b166c7a229cfec9d44f7ce29a3499982c6fce3e1cd8ee24efe710",
+      "manifest_sha256": "f5f05fdfe7582dc94e3bd00851c4e839296c75fba0e5e85127fadf9d72b5176a",
       "tags": ["gaming", "gta", "memes"],
       "preview_sounds": ["ah-shit-here-we-go-again.mp3", "mission-passed.mp3"],
       "added": "2026-04-30",
