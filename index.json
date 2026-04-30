@@ -1,6 +1,33 @@
 {
   "version": 1,
   "packs": [
+       {                                                                             
+      "name": "gta-san-andreas",                                                
+      "display_name": "GTA San Andreas",                                          
+      "version": "1.0.0",                                                         
+      "description": "Iconic GTA San Andreas voice lines and sounds for your      
+    coding sessions. Grove Street, home.",                                        
+      "author": {                                                                 
+        "name": "Lord Byron",                                                     
+        "github": "cybersnus"                                                     
+      },                                                                          
+      "trust_tier": "community",
+      "categories": ["session.start", "task.complete", "task.error",              
+    "input.required"],                                                            
+      "language": "en",
+      "license": "CC-BY-NC-4.0",                                                  
+      "sound_count": 8,
+      "total_size_bytes": 447697,                                                 
+      "source_repo": "cybersnus/gta-sa-peonping",
+      "source_ref": "v1.0.0",                                                     
+      "source_path": ".",                                                         
+      "manifest_sha256":
+    "c620a223aa3627ef8aa376991e23c2aa2e7ec056e00b79d5ee32416e1d7ffa8c",           
+      "tags": ["gaming", "gta", "memes"],
+      "preview_sounds": ["ah-shit-here-we-go-again.mp3", "mission-passed.mp3"],   
+      "added": "2026-04-30",                                                      
+      "updated": "2026-04-30"
+    },
     {
       "name": "abbot",
       "display_name": "The Abbot (Stronghold Crusader)",
