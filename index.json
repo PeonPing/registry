@@ -361,7 +361,7 @@
     {
       "name": "alan-rickman",
       "display_name": "Alan Rickman",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Claudette notification sounds, voiced in the manner of the late Alan Rickman. Slow. Deliberate. Faintly amused.",
       "author": {
         "name": "Utensils",
@@ -381,9 +381,9 @@
       "sound_count": 60,
       "total_size_bytes": 1964096,
       "source_repo": "utensils/openpeon-alan-rickman-soundpack",
-      "source_ref": "v1.1.0",
+      "source_ref": "v1.1.1",
       "source_path": ".",
-      "manifest_sha256": "3494efdc804c627bb8fdd23bca7cf006cbcc7cc69eff9412969fd5cd57918e7b",
+      "manifest_sha256": "ad86f211dcc30409487c03759bdb557a445afe1861d93f08b16538cfa80d9382",
       "tags": [
         "tts",
         "ai-voice",
