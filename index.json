@@ -4054,8 +4054,15 @@
       "source_ref": "v1.0.0",
       "source_path": ".",
       "manifest_sha256": "f5f05fdfe7582dc94e3bd00851c4e839296c75fba0e5e85127fadf9d72b5176a",
-      "tags": ["gaming", "gta", "memes"],
-      "preview_sounds": ["ah-shit-here-we-go-again.mp3", "mission-passed.mp3"],
+      "tags": [
+        "gaming",
+        "gta",
+        "memes"
+      ],
+      "preview_sounds": [
+        "ah-shit-here-we-go-again.mp3",
+        "mission-passed.mp3"
+      ],
       "added": "2026-04-30",
       "updated": "2026-04-30"
     },
@@ -9349,6 +9356,44 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "schlangemann",
+      "display_name": "Schlangemann",
+      "version": "0.1.1",
+      "description": "Sounds from Schlangemann YouTube videos",
+      "author": {
+        "name": "Fredrik S\u00e4fst\u00e9n",
+        "github": "oliban"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "fair-use",
+      "sound_count": 23,
+      "total_size_bytes": 1027828,
+      "source_repo": "oliban/schlangemann-sounds",
+      "source_ref": "v0.1.1",
+      "source_path": ".",
+      "manifest_sha256": "3a2c1b85d869091327d326d274c172d5df7f64e2dfd86f3887a1f348ec373ab4",
+      "tags": [
+        "comedy",
+        "german",
+        "cabaret"
+      ],
+      "preview_sounds": [
+        "kinder-kinder.mp3",
+        "motorsaege.mp3"
+      ],
+      "added": "2026-05-02",
+      "updated": "2026-05-02"
+    },
+    {
       "name": "seinfeld_kramer",
       "display_name": "Kramer (Seinfeld)",
       "version": "1.0.0",
@@ -12894,5 +12939,5 @@
       "updated": "2026-04-17"
     }
   ],
-  "total_packs": 295
+  "total_packs": 321
 }
