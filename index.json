@@ -3550,7 +3550,7 @@
     {
       "name": "elise",
       "display_name": "Elise",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
       "author": {
         "name": "Utensils",
@@ -3570,9 +3570,9 @@
       "sound_count": 24,
       "total_size_bytes": 621715,
       "source_repo": "utensils/openpeon-elise-soundpack",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "0cc2fb59b1ea58ca6c791b556bbf561b802edd56a22a7938bff9619bdac80c58",
+      "manifest_sha256": "2656b08ed0dbb0a99567a066d8af22b943e025605b6a26fc86c3ca3b2e29ac3e",
       "tags": [
         "tts",
         "elevenlabs",
@@ -3584,7 +3584,7 @@
         "task_complete_01.mp3"
       ],
       "added": "2026-04-29",
-      "updated": "2026-04-29"
+      "updated": "2026-05-01"
     },
     {
       "name": "emir",
