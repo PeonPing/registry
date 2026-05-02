@@ -9358,7 +9358,7 @@
     {
       "name": "schlangemann",
       "display_name": "Schlangemann",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Sounds from Schlangemann YouTube videos",
       "author": {
         "name": "Fredrik S\u00e4fst\u00e9n",
@@ -9377,11 +9377,11 @@
       "language": "de",
       "license": "fair-use",
       "sound_count": 24,
-      "total_size_bytes": 1057440,
+      "total_size_bytes": 932256,
       "source_repo": "oliban/schlangemann-sounds",
-      "source_ref": "v0.1.2",
+      "source_ref": "v0.1.3",
       "source_path": ".",
-      "manifest_sha256": "2f72fbe5901a3a0613534572fec761a91451127b280acbdc4965171263599c91",
+      "manifest_sha256": "73ccda5d16f58c7152157c2166776d8b5c0d8ec8c6fdedbd9dec3ce1fd86ad73",
       "tags": [
         "comedy",
         "german",
