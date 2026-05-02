@@ -361,11 +361,11 @@
     {
       "name": "alan-rickman",
       "display_name": "Alan Rickman",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Claudette notification sounds, voiced in the manner of the late Alan Rickman. Slow. Deliberate. Faintly amused.",
       "author": {
-        "name": "Utensils",
-        "github": "utensils"
+        "name": "Doomspork",
+        "github": "doomspork"
       },
       "trust_tier": "verified",
       "categories": [
@@ -381,9 +381,9 @@
       "sound_count": 60,
       "total_size_bytes": 1964096,
       "source_repo": "utensils/openpeon-alan-rickman-soundpack",
-      "source_ref": "v1.1.1",
+      "source_ref": "v1.1.2",
       "source_path": ".",
-      "manifest_sha256": "ad86f211dcc30409487c03759bdb557a445afe1861d93f08b16538cfa80d9382",
+      "manifest_sha256": "30539aaacf513408cc7b504a62073b61ac9a1cef868db01ac92b8b8f8ef57419",
       "tags": [
         "tts",
         "ai-voice",
@@ -3550,13 +3550,13 @@
     {
       "name": "elise",
       "display_name": "Elise",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
       "author": {
-        "name": "Utensils",
-        "github": "utensils"
+        "name": "Doomspork",
+        "github": "doomspork"
       },
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "categories": [
         "input.required",
         "resource.limit",
@@ -3570,9 +3570,9 @@
       "sound_count": 24,
       "total_size_bytes": 621715,
       "source_repo": "utensils/openpeon-elise-soundpack",
-      "source_ref": "v1.0.1",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "2656b08ed0dbb0a99567a066d8af22b943e025605b6a26fc86c3ca3b2e29ac3e",
+      "manifest_sha256": "bff4fa7e278e935fa8b33de4888e9aac709d64fd0436c5eb8294462083791965",
       "tags": [
         "tts",
         "elevenlabs",
