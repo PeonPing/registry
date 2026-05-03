@@ -8571,8 +8571,8 @@
     },
     {
       "name": "sc2_scv",
-      "display_name": "StarCraft II SCV",
-      "version": "1.0.0",
+      "display_name": "Emm's StarCraft II SCV",
+      "version": "1.0.1",
       "description": "StarCraft II SCV sound pack \u2014 44 sounds across all 7 CESP categories. Audio recorded from StarCraft II by Blizzard Entertainment.",
       "author": {
         "name": "emmanuel",
@@ -8593,9 +8593,9 @@
       "sound_count": 44,
       "total_size_bytes": 1329668,
       "source_repo": "MrDoomBringer/openpeon-sc2-scv",
-      "source_ref": "v1.0.0",
+      "source_ref": "v1.0.1",
       "source_path": ".",
-      "manifest_sha256": "24bda0fa13dda8bd42d9e7aefe7eb44a70e809cc4ba61e8123827de9a5c39423",
+      "manifest_sha256": "468fbef3a9ba37601bc7a82cef536b8fd4dd7e5a7106bfd920f6f716ba48a62c",
       "tags": [
         "gaming",
         "starcraft",
