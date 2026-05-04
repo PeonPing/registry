@@ -361,11 +361,11 @@
     {
       "name": "alan-rickman",
       "display_name": "Alan Rickman",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "description": "Claudette notification sounds, voiced in the manner of the late Alan Rickman. Slow. Deliberate. Faintly amused.",
       "author": {
-        "name": "Utensils",
-        "github": "utensils"
+        "name": "Doomspork",
+        "github": "doomspork"
       },
       "trust_tier": "verified",
       "categories": [
@@ -378,12 +378,12 @@
       ],
       "language": "en",
       "license": "CC-BY-4.0",
-      "sound_count": 24,
-      "total_size_bytes": 779285,
+      "sound_count": 60,
+      "total_size_bytes": 1964096,
       "source_repo": "utensils/openpeon-alan-rickman-soundpack",
-      "source_ref": "e1ebd8ab0255f8fabc29e3c8f2acdb738b1641a4",
+      "source_ref": "v1.1.2",
       "source_path": ".",
-      "manifest_sha256": "7fff4547690203a0f5c0d3907a1279ea126b52b71435e42536db58b697e1d7bd",
+      "manifest_sha256": "30539aaacf513408cc7b504a62073b61ac9a1cef868db01ac92b8b8f8ef57419",
       "tags": [
         "tts",
         "ai-voice",
@@ -396,7 +396,7 @@
         "task_complete_01.mp3"
       ],
       "added": "2026-04-29",
-      "updated": "2026-04-29"
+      "updated": "2026-05-01"
     },
     {
       "name": "ana",
@@ -3550,13 +3550,13 @@
     {
       "name": "elise",
       "display_name": "Elise",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
       "author": {
-        "name": "Utensils",
-        "github": "utensils"
+        "name": "Doomspork",
+        "github": "doomspork"
       },
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "categories": [
         "input.required",
         "resource.limit",
@@ -3569,10 +3569,10 @@
       "license": "MIT",
       "sound_count": 24,
       "total_size_bytes": 621715,
-      "source_repo": "utensils/claudette-openpeon-elise",
-      "source_ref": "7fce074ffc29ed33f4401ee4bfba0a6697b1fd1f",
+      "source_repo": "utensils/openpeon-elise-soundpack",
+      "source_ref": "v1.0.2",
       "source_path": ".",
-      "manifest_sha256": "dda9192e7114fb0de7a62d8a010687eaf9e43f65ff96c0c9bd497371d031e6a3",
+      "manifest_sha256": "bff4fa7e278e935fa8b33de4888e9aac709d64fd0436c5eb8294462083791965",
       "tags": [
         "tts",
         "elevenlabs",
@@ -3584,7 +3584,7 @@
         "task_complete_01.mp3"
       ],
       "added": "2026-04-29",
-      "updated": "2026-04-29"
+      "updated": "2026-05-01"
     },
     {
       "name": "emir",
@@ -8563,6 +8563,49 @@
       "updated": "2026-02-20"
     },
     {
+      "name": "sc2_scv",
+      "display_name": "Emm's StarCraft II SCV",
+      "version": "1.0.1",
+      "description": "StarCraft II SCV sound pack \u2014 44 sounds across all 7 CESP categories. Audio recorded from StarCraft II by Blizzard Entertainment.",
+      "author": {
+        "name": "emmanuel",
+        "github": "MrDoomBringer"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 44,
+      "total_size_bytes": 1329668,
+      "source_repo": "MrDoomBringer/openpeon-sc2-scv",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "468fbef3a9ba37601bc7a82cef536b8fd4dd7e5a7106bfd920f6f716ba48a62c",
+      "tags": [
+        "gaming",
+        "starcraft",
+        "starcraft2",
+        "sc2",
+        "blizzard",
+        "rts",
+        "terran"
+      ],
+      "preview_sounds": [
+        "SCVReady1.mp3",
+        "SCVReady2.mp3"
+      ],
+      "added": "2026-05-03",
+      "updated": "2026-05-03"
+    },
+    {
       "name": "sc2_scv_kr",
       "display_name": "\uac74\uc124\ub85c\ubd07 SCV (StarCraft II, \ud55c\uad6d\uc5b4)",
       "version": "1.0.0",
@@ -9349,6 +9392,45 @@
       "updated": "2026-02-25"
     },
     {
+      "name": "schlangemann",
+      "display_name": "Schlangemann",
+      "version": "0.1.3",
+      "description": "Sounds from Schlangemann YouTube videos",
+      "author": {
+        "name": "Fredrik S\u00e4fst\u00e9n",
+        "github": "oliban"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "input.required",
+        "resource.limit",
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "user.spam"
+      ],
+      "language": "de",
+      "license": "fair-use",
+      "sound_count": 24,
+      "total_size_bytes": 932256,
+      "source_repo": "oliban/schlangemann-sounds",
+      "source_ref": "v0.1.3",
+      "source_path": ".",
+      "manifest_sha256": "73ccda5d16f58c7152157c2166776d8b5c0d8ec8c6fdedbd9dec3ce1fd86ad73",
+      "tags": [
+        "comedy",
+        "german",
+        "cabaret"
+      ],
+      "preview_sounds": [
+        "kinder-kinder.mp3",
+        "motorsaege.mp3"
+      ],
+      "added": "2026-05-02",
+      "updated": "2026-05-02"
+    },
+    {
       "name": "seinfeld_kramer",
       "display_name": "Kramer (Seinfeld)",
       "version": "1.0.0",
@@ -9942,6 +10024,46 @@
       ],
       "added": "2026-02-17",
       "updated": "2026-02-17"
+    },
+    {
+      "name": "srpska-kinematografija",
+      "display_name": "Srpska kinematografija",
+      "version": "1.0.1",
+      "description": "Quotes from classic Serbian films \u2014 doma\u0107a kinematografija in your terminal",
+      "author": {
+        "name": "m1z23r",
+        "github": "m1z23r"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "resource.limit",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "sr",
+      "license": "fair-use",
+      "sound_count": 7,
+      "total_size_bytes": 423160,
+      "source_repo": "m1z23r/openpeon-srpska-kinematografija",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "1bdb4951b9bda24ea106886f9fe20292f9d8e8bf15538feb14c3027af378a1a2",
+      "tags": [
+        "movies",
+        "cinema",
+        "serbian",
+        "quotes"
+      ],
+      "preview_sounds": [
+        "sounds/session-start/quote.mp3",
+        "sounds/task-error/quote.mp3"
+      ],
+      "added": "2026-05-04",
+      "updated": "2026-05-04"
     },
     {
       "name": "st_worf",
@@ -12894,5 +13016,5 @@
       "updated": "2026-04-17"
     }
   ],
-  "total_packs": 295
+  "total_packs": 322
 }
