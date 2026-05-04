@@ -4029,6 +4029,37 @@
       "updated": "2026-04-27"
     },
     {
+      "name": "gta-san-andreas",
+      "display_name": "GTA San Andreas",
+      "version": "1.1.0",
+      "description": "Iconic GTA San Andreas voice lines and sounds for your coding sessions. Grove Street, home.",
+      "author": {
+        "name": "Lord Byron",
+        "github": "cybersnus"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.complete",
+        "task.acknowledge",
+        "task.error",
+        "resource.limit",
+        "input.required"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 9,
+      "total_size_bytes": 5789022,
+      "source_repo": "cybersnus/gta-sa-peonping",
+      "source_ref": "v1.1.0",
+      "source_path": ".",
+      "manifest_sha256": "2670a07e00f06ac4e34fef8c97d9ebcdeaf29084383ed1edce9c9228172eb705",
+      "tags": ["gaming", "gta", "memes"],
+      "preview_sounds": ["ah-shit-here-we-go-again.wav", "mission-passed.wav"],
+      "added": "2026-04-30",
+      "updated": "2026-05-04"
+    },
+    {
       "name": "guppi",
       "display_name": "GUPPI",
       "version": "1.0.0",
