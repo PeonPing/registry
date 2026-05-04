@@ -10033,6 +10033,46 @@
       "updated": "2026-02-17"
     },
     {
+      "name": "srpska-kinematografija",
+      "display_name": "Srpska kinematografija",
+      "version": "1.0.0",
+      "description": "Quotes from classic Serbian films \u2014 doma\u0107a kinematografija in your terminal",
+      "author": {
+        "name": "m1z23r",
+        "github": "m1z23r"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "resource.limit",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "sr",
+      "license": "fair-use",
+      "sound_count": 7,
+      "total_size_bytes": 444176,
+      "source_repo": "m1z23r/openpeon-srpska-kinematografija",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "910a20b308b283d9003bad4028bad75a8bd8d1debb7f9b82dfbfad96de2ddd37",
+      "tags": [
+        "movies",
+        "cinema",
+        "serbian",
+        "quotes"
+      ],
+      "preview_sounds": [
+        "sounds/session-start/quote.mp3",
+        "sounds/task-error/quote.mp3"
+      ],
+      "added": "2026-05-04",
+      "updated": "2026-05-04"
+    },
+    {
       "name": "st_worf",
       "display_name": "Worf (Star Trek)",
       "version": "1.0.2",
