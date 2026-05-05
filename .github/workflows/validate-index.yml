@@ -1104,3 +1104,18 @@ jobs:
           else
             echo "Skipping auto-merge — checks did not pass"
           fi
+
+      - name: Trigger openpeon.com rebuild
+        if: always()
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          VERDICT=$(cat verdict.txt 2>/dev/null || echo "fail")
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK not configured — skipping rebuild trigger"
+          elif [ "$VERDICT" = "pass" ]; then
+            echo "Triggering openpeon.com rebuild..."
+            curl -fSL -X POST "$VERCEL_DEPLOY_HOOK"
+          else
+            echo "Skipping rebuild — checks did not pass"
+          fi
