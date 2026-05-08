@@ -423,7 +423,7 @@
       "source_path": ".",
       "manifest_sha256": "2c21bbc91bae37cb08841f7eb2b1b0bf9877fb597ea0a925fe4fc5b6855d877e",
       "tags": ["movie-quotes", "movies", "aliens"],
-      "preview_sounds": ["ready.mp3", "done.mp3"],
+      "preview_sounds": ["five.mp3", "game-over.mp3"],
       "added": "2026-05-08",
       "updated": "2026-05-08"
     },
