@@ -11700,8 +11700,8 @@
     {
       "name": "tywin-lannister",
       "display_name": "Tywin Lannister",
-      "version": "1.0.3",
-      "description": "Sound pack featuring Tywin Lannister, Lord of Casterly Rock and Hand of the King.",
+      "version": "1.1.1",
+      "description": "Sound pack featuring Tywin Lannister, Lord of Casterly Rock and Hand of the King. Some voice lines are AI-generated.",
       "author": {
         "name": "dmltdev",
         "github": "dmltdev"
@@ -11709,18 +11709,21 @@
       "trust_tier": "community",
       "categories": [
         "input.required",
+        "resource.limit",
         "session.start",
+        "task.acknowledge",
         "task.complete",
-        "task.error"
+        "task.error",
+        "user.spam"
       ],
       "language": "en",
       "license": "CC-BY-NC-4.0",
-      "sound_count": 20,
-      "total_size_bytes": 1708830,
+      "sound_count": 32,
+      "total_size_bytes": 2414746,
       "source_repo": "dmltdev/openpeon-tywin-lannister",
-      "source_ref": "v1.0.3",
+      "source_ref": "v1.1.1",
       "source_path": ".",
-      "manifest_sha256": "d616ba4d2e7a2308def5c6e54af9f294e5ac4afafe9646e871c4c6cf135eb502",
+      "manifest_sha256": "a1db2b308c042c52b6c2443de668ecc3f73f780afafe7d04be2bd699d6e7a6d2",
       "tags": [
         "gaming",
         "game-of-thrones",
@@ -11731,7 +11734,7 @@
         "try-harder.mp3"
       ],
       "added": "2026-05-09",
-      "updated": "2026-05-09"
+      "updated": "2026-05-10"
     },
     {
       "name": "vendetta",
