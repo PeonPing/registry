@@ -2694,6 +2694,27 @@
             "updated": "2026-03-16"
         },
         {
+            "name": "drizzt-pack",
+            "display_name": "Drizzt Sound Pack",
+            "version": "1.1.0",
+            "description": "Drizzt Do'Urden-inspired shell and agent cues: discipline, camp, trail, and forge.",
+            "author": { "name": "Matt C.", "github": "leafsicle" },
+            "trust_tier": "community",
+            "categories": ["session.start", "task.complete", "task.error", "input.required", "build.success", "build.running", "git.push", "idle.warning", "battery.low"],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 49,
+            "total_size_bytes": 2765262,
+            "source_repo": "leafsicle/peonping-drow",
+            "source_ref": "v1.1.0",
+            "source_path": ".",
+            "manifest_sha256": "6dc54a95593cd7f2d16e210e26fd096f21386dbb0b84c584bfdd244ade4c4345",
+            "tags": ["fantasy", "drizzt", "drow", "ranger"],
+            "preview_sounds": ["001.mp3", "011.mp3"],
+            "added": "2026-02-12",
+            "updated": "2026-05-15"
+        },
+        {
             "name": "ds1-carvings",
             "display_name": "Dark Souls – Carvings",
             "version": "1.0.0",
