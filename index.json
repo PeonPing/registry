@@ -5823,7 +5823,7 @@
         {
             "name": "minimal-dings",
             "display_name": "Minimal Dings",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Minimal aircraft-cabin chimes. Soft bell tones you can learn to read at a glance and never tire of hearing.",
             "author": {
                 "name": "iain",
@@ -5844,11 +5844,11 @@
             "language": "en",
             "license": "CC0-1.0",
             "sound_count": 9,
-            "total_size_bytes": 1210498,
+            "total_size_bytes": 1170808,
             "source_repo": "iain/minimal-dings",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": "minimal-dings",
-            "manifest_sha256": "8607736369d7c4daf73687de4d685527618c0d0d71fe80fa03e502c2d60679ba",
+            "manifest_sha256": "b90af02992a9974db5ca324da5e4849f94d015e954d45358000a472ba9db64d5",
             "tags": [
                 "minimal",
                 "chimes",
