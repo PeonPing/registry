@@ -5821,6 +5821,49 @@
             "updated": "2026-02-24"
         },
         {
+            "name": "minimal-dings",
+            "display_name": "Minimal Dings",
+            "version": "1.0.0",
+            "description": "Minimal aircraft-cabin chimes. Soft bell tones you can learn to read at a glance and never tire of hearing.",
+            "author": {
+                "name": "iain",
+                "github": "iain"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam",
+                "session.end",
+                "task.progress"
+            ],
+            "language": "en",
+            "license": "CC0-1.0",
+            "sound_count": 9,
+            "total_size_bytes": 1210498,
+            "source_repo": "iain/minimal-dings",
+            "source_ref": "v1.0.0",
+            "source_path": "minimal-dings",
+            "manifest_sha256": "8607736369d7c4daf73687de4d685527618c0d0d71fe80fa03e502c2d60679ba",
+            "tags": [
+                "minimal",
+                "chimes",
+                "aircraft",
+                "notifications"
+            ],
+            "preview_sounds": [
+                "start.wav",
+                "complete.wav",
+                "input.wav"
+            ],
+            "added": "2026-05-20",
+            "updated": "2026-05-20"
+        },
+        {
             "name": "mizuki",
             "display_name": "Overwatch - Mizuki",
             "version": "1.0.0",
