@@ -606,6 +606,50 @@
             "updated": "2026-02-25"
         },
         {
+            "name": "anran",
+            "display_name": "Overwatch - Anran",
+            "version": "1.0.0",
+            "description": "Anran voice lines from Overwatch -- the fiery martial artist who'll burn brightest",
+            "author": {
+                "name": "heron--",
+                "github": "heron--"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 44,
+            "total_size_bytes": 477888,
+            "source_repo": "heron--/overwatch-peon-pings",
+            "source_ref": "v1.1.0",
+            "source_path": "anran",
+            "manifest_sha256": "27b443c15d8f5f97058940c4d5e1292eb9b63a083a00eea18e670e15a55a584e",
+            "tags": [
+                "gaming",
+                "overwatch",
+                "blizzard",
+                "fps",
+                "fire",
+                "martial-arts"
+            ],
+            "preview_sounds": [
+                "session_start_1.mp3",
+                "task_complete_1.mp3"
+            ],
+            "added": "2026-05-21",
+            "updated": "2026-05-21"
+        },
+        {
             "name": "aod",
             "display_name": "Army of Darkness",
             "version": "1.0.0",
