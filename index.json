@@ -4432,27 +4432,6 @@
             "updated": "2026-03-30"
         },
         {
-            "name": "io",
-            "display_name": "IO (Dota 2)",
-            "version": "1.0.0",
-            "description": "Sound pack featuring IO the Wisp from Dota 2. Tether up.",
-            "author": { "name": "darkocejkov", "github": "darkocejkov" },
-            "trust_tier": "community",
-            "categories": ["session.start", "task.acknowledge", "task.complete", "task.error", "input.required", "resource.limit"],
-            "language": "en",
-            "license": "CC-BY-NC-4.0",
-            "sound_count": 12,
-            "total_size_bytes": 4244016,
-            "source_repo": "darkocejkov/peonping-io",
-            "source_ref": "v1.0.0",
-            "source_path": ".",
-            "manifest_sha256": "22dbaf2ba56b7e280f28811e0d28a89c05582f4123833f11b28f8e03439c9d24",
-            "tags": ["gaming", "dota2"],
-            "preview_sounds": ["win.wav", "spawn_respawn.wav"],
-            "added": "2026-05-26",
-            "updated": "2026-05-26"
-        },
-        {
             "name": "illari",
             "display_name": "Overwatch - Illari",
             "version": "1.0.0",
@@ -4533,6 +4512,27 @@
                 "session_start.mp3",
                 "task_acknowledge.mp3"
             ]
+        },
+        {
+            "name": "io",
+            "display_name": "IO (Dota 2)",
+            "version": "1.0.0",
+            "description": "Sound pack featuring IO the Wisp from Dota 2. Tether up.",
+            "author": { "name": "darkocejkov", "github": "darkocejkov" },
+            "trust_tier": "community",
+            "categories": ["session.start", "task.acknowledge", "task.complete", "task.error", "input.required", "resource.limit"],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 12,
+            "total_size_bytes": 4244016,
+            "source_repo": "darkocejkov/peonping-io",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "22dbaf2ba56b7e280f28811e0d28a89c05582f4123833f11b28f8e03439c9d24",
+            "tags": ["gaming", "dota2"],
+            "preview_sounds": ["win.wav", "spawn_respawn.wav"],
+            "added": "2026-05-26",
+            "updated": "2026-05-26"
         },
         {
             "name": "itysl",
