@@ -2576,6 +2576,28 @@
             "updated": "2026-02-17"
         },
         {
+            "name": "dota2-sounds",
+            "display_name": "Dota 2 Sounds",
+            "version": "1.0.0",
+            "description": "Item and rune sounds from Dota 2. BKB for victories, silenced for errors, mana for
+           limits.",
+            "author": { "name": "darkocejkov", "github": "darkocejkov" },
+            "trust_tier": "community",
+            "categories": ["session.start", "task.acknowledge", "task.complete", "task.error", "input.required", "resource.limit"],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 28,
+            "total_size_bytes": 14151098,
+            "source_repo": "darkocejkov/peonping-dota2-sounds",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "d96b3d352853fd7f706cbca51c78280716038c14fe6bc2070bec5950e6ec5e7b",
+            "tags": ["gaming", "dota2"],
+            "preview_sounds": ["reincarnate.wav", "hand_of_midas.wav", "silenced.wav"],
+            "added": "2026-05-26",
+            "updated": "2026-05-26"
+        },
+        {
             "name": "dota2_witch_doctor",
             "display_name": "Witch Doctor (Dota 2)",
             "version": "1.0.0",
