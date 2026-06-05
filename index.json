@@ -4453,6 +4453,16 @@
             "updated": "2026-03-09"
         },
         {
+            "name": "heeee-heeeee",
+            "display_name": "Heeee Heeeee",
+            "version": "1.0.0",
+            "description": "Michael Jackson screaming",
+            "author": {
+                "name": "ylan",
+                "github": "ylancuvier-mj"
+            }
+        },
+        {
             "name": "honor_of_kings",
             "display_name": "Honor of Kings (王者荣耀)",
             "version": "1.0.2",
