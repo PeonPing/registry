@@ -4412,6 +4412,31 @@
             "updated": "2026-02-12"
         },
         {
+            "name": "heeee-heeeee",
+            "display_name": "Heeee Heeeee",
+            "version": "1.0.0",
+            "description": "Michael Jackson screaming",
+            "author": {
+                "name": "ylan",
+                "github": "ylancuvier-mj"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "session.start",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 4,
+            "source_repo": "ylancuvier-mj/heeee-heeeee",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "added": "2026-06-05",
+            "updated": "2026-06-05"
+        },
+        {
             "name": "high_elf_builder_ru",
             "display_name": "Строитель Высших Эльфов (Russian)",
             "version": "1.1.0",
@@ -4451,16 +4476,6 @@
             ],
             "added": "2026-03-09",
             "updated": "2026-03-09"
-        },
-        {
-            "name": "heeee-heeeee",
-            "display_name": "Heeee Heeeee",
-            "version": "1.0.0",
-            "description": "Michael Jackson screaming",
-            "author": {
-                "name": "ylan",
-                "github": "ylancuvier-mj"
-            }
         },
         {
             "name": "honor_of_kings",
