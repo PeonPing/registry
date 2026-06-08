@@ -4422,10 +4422,12 @@
             },
             "trust_tier": "community",
             "categories": [
-                "input.required",
                 "session.start",
                 "task.complete",
-                "task.error"
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "task.acknowledge"
             ],
             "language": "en",
             "license": "CC-BY-NC-4.0",
