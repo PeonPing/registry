@@ -4414,7 +4414,7 @@
         {
             "name": "heeee-heeeee",
             "display_name": "Heeee Heeeee",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Michael Jackson screaming",
             "author": {
                 "name": "ylan",
@@ -4434,7 +4434,7 @@
             "source_ref": "v1.0.0",
             "source_path": ".",
             "added": "2026-06-05",
-            "updated": "2026-06-05"
+            "updated": "2026-06-08"
         },
         {
             "name": "high_elf_builder_ru",
