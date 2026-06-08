@@ -4425,9 +4425,7 @@
                 "session.start",
                 "task.complete",
                 "task.error",
-                "input.required",
-                "resource.limit",
-                "task.acknowledge"
+                "input.required"
             ],
             "language": "en",
             "license": "CC-BY-NC-4.0",
