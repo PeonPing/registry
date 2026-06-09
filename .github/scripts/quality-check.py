@@ -25,6 +25,7 @@ Exit codes:
 import json
 import os
 import re
+import statistics
 import subprocess
 import sys
 import tarfile
@@ -57,6 +58,11 @@ SAMPLE_RATE_WARN_HZ = 16000      # Low but functional
 
 # Silence detection sensitivity
 SILENCE_THRESHOLD_DB = -35
+
+# Integrated loudness needs >= ~400ms of audio to be reliable (ITU-R BS.1770).
+# Clips shorter than this report no trustworthy LUFS and are excluded from both
+# the per-file loudness check and the pack-level loudness aggregation.
+LOUDNESS_MIN_DURATION_S = 0.5
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -219,7 +225,7 @@ def classify_file(filepath):
         stats["lufs"] = round(lufs, 1) if lufs != float("-inf") else "-inf"
         # loudnorm needs >= 400ms to compute integrated loudness (ITU-R BS.1770).
         # Files shorter than that report -inf, which is not a real silence reading.
-        if lufs == float("-inf") and duration < 0.5:
+        if lufs == float("-inf") and duration < LOUDNESS_MIN_DURATION_S:
             pass  # skip — too short for reliable loudness measurement
         elif lufs == float("-inf") or lufs < LUFS_BLOCK_FLOOR:
             blocks.append(f"file is silent or nearly silent")
@@ -234,6 +240,59 @@ def classify_file(filepath):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # Pack-level analysis
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+def aggregate_pack_loudness(file_results):
+    """Aggregate per-file loudness into pack-level spread and median.
+
+    Pure function over the dicts ``classify_file`` returns, so it is testable
+    without ffmpeg. Reads each file's ``stats["lufs"]`` and ``stats["duration"]``,
+    which are heterogeneous: ``lufs`` is a float for a normal clip, the string
+    ``"-inf"`` for a silent clip, and absent when loudnorm timed out or failed to
+    parse. Three classes of clip carry no trustworthy integrated loudness and are
+    excluded from both metrics:
+
+      - ``lufs`` absent (measurement failed),
+      - ``lufs`` is ``"-inf"`` / ``-inf`` (silent),
+      - clip shorter than ``LOUDNESS_MIN_DURATION_S`` (too short to measure per
+        ITU-R BS.1770, even when it returns a finite number).
+
+    Returns a dict:
+      - ``loudness_spread``: max - min LUFS across measurable clips (LU), rounded
+        to 0.1, or ``None`` when fewer than two clips are measurable (a spread is
+        undeterminable from one point).
+      - ``loudness_median``: median LUFS across measurable clips, rounded to 0.1,
+        or ``None`` when none are measurable.
+      - ``measured_clips``: how many clips contributed to the metrics.
+    """
+    lufs_values = []
+    for result in file_results:
+        stats = result.get("stats", {})
+        lufs = stats.get("lufs")
+        duration = stats.get("duration")
+
+        if lufs is None or duration is None:
+            continue
+        if lufs == "-inf" or (isinstance(lufs, float) and lufs == float("-inf")):
+            continue
+        if not isinstance(lufs, (int, float)):
+            continue
+        if duration < LOUDNESS_MIN_DURATION_S:
+            continue
+
+        lufs_values.append(float(lufs))
+
+    spread = None
+    if len(lufs_values) >= 2:
+        spread = round(max(lufs_values) - min(lufs_values), 1)
+
+    median = round(statistics.median(lufs_values), 1) if lufs_values else None
+
+    return {
+        "loudness_spread": spread,
+        "loudness_median": median,
+        "measured_clips": len(lufs_values),
+    }
+
 
 def check_pack(pack_dir):
     """Run all quality checks on a local pack directory.
@@ -342,6 +401,9 @@ def check_pack(pack_dir):
 
     sys.stderr.write("\r" + " " * 70 + "\r")
 
+    # Pack-level loudness consistency (measure and report only, no verdict impact).
+    pack_metrics = aggregate_pack_loudness(file_results)
+
     # Determine verdict
     if total_blocks > 0:
         verdict = "REJECTED"
@@ -359,6 +421,7 @@ def check_pack(pack_dir):
         "total_warns": total_warns,
         "block_summary": dict(block_summary),
         "warn_summary": dict(warn_summary),
+        "pack_metrics": pack_metrics,
         "files": file_results,
     }
 
@@ -409,6 +472,23 @@ def download_pack(source_repo, source_ref, source_path, dest_dir):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # Output formatting
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+def format_pack_loudness_summary(pack_metrics):
+    """One-line human summary of pack loudness, or None when nothing is measurable."""
+    if not pack_metrics:
+        return None
+    measured = pack_metrics.get("measured_clips", 0)
+    if not measured:
+        return None
+
+    median = pack_metrics.get("loudness_median")
+    spread = pack_metrics.get("loudness_spread")
+    clip_word = "clip" if measured == 1 else "clips"
+
+    if spread is None:
+        return f"median {median:.1f} LUFS ({measured} measurable {clip_word}; spread needs >= 2)"
+    return f"spread {spread:.1f} LU, median {median:.1f} LUFS across {measured} measurable {clip_word}"
+
 
 def format_markdown(results):
     """Format results as a GitHub-flavored Markdown section."""
@@ -467,6 +547,11 @@ def format_markdown(results):
             lines.append(f"| {issue.replace('_', ' ').title()} | {count} |")
         lines.append("")
 
+    # Pack-level loudness metrics (report only; does not affect the verdict yet)
+    loudness = format_pack_loudness_summary(results.get("pack_metrics"))
+    if loudness:
+        lines.append(f"**Pack loudness** — {loudness}\n")
+
     # Threshold reference
     lines.append("<details><summary>Threshold reference</summary>\n")
     lines.append("| Check | Block | Warn |")
@@ -512,6 +597,9 @@ def format_console(results):
 
     print(f"\n{'─' * 60}")
     print(f"  Files: {total_files}  |  Blocks: {total_blocks}  |  Warnings: {total_warns}")
+    loudness = format_pack_loudness_summary(results.get("pack_metrics"))
+    if loudness:
+        print(f"  Loudness: {loudness}")
     print(f"  Verdict: {verdict}")
     print(f"{'━' * 60}")
 
