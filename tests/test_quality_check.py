@@ -113,5 +113,77 @@ class FormatPackLoudnessSummaryTest(unittest.TestCase):
         self.assertIn("spread needs >= 2", s)
 
 
+def metrics(spread, median, measured=5):
+    return {"loudness_spread": spread, "loudness_median": median, "measured_clips": measured}
+
+
+class PackLoudnessWarningsTest(unittest.TestCase):
+    def test_wide_spread_warns(self):
+        # AE1: in-band clips spanning a wide range add one pack warn.
+        warns = qc.pack_loudness_warnings(metrics(spread=20.0, median=-16.0))
+        self.assertEqual(len(warns), 1)
+        self.assertEqual(warns[0]["key"], "inconsistent_loudness")
+
+    def test_spread_at_threshold_does_not_warn(self):
+        # Threshold uses strict >, so exactly-at-threshold is not flagged.
+        self.assertEqual(qc.pack_loudness_warnings(metrics(qc.LOUDNESS_SPREAD_WARN_LU, -16.0)), [])
+        self.assertEqual(qc.pack_loudness_warnings(metrics(qc.LOUDNESS_SPREAD_WARN_LU - 0.1, -16.0)), [])
+
+    def test_quiet_pack_warns(self):
+        # R2: a pack whose median sits at/below the floor reads as too quiet.
+        warns = qc.pack_loudness_warnings(metrics(spread=5.0, median=-27.0))
+        self.assertEqual(len(warns), 1)
+        self.assertEqual(warns[0]["key"], "uniformly_quiet")
+
+    def test_quiet_floor_is_inclusive(self):
+        # Floor uses <=, so exactly-at-floor warns; just above does not.
+        self.assertEqual(len(qc.pack_loudness_warnings(metrics(5.0, qc.LOUDNESS_QUIET_PACK_LUFS))), 1)
+        self.assertEqual(qc.pack_loudness_warnings(metrics(5.0, qc.LOUDNESS_QUIET_PACK_LUFS + 0.1)), [])
+
+    def test_clean_pack_has_no_warnings(self):
+        # GOLD happy path: consistent and loud-enough pack adds no pack warn.
+        self.assertEqual(qc.pack_loudness_warnings(metrics(spread=8.0, median=-16.0)), [])
+
+    def test_both_conditions_warn(self):
+        warns = qc.pack_loudness_warnings(metrics(spread=22.0, median=-30.0))
+        self.assertEqual({w["key"] for w in warns}, {"inconsistent_loudness", "uniformly_quiet"})
+
+    def test_no_spread_yields_no_spread_warn(self):
+        # Single measurable clip: spread is None, only the quiet check can fire.
+        self.assertEqual(qc.pack_loudness_warnings(metrics(spread=None, median=-16.0)), [])
+
+    def test_empty_metrics(self):
+        self.assertEqual(qc.pack_loudness_warnings(None), [])
+        self.assertEqual(qc.pack_loudness_warnings({}), [])
+
+    def test_demotion_message_names_measured_value_and_target(self):
+        spread_warn = qc.pack_loudness_warnings(metrics(spread=22.5, median=-16.0))[0]
+        self.assertIn("22.5", spread_warn["detail"])
+        self.assertIn("15", spread_warn["detail"])  # the GOLD target
+        quiet_warn = qc.pack_loudness_warnings(metrics(spread=5.0, median=-28.3))[0]
+        self.assertIn("-28.3", quiet_warn["detail"])
+        self.assertIn("-26", quiet_warn["detail"])  # the GOLD target
+
+
+class DecideVerdictTest(unittest.TestCase):
+    def test_clean_is_gold(self):
+        self.assertEqual(qc.decide_verdict(0, 0), "GOLD")
+
+    def test_any_warn_demotes_to_silver(self):
+        self.assertEqual(qc.decide_verdict(0, 1), "SILVER")
+
+    def test_block_forces_rejected_regardless_of_warns(self):
+        # AE2 / R5: a hard block stays REJECTED no matter how many warns exist.
+        self.assertEqual(qc.decide_verdict(1, 0), "REJECTED")
+        self.assertEqual(qc.decide_verdict(1, 99), "REJECTED")
+
+    def test_pack_warn_demotes_gold_to_silver_not_rejected(self):
+        # AE1 end to end: a wide-spread, block-free pack lands SILVER.
+        warns = len(qc.pack_loudness_warnings(metrics(spread=20.0, median=-16.0)))
+        self.assertEqual(qc.decide_verdict(0, warns), "SILVER")
+        # AE2: the same pack with a hard block is still REJECTED.
+        self.assertEqual(qc.decide_verdict(1, warns), "REJECTED")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -929,6 +929,14 @@ jobs:
                       lines.append(f"> **Error:** {qr['error']}\n")
                       continue
 
+                  # Pack-level loudness findings — these demote GOLD to SILVER.
+                  pack_warnings = qr.get('pack_warnings', [])
+                  if pack_warnings:
+                      lines.append("**Pack-level findings** — these affect the tier:\n")
+                      for pw in pack_warnings:
+                          lines.append(f"- **{pw['message']}** — {pw['detail']}")
+                      lines.append("")
+
                   # REJECTED: show all blocking issues with file details
                   if verdict == 'REJECTED' and nblocks > 0:
                       lines.append("**Blocking issues** — these must be fixed before the pack can be accepted:\n")

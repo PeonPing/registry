@@ -64,6 +64,12 @@ SILENCE_THRESHOLD_DB = -35
 # the per-file loudness check and the pack-level loudness aggregation.
 LOUDNESS_MIN_DURATION_S = 0.5
 
+# Pack-level loudness WARN thresholds — calibrated against the full catalog's
+# distribution. See QUALITY-CHECK-ANALYSIS.md. These are score-only: they demote
+# GOLD to SILVER, never REJECTED.
+LOUDNESS_SPREAD_WARN_LU = 15.0    # range between quietest and loudest clip (p90)
+LOUDNESS_QUIET_PACK_LUFS = -26.0  # pack median at or below this reads as too quiet
+
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # Audio analysis helpers
@@ -294,6 +300,59 @@ def aggregate_pack_loudness(file_results):
     }
 
 
+def pack_loudness_warnings(pack_metrics):
+    """Pack-level loudness warnings from the calibrated thresholds.
+
+    Pure function so the demotion logic is testable without ffmpeg. Returns a
+    list of warning dicts, each carrying a summary key, a short message, and a
+    contributor-facing detail naming the measured value and the GOLD target.
+    These are WARNS: they flow through the existing "any warn -> SILVER" path and
+    can only demote GOLD to SILVER, never produce REJECTED.
+    """
+    warnings = []
+    if not pack_metrics:
+        return warnings
+
+    spread = pack_metrics.get("loudness_spread")
+    median = pack_metrics.get("loudness_median")
+
+    if spread is not None and spread > LOUDNESS_SPREAD_WARN_LU:
+        warnings.append({
+            "key": "inconsistent_loudness",
+            "message": "inconsistent loudness across clips",
+            "detail": (
+                f"clips span {spread:.1f} LU, GOLD needs {LOUDNESS_SPREAD_WARN_LU:.0f} LU or less "
+                f"(normalize the quietest and loudest clips closer together)"
+            ),
+        })
+
+    if median is not None and median <= LOUDNESS_QUIET_PACK_LUFS:
+        warnings.append({
+            "key": "uniformly_quiet",
+            "message": "pack is uniformly quiet",
+            "detail": (
+                f"pack median {median:.1f} LUFS, GOLD needs above {LOUDNESS_QUIET_PACK_LUFS:.0f} LUFS "
+                f"(normalize toward about -16 LUFS)"
+            ),
+        })
+
+    return warnings
+
+
+def decide_verdict(total_blocks, total_warns):
+    """Map block/warn counts to the three-tier verdict.
+
+    Extracted as a pure function so the score-only demotion is testable: any
+    block forces REJECTED, any warn (including the pack-level loudness warns)
+    demotes to SILVER, and a clean pack is GOLD.
+    """
+    if total_blocks > 0:
+        return "REJECTED"
+    if total_warns > 0:
+        return "SILVER"
+    return "GOLD"
+
+
 def check_pack(pack_dir):
     """Run all quality checks on a local pack directory.
 
@@ -401,16 +460,15 @@ def check_pack(pack_dir):
 
     sys.stderr.write("\r" + " " * 70 + "\r")
 
-    # Pack-level loudness consistency (measure and report only, no verdict impact).
+    # Pack-level loudness: measure, then apply the calibrated score-only warns.
+    # These are warns, so they demote GOLD to SILVER but never REJECTED (KTD3).
     pack_metrics = aggregate_pack_loudness(file_results)
+    pack_warnings = pack_loudness_warnings(pack_metrics)
+    for w in pack_warnings:
+        total_warns += 1
+        warn_summary[w["key"]] += 1
 
-    # Determine verdict
-    if total_blocks > 0:
-        verdict = "REJECTED"
-    elif total_warns > 0:
-        verdict = "SILVER"
-    else:
-        verdict = "GOLD"
+    verdict = decide_verdict(total_blocks, total_warns)
 
     return {
         "pack_name": pack_name,
@@ -422,6 +480,7 @@ def check_pack(pack_dir):
         "block_summary": dict(block_summary),
         "warn_summary": dict(warn_summary),
         "pack_metrics": pack_metrics,
+        "pack_warnings": pack_warnings,
         "files": file_results,
     }
 
@@ -547,10 +606,16 @@ def format_markdown(results):
             lines.append(f"| {issue.replace('_', ' ').title()} | {count} |")
         lines.append("")
 
-    # Pack-level loudness metrics (report only; does not affect the verdict yet)
+    # Pack-level loudness metrics and any score-only loudness warnings.
     loudness = format_pack_loudness_summary(results.get("pack_metrics"))
     if loudness:
         lines.append(f"**Pack loudness** — {loudness}\n")
+    pack_warnings = results.get("pack_warnings", [])
+    if pack_warnings:
+        lines.append("These pack-level findings demote the tier to SILVER:\n")
+        for pw in pack_warnings:
+            lines.append(f"- **{pw['message']}** — {pw['detail']}")
+        lines.append("")
 
     # Threshold reference
     lines.append("<details><summary>Threshold reference</summary>\n")
@@ -563,6 +628,8 @@ def format_markdown(results):
     lines.append(f"| Bitrate | — | < {BITRATE_WARN_KBPS} kbps |")
     lines.append(f"| Sample rate | < {SAMPLE_RATE_BLOCK_HZ} Hz | < {SAMPLE_RATE_WARN_HZ} Hz |")
     lines.append(f"| Duration | > {DURATION_MAX_BLOCK_S}s or < {DURATION_MIN_BLOCK_S}s | > {DURATION_LONG_WARN_S}s |")
+    lines.append(f"| Pack loudness spread | — | > {LOUDNESS_SPREAD_WARN_LU:.0f} LU |")
+    lines.append(f"| Pack median loudness | — | <= {LOUDNESS_QUIET_PACK_LUFS:.0f} LUFS |")
     lines.append("\n</details>")
 
     return "\n".join(lines)
@@ -600,6 +667,8 @@ def format_console(results):
     loudness = format_pack_loudness_summary(results.get("pack_metrics"))
     if loudness:
         print(f"  Loudness: {loudness}")
+    for pw in results.get("pack_warnings", []):
+        print(f"  Pack warning: {pw['message']} — {pw['detail']}")
     print(f"  Verdict: {verdict}")
     print(f"{'━' * 60}")
 
