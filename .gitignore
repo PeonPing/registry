@@ -49,3 +49,7 @@ auto-save-list
 # Sublime Text
 *.sublime-workspace
 *.sublime-project
+
+# Python
+__pycache__/
+*.py[cod]
