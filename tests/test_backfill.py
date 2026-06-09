@@ -43,6 +43,13 @@ class SelectTargetsTest(unittest.TestCase):
                  bf.select_targets(packs(), force_regrade=True, names=["delta", "alpha"])]
         self.assertEqual(sorted(names), ["alpha", "delta"])
 
+    def test_names_filter_without_force_applies_resume_skip(self):
+        # An operator targeting an already-graded pack without --force-regrade
+        # gets a no-op (resume skip runs after the names filter), not a regrade.
+        self.assertEqual(bf.select_targets(packs(), names=["gamma"]), [])
+        names = [p["name"] for p in bf.select_targets(packs(), names=["gamma", "alpha"])]
+        self.assertEqual(names, ["alpha"])
+
 
 class ApplyGradesTest(unittest.TestCase):
     def setUp(self):

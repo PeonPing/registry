@@ -713,6 +713,16 @@ jobs:
                               if not rel:
                                   continue
                               dest = os.path.join(pack_dir, rel)
+                              # Reject path-traversal members before writing. This job
+                              # runs on pull_request_target with contents:write and
+                              # extracts an unreviewed contributor tarball, so a crafted
+                              # member must not escape the temp dir (KTD11). Symlinks and
+                              # hardlinks fall through (only isdir/isfile are written).
+                              real_dest = os.path.realpath(dest)
+                              real_root = os.path.realpath(pack_dir)
+                              if real_dest != real_root and not real_dest.startswith(real_root + os.sep):
+                                  print(f"  Skipping unsafe tarball member: {m.name}")
+                                  continue
                               if m.isdir():
                                   os.makedirs(dest, exist_ok=True)
                               elif m.isfile():
@@ -1007,6 +1017,8 @@ jobs:
                   lines.append("| Bitrate | — | < 64 kbps |")
                   lines.append("| Sample rate | < 8000 Hz | < 16000 Hz |")
                   lines.append("| Duration | > 20.0s or < 0.1s | > 5.0s |")
+                  lines.append("| Pack loudness spread | — | > 15 LU |")
+                  lines.append("| Pack median loudness | — | <= -26 LUFS |")
                   lines.append("\n</details>\n")
 
               lines.append("")

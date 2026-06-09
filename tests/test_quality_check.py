@@ -252,6 +252,19 @@ class WritePackQualityTest(unittest.TestCase):
             _suffix_from_line(written, '"name": "beta"'),
         )
 
+    def test_entry_before_target_also_stays_byte_identical(self):
+        # Editing beta (the second entry) must leave alpha (before it) byte-
+        # identical too, not just entries after the edit.
+        qc.write_pack_quality(self.path, "beta", "gold")
+        with open(self.path, encoding="utf-8") as f:
+            written = f.read()
+        # alpha's region runs from its name line up to beta's name line.
+        def alpha_region(text):
+            start = text.index('"name": "alpha"')
+            start = text.rfind("\n", 0, start) + 1
+            return text[start:text.index('"name": "beta"')]
+        self.assertEqual(alpha_region(self.original), alpha_region(written))
+
     def test_non_ascii_survives_unescaped(self):
         qc.write_pack_quality(self.path, "alpha", "gold")
         with open(self.path, encoding="utf-8") as f:

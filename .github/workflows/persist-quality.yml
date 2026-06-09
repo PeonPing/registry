@@ -151,5 +151,5 @@ jobs:
             echo "VERCEL_DEPLOY_HOOK not configured; skipping rebuild trigger"
           else
             echo "Triggering openpeon.com rebuild..."
-            curl -fSL -X POST "$VERCEL_DEPLOY_HOOK"
+            curl -fSL --max-time 30 -X POST "$VERCEL_DEPLOY_HOOK"
           fi

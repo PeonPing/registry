@@ -525,7 +525,11 @@ def download_pack(source_repo, source_ref, source_path, dest_dir):
 
     tmp = tempfile.NamedTemporaryFile(suffix=".tar.gz", delete=False)
     try:
-        urllib.request.urlretrieve(tarball_url, tmp.name)
+        # Stream with a timeout so a stalled GitHub response cannot hang the
+        # persist/backfill runner indefinitely (urlretrieve has no timeout).
+        with urllib.request.urlopen(tarball_url, timeout=60) as resp:
+            with open(tmp.name, "wb") as out:
+                shutil.copyfileobj(resp, out)
         with tarfile.open(tmp.name, "r:gz") as tf:
             members = tf.getmembers()
             if not members:
