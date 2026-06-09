@@ -1,0 +1,118 @@
+name: Backfill Quality
+
+# One-time (re-runnable) grade of the whole catalog into index.json. Writes to a
+# branch and opens a PR so a maintainer reviews the catalog-wide change before it
+# lands on main. Non-destructive: entries are only updated, never removed.
+#
+# The full catalog grades in about 7.5 minutes (~1.3s per pack), well under the
+# 6-hour job ceiling, so a single job suffices. Use the limit input to smoke-test
+# a small subset first.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_regrade:
+        description: "Re-grade every pack, including already-graded ones (e.g. after a threshold change)"
+        type: boolean
+        default: false
+      limit:
+        description: "Grade only the first N packs (smoke test). Blank grades the full catalog."
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.PERSIST_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null 2>&1
+          ffprobe -version | head -1
+
+      - name: Grade catalog and write tiers
+        env:
+          FORCE: ${{ inputs.force_regrade }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          ARGS="--index index.json --workers 8 --summary-json backfill-summary.json"
+          if [ "$FORCE" = "true" ]; then ARGS="$ARGS --force-regrade"; fi
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          python3 .github/scripts/backfill-quality.py $ARGS
+
+      - name: Validate index.json
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+
+          with open('schema/registry-v1.schema.json', encoding='utf-8') as f:
+              enum = set(json.load(f)['$defs']['pack']['properties']['quality']['enum'])
+          with open('index.json', encoding='utf-8') as f:
+              data = json.load(f)
+          bad = [p['name'] for p in data.get('packs', [])
+                 if 'quality' in p and p['quality'] not in enum]
+          if bad:
+              print(f'Out-of-enum quality on: {bad}', file=sys.stderr)
+              sys.exit(1)
+          print(f'index.json valid; {len(data.get("packs", []))} packs')
+          PYEOF
+
+      - name: Open backfill PR
+        env:
+          GH_TOKEN: ${{ secrets.PERSIST_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet index.json; then
+            echo "No tier changes to backfill"
+            exit 0
+          fi
+          BRANCH="backfill-quality-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add index.json
+          git commit -m "chore(quality): backfill computed tiers across the catalog"
+          git push origin "$BRANCH"
+
+          # Build the PR body from the maintainer summary.
+          python3 - <<'PYEOF' > pr-body.md
+          import json
+
+          s = json.load(open('backfill-summary.json'))
+          print("Automated catalog-wide quality backfill. Review before merging.\n")
+          print(f"- Graded: {s['graded']}")
+          print(f"- Tiers applied: {s['applied']}")
+          print(f"- Tier counts: {s['tier_counts']}\n")
+          flagged = s['flagged']
+          print(f"**Flagged packs for maintainer review ({len(flagged)}):**")
+          if flagged:
+              for n in flagged:
+                  print(f"- {n}")
+          else:
+              print("- none")
+          errored = s['errored']
+          if errored:
+              print(f"\n**Could not grade ({len(errored)}, left unreviewed):**")
+              for n in errored:
+                  print(f"- {n}")
+          PYEOF
+
+          gh pr create --base main --head "$BRANCH" \
+            --title "Backfill pack quality tiers" \
+            --body-file pr-body.md
+
+      - name: Upload summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backfill-summary
+          path: backfill-summary.json
+          retention-days: 90
