@@ -12,6 +12,8 @@ Run from the repo root:
 """
 
 import importlib.util
+import os
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -183,6 +185,123 @@ class DecideVerdictTest(unittest.TestCase):
         self.assertEqual(qc.decide_verdict(0, warns), "SILVER")
         # AE2: the same pack with a hard block is still REJECTED.
         self.assertEqual(qc.decide_verdict(1, warns), "REJECTED")
+
+
+class VerdictToQualityTest(unittest.TestCase):
+    def test_mapping_is_exact_lowercase(self):
+        # Casing matters: a stray "GOLD" would pass the site's !== "flagged"
+        # filter yet render no badge, undetected.
+        self.assertEqual(qc.verdict_to_quality("GOLD"), "gold")
+        self.assertEqual(qc.verdict_to_quality("SILVER"), "silver")
+        self.assertEqual(qc.verdict_to_quality("REJECTED"), "flagged")
+
+    def test_unknown_or_missing_maps_to_unreviewed(self):
+        self.assertEqual(qc.verdict_to_quality(None), "unreviewed")
+        self.assertEqual(qc.verdict_to_quality(""), "unreviewed")
+        self.assertEqual(qc.verdict_to_quality("WHATEVER"), "unreviewed")
+
+
+def _fixture_index():
+    # Two entries; alpha carries a non-ASCII (u-umlaut + em-dash) description,
+    # beta is the untouched control. alpha precedes beta so any change to alpha
+    # leaves beta's bytes downstream unchanged.
+    return {
+        "version": 1,
+        "packs": [
+            {"name": "alpha", "display_name": "Alpha",
+             "description": "Crüsader — scheming monastery lord"},
+            {"name": "beta", "display_name": "Beta", "description": "beta plain desc",
+             "quality": "silver"},
+        ],
+        "total_packs": 2,
+    }
+
+
+def _suffix_from_line(text, needle):
+    i = text.index(needle)
+    line_start = text.rfind("\n", 0, i) + 1
+    return text[line_start:]
+
+
+class WritePackQualityTest(unittest.TestCase):
+    def setUp(self):
+        self.dir = tempfile.mkdtemp(prefix="idx-test-")
+        self.path = os.path.join(self.dir, "index.json")
+        self.original = qc.serialize_index(_fixture_index())
+        with open(self.path, "w", encoding="utf-8") as f:
+            f.write(self.original)
+
+    def tearDown(self):
+        import shutil
+        shutil.rmtree(self.dir, ignore_errors=True)
+
+    def test_writes_target_entry(self):
+        changed = qc.write_pack_quality(self.path, "alpha", "gold")
+        self.assertTrue(changed)
+        with open(self.path, encoding="utf-8") as f:
+            written = f.read()
+        self.assertEqual(written, qc.serialize_index(_set(_fixture_index(), "alpha", "gold")))
+
+    def test_other_entries_stay_byte_identical(self):
+        qc.write_pack_quality(self.path, "alpha", "gold")
+        with open(self.path, encoding="utf-8") as f:
+            written = f.read()
+        # beta's entry (from its name line through EOF) is unchanged byte for byte.
+        self.assertEqual(
+            _suffix_from_line(self.original, '"name": "beta"'),
+            _suffix_from_line(written, '"name": "beta"'),
+        )
+
+    def test_non_ascii_survives_unescaped(self):
+        qc.write_pack_quality(self.path, "alpha", "gold")
+        with open(self.path, encoding="utf-8") as f:
+            written = f.read()
+        self.assertIn("Crüsader — scheming monastery lord", written)
+        self.assertNotIn("\\u00fc", written)  # not escaped to ASCII
+
+    def test_idempotent_rewrite_is_noop(self):
+        qc.write_pack_quality(self.path, "beta", "silver")  # already silver
+        with open(self.path, encoding="utf-8") as f:
+            self.assertEqual(f.read(), self.original)
+        # A real change reports True, a repeat reports False.
+        self.assertTrue(qc.write_pack_quality(self.path, "alpha", "gold"))
+        self.assertFalse(qc.write_pack_quality(self.path, "alpha", "gold"))
+
+    def test_out_of_enum_value_raises_before_writing(self):
+        with self.assertRaises(ValueError):
+            qc.write_pack_quality(self.path, "alpha", "platinum")
+        with open(self.path, encoding="utf-8") as f:
+            self.assertEqual(f.read(), self.original)  # file untouched
+
+    def test_missing_pack_raises(self):
+        with self.assertRaises(KeyError):
+            qc.write_pack_quality(self.path, "nonexistent", "gold")
+
+
+def _set(index_data, name, quality):
+    qc.set_entry_quality(index_data, name, quality)
+    return index_data
+
+
+class TarballPathGuardTest(unittest.TestCase):
+    def test_in_bounds_paths_allowed(self):
+        base = tempfile.mkdtemp(prefix="tar-test-")
+        try:
+            self.assertTrue(qc._is_within_directory(base, os.path.join(base, "sounds/a.mp3")))
+            self.assertTrue(qc._is_within_directory(base, base))
+        finally:
+            import shutil
+            shutil.rmtree(base, ignore_errors=True)
+
+    def test_traversal_paths_rejected(self):
+        base = tempfile.mkdtemp(prefix="tar-test-")
+        try:
+            self.assertFalse(qc._is_within_directory(base, os.path.join(base, "../evil")))
+            self.assertFalse(qc._is_within_directory(base, os.path.join(base, "a/../../evil")))
+            self.assertFalse(qc._is_within_directory(base, "/etc/passwd"))
+        finally:
+            import shutil
+            shutil.rmtree(base, ignore_errors=True)
 
 
 if __name__ == "__main__":

@@ -30,6 +30,20 @@ jobs:
 
           errors = []
 
+          # quality is a CI-owned field (KTD9): an author must not set or change
+          # it. Load the value already on main so a hand-edited quality can be
+          # rejected before merge, keeping a self-reported tier off main and Pages.
+          import subprocess as _sp
+          _base = _sp.run(['git', 'show', 'origin/main:index.json'],
+                          capture_output=True, text=True)
+          base_quality = {}
+          if _base.returncode == 0:
+              try:
+                  base_quality = {p['name']: p.get('quality')
+                                  for p in json.loads(_base.stdout).get('packs', [])}
+              except Exception:
+                  base_quality = {}
+
           # Check version
           if data.get('version') != 1:
               errors.append(f'version must be 1, got {data.get("version")}')
@@ -86,6 +100,11 @@ jobs:
               tier = pack.get('trust_tier', '')
               if tier and tier not in VALID_TIERS:
                   errors.append(f'{prefix}: trust_tier "{tier}" not in {VALID_TIERS}')
+
+              # CI-owned quality (KTD9): reject a hand-set or changed tier.
+              q = pack.get('quality')
+              if q is not None and q != base_quality.get(name):
+                  errors.append(f'{prefix}: "quality" is set by CI and cannot be hand-edited; remove it from your entry')
 
           if errors:
               count = len(errors)

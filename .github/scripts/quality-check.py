@@ -25,6 +25,7 @@ Exit codes:
 import json
 import os
 import re
+import shutil
 import statistics
 import subprocess
 import sys
@@ -353,6 +354,21 @@ def decide_verdict(total_blocks, total_warns):
     return "GOLD"
 
 
+def verdict_to_quality(verdict):
+    """Map a checker verdict to the stored index.json quality enum (KTD4).
+
+    GOLD -> gold, SILVER -> silver, REJECTED -> flagged. Anything else (an
+    ungraded or unexpected value) maps to the schema default, unreviewed. The
+    lowercase enum lives only in index.json; the checker keeps GOLD/SILVER/
+    REJECTED internally.
+    """
+    return {
+        "GOLD": "gold",
+        "SILVER": "silver",
+        "REJECTED": "flagged",
+    }.get(verdict, "unreviewed")
+
+
 def check_pack(pack_dir):
     """Run all quality checks on a local pack directory.
 
@@ -489,6 +505,19 @@ def check_pack(pack_dir):
 # Pack download (for CI use)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+def _is_within_directory(base_dir, target_path):
+    """True only if target_path resolves inside base_dir.
+
+    Guards tarball extraction against path-traversal members (e.g. a member
+    named `top/../../etc/...`) that would otherwise write outside the temp
+    pack directory. The grading jobs extract contributor-controlled tarballs
+    while holding write access, so this check is load-bearing (KTD11).
+    """
+    base_real = os.path.realpath(base_dir)
+    target_real = os.path.realpath(target_path)
+    return target_real == base_real or target_real.startswith(base_real + os.sep)
+
+
 def download_pack(source_repo, source_ref, source_path, dest_dir):
     """Download a pack from GitHub to a local directory."""
     tarball_url = f"https://github.com/{source_repo}/archive/{source_ref}.tar.gz"
@@ -512,6 +541,11 @@ def download_pack(source_repo, source_ref, source_path, dest_dir):
                     if not rel:
                         continue
                     dest = os.path.join(dest_dir, rel)
+                    if not _is_within_directory(dest_dir, dest):
+                        print(f"Skipping unsafe tarball member: {m.name}", file=sys.stderr)
+                        continue
+                    # Only regular files and dirs are extracted; symlinks and
+                    # hardlinks (m.issym/m.islnk) fall through and are ignored.
                     if m.isdir():
                         os.makedirs(dest, exist_ok=True)
                     elif m.isfile():
@@ -526,6 +560,83 @@ def download_pack(source_repo, source_ref, source_path, dest_dir):
         return False
     finally:
         os.unlink(tmp.name)
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Quality persistence (write-back into index.json)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QUALITY_ENUM_FALLBACK = ("gold", "silver", "flagged", "unreviewed")
+
+
+def load_quality_enum(schema_path):
+    """Read the allowed quality values from the registry schema.
+
+    Falls back to the known enum if the schema cannot be read, so a missing or
+    moved schema file degrades to a still-valid guard rather than crashing.
+    """
+    try:
+        with open(schema_path, encoding="utf-8") as f:
+            schema = json.load(f)
+        return tuple(schema["$defs"]["pack"]["properties"]["quality"]["enum"])
+    except Exception:
+        return QUALITY_ENUM_FALLBACK
+
+
+def _index_packs(index_data):
+    """The pack list from an index that is either a bare list or {'packs': [...]}."""
+    return index_data if isinstance(index_data, list) else index_data.get("packs", [])
+
+
+def set_entry_quality(index_data, pack_name, quality):
+    """Set one pack entry's quality in a loaded index. Returns True if it changed.
+
+    Mutates only the target entry, leaving every other entry untouched. Raises
+    KeyError if the pack is absent.
+    """
+    for entry in _index_packs(index_data):
+        if entry.get("name") == pack_name:
+            if entry.get("quality") == quality:
+                return False
+            entry["quality"] = quality
+            return True
+    raise KeyError(f"pack '{pack_name}' not found in index")
+
+
+def serialize_index(index_data):
+    """Serialize an index dict to index.json's exact on-disk shape.
+
+    4-space indent, ensure_ascii=False (the catalog stores raw non-ASCII
+    descriptions that a default json.dump would escape across hundreds of
+    lines), trailing newline. A load -> serialize round-trip is byte-identical,
+    so editing one entry's quality leaves every other entry byte-for-byte
+    unchanged (KTD10).
+    """
+    return json.dumps(index_data, indent=4, ensure_ascii=False) + "\n"
+
+
+def write_pack_quality(index_path, pack_name, quality, schema_path=None):
+    """Persist one pack's quality into index.json, surgically and validated.
+
+    Asserts the value is in the schema enum before touching the file, edits only
+    that entry, and re-serializes preserving the file's shape. Returns True if
+    the file changed (False is a clean no-op for idempotent re-runs). Raises
+    ValueError on an out-of-enum value, KeyError if the pack is absent.
+    """
+    enum = load_quality_enum(schema_path) if schema_path else QUALITY_ENUM_FALLBACK
+    if quality not in enum:
+        raise ValueError(f"quality '{quality}' is not in the schema enum {enum}")
+
+    with open(index_path, encoding="utf-8") as f:
+        index_data = json.load(f)
+
+    changed = set_entry_quality(index_data, pack_name, quality)
+    if changed:
+        text = serialize_index(index_data)
+        json.loads(text)  # guard: never write text that does not parse back
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(text)
+    return changed
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -677,6 +788,44 @@ def format_console(results):
 # Main
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+def run_apply_quality(args):
+    """Grade one pack and persist its quality tier into index.json.
+
+    Downloads the pack (pinning to --source-ref when given, so a post-review
+    content swap cannot change what gets persisted, KTD11), grades it, maps the
+    verdict to the quality enum, and writes that one entry. Exits non-zero on
+    any failure so the persist job fails loudly rather than writing nothing.
+    """
+    if not args.index or not args.pack:
+        print("--apply-quality requires --index and --pack", file=sys.stderr)
+        sys.exit(2)
+
+    with open(args.index, encoding="utf-8") as f:
+        index_data = json.load(f)
+    entry = next((p for p in _index_packs(index_data) if p.get("name") == args.pack), None)
+    if not entry:
+        print(f"Pack '{args.pack}' not found in {args.index}", file=sys.stderr)
+        sys.exit(2)
+
+    ref = args.source_ref or entry.get("source_ref", "main")
+    dest = tempfile.mkdtemp(prefix=f"persist-{args.pack}-")
+    try:
+        print(f"Grading {args.pack} from {entry['source_repo']}@{ref}...")
+        ok = download_pack(entry["source_repo"], ref, entry.get("source_path", "."), dest)
+        if not ok:
+            print(f"Failed to download pack '{args.pack}'", file=sys.stderr)
+            sys.exit(2)
+
+        results = check_pack(dest)
+        verdict = results.get("verdict", "REJECTED")
+        quality = verdict_to_quality(verdict)
+        changed = write_pack_quality(args.index, args.pack, quality, args.schema)
+        state = "updated" if changed else "unchanged"
+        print(f"{args.pack}: verdict {verdict} -> quality '{quality}' ({state})")
+    finally:
+        shutil.rmtree(dest, ignore_errors=True)
+
+
 def main():
     import argparse
 
@@ -692,6 +841,18 @@ def main():
                         help="Write results as Markdown to this file")
     parser.add_argument("--quiet", action="store_true",
                         help="Suppress console output (use with --output-*)")
+    # Persist mode: grade one pack and write its quality tier into index.json.
+    parser.add_argument("--apply-quality", action="store_true",
+                        help="Grade a pack and persist its quality into --index (post-merge)")
+    parser.add_argument("--index", metavar="INDEX_JSON",
+                        help="index.json to write the quality tier into (with --apply-quality)")
+    parser.add_argument("--pack", metavar="NAME",
+                        help="Pack name to grade and persist (with --apply-quality)")
+    parser.add_argument("--schema", metavar="SCHEMA_JSON",
+                        default="schema/registry-v1.schema.json",
+                        help="Schema whose quality enum the written value is checked against")
+    parser.add_argument("--source-ref", metavar="REF",
+                        help="Override the pack's source_ref (pin to the reviewed SHA, KTD11)")
 
     args = parser.parse_args()
 
@@ -701,6 +862,10 @@ def main():
     except FileNotFoundError:
         print("Error: ffprobe not found. Install ffmpeg.", file=sys.stderr)
         sys.exit(2)
+
+    if args.apply_quality:
+        run_apply_quality(args)
+        return
 
     pack_dir = args.pack_dir
 

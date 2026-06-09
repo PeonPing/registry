@@ -1,0 +1,155 @@
+name: Persist Quality
+
+# Post-merge persistence of the CI-computed quality tier into index.json on main.
+#
+# The PR path (validate-index.yml) runs on pull_request_target and cannot push a
+# computed tier back to a contributor's fork branch, so main is the single source
+# of truth that GitHub Pages serves (KTD2). After a pack lands on main, this job
+# grades the changed pack(s), maps the verdict to the quality enum, and writes
+# that tier into the pack's entry. The write-back commit carries [skip ci], which
+# GitHub honors for push events, so it does not re-trigger this workflow.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.json'
+
+# Serialize runs so two near-simultaneous merges cannot clobber each other's
+# tier. Do not cancel an in-flight persist mid-write (KTD10).
+concurrency:
+  group: persist-quality
+  cancel-in-progress: false
+
+# Least privilege: this job only needs to push the quality write-back.
+permissions:
+  contents: write
+
+jobs:
+  persist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2  # diff HEAD against the pre-merge commit to find changes
+          # PERSIST_TOKEN is an optional PAT with push-bypass on main, for when
+          # branch protection blocks the default bot. Falls back to GITHUB_TOKEN.
+          token: ${{ secrets.PERSIST_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Detect changed packs
+        id: detect
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, subprocess
+
+          def load(ref):
+              r = subprocess.run(['git', 'show', f'{ref}:index.json'],
+                                 capture_output=True, text=True)
+              if r.returncode != 0:
+                  return {}
+              return {p['name']: p for p in json.loads(r.stdout).get('packs', [])}
+
+          head = load('HEAD')
+          base = load('HEAD~1')  # may be empty on a shallow/first commit
+
+          # A pack needs grading when it is new or when its content changed,
+          # ignoring the quality field itself so our own write-backs are no-ops.
+          # This is correct for the common single-squashed-pack merge.
+          changed = []
+          for name, entry in head.items():
+              prev = base.get(name)
+              if prev is None:
+                  changed.append(name)
+                  continue
+              a = {k: v for k, v in entry.items() if k != 'quality'}
+              b = {k: v for k, v in prev.items() if k != 'quality'}
+              if a != b:
+                  changed.append(name)
+
+          print('Changed packs:', changed)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'packs={json.dumps(changed)}\n')
+              f.write(f'count={len(changed)}\n')
+          PYEOF
+
+      - name: Install ffmpeg
+        if: steps.detect.outputs.count != '0'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null 2>&1
+          ffprobe -version | head -1
+
+      - name: Grade and persist quality
+        if: steps.detect.outputs.count != '0'
+        env:
+          PACKS: ${{ steps.detect.outputs.packs }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, subprocess, sys
+
+          for name in json.loads(os.environ['PACKS']):
+              r = subprocess.run([
+                  'python3', '.github/scripts/quality-check.py',
+                  '--apply-quality', '--index', 'index.json', '--pack', name,
+                  '--schema', 'schema/registry-v1.schema.json',
+              ])
+              if r.returncode != 0:
+                  print(f'Failed to persist quality for {name}', file=sys.stderr)
+                  sys.exit(1)
+          PYEOF
+
+      - name: Validate index.json before commit
+        if: steps.detect.outputs.count != '0'
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+
+          # The post-merge push does not run validate-index, so guard the write
+          # here: the file must still parse and every quality must be in the enum.
+          with open('schema/registry-v1.schema.json', encoding='utf-8') as f:
+              enum = set(json.load(f)['$defs']['pack']['properties']['quality']['enum'])
+          with open('index.json', encoding='utf-8') as f:
+              data = json.load(f)
+          bad = [p['name'] for p in data.get('packs', [])
+                 if 'quality' in p and p['quality'] not in enum]
+          if bad:
+              print(f'Out-of-enum quality on: {bad}', file=sys.stderr)
+              sys.exit(1)
+          print(f'index.json valid; {len(data.get("packs", []))} packs, quality values in enum')
+          PYEOF
+
+      - name: Commit and push
+        id: commit
+        if: steps.detect.outputs.count != '0'
+        run: |
+          if git diff --quiet index.json; then
+            echo "No quality change to persist"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore(quality): persist computed tier(s) [skip ci]"
+          # A concurrent merge may have advanced main; rebase before pushing.
+          git pull --rebase origin main
+          if ! git push origin HEAD:main; then
+            echo "::error::Push to main was rejected. Branch protection likely blocks the bot's direct push. Configure a push bypass for github-actions, or set a PERSIST_TOKEN secret (a PAT with bypass). The job fails rather than silently writing nothing."
+            exit 1
+          fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger openpeon.com rebuild
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          # The deploy hook fires only on the PR path in validate-index.yml, so
+          # without this POST the badge would wait for the site's 24h revalidate.
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK not configured; skipping rebuild trigger"
+          else
+            echo "Triggering openpeon.com rebuild..."
+            curl -fSL -X POST "$VERCEL_DEPLOY_HOOK"
+          fi
