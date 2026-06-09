@@ -2131,6 +2131,80 @@
             "updated": "2026-03-02"
         },
         {
+            "name": "darkreign_freedom_guard",
+            "display_name": "Dark Reign: Freedom Guard",
+            "version": "1.0.0",
+            "description": "Freedom Guard unit barks and EVA announcer lines from Dark Reign (1997).",
+            "author": {
+                "name": "Reebz",
+                "github": "Reebz"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 26,
+            "total_size_bytes": 719155,
+            "source_repo": "Reebz/openpeon-darkreign",
+            "source_ref": "v1.0.0",
+            "source_path": "freedom_guard",
+            "manifest_sha256": "830ed576cff5ecc116a1cb7533ba841b31489edcdfa6a0db51f97b045dad9367",
+            "tags": [
+                "gaming",
+                "dark-reign",
+                "rts",
+                "freedom-guard",
+                "eva"
+            ],
+            "added": "2026-06-10",
+            "updated": "2026-06-10"
+        },
+        {
+            "name": "darkreign_imperium",
+            "display_name": "Dark Reign: Imperium",
+            "version": "1.0.0",
+            "description": "Imperium unit barks and EVA announcer lines from Dark Reign (1997).",
+            "author": {
+                "name": "Reebz",
+                "github": "Reebz"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 23,
+            "total_size_bytes": 711332,
+            "source_repo": "Reebz/openpeon-darkreign",
+            "source_ref": "v1.0.0",
+            "source_path": "imperium",
+            "manifest_sha256": "c87d5ce475579647cb9de1b9330fdb436b31469411439fd834c562534faadaa1",
+            "tags": [
+                "gaming",
+                "dark-reign",
+                "rts",
+                "imperium",
+                "eva"
+            ],
+            "added": "2026-06-10",
+            "updated": "2026-06-10"
+        },
+        {
             "name": "deadlock_dynamo",
             "display_name": "Dynamo (Deadlock)",
             "version": "1.0.0",
@@ -13455,5 +13529,5 @@
             "updated": "2026-04-17"
         }
     ],
-    "total_packs": 333
+    "total_packs": 335
 }
