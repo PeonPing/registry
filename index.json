@@ -12183,7 +12183,7 @@
         {
             "name": "visiteurs",
             "display_name": "Les Visiteurs",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "description": "Répliques du film Les Visiteurs",
             "author": { "name": "Mark Manguno", "github": "donmanguno" },
             "trust_tier": "community",
@@ -12201,9 +12201,9 @@
             "sound_count": 12,
             "total_size_bytes": 406080,
             "source_repo": "donmanguno/peonping-visiteurs",
-            "source_ref": "v1.0.1",
+            "source_ref": "v1.0.2",
             "source_path": ".",
-            "manifest_sha256": "5522b7d2803b3520da65905edd6abdaae89e3cd0805e88adb72c83a5737dc0ba",
+            "manifest_sha256": "a56147aaf07fcc504cf5607435c7e91fa59cf7ca95c2fe4f4476fd15d055839b",
             "tags": [
                 "films",
                 "comedie",
