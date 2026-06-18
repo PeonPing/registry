@@ -13199,6 +13199,46 @@
             "updated": "2026-03-24"
         },
         {
+            "name": "yamanote-sounds",
+            "display_name": "Yamanote Sounds",
+            "version": "1.0.0",
+            "description": "Tokyo Yamanote Line departure melodies — all 30 stations — with a kawaii E235 train mascot icon for every event state.",
+            "author": {
+                "name": "Skyforce77",
+                "github": "skyforce77"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 28,
+            "total_size_bytes": 6129262,
+            "source_repo": "skyforce77/open-peon-yamanote-sounds",
+            "source_ref": "1792837be5ee0fd05a244d8a1f5acc9a371440f5",
+            "source_path": ".",
+            "manifest_sha256": "72b2c6cb40278fab415dcd8c6735bbe50f8a37b42f8f232c97cac7ffec399a1d",
+            "tags": [
+                "trains",
+                "japan",
+                "yamanote"
+            ],
+            "preview_sounds": [
+                "sounds/yamanote_astroboy.mp3",
+                "sounds/yamanote_ebisu.mp3"
+            ],
+            "added": "2026-06-17",
+            "updated": "2026-06-17"
+        },
+        {
             "name": "yasuo-pack",
             "display_name": "Yasuo(亚索)",
             "version": "1.1.0",
@@ -13568,5 +13608,5 @@
             "updated": "2026-04-17"
         }
     ],
-    "total_packs": 335
+    "total_packs": 338
 }
