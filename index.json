@@ -39,7 +39,8 @@
                 "ab_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "abes-oddysee-abe",
@@ -77,7 +78,8 @@
                 "Chanting.mp3"
             ],
             "added": "2026-04-14",
-            "updated": "2026-04-14"
+            "updated": "2026-04-14",
+            "quality": "silver"
         },
         {
             "name": "abes-oddysee-slig",
@@ -114,7 +116,8 @@
                 "Help.mp3"
             ],
             "added": "2026-04-14",
-            "updated": "2026-04-14"
+            "updated": "2026-04-14",
+            "quality": "silver"
         },
         {
             "name": "acolyte_de",
@@ -154,7 +157,8 @@
                 "AcolyteBuildingComplete1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "acolyte_es",
@@ -234,7 +238,8 @@
                 "AcolyteBuildingComplete1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "ae_qianyu",
@@ -274,7 +279,8 @@
                 "dang-3.mp3"
             ],
             "added": "2026-02-15",
-            "updated": "2026-02-15"
+            "updated": "2026-02-15",
+            "quality": "silver"
         },
         {
             "name": "afewgoodmen",
@@ -315,7 +321,8 @@
                 "kaffee_im_sorry.mp3"
             ],
             "added": "2026-02-26",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "airplane",
@@ -356,7 +363,8 @@
                 "johnny_jive.mp3"
             ],
             "added": "2026-02-26",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "alan-rickman",
@@ -396,7 +404,8 @@
                 "task_complete_01.mp3"
             ],
             "added": "2026-04-29",
-            "updated": "2026-05-01"
+            "updated": "2026-05-01",
+            "quality": "silver"
         },
         {
             "name": "aliens",
@@ -435,7 +444,8 @@
                 "game-over.mp3"
             ],
             "added": "2026-05-08",
-            "updated": "2026-05-08"
+            "updated": "2026-05-08",
+            "quality": "silver"
         },
         {
             "name": "ana",
@@ -477,7 +487,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "anchorman_brick",
@@ -519,7 +530,8 @@
                 "fiberglass_insulation.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "anchorman_burgundy",
@@ -561,7 +573,8 @@
                 "dont_act_like_youre_not_impressed.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "anchorman_news_team",
@@ -603,7 +616,8 @@
                 "its_called_sex_panther.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "anran",
@@ -647,7 +661,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-05-21",
-            "updated": "2026-05-21"
+            "updated": "2026-05-21",
+            "quality": "gold"
         },
         {
             "name": "aod",
@@ -689,7 +704,8 @@
                 "klaatu_verata_cough.mp3"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "aoe2",
@@ -728,7 +744,8 @@
                 "1-yes.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "aoe2-villager-turkish-female",
@@ -769,7 +786,8 @@
                 "Oduncu_F.ogg"
             ],
             "added": "2026-04-15",
-            "updated": "2026-04-15"
+            "updated": "2026-04-15",
+            "quality": "gold"
         },
         {
             "name": "aoe2-villager-turkish-male",
@@ -810,7 +828,8 @@
                 "Oduncu_M.ogg"
             ],
             "added": "2026-04-15",
-            "updated": "2026-04-15"
+            "updated": "2026-04-15",
+            "quality": "gold"
         },
         {
             "name": "aoe3-villager-turkish",
@@ -851,7 +870,8 @@
                 "Oduncu.ogg"
             ],
             "added": "2026-04-15",
-            "updated": "2026-04-15"
+            "updated": "2026-04-15",
+            "quality": "silver"
         },
         {
             "name": "aoe4_fr_imperial",
@@ -890,7 +910,8 @@
                 "sounds/French_villagerfemale_select_ihigh_chigh_01_alt01_mp3.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "gold"
         },
         {
             "name": "aom-greeks",
@@ -931,7 +952,8 @@
                 "villager-male-move-vulome.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "silver"
         },
         {
             "name": "aom-italian",
@@ -973,7 +995,8 @@
                 "ajax-era-ora.wav"
             ],
             "added": "2026-02-27",
-            "updated": "2026-02-27"
+            "updated": "2026-02-27",
+            "quality": "silver"
         },
         {
             "name": "aom_greek",
@@ -1012,7 +1035,8 @@
                 "Greeks_Villager_Male_Build_AoM.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "arc-raiders-emotes",
@@ -1046,7 +1070,8 @@
                 "emotes"
             ],
             "added": "2026-03-11",
-            "updated": "2026-03-11"
+            "updated": "2026-03-11",
+            "quality": "silver"
         },
         {
             "name": "arc_raiders",
@@ -1085,7 +1110,8 @@
                 "Blueprint.mp3"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "armed-gearhead-lor",
@@ -1124,7 +1150,8 @@
                 "complete-gearhead-progress.wav"
             ],
             "added": "2026-04-04",
-            "updated": "2026-04-04"
+            "updated": "2026-04-04",
+            "quality": "gold"
         },
         {
             "name": "arnold",
@@ -1164,7 +1191,8 @@
                 "hasta-la-vista-baby.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "arthas_ru",
@@ -1205,7 +1233,8 @@
                 "for_the_lich_king.wav"
             ],
             "added": "2026-02-22",
-            "updated": "2026-02-22"
+            "updated": "2026-02-22",
+            "quality": "silver"
         },
         {
             "name": "ashe",
@@ -1247,7 +1276,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "balatro",
@@ -1287,7 +1317,8 @@
                 "complete_1_win.ogg"
             ],
             "added": "2026-04-28",
-            "updated": "2026-04-28"
+            "updated": "2026-04-28",
+            "quality": "silver"
         },
         {
             "name": "baptiste",
@@ -1329,7 +1360,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "bastion",
@@ -1371,7 +1403,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "boris_ru",
@@ -1412,7 +1445,8 @@
                 "error-5.mp3"
             ],
             "added": "2026-03-10",
-            "updated": "2026-03-10"
+            "updated": "2026-03-10",
+            "quality": "silver"
         },
         {
             "name": "brewmaster_de",
@@ -1452,7 +1486,8 @@
                 "PandarenBrewmasterYes1.wav"
             ],
             "added": "2026-03-06",
-            "updated": "2026-03-06"
+            "updated": "2026-03-06",
+            "quality": "silver"
         },
         {
             "name": "brewmaster_ru",
@@ -1492,7 +1527,8 @@
                 "OneMore.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "brigitte",
@@ -1534,7 +1570,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "caliph",
@@ -1574,7 +1611,8 @@
                 "ca_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "cassidy",
@@ -1616,7 +1654,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "cc_commando",
@@ -1656,7 +1695,8 @@
                 "left-handed.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "gold"
         },
         {
             "name": "ccg_china_dozer",
@@ -1696,7 +1736,8 @@
                 "Construction_built_to_spec.mp3"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "ccg_gla_worker",
@@ -1736,7 +1777,8 @@
                 "All_work_is_complete.mp3"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "ccg_us_dozer",
@@ -1776,7 +1818,8 @@
                 "That_ones_done.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "silver"
         },
         {
             "name": "charlie_sheen",
@@ -1814,7 +1857,8 @@
                 "Winning.wav"
             ],
             "added": "2026-02-16",
-            "updated": "2026-02-16"
+            "updated": "2026-02-16",
+            "quality": "gold"
         },
         {
             "name": "claptrap-fr",
@@ -1854,7 +1898,8 @@
                 "Qu'as-tu fait, Sbire ?"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "silver"
         },
         {
             "name": "clean_chimes",
@@ -1893,7 +1938,8 @@
                 "CC_Complete.wav"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "cortana",
@@ -1940,7 +1986,8 @@
                 "WhatAreYouDoing.mp3"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "counterstrike",
@@ -1979,7 +2026,8 @@
                 "roger.wav"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "gold"
         },
         {
             "name": "cute-minimal",
@@ -2017,7 +2065,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-16",
-            "updated": "2026-03-16"
+            "updated": "2026-03-16",
+            "quality": "gold"
         },
         {
             "name": "cxq-peon",
@@ -2051,7 +2100,8 @@
                 "sounds/baby-error.mp3"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "d2_deckard_cain",
@@ -2089,7 +2139,8 @@
                 "StayAWhileAndListen.wav"
             ],
             "added": "2026-02-16",
-            "updated": "2026-02-16"
+            "updated": "2026-02-16",
+            "quality": "silver"
         },
         {
             "name": "d2_sorceress",
@@ -2128,7 +2179,8 @@
                 "Sor_timetodie.wav"
             ],
             "added": "2026-03-02",
-            "updated": "2026-03-02"
+            "updated": "2026-03-02",
+            "quality": "silver"
         },
         {
             "name": "darkreign_freedom_guard",
@@ -2165,7 +2217,8 @@
                 "eva"
             ],
             "added": "2026-06-10",
-            "updated": "2026-06-10"
+            "updated": "2026-06-10",
+            "quality": "silver"
         },
         {
             "name": "darkreign_imperium",
@@ -2202,7 +2255,8 @@
                 "eva"
             ],
             "added": "2026-06-10",
-            "updated": "2026-06-10"
+            "updated": "2026-06-10",
+            "quality": "silver"
         },
         {
             "name": "deadlock_dynamo",
@@ -2242,7 +2296,8 @@
                 "dynamo_ping_good_job_01.mp3"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "deadpool",
@@ -2283,7 +2338,8 @@
                 "sounds/I_m_touching_myself_tonight.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "silver"
         },
         {
             "name": "deep-dive-banter",
@@ -2326,7 +2382,8 @@
                 "sounds/task-complete-full-circle.mp3"
             ],
             "added": "2026-03-11",
-            "updated": "2026-03-11"
+            "updated": "2026-03-11",
+            "quality": "gold"
         },
         {
             "name": "djkhaled",
@@ -2367,7 +2424,8 @@
                 "sounds/WeTheBest.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "djt",
@@ -2410,7 +2468,8 @@
                 "respect_my_authoritah.wav"
             ],
             "added": "2026-03-15",
-            "updated": "2026-03-15"
+            "updated": "2026-03-15",
+            "quality": "silver"
         },
         {
             "name": "dobby",
@@ -2447,7 +2506,8 @@
                 "sounds/dobby-done.wav"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "domina",
@@ -2489,7 +2549,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "doomfist",
@@ -2531,7 +2592,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "dota2-sounds",
@@ -2569,7 +2631,8 @@
                 "silenced.wav"
             ],
             "added": "2026-05-26",
-            "updated": "2026-05-26"
+            "updated": "2026-05-26",
+            "quality": "silver"
         },
         {
             "name": "dota2_axe",
@@ -2609,7 +2672,8 @@
                 "AxeHappened.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "dota2_ember_spirit",
@@ -2649,7 +2713,8 @@
                 "BalanceInAllThings.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "gold"
         },
         {
             "name": "dota2_invoker",
@@ -2689,7 +2754,8 @@
                 "GloriousInvocation.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "gold"
         },
         {
             "name": "dota2_phantom_lancer",
@@ -2729,7 +2795,8 @@
                 "FromOneAnArmy.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "gold"
         },
         {
             "name": "dota2_witch_doctor",
@@ -2769,7 +2836,8 @@
                 "LookAtItGo.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "gold"
         },
         {
             "name": "dota2_zeus",
@@ -2809,7 +2877,8 @@
                 "Thunderstruck.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "dreamy-minimal",
@@ -2847,7 +2916,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-16",
-            "updated": "2026-03-16"
+            "updated": "2026-03-16",
+            "quality": "silver"
         },
         {
             "name": "ds1-carvings",
@@ -2886,7 +2956,8 @@
                 "CarvingsHelpMe.mp3"
             ],
             "added": "2026-03-25",
-            "updated": "2026-03-25"
+            "updated": "2026-03-25",
+            "quality": "silver"
         },
         {
             "name": "ds1-siegmeyer",
@@ -2929,7 +3000,8 @@
                 "SiegmeyerICurseMyInability.mp3"
             ],
             "added": "2026-03-25",
-            "updated": "2026-03-25"
+            "updated": "2026-03-25",
+            "quality": "silver"
         },
         {
             "name": "ds1-solaire",
@@ -2972,7 +3044,8 @@
                 "SolaireProposition.mp3"
             ],
             "added": "2026-03-23",
-            "updated": "2026-03-25"
+            "updated": "2026-03-25",
+            "quality": "silver"
         },
         {
             "name": "ds_akaza",
@@ -3008,7 +3081,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_doma",
@@ -3044,7 +3118,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_enmu",
@@ -3080,7 +3155,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_giyu",
@@ -3116,7 +3192,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_gyomei",
@@ -3152,7 +3229,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_inosuke",
@@ -3188,7 +3266,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_kokushibo",
@@ -3224,7 +3303,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "gold"
         },
         {
             "name": "ds_mitsuri",
@@ -3260,7 +3340,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_muichiro",
@@ -3296,7 +3377,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_muzan",
@@ -3332,7 +3414,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_nezuko",
@@ -3368,7 +3451,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_obanai",
@@ -3404,7 +3488,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_rengoku",
@@ -3440,7 +3525,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_sanemi",
@@ -3476,7 +3562,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "gold"
         },
         {
             "name": "ds_shinobu",
@@ -3512,7 +3599,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_tanjiro",
@@ -3548,7 +3636,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_tengen",
@@ -3584,7 +3673,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "ds_zenitsu",
@@ -3620,7 +3710,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "duke_nukem",
@@ -3660,7 +3751,8 @@
                 "KaboomBaby.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "dva",
@@ -3698,7 +3790,8 @@
                 "gg.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "gold"
         },
         {
             "name": "echo",
@@ -3740,7 +3833,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "elise",
@@ -3779,7 +3873,8 @@
                 "task_complete_01.mp3"
             ],
             "added": "2026-04-29",
-            "updated": "2026-05-01"
+            "updated": "2026-05-01",
+            "quality": "gold"
         },
         {
             "name": "emir",
@@ -3819,7 +3914,8 @@
                 "em_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "emre",
@@ -3861,7 +3957,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "eve-walle",
@@ -3901,7 +3998,8 @@
                 "done1.wav"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "gold"
         },
         {
             "name": "frederick",
@@ -3941,7 +4039,8 @@
                 "fr_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "freja",
@@ -3983,7 +4082,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "futurama_bender",
@@ -4024,7 +4124,8 @@
                 "ah-crap.mp3"
             ],
             "added": "2026-02-16",
-            "updated": "2026-02-16"
+            "updated": "2026-02-16",
+            "quality": "silver"
         },
         {
             "name": "gabriel-ultrakill",
@@ -4062,7 +4163,8 @@
                 "sounds/complete/behold.mp3"
             ],
             "added": "2026-04-27",
-            "updated": "2026-04-27"
+            "updated": "2026-04-27",
+            "quality": "silver"
         },
         {
             "name": "genji",
@@ -4104,7 +4206,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "gilfoyle",
@@ -4182,7 +4285,8 @@
                 "GoodNews.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "gothic_2_nameless_hero",
@@ -4221,7 +4325,8 @@
                 "jestem_tu_nowy.mp3"
             ],
             "added": "2026-03-23",
-            "updated": "2026-04-27"
+            "updated": "2026-04-27",
+            "quality": "gold"
         },
         {
             "name": "gta-san-andreas",
@@ -4259,7 +4364,8 @@
                 "mission-passed.wav"
             ],
             "added": "2026-04-30",
-            "updated": "2026-05-04"
+            "updated": "2026-05-04",
+            "quality": "silver"
         },
         {
             "name": "guppi",
@@ -4301,7 +4407,8 @@
                 "transfer_of_replicant_hardware_to.wav"
             ],
             "added": "2026-03-12",
-            "updated": "2026-03-12"
+            "updated": "2026-03-12",
+            "quality": "silver"
         },
         {
             "name": "hal_2001",
@@ -4341,7 +4448,8 @@
                 "good_evening.wav"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "halo3_announcer",
@@ -4377,7 +4485,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "hanzo",
@@ -4419,7 +4528,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "hazard",
@@ -4461,7 +4571,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "hd2_helldiver",
@@ -4500,7 +4611,8 @@
                 "FoundSomething.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "heeee-heeeee",
@@ -4528,7 +4640,8 @@
             "source_path": ".",
             "manifest_sha256": "ffbbb8313dbcd04b310a29131de75fc3a1248e0ef4894d86c76f303a36b00bf8",
             "added": "2026-06-05",
-            "updated": "2026-06-08"
+            "updated": "2026-06-08",
+            "quality": "silver"
         },
         {
             "name": "high_elf_builder_ru",
@@ -4569,7 +4682,8 @@
                 "voila.mp3"
             ],
             "added": "2026-03-09",
-            "updated": "2026-03-09"
+            "updated": "2026-03-09",
+            "quality": "silver"
         },
         {
             "name": "honor_of_kings",
@@ -4613,7 +4727,8 @@
                 "pentakill-1.wav"
             ],
             "added": "2026-03-23",
-            "updated": "2026-03-30"
+            "updated": "2026-03-30",
+            "quality": "silver"
         },
         {
             "name": "illari",
@@ -4655,7 +4770,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "impossible-mission",
@@ -4695,7 +4811,8 @@
             "preview_sounds": [
                 "session_start.mp3",
                 "task_acknowledge.mp3"
-            ]
+            ],
+            "quality": "silver"
         },
         {
             "name": "io",
@@ -4732,7 +4849,8 @@
                 "spawn_respawn.wav"
             ],
             "added": "2026-05-26",
-            "updated": "2026-05-26"
+            "updated": "2026-05-26",
+            "quality": "silver"
         },
         {
             "name": "itysl",
@@ -4784,7 +4902,8 @@
                 }
             ],
             "added": "2026-04-27",
-            "updated": "2026-04-27"
+            "updated": "2026-04-27",
+            "quality": "silver"
         },
         {
             "name": "jan_pawel_2",
@@ -4822,7 +4941,8 @@
                 "co-mam-robic.mp3"
             ],
             "added": "2026-03-25",
-            "updated": "2026-03-27"
+            "updated": "2026-03-27",
+            "quality": "silver"
         },
         {
             "name": "japan-rail",
@@ -4861,7 +4981,8 @@
                 "sounds/task_acknowledge_akabaneiwabuchi.mp3"
             ],
             "added": "2026-04-08",
-            "updated": "2026-04-08"
+            "updated": "2026-04-08",
+            "quality": "silver"
         },
         {
             "name": "jarvis",
@@ -4903,7 +5024,8 @@
                 "sounds/task_complete_4.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "jarvis-mk2",
@@ -4946,7 +5068,8 @@
                 "sounds/complete_2.mp3"
             ],
             "added": "2026-03-03",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "junker_queen",
@@ -4988,7 +5111,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "junkrat",
@@ -5030,7 +5154,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "juno",
@@ -5072,7 +5197,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "kaamelott",
@@ -5110,7 +5236,8 @@
                 "trompette.mp3"
             ],
             "added": "2026-02-27",
-            "updated": "2026-02-27"
+            "updated": "2026-02-27",
+            "quality": "silver"
         },
         {
             "name": "kart_zhangmiao_19512e8a",
@@ -5148,7 +5275,8 @@
                 "3.mp3"
             ],
             "added": "2026-05-10",
-            "updated": "2026-05-10"
+            "updated": "2026-05-10",
+            "quality": "silver"
         },
         {
             "name": "kart_zhangmiao_2d4ebd0a",
@@ -5186,7 +5314,8 @@
                 "sounds/3.mp3"
             ],
             "added": "2026-04-14",
-            "updated": "2026-04-14"
+            "updated": "2026-04-14",
+            "quality": "silver"
         },
         {
             "name": "katamari-damacy",
@@ -5227,7 +5356,8 @@
                 "sounds/task-complete-yahoo.mp3"
             ],
             "added": "2026-03-20",
-            "updated": "2026-03-20"
+            "updated": "2026-03-20",
+            "quality": "silver"
         },
         {
             "name": "kiku",
@@ -5268,7 +5398,8 @@
                 "sounds/preview.wav"
             ],
             "added": "2026-05-11",
-            "updated": "2026-05-11"
+            "updated": "2026-05-11",
+            "quality": "silver"
         },
         {
             "name": "kiriko",
@@ -5310,7 +5441,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-08",
-            "updated": "2026-03-08"
+            "updated": "2026-03-08",
+            "quality": "silver"
         },
         {
             "name": "lcars",
@@ -5353,7 +5485,8 @@
                 "done_lcars_1.wav"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "gold"
         },
         {
             "name": "league_of_legends",
@@ -5392,7 +5525,8 @@
                 "LOL_PentaKill.wav"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "lebowski_jesus",
@@ -5435,7 +5569,8 @@
                 "gonna_fuck_you_up.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "lebowski_maude",
@@ -5477,7 +5612,8 @@
                 "good_man_and_thorough.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "lebowski_the_dude",
@@ -5520,7 +5656,8 @@
                 "far_out_man.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "lifeweaver",
@@ -5562,7 +5699,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "lol_fiddlesticks",
@@ -5602,7 +5740,8 @@
                 "Kill_2.ogg"
             ],
             "added": "2026-03-19",
-            "updated": "2026-03-19"
+            "updated": "2026-03-19",
+            "quality": "silver"
         },
         {
             "name": "lol_fiddlesticks_classic",
@@ -5642,7 +5781,8 @@
                 "Move_1_old2.ogg"
             ],
             "added": "2026-03-19",
-            "updated": "2026-03-19"
+            "updated": "2026-03-19",
+            "quality": "silver"
         },
         {
             "name": "lol_fiddlesticks_surprise_party",
@@ -5682,7 +5822,8 @@
                 "Kill_0.ogg"
             ],
             "added": "2026-03-19",
-            "updated": "2026-03-19"
+            "updated": "2026-03-19",
+            "quality": "silver"
         },
         {
             "name": "lucio",
@@ -5724,7 +5865,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "mambo_pack",
@@ -5764,7 +5906,8 @@
                 "done.mp3"
             ],
             "added": "2026-03-30",
-            "updated": "2026-03-30"
+            "updated": "2026-03-30",
+            "quality": "gold"
         },
         {
             "name": "marcel",
@@ -5801,7 +5944,8 @@
                 "16_preco-ste-ma-tak-zarezali-do-pici.mp3"
             ],
             "added": "2026-02-18",
-            "updated": "2026-02-18"
+            "updated": "2026-02-18",
+            "quality": "silver"
         },
         {
             "name": "marshal",
@@ -5841,7 +5985,8 @@
                 "ma_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "mauga",
@@ -5883,7 +6028,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "mei",
@@ -5925,7 +6071,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "mercy",
@@ -5967,7 +6114,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "milujipraci",
@@ -6001,7 +6149,8 @@
                 "ne-nenasadis-ho.mp3"
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "minecraft_villager",
@@ -6039,7 +6188,8 @@
                 "villager_accept1.ogg"
             ],
             "added": "2026-02-24",
-            "updated": "2026-02-24"
+            "updated": "2026-02-24",
+            "quality": "gold"
         },
         {
             "name": "minimal-dings",
@@ -6082,7 +6232,8 @@
                 "input.wav"
             ],
             "added": "2026-05-20",
-            "updated": "2026-05-20"
+            "updated": "2026-05-20",
+            "quality": "gold"
         },
         {
             "name": "mizuki",
@@ -6124,7 +6275,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "modern-varied",
@@ -6161,7 +6313,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-16",
-            "updated": "2026-03-16"
+            "updated": "2026-03-16",
+            "quality": "silver"
         },
         {
             "name": "moira",
@@ -6204,7 +6357,8 @@
                 "session_start_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "molag_bal",
@@ -6243,7 +6397,8 @@
                 "complete_1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "mr_meeseeks",
@@ -6281,7 +6436,8 @@
                 "sounds/all_done.mp3"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "mullemeck",
@@ -6316,7 +6472,8 @@
                 "molijoxer_och_mojanger.mp3"
             ],
             "added": "2026-02-28",
-            "updated": "2026-02-28"
+            "updated": "2026-02-28",
+            "quality": "silver"
         },
         {
             "name": "murloc",
@@ -6354,7 +6511,8 @@
                 "mrrgll.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "nezuai-varied",
@@ -6392,7 +6550,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-16",
-            "updated": "2026-03-16"
+            "updated": "2026-03-16",
+            "quality": "silver"
         },
         {
             "name": "nier-2b",
@@ -6434,7 +6593,8 @@
                 "awaiting-further-orders.mp3"
             ],
             "added": "2026-05-08",
-            "updated": "2026-05-08"
+            "updated": "2026-05-08",
+            "quality": "silver"
         },
         {
             "name": "nightflame-minimal",
@@ -6471,7 +6631,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-16",
-            "updated": "2026-03-16"
+            "updated": "2026-03-16",
+            "quality": "gold"
         },
         {
             "name": "nikke_e_h__6a1cb06b",
@@ -6511,7 +6672,8 @@
                 "sounds/49.mp3"
             ],
             "added": "2026-04-14",
-            "updated": "2026-04-14"
+            "updated": "2026-04-14",
+            "quality": "silver"
         },
         {
             "name": "nikke_e_h__99b110e0",
@@ -6552,7 +6714,8 @@
                 "sounds/15.mp3"
             ],
             "added": "2026-04-15",
-            "updated": "2026-04-15"
+            "updated": "2026-04-15",
+            "quality": "gold"
         },
         {
             "name": "nizar",
@@ -6592,7 +6755,8 @@
                 "ni_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "nyanners",
@@ -6636,7 +6800,8 @@
                 "spamming_is_not_poggers.ogg"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "silver"
         },
         {
             "name": "ocarina_of_time",
@@ -6675,7 +6840,8 @@
                 "OOT_Secret.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "office_space",
@@ -6718,7 +6884,8 @@
                 "bob_slydell.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "office_space_lumbergh",
@@ -6762,7 +6929,8 @@
                 "come_in_on_sunday.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "office_space_peter",
@@ -6805,7 +6973,8 @@
                 "dont_care_if_laid_off.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "omar",
@@ -6846,7 +7015,8 @@
                 "indeed.mp3"
             ],
             "added": "2026-02-20",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "op-kurtlar-vadisi",
@@ -6889,7 +7059,8 @@
                 "05/223_ne_guzel_istanbul_be.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-03-10"
+            "updated": "2026-03-10",
+            "quality": "silver"
         },
         {
             "name": "orb-ping",
@@ -6931,7 +7102,8 @@
                 "sound_iris_scan_success.wav"
             ],
             "added": "2026-04-17",
-            "updated": "2026-04-17"
+            "updated": "2026-04-17",
+            "quality": "silver"
         },
         {
             "name": "orisa",
@@ -6973,7 +7145,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "otto",
@@ -7014,7 +7187,8 @@
                 "session_start_2.mp3"
             ],
             "added": "2026-03-03",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "paulistano-quebrada",
@@ -7054,7 +7228,8 @@
                 "erro3.mp3"
             ],
             "added": "2026-03-31",
-            "updated": "2026-03-31"
+            "updated": "2026-03-31",
+            "quality": "gold"
         },
         {
             "name": "peasant",
@@ -7094,7 +7269,8 @@
                 "PeasantReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peasant_cz",
@@ -7134,7 +7310,8 @@
                 "PeasantReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peasant_es",
@@ -7174,7 +7351,8 @@
                 "PeasantReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peasant_fr",
@@ -7214,7 +7392,8 @@
                 "PeasantReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "peasant_ru",
@@ -7254,7 +7433,8 @@
                 "PeasantWhat3.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon",
@@ -7294,7 +7474,8 @@
                 "PeonReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon_cz",
@@ -7334,7 +7515,8 @@
                 "PeonReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon_de",
@@ -7374,7 +7556,8 @@
                 "PeonYes3.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon_es",
@@ -7414,7 +7597,8 @@
                 "PeonReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon_fr",
@@ -7454,7 +7638,8 @@
                 "PeonReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "peon_pl",
@@ -7494,7 +7679,8 @@
                 "PeonYes1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "peon_ru",
@@ -7534,7 +7720,8 @@
                 "PeonReady1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "pharah",
@@ -7576,7 +7763,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "philip",
@@ -7616,7 +7804,8 @@
                 "ph_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "pig",
@@ -7656,7 +7845,8 @@
                 "pg_taunt_04.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "pikmin",
@@ -7694,7 +7884,8 @@
                 "pikmin-olimar-whistle.mp3"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "silver"
         },
         {
             "name": "pokemon-gen1",
@@ -7736,7 +7927,8 @@
                 "charizard.ogg"
             ],
             "added": "2026-03-25",
-            "updated": "2026-03-25"
+            "updated": "2026-03-25",
+            "quality": "silver"
         },
         {
             "name": "posh-gent",
@@ -7775,7 +7967,8 @@
                 "spotOfBotherEdward.mp3"
             ],
             "added": "2026-03-26",
-            "updated": "2026-03-26"
+            "updated": "2026-03-26",
+            "quality": "gold"
         },
         {
             "name": "postal2_pl",
@@ -7817,7 +8010,8 @@
                 "sounds/dude_sure.wav"
             ],
             "added": "2026-02-28",
-            "updated": "2026-02-28"
+            "updated": "2026-02-28",
+            "quality": "silver"
         },
         {
             "name": "professor-layton",
@@ -7858,7 +8052,8 @@
                 "sounds/hint_coin.mp3"
             ],
             "added": "2026-02-26",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "protoss",
@@ -7899,7 +8094,8 @@
                 "sounds/protoss_pylons.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "silver"
         },
         {
             "name": "pulp_fiction",
@@ -7939,7 +8135,8 @@
                 "sounds/whos-zed-zeds-dead-baby-zeds-dead.mp3"
             ],
             "added": "2026-03-13",
-            "updated": "2026-03-18"
+            "updated": "2026-03-18",
+            "quality": "silver"
         },
         {
             "name": "r2d2",
@@ -7984,7 +8181,8 @@
                 "UserSpam.mp3"
             ],
             "added": "2026-03-02",
-            "updated": "2026-03-02"
+            "updated": "2026-03-02",
+            "quality": "silver"
         },
         {
             "name": "ra2_eva_commander",
@@ -8026,7 +8224,8 @@
                 "yeah-baby.wav"
             ],
             "added": "2026-03-02",
-            "updated": "2026-03-30"
+            "updated": "2026-03-30",
+            "quality": "silver"
         },
         {
             "name": "ra2_kirov",
@@ -8066,7 +8265,8 @@
                 "BombardiersToYourStations.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "ra2_peon",
@@ -8119,7 +8319,8 @@
                 "yes-comrade.mp3"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "ra2_soviet_engineer",
@@ -8159,7 +8360,8 @@
                 "Engineering.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "ra2_yuri",
@@ -8198,7 +8400,8 @@
                 "iyupcrd.wav"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "ra_soviet",
@@ -8238,7 +8441,8 @@
                 "SovietReadyAndWaiting.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "ramattra",
@@ -8280,7 +8484,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "rat",
@@ -8320,7 +8525,8 @@
                 "rt_taunt_03.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "reaper",
@@ -8362,7 +8568,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "red-alert-1-eva",
@@ -8405,7 +8612,8 @@
                 "sounds/complete1_mission_accomplished.WAV"
             ],
             "added": "2026-03-05",
-            "updated": "2026-03-09"
+            "updated": "2026-03-09",
+            "quality": "silver"
         },
         {
             "name": "reinhardt",
@@ -8447,7 +8655,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "richard",
@@ -8487,7 +8696,8 @@
                 "ri_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "rick",
@@ -8526,7 +8736,8 @@
                 "Rick_Sanchez_Fun.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "rick-and-morty",
@@ -8567,7 +8778,8 @@
                 "yes_im_gonna_fucking_do_it.mp3"
             ],
             "added": "2026-03-06",
-            "updated": "2026-03-06"
+            "updated": "2026-03-06",
+            "quality": "silver"
         },
         {
             "name": "rick-and-morty-clean",
@@ -8608,7 +8820,8 @@
                 "im_not_looking_for_judgement_just_a_yes_or_no.mp3"
             ],
             "added": "2026-03-06",
-            "updated": "2026-03-06"
+            "updated": "2026-03-06",
+            "quality": "silver"
         },
         {
             "name": "roadhog",
@@ -8650,7 +8863,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "rocky",
@@ -8693,7 +8907,8 @@
                 "FistBumpUnderstand.wav"
             ],
             "added": "2026-04-24",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "silver"
         },
         {
             "name": "saladin",
@@ -8733,7 +8948,8 @@
                 "sa_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "sanguosha-sound-pack",
@@ -8772,7 +8988,8 @@
                 "card-game"
             ],
             "added": "2026-04-17",
-            "updated": "2026-04-17"
+            "updated": "2026-04-17",
+            "quality": "silver"
         },
         {
             "name": "sc2_abathur",
@@ -8816,7 +9033,8 @@
                 "AbathurCommander_Thanks00.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc2_abathur_zh",
@@ -8862,7 +9080,8 @@
                 "AbathurCommander_Thanks00.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc2_alarak",
@@ -8907,7 +9126,8 @@
                 "AlarakCommander_StructureOvercharge03.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc2_alarak_zh",
@@ -8953,7 +9173,8 @@
                 "AlarakCommander_StructureOvercharge03.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc2_carrier",
@@ -8991,7 +9212,8 @@
                 "we-are-ready.ogg"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "sc2_scv",
@@ -9034,7 +9256,8 @@
                 "SCVReady2.mp3"
             ],
             "added": "2026-05-03",
-            "updated": "2026-05-03"
+            "updated": "2026-05-03",
+            "quality": "silver"
         },
         {
             "name": "sc2_scv_kr",
@@ -9075,7 +9298,8 @@
                 "SCVYes1_KR.wav"
             ],
             "added": "2026-03-29",
-            "updated": "2026-03-29"
+            "updated": "2026-03-29",
+            "quality": "silver"
         },
         {
             "name": "sc2_stalker",
@@ -9116,7 +9340,8 @@
                 "i-serve-for-now.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-15"
+            "updated": "2026-02-15",
+            "quality": "silver"
         },
         {
             "name": "sc2_stetmann",
@@ -9161,7 +9386,8 @@
                 "StetmannCommander_Auto_UnitsLost00.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc2_stetmann_zh",
@@ -9207,7 +9433,8 @@
                 "StetmannCommander_Auto_UnitsLost00.ogg"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "sc_battlecruiser",
@@ -9245,7 +9472,8 @@
                 "HailingFrequenciesOpen.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "sc_dropship",
@@ -9282,7 +9510,8 @@
                 "CanITakeYourOrder.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "sc_firebat",
@@ -9322,7 +9551,8 @@
                 "FireItUp.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "sc_ghost",
@@ -9359,7 +9589,8 @@
                 "SomebodyCallForAnExterminator.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "sc_goliath",
@@ -9396,7 +9627,8 @@
                 "GoliathOnline.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "sc_kerrigan",
@@ -9435,7 +9667,8 @@
                 "ImReady.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "sc_marine",
@@ -9475,7 +9708,8 @@
                 "RockAndRoll.mp3"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "sc_medic",
@@ -9515,7 +9749,8 @@
                 "HesDeadJim.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "sc_probe",
@@ -9552,7 +9787,8 @@
                 "blizzard"
             ],
             "added": "2026-04-18",
-            "updated": "2026-04-18"
+            "updated": "2026-04-18",
+            "quality": "silver"
         },
         {
             "name": "sc_raynor",
@@ -9589,7 +9825,8 @@
                 "RaynorHere.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "sc_scv",
@@ -9629,7 +9866,8 @@
                 "GoodToGoSir.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "sc_tank",
@@ -9669,7 +9907,8 @@
                 "RideOfTheValkyries.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-26"
+            "updated": "2026-02-26",
+            "quality": "silver"
         },
         {
             "name": "sc_terran",
@@ -9709,7 +9948,8 @@
                 "GoodToGoSir.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "sc_vessel",
@@ -9746,7 +9986,8 @@
                 "Affirmative.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "sc_vulture",
@@ -9783,7 +10024,8 @@
                 "AlrightBringItOn.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "sc_wraith",
@@ -9820,7 +10062,8 @@
                 "WraithAwaitingLaunchOrders.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "schlangemann",
@@ -9859,7 +10102,8 @@
                 "motorsaege.mp3"
             ],
             "added": "2026-05-02",
-            "updated": "2026-05-02"
+            "updated": "2026-05-02",
+            "quality": "gold"
         },
         {
             "name": "seinfeld_kramer",
@@ -9902,7 +10146,8 @@
                 "payback.wav"
             ],
             "added": "2026-03-15",
-            "updated": "2026-03-15"
+            "updated": "2026-03-15",
+            "quality": "silver"
         },
         {
             "name": "sheogorath",
@@ -9941,7 +10186,8 @@
                 "complete_1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "sheriff",
@@ -9981,7 +10227,8 @@
                 "sh_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "sigma",
@@ -10023,7 +10270,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "silicon_valley",
@@ -10063,7 +10311,8 @@
                 "sounds/01_yobushki_vorobushki.mp3"
             ],
             "added": "2026-02-15",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "simpsons",
@@ -10108,7 +10357,8 @@
                 "wooky1.mp3"
             ],
             "added": "2026-03-15",
-            "updated": "2026-03-15"
+            "updated": "2026-03-15",
+            "quality": "silver"
         },
         {
             "name": "snake",
@@ -10148,7 +10398,8 @@
                 "sn_taunt_02.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "sojourn",
@@ -10190,7 +10441,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "soldier_76",
@@ -10232,7 +10484,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "solid_snake",
@@ -10283,7 +10536,8 @@
                 }
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "sombra",
@@ -10325,7 +10579,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "sopranos",
@@ -10364,7 +10619,8 @@
                 "Complete_Oooooh.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "southpark_cartman",
@@ -10407,7 +10663,8 @@
                 "screw_you_guys.wav"
             ],
             "added": "2026-03-15",
-            "updated": "2026-03-15"
+            "updated": "2026-03-15",
+            "quality": "silver"
         },
         {
             "name": "speaki",
@@ -10454,7 +10711,8 @@
                 }
             ],
             "added": "2026-02-17",
-            "updated": "2026-02-17"
+            "updated": "2026-02-17",
+            "quality": "silver"
         },
         {
             "name": "srpska-kinematografija",
@@ -10494,7 +10752,8 @@
                 "sounds/task-error/quote.mp3"
             ],
             "added": "2026-05-04",
-            "updated": "2026-05-04"
+            "updated": "2026-05-04",
+            "quality": "silver"
         },
         {
             "name": "st_worf",
@@ -10532,7 +10791,8 @@
                 "WheresCaptain.wav"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "silver"
         },
         {
             "name": "stalker_ua",
@@ -10570,7 +10830,8 @@
                 "bandit_help_2.ogg"
             ],
             "added": "2026-03-28",
-            "updated": "2026-03-28"
+            "updated": "2026-03-28",
+            "quality": "silver"
         },
         {
             "name": "starrail-kafka-peon-pack",
@@ -10609,7 +10870,8 @@
                 "time-end.wav"
             ],
             "added": "2026-02-23",
-            "updated": "2026-02-23"
+            "updated": "2026-02-23",
+            "quality": "silver"
         },
         {
             "name": "starship_rasczak",
@@ -10652,7 +10914,8 @@
                 "come_on_you_apes.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "starship_rico",
@@ -10695,7 +10958,8 @@
                 "for_all_you_new_people.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "storm-spirit",
@@ -10735,7 +10999,8 @@
                 "sounds/task-error/denied.mp3"
             ],
             "added": "2026-04-28",
-            "updated": "2026-04-28"
+            "updated": "2026-04-28",
+            "quality": "silver"
         },
         {
             "name": "stromberg",
@@ -10774,7 +11039,8 @@
                 "wattepusten.mp3"
             ],
             "added": "2026-04-27",
-            "updated": "2026-04-27"
+            "updated": "2026-04-27",
+            "quality": "silver"
         },
         {
             "name": "stronghold-german-genie",
@@ -10816,7 +11082,8 @@
                 "Resource_Need1.mp3"
             ],
             "added": "2026-03-20",
-            "updated": "2026-03-20"
+            "updated": "2026-03-20",
+            "quality": "silver"
         },
         {
             "name": "stronghold-peasant-es",
@@ -10858,7 +11125,8 @@
                 "General_Victory1.wav"
             ],
             "added": "2026-04-08",
-            "updated": "2026-04-08"
+            "updated": "2026-04-08",
+            "quality": "silver"
         },
         {
             "name": "sts2_ancients",
@@ -10900,7 +11168,8 @@
                 "nonupeipe_welcome_1.wav"
             ],
             "added": "2026-04-24",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "gold"
         },
         {
             "name": "sts2_regent",
@@ -10943,7 +11212,8 @@
                 "regent_impatient_1.wav"
             ],
             "added": "2026-04-24",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "gold"
         },
         {
             "name": "sts2_shopkeeper",
@@ -10984,7 +11254,8 @@
                 "merchant_disappointment_1.wav"
             ],
             "added": "2026-04-22",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "gold"
         },
         {
             "name": "sts2_the_kin",
@@ -11027,7 +11298,8 @@
                 "kin_minion_hurt_1.wav"
             ],
             "added": "2026-04-24",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "gold"
         },
         {
             "name": "sts2_twotailrats",
@@ -11069,7 +11341,8 @@
                 "twotailrats_hurt_1.wav"
             ],
             "added": "2026-04-24",
-            "updated": "2026-04-24"
+            "updated": "2026-04-24",
+            "quality": "silver"
         },
         {
             "name": "sultan",
@@ -11109,7 +11382,8 @@
                 "su_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "super_troopers",
@@ -11151,7 +11425,8 @@
                 "desperation_stinky_cologne.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "super_troopers_farva",
@@ -11194,7 +11469,8 @@
                 "goddamn_liter_of_cola.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "symmetra",
@@ -11236,7 +11512,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "tanya_ra2",
@@ -11277,7 +11554,8 @@
                 "yeah-baby.mp3"
             ],
             "added": "2026-03-30",
-            "updated": "2026-03-30"
+            "updated": "2026-03-30",
+            "quality": "silver"
         },
         {
             "name": "teemo-kr",
@@ -11318,7 +11596,8 @@
                 "yes-sir.mp3"
             ],
             "added": "2026-03-23",
-            "updated": "2026-03-23"
+            "updated": "2026-03-23",
+            "quality": "silver"
         },
         {
             "name": "tekken3_announcer",
@@ -11356,7 +11635,8 @@
                 "Fight.wav"
             ],
             "added": "2026-02-16",
-            "updated": "2026-02-16"
+            "updated": "2026-02-16",
+            "quality": "silver"
         },
         {
             "name": "tf2_demoman",
@@ -11399,7 +11679,8 @@
                 "demoman_autoonfire01.mp3"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "tf2_engineer",
@@ -11439,7 +11720,8 @@
                 "Eng_quest_complete_easy_01.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "tf2_heavy",
@@ -11484,7 +11766,8 @@
                 "heavy_battlecry03.mp3"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "tf2_medic",
@@ -11523,7 +11806,8 @@
                 "medic"
             ],
             "added": "2026-03-21",
-            "updated": "2026-03-21"
+            "updated": "2026-03-21",
+            "quality": "silver"
         },
         {
             "name": "tf2_pyro",
@@ -11566,7 +11850,8 @@
                 "pyro_thanks01.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "tf2_sniper",
@@ -11609,7 +11894,8 @@
                 "sniper_jaratetoss01.mp3"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "tf2_spy",
@@ -11649,7 +11935,8 @@
                 "cheers-doctor.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "the-big-lebowski",
@@ -11690,7 +11977,8 @@
                 "103-shut-the-fuck-up-donny.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-01"
+            "updated": "2026-03-01",
+            "quality": "silver"
         },
         {
             "name": "theburntpeanut",
@@ -11725,7 +12013,8 @@
                 "goop"
             ],
             "added": "2026-03-11",
-            "updated": "2026-03-11"
+            "updated": "2026-03-11",
+            "quality": "silver"
         },
         {
             "name": "tiberian-sun-cabal",
@@ -11767,7 +12056,8 @@
                 "sounds/establishing_battlefield_control_standby.WAV"
             ],
             "added": "2026-04-10",
-            "updated": "2026-04-10"
+            "updated": "2026-04-10",
+            "quality": "silver"
         },
         {
             "name": "tiberian-sun-eva",
@@ -11810,7 +12100,8 @@
                 "sounds/complete1_mission_accomplished.WAV"
             ],
             "added": "2026-03-05",
-            "updated": "2026-03-09"
+            "updated": "2026-03-09",
+            "quality": "silver"
         },
         {
             "name": "torbjorn",
@@ -11852,7 +12143,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "totally-spies-fr",
@@ -11889,7 +12181,8 @@
                 "bonjour_mesdemoiselles.mp3"
             ],
             "added": "2026-02-18",
-            "updated": "2026-02-18"
+            "updated": "2026-02-18",
+            "quality": "silver"
         },
         {
             "name": "tracer",
@@ -11931,7 +12224,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "tropic-thunder",
@@ -11969,7 +12263,8 @@
             ],
             "preview_sounds": [],
             "added": "2026-03-10",
-            "updated": "2026-03-10"
+            "updated": "2026-03-10",
+            "quality": "silver"
         },
         {
             "name": "tryndamere-pack",
@@ -12013,7 +12308,8 @@
                 "sounds/Tryndamere_Demonblade_Death_0.ogg"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "silver"
         },
         {
             "name": "tweety",
@@ -12055,7 +12351,8 @@
                 "sounds/task-error-you-oughta-be-ashamed-of-yourself-bad-old-putty-cat.mp3"
             ],
             "added": "2026-03-12",
-            "updated": "2026-03-12"
+            "updated": "2026-03-12",
+            "quality": "gold"
         },
         {
             "name": "tywin-lannister",
@@ -12094,7 +12391,8 @@
                 "try-harder.mp3"
             ],
             "added": "2026-05-09",
-            "updated": "2026-05-10"
+            "updated": "2026-05-10",
+            "quality": "silver"
         },
         {
             "name": "vendetta",
@@ -12136,7 +12434,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "venture",
@@ -12178,14 +12477,18 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "visiteurs",
             "display_name": "Les Visiteurs",
             "version": "1.1.0",
             "description": "Répliques du film Les Visiteurs",
-            "author": { "name": "Mark Manguno", "github": "donmanguno" },
+            "author": {
+                "name": "Mark Manguno",
+                "github": "donmanguno"
+            },
             "trust_tier": "community",
             "categories": [
                 "input.required",
@@ -12217,7 +12520,8 @@
                 "les-visiteurs-ca-puir.mp3"
             ],
             "added": "2026-06-10",
-            "updated": "2026-06-10"
+            "updated": "2026-06-10",
+            "quality": "silver"
         },
         {
             "name": "warcraft-peon",
@@ -12250,7 +12554,8 @@
                 "task-complete.mp3"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "gold"
         },
         {
             "name": "warcraft3-czech",
@@ -12290,7 +12595,8 @@
                 "PeasantBuildingComplete1.wav"
             ],
             "added": "2026-02-18",
-            "updated": "2026-02-18"
+            "updated": "2026-02-18",
+            "quality": "silver"
         },
         {
             "name": "warcraft3-mix",
@@ -12331,7 +12637,8 @@
                 "ArthasYes1.wav"
             ],
             "added": "2026-02-24",
-            "updated": "2026-02-24"
+            "updated": "2026-02-24",
+            "quality": "silver"
         },
         {
             "name": "wazir",
@@ -12371,7 +12678,8 @@
                 "wa_willattack_01.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "wc2_human_ships",
@@ -12411,7 +12719,8 @@
                 "acknowledge1.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "wc2_peasant",
@@ -12451,7 +12760,8 @@
                 "JobsDone.mp3"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "wc2_peasant_pt-br",
@@ -12491,7 +12801,8 @@
                 "WorkComplete.mp3"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "silver"
         },
         {
             "name": "wc2_peon_ru",
@@ -12531,7 +12842,8 @@
                 "oready.wav"
             ],
             "added": "2026-03-14",
-            "updated": "2026-03-14"
+            "updated": "2026-03-14",
+            "quality": "silver"
         },
         {
             "name": "wc2_sapper",
@@ -12571,7 +12883,8 @@
                 "beautiful.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "silver"
         },
         {
             "name": "wc3_brewmaster",
@@ -12606,7 +12919,8 @@
                 "blizzard"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "wc3_corrupted_arthas",
@@ -12645,7 +12959,8 @@
                 "WhatIsItNow.wav"
             ],
             "added": "2026-02-13",
-            "updated": "2026-02-13"
+            "updated": "2026-02-13",
+            "quality": "gold"
         },
         {
             "name": "wc3_farseer",
@@ -12680,7 +12995,8 @@
                 "blizzard"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "wc3_grunt",
@@ -12715,7 +13031,8 @@
                 "blizzard"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "gold"
         },
         {
             "name": "wc3_jaina",
@@ -12754,7 +13071,8 @@
                 "JainaWhatsThePlan.wav"
             ],
             "added": "2026-02-12",
-            "updated": "2026-02-12"
+            "updated": "2026-02-12",
+            "quality": "gold"
         },
         {
             "name": "wc3_knight",
@@ -12789,7 +13107,8 @@
                 "blizzard"
             ],
             "added": "2026-03-04",
-            "updated": "2026-03-04"
+            "updated": "2026-03-04",
+            "quality": "silver"
         },
         {
             "name": "wc3_lich",
@@ -12830,7 +13149,8 @@
                 "HeroLichWhat1.wav"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "silver"
         },
         {
             "name": "wc3_peasant_pt-br",
@@ -12870,7 +13190,8 @@
                 "PeasantBuildingComplete1.mp3"
             ],
             "added": "2026-02-14",
-            "updated": "2026-02-14"
+            "updated": "2026-02-14",
+            "quality": "gold"
         },
         {
             "name": "widowmaker",
@@ -12912,7 +13233,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "winston",
@@ -12954,7 +13276,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "wolf",
@@ -12994,7 +13317,8 @@
                 "wf_taunt_05.mp3"
             ],
             "added": "2026-03-01",
-            "updated": "2026-03-03"
+            "updated": "2026-03-03",
+            "quality": "silver"
         },
         {
             "name": "worms-armageddon",
@@ -13032,7 +13356,8 @@
                 "sounds/done-excellent.wav"
             ],
             "added": "2026-02-19",
-            "updated": "2026-02-19"
+            "updated": "2026-02-19",
+            "quality": "silver"
         },
         {
             "name": "worms-armageddon-fi",
@@ -13077,7 +13402,8 @@
                 "sounds/yessir.ogg"
             ],
             "added": "2026-04-09",
-            "updated": "2026-04-13"
+            "updated": "2026-04-13",
+            "quality": "silver"
         },
         {
             "name": "worms-armageddon-ptbr",
@@ -13112,7 +13438,8 @@
                 "comedy"
             ],
             "added": "2026-04-01",
-            "updated": "2026-04-01"
+            "updated": "2026-04-01",
+            "quality": "gold"
         },
         {
             "name": "wow-tauren",
@@ -13154,7 +13481,8 @@
                 "sounds/0788-mana-is-needed.ogg"
             ],
             "added": "2026-03-06",
-            "updated": "2026-03-06"
+            "updated": "2026-03-06",
+            "quality": "silver"
         },
         {
             "name": "wrecking_ball",
@@ -13196,7 +13524,8 @@
                 "sounds/system_malfunction.ogg"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "silver"
         },
         {
             "name": "yamanote-sounds",
@@ -13236,7 +13565,8 @@
                 "sounds/yamanote_ebisu.mp3"
             ],
             "added": "2026-06-17",
-            "updated": "2026-06-17"
+            "updated": "2026-06-17",
+            "quality": "silver"
         },
         {
             "name": "yasuo-pack",
@@ -13276,7 +13606,8 @@
                 "sounds/Sorye-ge-ton.wav"
             ],
             "added": "2026-03-10",
-            "updated": "2026-03-11"
+            "updated": "2026-03-11",
+            "quality": "silver"
         },
         {
             "name": "yennefer",
@@ -13319,7 +13650,8 @@
                 "done_clean.mp3"
             ],
             "added": "2026-06-07",
-            "updated": "2026-06-07"
+            "updated": "2026-06-07",
+            "quality": "silver"
         },
         {
             "name": "zarya",
@@ -13361,7 +13693,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "zelda-a-link-to-the-past",
@@ -13401,7 +13734,8 @@
                 "sounds/fairy.wav"
             ],
             "added": "2026-02-20",
-            "updated": "2026-02-20"
+            "updated": "2026-02-20",
+            "quality": "silver"
         },
         {
             "name": "zenyatta",
@@ -13443,7 +13777,8 @@
                 "task_complete_1.mp3"
             ],
             "added": "2026-03-24",
-            "updated": "2026-03-24"
+            "updated": "2026-03-24",
+            "quality": "gold"
         },
         {
             "name": "zoe-lor",
@@ -13482,7 +13817,8 @@
                 "done-zoe-sparkles.wav"
             ],
             "added": "2026-04-06",
-            "updated": "2026-04-06"
+            "updated": "2026-04-06",
+            "quality": "silver"
         },
         {
             "name": "zoolander_derek",
@@ -13525,7 +13861,8 @@
                 "but_why_male_models_1.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "zoolander_hansel",
@@ -13567,7 +13904,8 @@
                 "gasoline_fight_accident.mp3"
             ],
             "added": "2026-02-25",
-            "updated": "2026-02-25"
+            "updated": "2026-02-25",
+            "quality": "silver"
         },
         {
             "name": "zugzug",
@@ -13605,7 +13943,8 @@
                 "blizzard"
             ],
             "added": "2026-04-11",
-            "updated": "2026-04-17"
+            "updated": "2026-04-17",
+            "quality": "silver"
         }
     ],
     "total_packs": 338
