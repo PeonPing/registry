@@ -8014,6 +8014,46 @@
             "quality": "silver"
         },
         {
+            "name": "producer_tags",
+            "display_name": "Hip-Hop Producer Tags",
+            "version": "1.0.0",
+            "description": "Iconic hip-hop producer drops mapped to coding events. Metro Boomin, DJ Mustard, Wheezy, Jetsonmade, Quay Global, 808 Mafia, Take a Daytrip, and Benny X.",
+            "author": {
+                "name": "Gary Sheng",
+                "github": "garysheng"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 9,
+            "total_size_bytes": 334609,
+            "source_repo": "garysheng/peonping-producer-tags",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "bdcddbf4700c43cb1f898a02f6d4e041ba294cd511fca535927ce188c26ff103",
+            "tags": [
+                "hip-hop",
+                "rap",
+                "producer-tags",
+                "music",
+                "meme"
+            ],
+            "preview_sounds": [
+                "metro_boomin_want_some_more.mp3",
+                "jetson_made_another_one.mp3"
+            ],
+            "added": "2026-06-24",
+            "updated": "2026-06-24"
+        },
+        {
             "name": "professor-layton",
             "display_name": "Professor Layton",
             "version": "1.0.0",
@@ -13947,5 +13987,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 338
+    "total_packs": 339
 }
