@@ -8528,6 +8528,46 @@
             "quality": "gold"
         },
         {
+            "name": "rapper_adlibs",
+            "display_name": "Rapper Ad-Libs",
+            "version": "1.0.0",
+            "description": "308 rapper ad-libs as coding event sounds. The full therapboard.com soundboard, one signature ad-lib per artist, fired at random across your agent's events.",
+            "author": {
+                "name": "Gary Sheng",
+                "github": "garysheng"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 308,
+            "total_size_bytes": 7169804,
+            "source_repo": "garysheng/peonping-rapper-adlibs",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "855f016c3ab9764ab5c2458e1f6187f6e621730dba70cd4f0b6f9481dfbf035d",
+            "tags": [
+                "hip-hop",
+                "rap",
+                "adlibs",
+                "soundboard",
+                "meme"
+            ],
+            "preview_sounds": [
+                "2chainz_1.mp3",
+                "drake_2.mp3"
+            ],
+            "added": "2026-06-25",
+            "updated": "2026-06-25"
+        },
+        {
             "name": "rat",
             "display_name": "The Rat (Stronghold Crusader)",
             "version": "1.2.1",
@@ -14025,5 +14065,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 339
+    "total_packs": 341
 }
