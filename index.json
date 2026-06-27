@@ -1861,6 +1861,48 @@
             "quality": "gold"
         },
         {
+            "name": "church_producer_tags",
+            "display_name": "Church Parody Producer Tags",
+            "version": "1.0.0",
+            "description": "Gospel parody producer drops mapped to coding events. Church-ified versions of Mike WiLL, Jetsonmade, Murda Beatz, Tay Keith, and classic mixtape DJ tags.",
+            "author": {
+                "name": "Gary Sheng",
+                "github": "garysheng"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 10,
+            "total_size_bytes": 532006,
+            "source_repo": "garysheng/peonping-church-producer-tags",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "70240aff8de9e7a4f4845c9997c20c3df5f3700ae6081e7980ebb57e1c72de29",
+            "tags": [
+                "hip-hop",
+                "rap",
+                "producer-tags",
+                "parody",
+                "church",
+                "gospel",
+                "meme"
+            ],
+            "preview_sounds": [
+                "oh_lord_jesus_made_another_one.mp3",
+                "judas_on_the_beat.mp3"
+            ],
+            "added": "2026-06-25",
+            "updated": "2026-06-25"
+        },
+        {
             "name": "claptrap-fr",
             "display_name": "ClapTrap (FR) — Borderlands 2",
             "version": "1.0.0",
@@ -14065,5 +14107,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 341
+    "total_packs": 342
 }
