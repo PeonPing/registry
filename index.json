@@ -2428,6 +2428,48 @@
             "quality": "gold"
         },
         {
+            "name": "diablo-drops",
+            "display_name": "Diablo II Loot Sounds",
+            "version": "1.0.0",
+            "description": "Classic Diablo II loot filter sounds (rune, gem, gold drops and more) as coding event notifications",
+            "author": {
+                "name": "Michael Malura",
+                "github": "maluramichael"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 18,
+            "total_size_bytes": 829254,
+            "source_repo": "maluramichael/openpeon-diablo-drops",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "3ddf3cdea53e1c15b9fae780ce99837a23f0602f237471a6504e21dda95d18ad",
+            "tags": [
+                "gaming",
+                "diablo",
+                "arpg",
+                "blizzard"
+            ],
+            "preview_sounds": [
+                "rune.wav",
+                "gold.wav"
+            ],
+            "added": "2026-06-29",
+            "updated": "2026-06-29"
+        },
+        {
             "name": "djkhaled",
             "display_name": "DJ Khaled",
             "version": "1.0.0",
@@ -14107,5 +14149,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 342
+    "total_packs": 343
 }
