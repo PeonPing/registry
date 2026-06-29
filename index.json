@@ -620,6 +620,46 @@
             "quality": "silver"
         },
         {
+            "name": "anime-girls",
+            "display_name": "Anime Girls",
+            "version": "1.1.0",
+            "description": "Cute anime girl voice clips as coding event notifications",
+            "author": {
+                "name": "Michael Malura",
+                "github": "maluramichael"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ja",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "total_size_bytes": 511146,
+            "source_repo": "maluramichael/openpeon-anime-girls",
+            "source_ref": "v1.1.0",
+            "source_path": ".",
+            "manifest_sha256": "a2e201c30c4103d46c5c545d61470cf02eedb36da845da2ead4cfc9b95fbd722",
+            "tags": [
+                "anime",
+                "voice",
+                "japanese"
+            ],
+            "preview_sounds": [
+                "yatta.mp3",
+                "ano_ne.mp3"
+            ],
+            "added": "2026-06-29",
+            "updated": "2026-06-29"
+        },
+        {
             "name": "anran",
             "display_name": "Overwatch - Anran",
             "version": "1.0.0",
@@ -14149,5 +14189,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 343
+    "total_packs": 344
 }
