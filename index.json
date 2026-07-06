@@ -5109,6 +5109,49 @@
             "quality": "silver"
         },
         {
+            "name": "jara-cimrman",
+            "display_name": "Jára Cimrman",
+            "version": "1.0.0",
+            "description": "Citáty z her Divadla Járy Cimrmana pro peon-ping.",
+            "author": {
+                "name": "Majkle",
+                "github": "Majkle"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "cs",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 64,
+            "total_size_bytes": 2671016,
+            "source_repo": "Majkle/openpeon-jara-cimrman",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "55d0e86ab032362fb6821eddbf1326fc54cc4a7860326a3c082017d61acc7be3",
+            "tags": [
+                "theatre",
+                "comedy",
+                "czech",
+                "cimrman"
+            ],
+            "preview_sounds": [
+                "sounds/KxnXEMefkNkwRNesdo.mp3",
+                "sounds/KeVkJXjUN655TvLYYN.mp3",
+                "sounds/JPrP6emi4sXZCxet1s.mp3"
+            ],
+            "added": "2026-07-06",
+            "updated": "2026-07-06"
+            },
+        {
             "name": "jarvis",
             "display_name": "J.A.R.V.I.S.",
             "version": "1.0.0",
