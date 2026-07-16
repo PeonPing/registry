@@ -5150,7 +5150,7 @@
             ],
             "added": "2026-07-06",
             "updated": "2026-07-06"
-            },
+        },
         {
             "name": "jarvis",
             "display_name": "J.A.R.V.I.S.",
@@ -9069,6 +9069,47 @@
             "added": "2026-03-06",
             "updated": "2026-03-06",
             "quality": "silver"
+        },
+        {
+            "name": "rick-c137",
+            "display_name": "Rick C-137",
+            "version": "1.0.0",
+            "description": "Curated SFW Rick Sanchez pack — hand-picked, loudness-normalized quotes for every CESP event",
+            "author": {
+                "name": "Maksym Fedorchuk",
+                "github": "maksym-fedorchuk-quarks-tech"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 24,
+            "total_size_bytes": 524490,
+            "source_repo": "maksym-fedorchuk-quarks-tech/peonping-rick-c137",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "7a14b0e4dc3c08a138a0dd4c8e9c163743db50b22965f96c3f817cdf3b8a72dd",
+            "tags": [
+                "tv",
+                "cartoon",
+                "rick-and-morty"
+            ],
+            "preview_sounds": [
+                "hey_whats_up.mp3",
+                "Rick_Sanchez_Fun.mp3",
+                "sorry_about_that.mp3"
+            ],
+            "added": "2026-07-16",
+            "updated": "2026-07-16"
         },
         {
             "name": "roadhog",
@@ -14232,5 +14273,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 344
+    "total_packs": 346
 }
