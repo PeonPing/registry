@@ -4126,6 +4126,43 @@
             "quality": "gold"
         },
         {
+        "name": "ferdinand-von-aegir",
+        "display_name": "Ferdinand von Aegir (FE3H)",
+        "version": "1.0.0",
+        "description": "Noble audio alerts featuring Ferdinand von Aegir from Fire Emblem: Three Houses. Voiced by the late, great Billy Kametz",
+        "author": {
+            "name": "PD",
+            "github": "JazzFiend"
+        },
+        "repo": "https://github.com/JazzFiend/my-openpeon-packs",
+        "tag": "v1.0.0",
+        "path": "ferdinand-von-aegir",
+        "trust_tier": "community",
+        "categories": [
+            "session.start",
+            "task.acknowledge",
+            "task.complete",
+            "task.error",
+            "input.required",
+            "resource.limit",
+            "user.spam"
+        ],
+        "language": "en",
+        "license": "CC-BY-NC-4.0",
+        "sound_count": 18,
+        "manifest_sha256": "766aae554e451fe0265d99f094c8a252acba6fb6bc97dc4a47c7279cd779f0d0",
+        "tags": [
+            "gaming",
+            "fire-emblem"
+        ],
+        "preview_sounds": [
+            "sounds/I_am_FVA.wav",
+            "sounds/A_true_noble_never_fails.wav"
+        ],
+        "added": "2026-07-17",
+        "updated": "2026-07-17"
+        },
+        {
             "name": "frederick",
             "display_name": "Emperor Frederick (Stronghold Crusader)",
             "version": "1.2.1",
