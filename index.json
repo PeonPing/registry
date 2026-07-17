@@ -4134,9 +4134,9 @@
             "name": "PD",
             "github": "JazzFiend"
         },
-        "repo": "https://github.com/JazzFiend/my-openpeon-packs",
-        "tag": "v1.0.0",
-        "path": "ferdinand-von-aegir",
+        "source_repo": "https://github.com/JazzFiend/my-openpeon-packs",
+        "source_ref": "v1.0.0",
+        "source_path": "ferdinand-von-aegir",
         "trust_tier": "community",
         "categories": [
             "session.start",
