@@ -11287,6 +11287,47 @@
             "quality": "silver"
         },
         {
+            "name": "stellaris-advisor",
+            "display_name": "Stellaris Advisor",
+            "version": "1.0.0",
+            "description": "Alien-empire advisor notification voice lines for Claude Code session events.",
+            "author": {
+                "name": "clinux",
+                "github": "cohanna"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 52,
+            "total_size_bytes": 12653166,
+            "source_repo": "cohanna/peonping-stellaris-advisor",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "8ccacd738ddbfb183ce46b622b70df7097323c4266d7fb03877183369ede7529",
+            "tags": [
+                "gaming",
+                "stellaris",
+                "sci-fi",
+                "space",
+                "strategy",
+                "paradox"
+            ],
+            "preview_sounds": [
+                "advisor_generic_phrase_02.wav",
+                "advisor_notification_colony_established_01.wav"
+            ],
+            "added": "2026-07-20",
+            "updated": "2026-07-20"
+        },
+        {
             "name": "stojan-zajebancije-pack",
             "display_name": "Stojan zajebancije",
             "version": "1.0.1",
