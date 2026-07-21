@@ -11287,8 +11287,8 @@
             "quality": "silver"
         },
         {
-            "name": "stellaris-advisor",
-            "display_name": "Stellaris Advisor",
+            "name": "stellaris_evil_corp_advisor",
+            "display_name": "Stellaris Evil Corp Advisor",
             "version": "1.0.0",
             "description": "Alien-empire advisor notification voice lines for Claude Code session events.",
             "author": {
@@ -11311,7 +11311,7 @@
             "source_repo": "cohanna/peonping-stellaris-advisor",
             "source_ref": "v1.0.0",
             "source_path": ".",
-            "manifest_sha256": "8ccacd738ddbfb183ce46b622b70df7097323c4266d7fb03877183369ede7529",
+            "manifest_sha256": "6ea07dd146cac8cff88abbed81a67a65caf91a17a187429d998a4ac9e2be1453",
             "tags": [
                 "gaming",
                 "stellaris",
