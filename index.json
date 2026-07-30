@@ -8295,6 +8295,94 @@
             "quality": "gold"
         },
         {
+            "name": "postal-dude",
+            "display_name": "Postal Dude (POSTAL 2)",
+            "version": "1.0.0",
+            "description": "The Postal Dude from POSTAL 2 reacts to your coding session. Uncensored.",
+            "author": {
+                "name": "dmonteoliva",
+                "github": "dmonteoliva"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 62,
+            "total_size_bytes": 1128914,
+            "source_repo": "dmonteoliva/openpeon-postal-dude",
+            "source_ref": "v1.0.0",
+            "source_path": "postal-dude",
+            "manifest_sha256": "6c343a824cbb36678751bf12e9dacf83127f0e9de539db798aea562492d24ac8",
+            "tags": [
+                "gaming",
+                "postal",
+                "fps",
+                "mature",
+                "funny"
+            ],
+            "preview_sounds": [
+                "dude_map_anddone.mp3",
+                "dude_map_missionaccom.mp3",
+                "dude_oops.mp3"
+            ],
+            "added": "2026-07-30",
+            "updated": "2026-07-30"
+        },
+        {
+            "name": "postal-dude-clean",
+            "display_name": "Postal Dude (POSTAL 2) - Clean",
+            "version": "1.0.0",
+            "description": "The Postal Dude from POSTAL 2 reacts to your coding session. Profanity-free cut.",
+            "author": {
+                "name": "dmonteoliva",
+                "github": "dmonteoliva"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 54,
+            "total_size_bytes": 984564,
+            "source_repo": "dmonteoliva/openpeon-postal-dude",
+            "source_ref": "v1.0.0",
+            "source_path": "postal-dude-clean",
+            "manifest_sha256": "aa9ce39175cd5a4c203bc9cacf8de9673b7f6be922c6d9c677113bca298a0b50",
+            "tags": [
+                "gaming",
+                "postal",
+                "fps",
+                "funny",
+                "clean"
+            ],
+            "preview_sounds": [
+                "dude_map_anddone.mp3",
+                "dude_sweet.mp3",
+                "dude_oops.mp3"
+            ],
+            "added": "2026-07-30",
+            "updated": "2026-07-30"
+        },
+        {
             "name": "postal2_pl",
             "display_name": "Postal 2 (Polish)",
             "version": "1.0.1",
