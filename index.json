@@ -2385,6 +2385,47 @@
             "quality": "silver"
         },
         {
+            "name": "dawnlight",
+            "display_name": "Dawnlight",
+            "version": "1.0.0",
+            "description": "Calm, wordless morning sounds. Warm felt piano and glass chimes, soft attacks and long decays. Every notification is a quiet exhale.",
+            "author": {
+                "name": "Gary Sheng",
+                "github": "garysheng"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 1501555,
+            "source_repo": "garysheng/dawnlight",
+            "source_ref": "v1.0.0",
+            "source_path": "",
+            "manifest_sha256": "357e33d4dca4cd5aea78fadf6056c2a70a0417ef68666c8ab245acff2c044b92",
+            "tags": [
+                "ambient",
+                "calm",
+                "instrumental",
+                "wordless"
+            ],
+            "preview_sounds": [
+                "sounds/task_complete_0.wav",
+                "sounds/session_start_0.wav"
+            ],
+            "added": "2026-08-09",
+            "updated": "2026-08-09",
+            "quality": "gold"
+        },
+        {
             "name": "deadlock_dynamo",
             "display_name": "Dynamo (Deadlock)",
             "version": "1.0.0",
