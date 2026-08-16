@@ -10706,7 +10706,10 @@
           "source_ref": "v1.0.0",
           "source_path": ".",
           "manifest_sha256": "cc3ed2af60d1b47e7aca3e9b309e9f5d6d5f85def5aa25e533fabb92437c7dc3",
-          "tags": ["gaming"],
+          "tags": [
+              "gaming",
+              "brazil"
+          ],
           "preview_sounds": [
               "agora_sou_eu_e_voce.ogg",
               "voce_e_crianca.ogg",
