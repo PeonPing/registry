@@ -12799,6 +12799,48 @@
             "quality": "silver"
         },
         {
+            "name": "ua-memes",
+            "display_name": "Українські меми",
+            "version": "1.0.0",
+            "description": "Ukrainian internet and political meme sounds mapped to coding events. Viral catchphrases, TV gaffes and soundboard classics. Curated third-party clips — no ownership claimed, see ATTRIBUTION.md. Personal, non-commercial use.",
+            "author": {
+                "name": "canya145",
+                "github": "canya145"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "input.required",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "uk",
+            "license": "fair-use",
+            "sound_count": 74,
+            "total_size_bytes": 30011654,
+            "source_repo": "canya145/peonping-ua-memes",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "976725643faacf474df44eaa5eba60d643f60c603ccaa81a9bad77d7b5ad0bf6",
+            "tags": [
+                "ukrainian",
+                "memes",
+                "viral",
+                "soundboard",
+                "uk"
+            ],
+            "preview_sounds": [
+                "Що-ви-зараз-бачите-перед-собою-Це-скарб.wav",
+                "Батя-я-стараюсь.wav",
+                "Dont-push-the-horses.wav"
+            ],
+            "added": "2026-08-19",
+            "updated": "2026-08-19"
+        },
+        {
             "name": "vegeta_dbz",
             "display_name": "Vegeta (Dragon Ball Z)",
             "version": "1.0.0",
@@ -14438,5 +14480,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 350
+    "total_packs": 351
 }
