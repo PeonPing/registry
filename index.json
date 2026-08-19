@@ -12801,8 +12801,8 @@
         {
             "name": "ua-memes",
             "display_name": "Українські меми",
-            "version": "1.0.0",
-            "description": "Ukrainian internet and political meme sounds mapped to coding events. Viral catchphrases, TV gaffes and soundboard classics. Curated third-party clips — no ownership claimed, see ATTRIBUTION.md. Personal, non-commercial use.",
+            "version": "1.0.1",
+            "description": "Ukrainian internet and political meme sounds mapped to coding events. Viral catchphrases, TV gaffes and soundboard classics. Contains strong language. Curated third-party clips — no ownership claimed, see ATTRIBUTION.md. Personal, non-commercial use.",
             "author": {
                 "name": "canya145",
                 "github": "canya145"
@@ -12820,21 +12820,23 @@
             "language": "uk",
             "license": "fair-use",
             "sound_count": 74,
-            "total_size_bytes": 30011654,
+            "total_size_bytes": 28752230,
             "source_repo": "canya145/peonping-ua-memes",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": ".",
-            "manifest_sha256": "976725643faacf474df44eaa5eba60d643f60c603ccaa81a9bad77d7b5ad0bf6",
+            "manifest_sha256": "9d93e37fe1d6921c1f4ed4bb938f977721a4dcd60477581772a475e7d2a15032",
             "tags": [
                 "ukrainian",
                 "memes",
                 "viral",
                 "soundboard",
+                "nsfw",
+                "mature",
                 "uk"
             ],
             "preview_sounds": [
-                "Що-ви-зараз-бачите-перед-собою-Це-скарб.wav",
-                "Батя-я-стараюсь.wav",
+                "Shcho-vy-zaraz-bachyte-pered-soboiu-Tse-skarb.wav",
+                "Batia-ya-staraius.wav",
                 "Dont-push-the-horses.wav"
             ],
             "added": "2026-08-19",
