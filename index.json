@@ -10642,7 +10642,7 @@
         {
             "name": "simlish",
             "display_name": "Simlish",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "description": "An unofficial fan-made Simlish sound pack for coding events.",
             "author": {
                 "name": "pwillia7",
@@ -10665,9 +10665,9 @@
             "sound_count": 22,
             "total_size_bytes": 372685,
             "source_repo": "pwillia7/openpeon-simlish",
-            "source_ref": "v0.3.0",
+            "source_ref": "v0.3.1",
             "source_path": ".",
-            "manifest_sha256": "34a199ab5089398c1d0f70247d8cab4b65a731c35d01ee2a458361ca53a4d715",
+            "manifest_sha256": "ac59ed2fa9d2b14d6e333a09aafbdcd6c9f4c96a63cb85e81c6970fc9ded7046",
             "tags": [
                 "gaming",
                 "the-sims",
