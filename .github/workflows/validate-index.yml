@@ -14,10 +14,18 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
+      # Check out the BASE repo, not the PR head: this workflow runs under
+      # pull_request_target with contents/pull-requests write, so the scripts it
+      # executes must stay trusted. actions/checkout now refuses a fork head here.
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+
+      # The PR's index.json is data, not code — fetch just that one file.
+      - name: Fetch index.json from the PR
+        run: |
+          git fetch --no-tags origin "pull/${{ github.event.pull_request.number }}/head:pr-head"
+          git show pr-head:index.json > index.json
 
       - name: Validate index.json schema
         id: schema
