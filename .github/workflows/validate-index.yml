@@ -25,7 +25,7 @@ jobs:
       - name: Fetch index.json from the PR
         run: |
           git fetch --no-tags origin "pull/${{ github.event.pull_request.number }}/head:pr-head"
-          git show pr-head:index.json > index.json
+          git show pr-head:index.json > /tmp/pr-index.json
 
       - name: Validate index.json schema
         id: schema
