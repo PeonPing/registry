@@ -1320,6 +1320,51 @@
             "quality": "gold"
         },
         {
+            "name": "atla",
+            "display_name": "Avatar: The Last Airbender",
+            "version": "1.0.0",
+            "description": "Catchphrases and iconic moments from Avatar: The Last Airbender.",
+            "author": {
+                "name": "Idan Silbinger",
+                "github": "IdanSil"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam",
+                "session.end",
+                "task.progress"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 36,
+            "total_size_bytes": 1963311,
+            "source_repo": "IdanSil/atla-peon-ping",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "396460581bb502fd3cc712b4e47f3203d00d88ad2972ef7336ce8be61f842000",
+            "tags": [
+                "avatar",
+                "atla",
+                "cartoon",
+                "nickelodeon",
+                "aang",
+                "iroh"
+            ],
+            "preview_sounds": [
+                "my-cabbages.mp3",
+                "water-earth-fire-air.mp3"
+            ],
+            "added": "2026-08-25",
+            "updated": "2026-08-25",
+            "quality": "gold"
+        },
+        {
             "name": "balatro",
             "display_name": "Balatro",
             "version": "1.0.1",
@@ -14438,5 +14483,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 350
+    "total_packs": 351
 }
