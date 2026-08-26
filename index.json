@@ -6520,6 +6520,45 @@
             "quality": "gold"
         },
         {
+            "name": "mj-grunts",
+            "display_name": "Michael Jackson Grunts",
+            "version": "1.0.0",
+            "description": "Loud vocal grunts and ad-libs, assigned at random across all events",
+            "author": {
+                "name": "nivaldo",
+                "github": "nivaldomcj"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 18,
+            "total_size_bytes": 448554,
+            "source_repo": "nivaldomcj/openpeon-mj-grunts",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "868e2426e5fed57929652bfffe5296c4ee39fafd5fe1c810409c1279afc0fa4a",
+            "tags": [
+                "music",
+                "vocal",
+                "grunts"
+            ],
+            "preview_sounds": [
+                "mj084.mp3",
+                "mj010.mp3"
+            ],
+            "added": "2026-07-31",
+            "updated": "2026-07-31"
+        },
+        {
             "name": "modern-varied",
             "display_name": "Modern GUI",
             "version": "1.0.1",
