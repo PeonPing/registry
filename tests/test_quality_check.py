@@ -317,5 +317,50 @@ class TarballPathGuardTest(unittest.TestCase):
             shutil.rmtree(base, ignore_errors=True)
 
 
+# ── Dead air: two floors ──────────────────────────────────────────────────────
+#
+# A WARN asks whether a listener notices a gap, so it keeps the -35 dBFS floor.
+# A BLOCK asserts the file is padded with nothing, so it holds at -60 dBFS.
+# The split exists because a soft ambient decay crosses -35 dBFS while still
+# audible, and the single-floor version blocked a pack for having exactly the
+# long decay it was designed around.
+
+class LeadTrailMsTest(unittest.TestCase):
+    def test_no_intervals_reports_neither_end(self):
+        self.assertEqual(qc._lead_trail_ms([], 3.0), (None, None))
+
+    def test_leading_silence_measured_from_a_zero_start(self):
+        lead, _ = qc._lead_trail_ms([(0.0, 0.75)], 3.0)
+        self.assertEqual(lead, 750)
+
+    def test_silence_not_at_the_start_is_not_leading(self):
+        lead, _ = qc._lead_trail_ms([(1.2, 1.9)], 3.0)
+        self.assertIsNone(lead)
+
+    def test_open_ended_interval_counts_as_trailing(self):
+        _, trail = qc._lead_trail_ms([(0.9, None)], 3.0)
+        self.assertEqual(trail, 2100)
+
+    def test_interval_ending_at_eof_counts_as_trailing(self):
+        _, trail = qc._lead_trail_ms([(0.9, 3.0)], 3.0)
+        self.assertEqual(trail, 2100)
+
+    def test_interval_ending_mid_clip_is_not_trailing(self):
+        _, trail = qc._lead_trail_ms([(0.5, 1.0)], 3.0)
+        self.assertIsNone(trail)
+
+
+class SilenceFloorTest(unittest.TestCase):
+    def test_block_floor_is_below_the_warn_floor(self):
+        # If these ever converge, a decay pack blocks again.
+        self.assertLess(qc.SILENCE_BLOCK_THRESHOLD_DB, qc.SILENCE_THRESHOLD_DB)
+
+    def test_silence_intervals_defaults_to_the_warn_floor(self):
+        import inspect
+        sig = inspect.signature(qc.silence_intervals)
+        self.assertEqual(
+            sig.parameters["threshold_db"].default, qc.SILENCE_THRESHOLD_DB)
+
+
 if __name__ == "__main__":
     unittest.main()
