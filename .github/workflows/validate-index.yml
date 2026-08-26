@@ -202,7 +202,35 @@ jobs:
           association = os.environ.get('PR_AUTHOR_ASSOCIATION', '')
           author_login = os.environ.get('PR_AUTHOR_LOGIN', '')
           token = os.environ.get('GITHUB_TOKEN', '')
-          is_org_member = association in ('OWNER', 'MEMBER')
+          repo_full = os.environ.get('GITHUB_REPOSITORY', '')
+
+          def has_write_access(login):
+              """Ask the API whether this login can actually write to this repo.
+
+              The event payload's author_association is not a reliable answer.
+              GitHub reports CONTRIBUTOR, not MEMBER, for an org member whose
+              membership is private, so a maintainer editing an official pack
+              was rejected on their own repo. Repo permission is the property
+              the tier gate actually means, and it is visible to GITHUB_TOKEN
+              without any org scope.
+              """
+              if not (login and repo_full and token):
+                  return False
+              try:
+                  req = urllib.request.Request(
+                      f'https://api.github.com/repos/{repo_full}/collaborators/{login}/permission')
+                  req.add_header('Authorization', f'token {token}')
+                  req.add_header('Accept', 'application/vnd.github+json')
+                  with urllib.request.urlopen(req) as resp:
+                      perm = json.loads(resp.read()).get('permission', '')
+                  print(f'Author {login}: repo permission {perm or "none"}')
+                  return perm in ('admin', 'write', 'maintain')
+              except (urllib.error.URLError, KeyError, ValueError) as e:
+                  # Fail closed: an unanswerable question is not a yes.
+                  print(f'Warning: could not resolve repo permission for {login}: {e}')
+                  return False
+
+          is_org_member = association in ('OWNER', 'MEMBER') or has_write_access(author_login)
 
           def check_verified_eligibility(login):
               """Check if user meets verified tier requirements:
