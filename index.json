@@ -13685,6 +13685,47 @@
             "quality": "gold"
         },
         {
+            "name": "wh40k-dow-chaplain",
+            "display_name": "Warhammer 40k Dawn of War Chaplain",
+            "version": "1.0.0",
+            "description": "Warhammer 40k Dawn of War Chaplain sound pack for coding events.",
+            "author": {
+                "name": "Hamidhasan Ahmed",
+                "github": "Hamidhasan"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 31,
+            "total_size_bytes": 8827592,
+            "source_repo": "Hamidhasan/openpeon-wh40k-chaplain",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "c9ebea21cfeb627f9ac5162142825fd45e755331999e6f15ea3457310f362813",
+            "tags": [
+                "gaming",
+                "wh40k",
+                "dawn-of-war"
+            ],
+            "preview_sounds": [
+                "ChaplainBuilt.wav",
+                "ChaplainVictory3.wav"
+            ],
+            "added": "2026-07-26",
+            "updated": "2026-07-26"
+        },
+        {
             "name": "widowmaker",
             "display_name": "Overwatch - Widowmaker",
             "version": "1.0.0",
