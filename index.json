@@ -10640,6 +10640,49 @@
             "quality": "silver"
         },
         {
+            "name": "simlish",
+            "display_name": "Simlish",
+            "version": "0.3.1",
+            "description": "An unofficial fan-made Simlish sound pack for coding events.",
+            "author": {
+                "name": "pwillia7",
+                "github": "pwillia7"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 22,
+            "total_size_bytes": 372685,
+            "source_repo": "pwillia7/openpeon-simlish",
+            "source_ref": "v0.3.1",
+            "source_path": ".",
+            "manifest_sha256": "ac59ed2fa9d2b14d6e333a09aafbdcd6c9f4c96a63cb85e81c6970fc9ded7046",
+            "tags": [
+                "gaming",
+                "the-sims",
+                "simlish",
+                "voice",
+                "fan-made"
+            ],
+            "preview_sounds": [
+                "sul-sul-female.mp3",
+                "simlish-happy-male.mp3"
+            ],
+            "added": "2026-08-20",
+            "updated": "2026-08-20"
+        },
+        {
             "name": "simpsons",
             "display_name": "The Simpsons",
             "version": "1.0.0",
