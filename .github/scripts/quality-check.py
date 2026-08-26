@@ -57,8 +57,18 @@ LUFS_LOUD_WARN = -8.0            # Very loud
 BITRATE_WARN_KBPS = 64           # Low-effort encoding (lossy formats only)
 SAMPLE_RATE_WARN_HZ = 16000      # Low but functional
 
-# Silence detection sensitivity
-SILENCE_THRESHOLD_DB = -35
+# Silence detection sensitivity.
+#
+# Two floors, because "there is a noticeable gap" and "this file is padded with
+# nothing" are different claims and only the second should block a pack.
+#
+# -35 dBFS suits a voice bark, which stops abruptly, and that is what nearly
+# every pack in the catalog is. It is wrong for a soft ambient decay: a clip
+# that falls from -6.6 dBFS to -64 dBFS over three seconds never goes silent,
+# but everything past the -35 crossing reads as dead air, which blocked a pack
+# for having exactly the long decay it was designed around.
+SILENCE_THRESHOLD_DB = -35        # WARN floor: audible gap
+SILENCE_BLOCK_THRESHOLD_DB = -60  # BLOCK floor: genuinely no signal
 
 # Integrated loudness needs >= ~400ms of audio to be reliable (ITU-R BS.1770).
 # Clips shorter than this report no trustworthy LUFS and are excluded from both
@@ -99,12 +109,32 @@ def ffprobe_info(filepath):
         return None
 
 
-def silence_intervals(filepath):
-    """Return list of (start, end_or_None) silence intervals."""
+def _lead_trail_ms(intervals, duration):
+    """Leading and trailing silence in ms from one silencedetect pass.
+
+    Either value is None when that end of the clip has no silence to report.
+    """
+    lead = trail = None
+    if intervals and intervals[0][0] < 0.01 and intervals[0][1] is not None:
+        lead = int(intervals[0][1] * 1000)
+    if intervals and duration > 0:
+        last_start, last_end = intervals[-1]
+        extends_to_eof = (
+            last_end is None
+            or last_start > last_end
+            or abs(duration - last_end) < 0.05
+        )
+        if extends_to_eof:
+            trail = int((duration - last_start) * 1000)
+    return lead, trail
+
+
+def silence_intervals(filepath, threshold_db=SILENCE_THRESHOLD_DB):
+    """Return list of (start, end_or_None) silence intervals below threshold_db."""
     try:
         result = subprocess.run(
             ["ffmpeg", "-i", filepath,
-             "-af", f"silencedetect=noise={SILENCE_THRESHOLD_DB}dB:d=0.05",
+             "-af", f"silencedetect=noise={threshold_db}dB:d=0.05",
              "-f", "null", "-"],
             capture_output=True, text=True, timeout=30
         )
@@ -193,33 +223,26 @@ def classify_file(filepath):
     if codec in ("mp3", "vorbis", "opus", "aac") and 0 < br_kbps < BITRATE_WARN_KBPS:
         warns.append(f"low audio quality (bitrate {br_kbps} kbps)")
 
-    # Silence analysis
-    intervals = silence_intervals(filepath)
+    # Silence analysis. A warning asks whether a listener would notice a gap, so
+    # it keeps the -35 dBFS floor. A block asserts the file is padded with
+    # nothing, so it has to hold at -60 dBFS, where only true silence registers.
+    warn_lead, warn_trail = _lead_trail_ms(silence_intervals(filepath), duration)
+    block_lead, block_trail = _lead_trail_ms(
+        silence_intervals(filepath, SILENCE_BLOCK_THRESHOLD_DB), duration)
 
-    # Leading silence: first interval starts at ~0
-    if intervals and intervals[0][0] < 0.01 and intervals[0][1] is not None:
-        lead_ms = int(intervals[0][1] * 1000)
-        stats["leading_silence_ms"] = lead_ms
-        if lead_ms > LEADING_SILENCE_BLOCK_MS:
-            blocks.append(f"too much dead air at the start ({lead_ms} ms)")
-        elif lead_ms > LEADING_SILENCE_WARN_MS:
-            warns.append(f"dead air at the start ({lead_ms} ms)")
+    if warn_lead is not None:
+        stats["leading_silence_ms"] = warn_lead
+    if block_lead is not None and block_lead > LEADING_SILENCE_BLOCK_MS:
+        blocks.append(f"too much dead air at the start ({block_lead} ms)")
+    elif warn_lead is not None and warn_lead > LEADING_SILENCE_WARN_MS:
+        warns.append(f"dead air at the start ({warn_lead} ms)")
 
-    # Trailing silence: last interval extends to EOF
-    if intervals and duration > 0:
-        last_start, last_end = intervals[-1]
-        extends_to_eof = (
-            last_end is None
-            or last_start > last_end
-            or abs(duration - last_end) < 0.05
-        )
-        if extends_to_eof:
-            trail_ms = int((duration - last_start) * 1000)
-            stats["trailing_silence_ms"] = trail_ms
-            if trail_ms > TRAILING_SILENCE_BLOCK_MS:
-                blocks.append(f"too much dead air at the end ({trail_ms} ms)")
-            elif trail_ms > TRAILING_SILENCE_WARN_MS:
-                warns.append(f"dead air at the end ({trail_ms} ms)")
+    if warn_trail is not None:
+        stats["trailing_silence_ms"] = warn_trail
+    if block_trail is not None and block_trail > TRAILING_SILENCE_BLOCK_MS:
+        blocks.append(f"too much dead air at the end ({block_trail} ms)")
+    elif warn_trail is not None and warn_trail > TRAILING_SILENCE_WARN_MS:
+        warns.append(f"dead air at the end ({warn_trail} ms)")
 
     # Loudness + peak
     tp, lufs = loudnorm_stats(filepath)
