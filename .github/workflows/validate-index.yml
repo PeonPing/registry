@@ -21,11 +21,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      # The PR's index.json is data, not code — fetch just that one file.
+      # The PR's index.json is data, not code, so fetch just that one file and
+      # write it over the base copy so every validation step below reads the
+      # PR's index. Writing it anywhere else leaves the validators looking at
+      # main, where they would find no new packs and pass without checking the
+      # submission. `git show origin/main:index.json`, which "Detect
+      # new/changed packs" diffs against, still resolves through the ref.
       - name: Fetch index.json from the PR
         run: |
           git fetch --no-tags origin "pull/${{ github.event.pull_request.number }}/head:pr-head"
-          git show pr-head:index.json > /tmp/pr-index.json
+          git show pr-head:index.json > index.json
 
       - name: Validate index.json schema
         id: schema
