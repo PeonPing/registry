@@ -2409,7 +2409,7 @@
             "total_size_bytes": 1501555,
             "source_repo": "garysheng/dawnlight",
             "source_ref": "v1.0.0",
-            "source_path": "",
+            "source_path": ".",
             "manifest_sha256": "357e33d4dca4cd5aea78fadf6056c2a70a0417ef68666c8ab245acff2c044b92",
             "tags": [
                 "ambient",
@@ -2422,8 +2422,7 @@
                 "sounds/session_start_0.wav"
             ],
             "added": "2026-08-09",
-            "updated": "2026-08-09",
-            "quality": "gold"
+            "updated": "2026-08-09"
         },
         {
             "name": "deadlock_dynamo",
