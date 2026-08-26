@@ -4126,41 +4126,41 @@
             "quality": "gold"
         },
         {
-        "name": "ferdinand-von-aegir",
-        "display_name": "Ferdinand von Aegir (FE3H)",
-        "version": "1.0.0",
-        "description": "Noble audio alerts featuring Ferdinand von Aegir from Fire Emblem: Three Houses. Voiced by the late, great Billy Kametz",
-        "author": {
-            "name": "PD",
-            "github": "JazzFiend"
-        },
-        "source_repo": "JazzFiend/my-openpeon-packs",
-        "source_ref": "v1.0.0",
-        "source_path": "ferdinand-von-aegir",
-        "trust_tier": "community",
-        "categories": [
-            "session.start",
-            "task.acknowledge",
-            "task.complete",
-            "task.error",
-            "input.required",
-            "resource.limit",
-            "user.spam"
-        ],
-        "language": "en",
-        "license": "CC-BY-NC-4.0",
-        "sound_count": 18,
-        "manifest_sha256": "766aae554e451fe0265d99f094c8a252acba6fb6bc97dc4a47c7279cd779f0d0",
-        "tags": [
-            "gaming",
-            "fire-emblem"
-        ],
-        "preview_sounds": [
-            "sounds/I_am_FVA.wav",
-            "sounds/A_true_noble_never_fails.wav"
-        ],
-        "added": "2026-07-17",
-        "updated": "2026-07-17"
+            "name": "ferdinand-von-aegir",
+            "display_name": "Ferdinand von Aegir (FE3H)",
+            "version": "1.0.0",
+            "description": "Noble audio alerts featuring Ferdinand von Aegir from Fire Emblem: Three Houses. Voiced by the late, great Billy Kametz",
+            "author": {
+                "name": "PD",
+                "github": "JazzFiend"
+            },
+            "source_repo": "JazzFiend/my-openpeon-packs",
+            "source_ref": "v1.0.0",
+            "source_path": "ferdinand-von-aegir",
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 18,
+            "manifest_sha256": "766aae554e451fe0265d99f094c8a252acba6fb6bc97dc4a47c7279cd779f0d0",
+            "tags": [
+                "gaming",
+                "fire-emblem"
+            ],
+            "preview_sounds": [
+                "sounds/I_am_FVA.wav",
+                "sounds/A_true_noble_never_fails.wav"
+            ],
+            "added": "2026-07-17",
+            "updated": "2026-07-17"
         },
         {
             "name": "frederick",
@@ -6028,6 +6028,43 @@
             "added": "2026-03-19",
             "updated": "2026-03-19",
             "quality": "silver"
+        },
+        {
+            "name": "lorenz-hellman-gloucester",
+            "display_name": "Lorenz Hellman Gloucester (FE3H)",
+            "version": "1.0.0",
+            "description": "Audio alerts with terrible haircuts featuring Lorenz Hellman Gloucester from Fire Emblem: Three Houses. Voiced by the excellent Ben Diskin.",
+            "author": {
+                "name": "PD",
+                "github": "JazzFiend"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 26,
+            "source_repo": "JazzFiend/my-openpeon-packs",
+            "source_ref": "v1.1.1",
+            "source_path": "lorenz-hellman-gloucester",
+            "manifest_sha256": "8e5e40f311d62e769e97854013b7fd6b5043adf6b8608d9889780ddafe6f6ccd",
+            "tags": [
+                "gaming",
+                "fire-emblem"
+            ],
+            "preview_sounds": [
+                "sounds/My_name_is_lorenz_hellman_gloucester.wav",
+                "sounds/Was_there_any_doubt.wav"
+            ],
+            "added": "2026-08-21",
+            "updated": "2026-08-21"
         },
         {
             "name": "lucio",
