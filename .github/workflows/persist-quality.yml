@@ -24,6 +24,7 @@ concurrency:
 # Least privilege: this job only needs to push the quality write-back.
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   persist:
@@ -120,24 +121,41 @@ jobs:
           print(f'index.json valid; {len(data.get("packs", []))} packs, quality values in enum')
           PYEOF
 
-      - name: Commit and push
+      - name: Open a PR with the computed tier(s)
         id: commit
         if: steps.detect.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # This opens a PR rather than pushing to main. main requires the
+          # `validate` status check, and a direct push carries no such check, so
+          # the protected-branch hook declined it and the tier was never written
+          # (KTD2's source of truth silently went stale for a month). A PR gets
+          # its own validate run and auto-merges, which is the same route
+          # backfill-quality already takes for the catalog-wide grade.
           if git diff --quiet index.json; then
             echo "No quality change to persist"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          BRANCH="quality/persist-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
           git add index.json
-          git commit -m "chore(quality): persist computed tier(s) [skip ci]"
-          # A concurrent merge may have advanced main; rebase before pushing.
-          git pull --rebase origin main
-          if ! git push origin HEAD:main; then
-            echo "::error::Push to main was rejected. Branch protection likely blocks the bot's direct push. Configure a push bypass for github-actions, or set a PERSIST_TOKEN secret (a PAT with bypass). The job fails rather than silently writing nothing."
-            exit 1
-          fi
+          git commit -m "chore(quality): persist computed tier(s)"
+          git push origin "$BRANCH"
+
+          PR_URL="$(gh pr create --base main --head "$BRANCH" \
+            --title "chore(quality): persist computed tier(s)" \
+            --body "CI-computed quality tiers for the pack(s) that just landed on main.
+
+          Opened by \`persist-quality\` rather than pushed directly: main requires the \`validate\` check and a direct push carries none, so the protected-branch hook rejects it.
+
+          \`quality\` is a CI-owned field. This PR only writes what the audio grade produced.")"
+          echo "Opened $PR_URL"
+          gh pr merge "$PR_URL" --squash --auto --delete-branch || \
+            echo "::warning::Auto-merge could not be enabled; the PR is open for manual merge."
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
       - name: Trigger openpeon.com rebuild
