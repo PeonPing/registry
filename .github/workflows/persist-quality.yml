@@ -154,8 +154,15 @@ jobs:
 
           \`quality\` is a CI-owned field. This PR only writes what the audio grade produced.")"
           echo "Opened $PR_URL"
-          gh pr merge "$PR_URL" --squash --auto --delete-branch || \
-            echo "::warning::Auto-merge could not be enabled; the PR is open for manual merge."
+          # Try auto-merge, but do not rely on it. GitHub does not trigger
+          # workflows for events created by GITHUB_TOKEN, so this PR gets no
+          # `validate` run, and `validate` is a required check. Auto-merge
+          # therefore cannot fire and a maintainer merges the PR. Verified on
+          # PR #353: zero checks, zero workflow runs on its branch.
+          # A PAT in PERSIST_TOKEN would close this gap, at the cost of a
+          # long-lived push-to-main credential in repo secrets.
+          gh pr merge "$PR_URL" --squash --auto --delete-branch 2>/dev/null || \
+            echo "::notice::Auto-merge unavailable (bot PRs get no validate run). $PR_URL is open for a maintainer to merge."
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
       - name: Trigger openpeon.com rebuild
