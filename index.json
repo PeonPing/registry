@@ -198,7 +198,8 @@
                 "AcolyteWhat1.wav"
             ],
             "added": "2026-02-16",
-            "updated": "2026-02-16"
+            "updated": "2026-02-16",
+            "quality": "silver"
         },
         {
             "name": "acolyte_ru",
@@ -657,7 +658,8 @@
                 "ano_ne.mp3"
             ],
             "added": "2026-06-29",
-            "updated": "2026-06-29"
+            "updated": "2026-06-29",
+            "quality": "silver"
         },
         {
             "name": "anran",
@@ -1361,7 +1363,8 @@
                 "water-earth-fire-air.mp3"
             ],
             "added": "2026-08-25",
-            "updated": "2026-08-25"
+            "updated": "2026-08-25",
+            "quality": "silver"
         },
         {
             "name": "balatro",
@@ -1984,7 +1987,8 @@
                 "judas_on_the_beat.mp3"
             ],
             "added": "2026-06-25",
-            "updated": "2026-06-25"
+            "updated": "2026-06-25",
+            "quality": "gold"
         },
         {
             "name": "claptrap-fr",
@@ -2422,7 +2426,8 @@
                 "sounds/session_start_0.wav"
             ],
             "added": "2026-08-09",
-            "updated": "2026-08-09"
+            "updated": "2026-08-09",
+            "quality": "silver"
         },
         {
             "name": "deadlock_dynamo",
@@ -2591,7 +2596,8 @@
                 "gold.wav"
             ],
             "added": "2026-06-29",
-            "updated": "2026-06-29"
+            "updated": "2026-06-29",
+            "quality": "silver"
         },
         {
             "name": "djkhaled",
@@ -4244,7 +4250,8 @@
                 "sounds/A_true_noble_never_fails.wav"
             ],
             "added": "2026-07-17",
-            "updated": "2026-07-17"
+            "updated": "2026-07-17",
+            "quality": "silver"
         },
         {
             "name": "frederick",
@@ -5270,7 +5277,8 @@
                 "sounds/JPrP6emi4sXZCxet1s.mp3"
             ],
             "added": "2026-07-06",
-            "updated": "2026-07-06"
+            "updated": "2026-07-06",
+            "quality": "silver"
         },
         {
             "name": "jarvis",
@@ -6148,7 +6156,8 @@
                 "sounds/Was_there_any_doubt.wav"
             ],
             "added": "2026-08-21",
-            "updated": "2026-08-21"
+            "updated": "2026-08-21",
+            "quality": "silver"
         },
         {
             "name": "lucio",
@@ -6640,7 +6649,8 @@
                 "mj010.mp3"
             ],
             "added": "2026-07-31",
-            "updated": "2026-07-31"
+            "updated": "2026-07-31",
+            "quality": "silver"
         },
         {
             "name": "modern-varied",
@@ -8376,7 +8386,8 @@
                 "dude_oops.mp3"
             ],
             "added": "2026-07-30",
-            "updated": "2026-07-30"
+            "updated": "2026-07-30",
+            "quality": "silver"
         },
         {
             "name": "postal-dude-clean",
@@ -8420,7 +8431,8 @@
                 "dude_oops.mp3"
             ],
             "added": "2026-07-30",
-            "updated": "2026-07-30"
+            "updated": "2026-07-30",
+            "quality": "silver"
         },
         {
             "name": "postal2_pl",
@@ -8503,7 +8515,8 @@
                 "jetson_made_another_one.mp3"
             ],
             "added": "2026-06-24",
-            "updated": "2026-06-24"
+            "updated": "2026-06-24",
+            "quality": "gold"
         },
         {
             "name": "professor-layton",
@@ -9017,7 +9030,8 @@
                 "drake_2.mp3"
             ],
             "added": "2026-06-25",
-            "updated": "2026-06-25"
+            "updated": "2026-06-25",
+            "quality": "silver"
         },
         {
             "name": "rat",
@@ -9394,7 +9408,8 @@
                 "sorry_about_that.mp3"
             ],
             "added": "2026-07-16",
-            "updated": "2026-07-16"
+            "updated": "2026-07-16",
+            "quality": "silver"
         },
         {
             "name": "roadhog",
@@ -10928,7 +10943,8 @@
                 "simlish-happy-male.mp3"
             ],
             "added": "2026-08-20",
-            "updated": "2026-08-20"
+            "updated": "2026-08-20",
+            "quality": "gold"
         },
         {
             "name": "simpsons",
@@ -11654,7 +11670,8 @@
                 "done.mp3"
             ],
             "added": "2026-06-25",
-            "updated": "2026-06-25"
+            "updated": "2026-06-25",
+            "quality": "silver"
         },
         {
             "name": "storm-spirit",
@@ -13131,7 +13148,8 @@
                 "Dont-push-the-horses.wav"
             ],
             "added": "2026-08-19",
-            "updated": "2026-08-19"
+            "updated": "2026-08-19",
+            "quality": "silver"
         },
         {
             "name": "vegeta_dbz",
@@ -13176,7 +13194,8 @@
                 "Manners.mp3"
             ],
             "added": "2026-07-22",
-            "updated": "2026-07-22"
+            "updated": "2026-07-22",
+            "quality": "silver"
         },
         {
             "name": "vendetta",
@@ -13347,7 +13366,8 @@
                 "smack-my-huge-iron-buttocks.mp3"
             ],
             "added": "2026-07-17",
-            "updated": "2026-07-17"
+            "updated": "2026-07-17",
+            "quality": "silver"
         },
         {
             "name": "warcraft-peon",
@@ -14058,7 +14078,8 @@
                 "ChaplainVictory3.wav"
             ],
             "added": "2026-07-26",
-            "updated": "2026-07-26"
+            "updated": "2026-07-26",
+            "quality": "gold"
         },
         {
             "name": "widowmaker",
