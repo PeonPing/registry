@@ -10993,6 +10993,40 @@
             "quality": "silver"
         },
         {
+          "name": "smzinho",
+          "display_name": "Smzinho",
+          "version": "1.0.0",
+          "description": "Este imundo azul agora toma conta dos seus agents.",
+          "author": { "name": "oalexluthor", "github": "oalexluthor" },
+          "trust_tier": "community",
+          "categories": [
+                "session.start", 
+                "task.complete",
+                "task.error",
+                "input.required"
+          ],
+          "language": "pt-BR",
+          "license": "MIT",
+          "sound_count": 16,
+          "total_size_bytes": 2072240,
+          "source_repo": "oalexluthor/openpeon-smzinho",
+          "source_ref": "v1.0.0",
+          "source_path": ".",
+          "manifest_sha256": "cc3ed2af60d1b47e7aca3e9b309e9f5d6d5f85def5aa25e533fabb92437c7dc3",
+          "tags": [
+              "gaming",
+              "brazil"
+          ],
+          "preview_sounds": [
+              "agora_sou_eu_e_voce.ogg",
+              "voce_e_crianca.ogg",
+              "levanta_bahiano.ogg",
+              "isso_amegan.ogg"
+          ],
+          "added": "2026-08-16",
+          "updated": "2026-08-16"
+        },
+        {
             "name": "snake",
             "display_name": "The Snake (Stronghold Crusader)",
             "version": "1.2.1",
