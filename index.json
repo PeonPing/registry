@@ -7218,6 +7218,48 @@
             "quality": "gold"
         },
         {
+            "name": "odst-superintendent",
+            "display_name": "ODST Superintendent",
+            "version": "1.0.0",
+            "description": "Superintendent-style traffic and civic announcements for your coding session.",
+            "author": {
+                "name": "nenntendo64",
+                "github": "nenntendo64"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam",
+                "session.end",
+                "task.progress"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 25,
+            "total_size_bytes": 530024,
+            "source_repo": "nenntendo64/odst-peon-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "5a0d736b74fb77bb351e585e2bf5ee8d1fb3d8dd3f4691d8736a9259e3b413f9",
+            "tags": [
+                "gaming",
+                "halo",
+                "voice",
+                "sci-fi"
+            ],
+            "preview_sounds": [
+                "ODST_Virgil_in.mp3",
+                "ODST_Bridge_toll_accepted.mp3"
+            ],
+            "added": "2026-09-02",
+            "updated": "2026-09-02"
+        },
+        {
             "name": "office_space",
             "display_name": "Office Space",
             "version": "1.0.0",
