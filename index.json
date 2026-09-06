@@ -5368,6 +5368,47 @@
             "quality": "silver"
         },
         {
+            "name": "jon_irenicus",
+            "display_name": "Jon Irenicus",
+            "version": "1.0.0",
+            "description": "Cold, imperious voice lines from Jon Irenicus (Baldur's Gate II).",
+            "author": {
+                "name": "Nate",
+                "github": "CavemanCode2600"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "task.progress"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 33,
+            "total_size_bytes": 3574219,
+            "source_repo": "CavemanCode2600/jon_irenicus",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "1efd018d0c0dc0a081f00fe27e8acb4aa4a7f5a79bb584f5b72db076022ac149",
+            "tags": [
+                "gaming",
+                "rpg",
+                "baldurs-gate",
+                "villain"
+            ],
+            "preview_sounds": [
+                "sounds/session_start_01.mp3",
+                "sounds/task_complete_01.mp3"
+            ],
+            "added": "2026-09-06",
+            "updated": "2026-09-06"
+        },
+        {
             "name": "junker_queen",
             "display_name": "Overwatch - Junker Queen",
             "version": "1.0.0",
@@ -14877,5 +14918,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 351
+    "total_packs": 352
 }
