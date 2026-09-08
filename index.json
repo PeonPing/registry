@@ -6185,7 +6185,7 @@
             "license": "CC-BY-NC-4.0",
             "sound_count": 26,
             "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.1.1",
+            "source_ref": "v1.1.2",
             "source_path": "lorenz-hellman-gloucester",
             "manifest_sha256": "8e5e40f311d62e769e97854013b7fd6b5043adf6b8608d9889780ddafe6f6ccd",
             "tags": [
@@ -6197,7 +6197,7 @@
                 "sounds/Was_there_any_doubt.wav"
             ],
             "added": "2026-08-21",
-            "updated": "2026-08-21",
+            "updated": "2026-09-08",
             "quality": "silver"
         },
         {
