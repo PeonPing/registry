@@ -1536,6 +1536,48 @@
             "quality": "silver"
         },
         {
+            "name": "brawl_stars_max",
+            "display_name": "Max (Brawl Stars)",
+            "version": "1.0.0",
+            "description": "Max (Brawl Stars) voice line from Brawl Stars",
+            "author": {
+                "name": "Rib47, ST9000HIGE",
+                "github": "Rib47"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 18,
+            "total_size_bytes": 247786,
+            "source_repo": "Rib47/openpeon-bs",
+            "source_ref": "v1.0.0",
+            "source_path": "brawl_stars_max",
+            "manifest_sha256": "23de5c54b1f08328ff4b7c0ee7dfb68183e274598b46fca1930f48117ee05a51",
+            "tags": [
+                "gaming",
+                "Brawl Stars",
+                "Supercell"
+            ],
+            "preview_sounds": [
+              "start_lets_go.ogg",
+              "compl_yes_yes.ogg",
+              "ack_no_time.ogg"
+            ],
+            "added": "2026-09-10",
+            "updated": "2026-09-10",
+            "quality": "silver"
+        },        
+        {
             "name": "brewmaster_de",
             "display_name": "Pandaren Brewmaster (DE)",
             "version": "1.0.1",
