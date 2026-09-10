@@ -12475,6 +12475,45 @@
             "quality": "silver"
         },
         {
+            "name": "terran-science-vessel",
+            "display_name": "Terran Science Vessel (StarCraft)",
+            "version": "1.0.0",
+            "description": "Explorer ship audio alerts featuring the Terran Science Vessel from StarCraft",
+            "author": {
+                "name": "PD",
+                "github": "JazzFiend"
+            },
+            "source_repo": "JazzFiend/my-openpeon-packs",
+            "source_ref": "v1.2.0",
+            "source_path": "sc_science_vessel",
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "manifest_sha256": "dd400214a211618fb4b9d67532e65f329ec24259377d88260b9a0af8519604ce",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "terran"
+            ],
+            "preview_sounds": [
+                "sounds/tverdy00.wav",
+                "sounds/tveyes01.wav"
+            ],
+            "added": "2026-09-10",
+            "updated": "2026-09-10",
+            "quality": "silver"
+        },
+        {
             "name": "tf2_demoman",
             "display_name": "TF2 Demoman",
             "version": "1.0.0",
