@@ -4266,7 +4266,7 @@
                 "github": "JazzFiend"
             },
             "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.2.1",
             "source_path": "ferdinand-von-aegir",
             "trust_tier": "community",
             "categories": [
@@ -6267,7 +6267,7 @@
             "license": "CC-BY-NC-4.0",
             "sound_count": 26,
             "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.1.2",
+            "source_ref": "v1.2.1",
             "source_path": "lorenz-hellman-gloucester",
             "manifest_sha256": "fb7be71bb005b986830346e872edb85c2c78d040e872a0e7a0a0d9efea92936c",
             "tags": [
@@ -12525,7 +12525,7 @@
                 "github": "JazzFiend"
             },
             "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.2.0",
+            "source_ref": "v1.2.1",
             "source_path": "sc_science_vessel",
             "trust_tier": "community",
             "categories": [
@@ -12540,7 +12540,7 @@
             "language": "en",
             "license": "CC-BY-NC-4.0",
             "sound_count": 16,
-            "manifest_sha256": "dd400214a211618fb4b9d67532e65f329ec24259377d88260b9a0af8519604ce",
+            "manifest_sha256": "38893a1e082a584768f717102b8fb15762b338ac2c54961e0cc74e306613778f",
             "tags": [
                 "gaming",
                 "starcraft",
@@ -12551,7 +12551,7 @@
                 "sounds/tveyes01.wav"
             ],
             "added": "2026-09-10",
-            "updated": "2026-09-10"
+            "updated": "2026-09-11"
         },
         {
             "name": "tf2_demoman",
