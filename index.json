@@ -1538,7 +1538,7 @@
         {
             "name": "brawl_stars_max",
             "display_name": "Max (Brawl Stars)",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "description": "Max (Brawl Stars) voice line from Brawl Stars",
             "author": {
                 "name": "Rib47, ST9000HIGE",
@@ -1558,11 +1558,11 @@
             "language": "en",
             "license": "fair-use",
             "sound_count": 18,
-            "total_size_bytes": 574534,
+            "total_size_bytes": 571942,
             "source_repo": "Rib47/openpeon-bs",
-            "source_ref": "v1.0.1",
+            "source_ref": "v1.0.2",
             "source_path": "brawl_stars_max",
-            "manifest_sha256": "7fe1de4c385a2cb6bc104d261819cc13d960de616b6200315646a313d7f89a72",
+            "manifest_sha256": "cf0019874c2f69240f0621211f099a405161a653c850eee6a40b1b9b927e1294",
             "tags": [
                 "gaming",
                 "Brawl Stars",
