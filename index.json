@@ -5411,7 +5411,7 @@
         {
             "name": "jessica-bg",
             "display_name": "Jessica BG",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "description": "A bright, playful voice cheering you on in Bulgarian.",
             "author": {
                 "name": "beastafk",
@@ -5429,12 +5429,12 @@
             ],
             "language": "bg",
             "license": "CC-BY-NC-4.0",
-            "sound_count": 21,
-            "total_size_bytes": 2461454,
+            "sound_count": 42,
+            "total_size_bytes": 630963,
             "source_repo": "beastafk/openpeon-jessica-bg",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.1.0",
             "source_path": ".",
-            "manifest_sha256": "5c9c12a422d611d7fcf1fcacbcac345a97981414295018b53a80bf8400f1afe7",
+            "manifest_sha256": "66755666d434299e9a900c4a4351be9390206030188c0b5c8112c30da1c32309",
             "tags": [
                 "voice",
                 "bulgarian",
@@ -5443,11 +5443,11 @@
                 "elevenlabs"
             ],
             "preview_sounds": [
-                "session_start_0.wav",
-                "task_complete_0.wav"
+                "session_start_0.mp3",
+                "task_complete_0.mp3"
             ],
             "added": "2026-09-10",
-            "updated": "2026-09-10"
+            "updated": "2026-09-18"
         },
         {
             "name": "jon_irenicus",
