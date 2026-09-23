@@ -14703,7 +14703,7 @@
         {
             "name": "yennefer",
             "display_name": "Yennefer of Vengerberg",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "description": "Claude Code notification sounds voiced as Yennefer (The Witcher) — dry British delivery with modern, recognizable character-flavored one-liners. ChatterboxTTS expressive base, RVC voice conversion.",
             "author": {
                 "name": "John Rebellion",
@@ -14721,12 +14721,12 @@
             ],
             "language": "en",
             "license": "CC-BY-NC-4.0",
-            "sound_count": 20,
-            "total_size_bytes": 246417,
+            "sound_count": 36,
+            "total_size_bytes": 381929,
             "source_repo": "JohnRebellion/openpeon-yennefer-soundpack",
-            "source_ref": "v1.1.0",
+            "source_ref": "v1.2.0",
             "source_path": ".",
-            "manifest_sha256": "bef17de780be22b73f2264530200373064797c001e5c294c2e400b6f80ecfcdf",
+            "manifest_sha256": "2701b5a725b33a2d48ed6cbb96c1f6ad0680ed8f27f1647d55208084eb316728",
             "tags": [
                 "tts",
                 "ai-voice",
@@ -14741,7 +14741,7 @@
                 "spam_slowdown.mp3"
             ],
             "added": "2026-06-07",
-            "updated": "2026-09-04",
+            "updated": "2026-09-23",
             "quality": "silver"
         },
         {
