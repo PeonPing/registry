@@ -2851,6 +2851,47 @@
             "quality": "gold"
         },
         {
+            "name": "dota2-hoodwink",
+            "display_name": "Hoodwink (Dota 2)",
+            "version": "1.0.1",
+            "description": "Hoodwink voice lines from Dota 2.",
+            "author": {
+                "name": "Joel",
+                "github": "joppecino"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 91,
+            "total_size_bytes": 4113408,
+            "source_repo": "joppecino/openpeon-hoodwink",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "3032c37d8f2fb438bcc2afedffb495d5887fb7371a22b469966a568dba5eaa15",
+            "tags": [
+                "gaming",
+                "dota2",
+                "valve",
+                "moba"
+            ],
+            "preview_sounds": [
+                "hw-start-1.mp3",
+                "hw-complete-1.mp3"
+            ],
+            "added": "2026-09-26",
+            "updated": "2026-09-26"
+        },
+        {
             "name": "dota2-sounds",
             "display_name": "Dota 2 Sounds",
             "version": "1.0.0",
