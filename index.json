@@ -4978,6 +4978,48 @@
             "quality": "silver"
         },
         {
+            "name": "heroes3",
+            "display_name": "Heroes of Might and Magic III",
+            "version": "1.0.0",
+            "description": "Heroes of Might and Magic III sounds — new day, new week, victory, morale and luck, creature ouches",
+            "author": {
+                "name": "Oleksandr Breslavets",
+                "github": "BreslavetsOleksandr"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 27,
+            "total_size_bytes": 7699070,
+            "source_repo": "BreslavetsOleksandr/openpeon-heroes3",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "4d1f26d1f4721bd08fbbbae46bc6b2fb29b8f6e51805a98e8e69890a34101eb9",
+            "tags": [
+                "gaming",
+                "heroes-of-might-and-magic",
+                "homm3",
+                "strategy",
+                "retro",
+                "3do"
+            ],
+            "preview_sounds": [
+                "NewDay.wav",
+                "WinBattle.wav"
+            ],
+            "added": "2026-09-27",
+            "updated": "2026-09-27"
+        },
+        {
             "name": "high_elf_builder_ru",
             "display_name": "Строитель Высших Эльфов (Russian)",
             "version": "1.1.0",
