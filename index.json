@@ -6660,7 +6660,7 @@
         {
             "name": "michael_scott",
             "display_name": "Michael Scott (The Office)",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "description": "Michael Scott voice lines from The Office (US) — that's what she said, I declare bankruptcy, and more",
             "author": {
                 "name": "Oleksandr Breslavets",
@@ -6679,11 +6679,11 @@
             "language": "en",
             "license": "fair-use",
             "sound_count": 48,
-            "total_size_bytes": 12174462,
+            "total_size_bytes": 12130362,
             "source_repo": "BreslavetsOleksandr/openpeon-michael-scott",
-            "source_ref": "v1.3.0",
+            "source_ref": "v1.3.1",
             "source_path": ".",
-            "manifest_sha256": "ff5d89eaa880c9ac07813ccd780217969e8153c5819464933cbfe64ad72986c6",
+            "manifest_sha256": "123e61c4327ef6fe3b39207ae573ed6a3e9beceff756876a7b6c6026b051938b",
             "tags": [
                 "tv-quotes",
                 "the-office",
