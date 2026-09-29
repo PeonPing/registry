@@ -14701,6 +14701,47 @@
             "quality": "silver"
         },
         {
+            "name": "wow_goblin",
+            "display_name": "WoW Goblin",
+            "version": "1.0.0",
+            "description": "Zany male goblin merchant voice from World of Warcraft Classic. Time is money, friend!",
+            "author": {
+                "name": "ExcEssIv3",
+                "github": "ExcEssIv3"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 15,
+            "total_size_bytes": 360100,
+            "source_repo": "ExcEssIv3/peonping-wow_goblin",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "c06c2ce39b1f4c5f1e7cc47992c48b15c7bfc31f7b47d8120ed74c8ca677f34c",
+            "tags": [
+                "gaming",
+                "warcraft",
+                "wow",
+                "blizzard",
+                "goblin"
+            ],
+            "preview_sounds": [
+                "malezany_greeting01.mp3",
+                "malezany_farewell04.mp3"
+            ],
+            "added": "2026-09-29",
+            "updated": "2026-09-29"
+        },
+        {
             "name": "wrecking_ball",
             "display_name": "Wrecking Ball (Overwatch)",
             "version": "1.0.0",
