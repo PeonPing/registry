@@ -2113,6 +2113,42 @@
             "quality": "silver"
         },
         {
+            "name": "commandos-diver",
+            "display_name": "Diver - Commandos: Behind Enemy Lines",
+            "version": "1.0.0",
+            "description": "Elite marine audio alerts from Sergeant James \"Fins\" Blackwood a.k.a. The Diver from Commandos: Behind Enemy Lines",
+            "author": {
+                "name": "PD",
+                "github": "JazzFiend"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 17,
+            "source_repo": "JazzFiend/my-openpeon-packs",
+            "source_ref": "v1.3.0",
+            "source_path": "commandos-diver",
+            "manifest_sha256": "54046e3c4e8aa99b0f4c4aa91043006bf80db96557e968ba60cfa6f1abc9363e",
+            "tags": [
+                "gaming",
+                "commandos"
+            ],
+            "preview_sounds": [
+                "sounds/Select01.wav",
+                "sounds/Acknowledge03.wav"
+            ],
+            "added": "2026-10-01",
+            "updated": "2026-10-01"
+        },
+        {
             "name": "cortana",
             "display_name": "Cortana",
             "version": "1.0.3",
