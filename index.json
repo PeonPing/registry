@@ -10743,6 +10743,44 @@
             "quality": "silver"
         },
         {
+            "name": "sc_science_vessel",
+            "display_name": "Terran Science Vessel (StarCraft)",
+            "version": "1.0.0",
+            "description": "Explorer ship audio alerts featuring the Terran Science Vessel from StarCraft",
+            "author": {
+                "name": "PD",
+                "github": "JazzFiend"
+            },
+            "source_repo": "JazzFiend/my-openpeon-packs",
+            "source_ref": "v1.2.1",
+            "source_path": "sc_science_vessel",
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "manifest_sha256": "38893a1e082a584768f717102b8fb15762b338ac2c54961e0cc74e306613778f",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "terran"
+            ],
+            "preview_sounds": [
+                "sounds/tverdy00.wav",
+                "sounds/tveyes01.wav"
+            ],
+            "added": "2026-09-10",
+            "updated": "2026-10-02"
+        },
+        {
             "name": "sc_scv",
             "display_name": "StarCraft SCV",
             "version": "2.0.0",
@@ -12675,44 +12713,6 @@
             "added": "2026-02-16",
             "updated": "2026-02-16",
             "quality": "silver"
-        },
-        {
-            "name": "terran-science-vessel",
-            "display_name": "Terran Science Vessel (StarCraft)",
-            "version": "1.0.0",
-            "description": "Explorer ship audio alerts featuring the Terran Science Vessel from StarCraft",
-            "author": {
-                "name": "PD",
-                "github": "JazzFiend"
-            },
-            "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.2.1",
-            "source_path": "sc_science_vessel",
-            "trust_tier": "community",
-            "categories": [
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "input.required",
-                "resource.limit",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "CC-BY-NC-4.0",
-            "sound_count": 16,
-            "manifest_sha256": "38893a1e082a584768f717102b8fb15762b338ac2c54961e0cc74e306613778f",
-            "tags": [
-                "gaming",
-                "starcraft",
-                "terran"
-            ],
-            "preview_sounds": [
-                "sounds/tverdy00.wav",
-                "sounds/tveyes01.wav"
-            ],
-            "added": "2026-09-10",
-            "updated": "2026-09-11"
         },
         {
             "name": "tf2_demoman",
