@@ -7173,6 +7173,46 @@
             "quality": "silver"
         },
         {
+            "name": "muthur",
+            "display_name": "MU/TH/UR 6000 (Alien)",
+            "version": "1.0.0",
+            "description": "Nostromo MU/TH/UR 6000 mainframe console.",
+            "author": {
+                "name": "Jake Wesorick",
+                "github": "JWesorick"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 10,
+            "total_size_bytes": 2686936,
+            "source_repo": "JWesorick/openpeon-muthur",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "b96ef84f5ecd628661efd1e9d00c270ce174ecfcad11ec893e576781af18448f",
+            "tags": [
+                "sci-fi",
+                "movie",
+                "alien",
+                "ui"
+            ],
+            "preview_sounds": [
+                "loading-screen.wav",
+                "seq-readout.wav"
+            ],
+            "added": "2026-10-04",
+            "updated": "2026-10-04"
+        },
+        {
             "name": "nezuai-varied",
             "display_name": "UI Sound Design",
             "version": "1.0.1",
