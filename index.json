@@ -7175,7 +7175,7 @@
         {
             "name": "muthur",
             "display_name": "MU/TH/UR 6000 (Alien)",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Nostromo MU/TH/UR 6000 mainframe console.",
             "author": {
                 "name": "Jake Wesorick",
@@ -7196,9 +7196,9 @@
             "sound_count": 10,
             "total_size_bytes": 2686936,
             "source_repo": "JWesorick/openpeon-muthur",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": ".",
-            "manifest_sha256": "b96ef84f5ecd628661efd1e9d00c270ce174ecfcad11ec893e576781af18448f",
+            "manifest_sha256": "829e397635fa3b63b06d0743fd4cb1b2cdf90c44e04bcad24941c480606fc905",
             "tags": [
                 "sci-fi",
                 "movie",
