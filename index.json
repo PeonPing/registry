@@ -11659,6 +11659,46 @@
             "quality": "silver"
         },
         {
+            "name": "soraya_montenegro_gr",
+            "display_name": "Soraya Montenegro (Greek dub)",
+            "version": "1.0.3",
+            "description": "Soraya Montenegro, villain of the 1995 Mexican telenovela María la del Barrio, in the Greek dub (Μαρία της Γειτονιάς).",
+            "author": {
+                "name": "Eleni Lixourioti",
+                "github": "Geekfish"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "el",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 18,
+            "total_size_bytes": 1143463,
+            "source_repo": "Geekfish/peon-soraya-montenegro",
+            "source_ref": "v1.0.3",
+            "source_path": ".",
+            "manifest_sha256": "634cca0ef0d1d6cbaf56cb9874fd950ea32fcc6b2b07a9565c281b681fad32d9",
+            "tags": [
+                "tv",
+                "telenovela",
+                "voice",
+                "greek"
+            ],
+            "preview_sounds": [
+                "filas_tin_anapiri.mp3",
+                "poso_se_miso.mp3"
+            ],
+            "added": "2026-10-09",
+            "updated": "2026-10-09"
+        },
+        {
             "name": "southpark_cartman",
             "display_name": "Cartman (South Park)",
             "version": "1.0.0",
@@ -15280,5 +15320,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 353
+    "total_packs": 354
 }
