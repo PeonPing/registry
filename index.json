@@ -4334,17 +4334,17 @@
             "quality": "gold"
         },
         {
-            "name": "ferdinand-von-aegir",
+            "name": "fe3h-ferdinand-von-aegir",
             "display_name": "Ferdinand von Aegir (FE3H)",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "description": "Noble audio alerts featuring Ferdinand von Aegir from Fire Emblem: Three Houses. Voiced by the late, great Billy Kametz",
             "author": {
                 "name": "PD",
                 "github": "JazzFiend"
             },
             "source_repo": "JazzFiend/my-openpeon-packs",
-            "source_ref": "v1.2.1",
-            "source_path": "ferdinand-von-aegir",
+            "source_ref": "v1.4.0",
+            "source_path": "fe3h-ferdinand-von-aegir",
             "trust_tier": "community",
             "categories": [
                 "session.start",
@@ -4357,8 +4357,8 @@
             ],
             "language": "en",
             "license": "CC-BY-NC-4.0",
-            "sound_count": 18,
-            "manifest_sha256": "766aae554e451fe0265d99f094c8a252acba6fb6bc97dc4a47c7279cd779f0d0",
+            "sound_count": 44,
+            "manifest_sha256": "91aa3e6f176004b4ff01ac16d4032a9bfe3a996042bf1bc0ea573674deb16379",
             "tags": [
                 "gaming",
                 "fire-emblem"
@@ -4368,8 +4368,7 @@
                 "sounds/A_true_noble_never_fails.wav"
             ],
             "added": "2026-07-17",
-            "updated": "2026-07-17",
-            "quality": "silver"
+            "updated": "2026-10-12"
         },
         {
             "name": "frederick",
