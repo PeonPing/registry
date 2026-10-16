@@ -1494,6 +1494,48 @@
             "quality": "gold"
         },
         {
+            "name": "better_call_saul",
+            "display_name": "Better Call Saul - Saul Goodman",
+            "version": "1.0.0",
+            "description": "Saul Goodman (plus Walt, Jesse and Chuck) from Better Call Saul / Breaking Bad. S'all good, man.",
+            "author": {
+                "name": "czhiming-maker",
+                "github": "czhiming-maker"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 22,
+            "total_size_bytes": 790461,
+            "source_repo": "czhiming-maker/peonping-better-call-saul",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "0c3b6a7ada30d74e156e9d7c478e3730e3885cea53f8c93e85a830f637a2bc07",
+            "tags": [
+                "tv-quotes",
+                "better-call-saul",
+                "breaking-bad",
+                "saul-goodman",
+                "comedy",
+                "lawyer"
+            ],
+            "preview_sounds": [
+                "better-call-saul.mp3",
+                "its-all-good-man.mp3"
+            ],
+            "added": "2026-10-16",
+            "updated": "2026-10-16"
+        },
+        {
             "name": "boris_ru",
             "display_name": "Дед Борис (Russian)",
             "version": "1.0.0",
