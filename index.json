@@ -9010,6 +9010,49 @@
             "quality": "silver"
         },
         {
+            "name": "protoss_probe",
+            "display_name": "Protoss Probe (StarCraft)",
+            "version": "1.0.0",
+            "description": "Original StarCraft (1998) Protoss Probe unit sounds",
+            "author": {
+                "name": "Michael Zijlstra",
+                "github": "mzijlstra"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "total_size_bytes": 1044060,
+            "source_repo": "mzijlstra/peonping-protoss-probe",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "62bbdd4e6f1105c9be33a4eb6e96cf55420667bde09144a7a1287180e0c9831d",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "rts",
+                "blizzard"
+            ],
+            "preview_sounds": [
+                "sounds/ppryes00.wav",
+                "sounds/pprerr00.wav",
+                "sounds/pprwht01.wav"
+            ],
+            "added": "2026-10-23",
+            "updated": "2026-10-23"
+        },
+        {
             "name": "pulp_fiction",
             "display_name": "Pulp Fiction",
             "version": "1.0.0",
