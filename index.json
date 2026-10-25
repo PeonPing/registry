@@ -4129,6 +4129,46 @@
             "quality": "gold"
         },
         {
+            "name": "duke_nukem_jsj",
+            "display_name": "Duke Nukem (Jon St. John)",
+            "version": "1.0.0",
+            "description": "Your terminal just got a King. 135 Jon St. John lines: 'Too Easy!' when it works, 'Damn It to Hell' when it doesn't. Unofficial fan pack, explicit language.",
+            "author": {
+                "name": "unknown",
+                "github": "unknown"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "LicenseRef-Unlicensed-Fan-Pack",
+            "sound_count": 135,
+            "total_size_bytes": 2499646,
+            "source_repo": "j3nda/openpeon-duke_nukem_jsj",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "044cae20ec410377e4f2632a72baebf1b4de330cdcf91addd25048184e6d0c55",
+            "tags": [
+                "gaming",
+                "duke-nukem",
+                "fps",
+                "retro"
+            ],
+            "preview_sounds": [
+                "what-are-ya-waitin-for-christmas.mp3",
+                "hail-to-the-king-baby.mp3"
+            ],
+            "added": "2026-10-25",
+            "updated": "2026-10-25"
+        },
+        {
             "name": "dva",
             "display_name": "D.Va Overwatch",
             "version": "1.0.0",
