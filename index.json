@@ -12840,6 +12840,126 @@
             "quality": "silver"
         },
         {
+            "name": "teen-titans",
+            "display_name": "Teen Titans — Team",
+            "version": "1.0.0",
+            "description": "All five Titans: Robin's orders, Cyborg's booyahs, Beast Boy's jokes, Raven's deadpan, and Starfire's enthusiasm.",
+            "author": {
+                "name": "JustSuperHuman",
+                "github": "JustSuperHuman"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "sound_count": 35,
+            "total_size_bytes": 3287381,
+            "source_repo": "JustSuperHuman/openpeon-teen-titans",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/teen-titans",
+            "manifest_sha256": "58e24774d6b591bd8a57e8a6c8cc1aeb82bec86bd9ab20415852d7ce04cab518",
+            "tags": [
+                "teen-titans",
+                "game-audio",
+                "cartoon",
+                "notifications"
+            ],
+            "preview_sounds": [
+                "cyborg_booyah.wav",
+                "cyborg_anybody-ready-for-cyborg-2-0.wav",
+                "raven_oh-brother.wav"
+            ],
+            "added": "2026-10-25",
+            "updated": "2026-10-25"
+        },
+        {
+            "name": "teen-titans-raven",
+            "display_name": "Teen Titans — Raven",
+            "version": "1.0.0",
+            "description": "Raven's dry replies, reluctant victories, and very limited patience.",
+            "author": {
+                "name": "JustSuperHuman",
+                "github": "JustSuperHuman"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "sound_count": 23,
+            "total_size_bytes": 1947326,
+            "source_repo": "JustSuperHuman/openpeon-teen-titans",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/teen-titans-raven",
+            "manifest_sha256": "3a34c85589eacac1cae1c3fec18f683d4c7d3ee7c2d6237abd755f6acb660128",
+            "tags": [
+                "teen-titans",
+                "game-audio",
+                "cartoon",
+                "notifications"
+            ],
+            "preview_sounds": [
+                "raven_thats-my-kind-of-magic.wav",
+                "raven_im-thrilled.wav",
+                "raven_oh-brother.wav"
+            ],
+            "added": "2026-10-25",
+            "updated": "2026-10-25"
+        },
+        {
+            "name": "teen-titans-villains",
+            "display_name": "Teen Titans — Villains",
+            "version": "1.0.0",
+            "description": "Slade, Jinx, Mammoth, Mumbo Jumbo, Fang, Mad Mod, Red X, and Trigon take over the notifications.",
+            "author": {
+                "name": "JustSuperHuman",
+                "github": "JustSuperHuman"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "sound_count": 21,
+            "total_size_bytes": 2863423,
+            "source_repo": "JustSuperHuman/openpeon-teen-titans",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/teen-titans-villains",
+            "manifest_sha256": "aaf9b7d92aea0940f19c7eebd6e24ddb78e6c24285e39c962caaef17adf9f88d",
+            "tags": [
+                "teen-titans",
+                "game-audio",
+                "cartoon",
+                "notifications"
+            ],
+            "preview_sounds": [
+                "red-x_oh-good-one-even-if-it-was-luck.wav",
+                "fang_welcome-to-my-parlor.wav",
+                "jinx_this-just-isnt-your-day-is-it.wav"
+            ],
+            "added": "2026-10-25",
+            "updated": "2026-10-25"
+        },
+        {
             "name": "tekken3_announcer",
             "display_name": "Announcer (Tekken 3)",
             "version": "1.0.0",
@@ -15404,5 +15524,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 354
+    "total_packs": 376
 }
