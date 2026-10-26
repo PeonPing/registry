@@ -5179,6 +5179,46 @@
             "quality": "silver"
         },
         {
+            "name": "hl2",
+            "display_name": "Half-Life 2 (HEV Suit)",
+            "version": "1.0.0",
+            "description": "Half-Life 2 HEV suit UI sounds: suit charger, HUD blips, and alerts for agent notifications",
+            "author": {
+                "name": "nikolai-momot",
+                "github": "nikolai-momot"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 15,
+            "total_size_bytes": 209594,
+            "source_repo": "nikolai-momot/peonping-hl2",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "e01d9a1cfa6f4a675d0efae7443dc6ab63d55c12b1a8146e93e6ebfcfd3c5205",
+            "tags": [
+                "gaming",
+                "valve",
+                "half-life",
+                "fps"
+            ],
+            "preview_sounds": [
+                "battery_pickup.wav",
+                "suitchargeok1.wav"
+            ],
+            "added": "2026-10-26",
+            "updated": "2026-10-26"
+        },
+        {
             "name": "honor_of_kings",
             "display_name": "Honor of Kings (王者荣耀)",
             "version": "1.0.2",
