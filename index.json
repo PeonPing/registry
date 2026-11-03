@@ -1611,13 +1611,13 @@
                 "Supercell"
             ],
             "preview_sounds": [
-              "start_lets_go.ogg",
-              "compl_yes_yes.ogg",
-              "ack_no_time.ogg"
+                "start_lets_go.ogg",
+                "compl_yes_yes.ogg",
+                "ack_no_time.ogg"
             ],
             "added": "2026-09-10",
             "updated": "2026-09-18"
-        },        
+        },
         {
             "name": "brewmaster_de",
             "display_name": "Pandaren Brewmaster (DE)",
@@ -4451,6 +4451,47 @@
             ],
             "added": "2026-07-17",
             "updated": "2026-10-12"
+        },
+        {
+            "name": "fibi-chuppi",
+            "display_name": "Fibi Chuppi (Phoebe Chupi)",
+            "version": "1.0.0",
+            "description": "Adorable high-pitched Phoebe Chupi (Fibi Chuppi) cube noises from Wuthering Waves for coding events.",
+            "author": {
+                "name": "dat",
+                "github": "duydat255-creator"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 12,
+            "total_size_bytes": 524881,
+            "source_repo": "duydat255-creator/fibi-chuppi",
+            "source_ref": "v1.0.0",
+            "source_path": "",
+            "manifest_sha256": "962c83ac0fe00afd0a4557fa8ce14a062da927598b2ec61b0f6b228190124af5",
+            "tags": [
+                "wuthering-waves",
+                "phoebe",
+                "chupi",
+                "fibi-chuppi",
+                "anime",
+                "meme"
+            ],
+            "added": "2026-11-03",
+            "updated": "2026-11-03",
+            "preview_sounds": [
+                "sounds/phoebe-chupi.mp3"
+            ]
         },
         {
             "name": "frederick",
@@ -15604,5 +15645,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 376
+    "total_packs": 379
 }
