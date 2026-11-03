@@ -4473,12 +4473,12 @@
             ],
             "language": "en",
             "license": "CC-BY-NC-4.0",
-            "sound_count": 5,
-            "total_size_bytes": 411730,
+            "sound_count": 12,
+            "total_size_bytes": 524881,
             "source_repo": "duydat255-creator/fibi-chuppi",
             "source_ref": "v1.0.0",
             "source_path": "",
-            "manifest_sha256": "1d8460d787cf08057e84fef824e877bea2f4cd4cd3250d8adb7c1e8d5976a6b9",
+            "manifest_sha256": "962c83ac0fe00afd0a4557fa8ce14a062da927598b2ec61b0f6b228190124af5",
             "tags": [
                 "wuthering-waves",
                 "phoebe",
@@ -4489,7 +4489,6 @@
             ],
             "added": "2026-11-03",
             "updated": "2026-11-03",
-            "quality": "gold",
             "preview_sounds": [
                 "sounds/phoebe-chupi.mp3"
             ]
