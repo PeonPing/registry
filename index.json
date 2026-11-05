@@ -4,7 +4,7 @@
         {
             "name": "7yw2_chinese_farmer",
             "display_name": "7 Years War 2 Chinese Farmer",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Korean-localized Chinese farmer voice lines from Imjinrok 2 (Seven Years War 2)",
             "author": {
                 "name": "kuthia",
@@ -22,11 +22,11 @@
             "language": "ko",
             "license": "CC-BY-NC-4.0",
             "sound_count": 7,
-            "total_size_bytes": 195776,
+            "total_size_bytes": 390005,
             "source_repo": "kuthia/openpeon-7yw2",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": "openpeon-7yw2-chinese",
-            "manifest_sha256": "21f217fb222814d1bebd1b451b48edcd32c82fb118dd41a78d343423ae5840b0",
+            "manifest_sha256": "1f8f967ecadc4f1022934e3e687088c8ae88d0a543b7c182209e00b5edf7a084",
             "tags": [
                 "gaming",
                 "imjinrok",
@@ -43,7 +43,7 @@
         {
             "name": "7yw2_japanese_farmer",
             "display_name": "7 Years War 2 Japanese Farmer",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Korean-localized Japanese farmer voice lines from Imjinrok 2 (Seven Years War 2)",
             "author": {
                 "name": "kuthia",
@@ -61,11 +61,11 @@
             "language": "ko",
             "license": "CC-BY-NC-4.0",
             "sound_count": 7,
-            "total_size_bytes": 190073,
+            "total_size_bytes": 378532,
             "source_repo": "kuthia/openpeon-7yw2",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": "openpeon-7yw2-japanese",
-            "manifest_sha256": "067ca3aedf70198d24a345b97c502fc47dd35f0a7982e896876aa060cb7e505b",
+            "manifest_sha256": "c930dae5f3dc6548d81621d4526a5c277d099a183cc73090d5b26cb8c4b8b510",
             "tags": [
                 "gaming",
                 "imjinrok",
@@ -82,7 +82,7 @@
         {
             "name": "7yw2_korean_farmer",
             "display_name": "7 Years War 2 Korean Farmer",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Korean farmer voice lines from Imjinrok 2 (Seven Years War 2)",
             "author": {
                 "name": "kuthia",
@@ -100,11 +100,11 @@
             "language": "ko",
             "license": "CC-BY-NC-4.0",
             "sound_count": 11,
-            "total_size_bytes": 264599,
+            "total_size_bytes": 527253,
             "source_repo": "kuthia/openpeon-7yw2",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.0.1",
             "source_path": "openpeon-7yw2-korean",
-            "manifest_sha256": "44df8d06fb29ba4a06c156168417f20c99830efb2c1d4f2e354687071e6818ea",
+            "manifest_sha256": "b717c211b30c5369ba6a75e85aa57db64a81d1c27d01a3a75d548f6e8136ec2e",
             "tags": [
                 "gaming",
                 "imjinrok",
