@@ -2,6 +2,123 @@
     "version": 1,
     "packs": [
         {
+            "name": "7yw2_chinese_farmer",
+            "display_name": "7 Years War 2 Chinese Farmer",
+            "version": "1.0.0",
+            "description": "Korean-localized Chinese farmer voice lines from Imjinrok 2 (Seven Years War 2)",
+            "author": {
+                "name": "kuthia",
+                "github": "kuthia"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 195776,
+            "source_repo": "kuthia/openpeon-7yw2",
+            "source_ref": "v1.0.0",
+            "source_path": "openpeon-7yw2-chinese",
+            "manifest_sha256": "21f217fb222814d1bebd1b451b48edcd32c82fb118dd41a78d343423ae5840b0",
+            "tags": [
+                "gaming",
+                "imjinrok",
+                "rts",
+                "korean"
+            ],
+            "preview_sounds": [
+                "c1_select_farmer.wav",
+                "common_done.wav"
+            ],
+            "added": "2026-11-05",
+            "updated": "2026-11-05"
+        },
+        {
+            "name": "7yw2_japanese_farmer",
+            "display_name": "7 Years War 2 Japanese Farmer",
+            "version": "1.0.0",
+            "description": "Korean-localized Japanese farmer voice lines from Imjinrok 2 (Seven Years War 2)",
+            "author": {
+                "name": "kuthia",
+                "github": "kuthia"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 190073,
+            "source_repo": "kuthia/openpeon-7yw2",
+            "source_ref": "v1.0.0",
+            "source_path": "openpeon-7yw2-japanese",
+            "manifest_sha256": "067ca3aedf70198d24a345b97c502fc47dd35f0a7982e896876aa060cb7e505b",
+            "tags": [
+                "gaming",
+                "imjinrok",
+                "rts",
+                "korean"
+            ],
+            "preview_sounds": [
+                "j2_select_farmer.wav",
+                "common_done.wav"
+            ],
+            "added": "2026-11-05",
+            "updated": "2026-11-05"
+        },
+        {
+            "name": "7yw2_korean_farmer",
+            "display_name": "7 Years War 2 Korean Farmer",
+            "version": "1.0.0",
+            "description": "Korean farmer voice lines from Imjinrok 2 (Seven Years War 2)",
+            "author": {
+                "name": "kuthia",
+                "github": "kuthia"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 11,
+            "total_size_bytes": 264599,
+            "source_repo": "kuthia/openpeon-7yw2",
+            "source_ref": "v1.0.0",
+            "source_path": "openpeon-7yw2-korean",
+            "manifest_sha256": "44df8d06fb29ba4a06c156168417f20c99830efb2c1d4f2e354687071e6818ea",
+            "tags": [
+                "gaming",
+                "imjinrok",
+                "rts",
+                "korean"
+            ],
+            "preview_sounds": [
+                "k3_select_farmer.wav",
+                "common_done.wav"
+            ],
+            "added": "2026-11-05",
+            "updated": "2026-11-05"
+        },
+        {
             "name": "abbot",
             "display_name": "The Abbot (Stronghold Crusader)",
             "version": "1.2.1",
@@ -15645,5 +15762,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 379
+    "total_packs": 382
 }
