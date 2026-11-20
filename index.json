@@ -1273,6 +1273,45 @@
             "quality": "silver"
         },
         {
+            "name": "arcade",
+            "display_name": "Arcade",
+            "version": "1.0.0",
+            "description": "Original retro arcade blips: a point when work is done, a lost life on an error. Made with Sound Effects AI.",
+            "author": {
+                "name": "Sound Effects AI",
+                "github": "MabroorA"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "CC-BY-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 698359,
+            "source_repo": "MabroorA/claude-code-sounds",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/arcade",
+            "manifest_sha256": "e32943eb2ebebeff42580ae04a1ac5186004bfaa7a5a8dd4cd9f7bbb5a43837c",
+            "tags": [
+                "original",
+                "retro",
+                "arcade",
+                "8-bit"
+            ],
+            "preview_sounds": [
+                "done-1.wav",
+                "needs-you.wav"
+            ],
+            "added": "2026-11-20",
+            "updated": "2026-11-20"
+        },
+        {
             "name": "armed-gearhead-lor",
             "display_name": "Armed Gearhead (LoR) Sound Pack",
             "version": "1.0.0",
@@ -4896,6 +4935,45 @@
             "added": "2026-02-12",
             "updated": "2026-02-12",
             "quality": "silver"
+        },
+        {
+            "name": "glimmet",
+            "display_name": "Glimmet",
+            "version": "1.0.0",
+            "description": "An original cave critter that chirps, trills and yawns for your coding agent. Made with Sound Effects AI.",
+            "author": {
+                "name": "Sound Effects AI",
+                "github": "MabroorA"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "CC-BY-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 704549,
+            "source_repo": "MabroorA/claude-code-sounds",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/glimmet",
+            "manifest_sha256": "3745042a04418b0f67a125a3cffebeec22fd5541dbb2740a7a315e653331447c",
+            "tags": [
+                "original",
+                "character",
+                "creature",
+                "cute"
+            ],
+            "preview_sounds": [
+                "done-1.wav",
+                "needs-you.wav"
+            ],
+            "added": "2026-11-20",
+            "updated": "2026-11-20"
         },
         {
             "name": "gothic_2_nameless_hero",
@@ -9330,6 +9408,45 @@
             "added": "2026-03-13",
             "updated": "2026-03-18",
             "quality": "silver"
+        },
+        {
+            "name": "quiet",
+            "display_name": "Quiet",
+            "version": "1.0.0",
+            "description": "Original soft wood and glass notes for open offices and late nights. Made with Sound Effects AI.",
+            "author": {
+                "name": "Sound Effects AI",
+                "github": "MabroorA"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "CC-BY-4.0",
+            "sound_count": 7,
+            "total_size_bytes": 751120,
+            "source_repo": "MabroorA/claude-code-sounds",
+            "source_ref": "v1.0.0",
+            "source_path": "packs/quiet",
+            "manifest_sha256": "ce3d60b6841d7974b9393c5f84ca2048b9ed69e7bd38d75607abdf173db500f6",
+            "tags": [
+                "original",
+                "calm",
+                "minimal",
+                "office"
+            ],
+            "preview_sounds": [
+                "done-1.wav",
+                "needs-you.wav"
+            ],
+            "added": "2026-11-20",
+            "updated": "2026-11-20"
         },
         {
             "name": "r2d2",
