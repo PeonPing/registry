@@ -1523,6 +1523,50 @@
             "quality": "silver"
         },
         {
+            "name": "attenborough",
+            "display_name": "Sir David Attenborough",
+            "version": "1.0.0",
+            "description": "Real Sir David Attenborough narration from BBC nature documentaries: squirrels at last, sloths in a hurry and quarrelsome fish. 52 short clips cut from official BBC YouTube uploads.",
+            "author": {
+                "name": "Maitre-Pangolin",
+                "github": "Maitre-Pangolin"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 52,
+            "total_size_bytes": 14509428,
+            "source_repo": "Maitre-Pangolin/david_peon",
+            "source_ref": "v1.0.0",
+            "source_path": "pack",
+            "manifest_sha256": "5a299753be608f146365e5fd90711248218ac84cdf755611a2eb6e93e79534a2",
+            "tags": [
+                "attenborough",
+                "bbc",
+                "nature",
+                "documentary",
+                "narration",
+                "planet-earth",
+                "british"
+            ],
+            "preview_sounds": [
+                "AtLastASquirrel.wav",
+                "VeryWell.wav",
+                "ThisMagnificentCreaturePreparingWhoops.wav"
+            ],
+            "added": "2026-11-24",
+            "updated": "2026-11-24"
+        },
+        {
             "name": "balatro",
             "display_name": "Balatro",
             "version": "1.0.1",
