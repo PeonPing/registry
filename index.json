@@ -10605,6 +10605,48 @@
             "quality": "silver"
         },
         {
+            "name": "sc2_adjutant_kr",
+            "display_name": "테란 부관 (StarCraft II, 한국어)",
+            "version": "1.0.0",
+            "description": "StarCraft II Terran Adjutant (테란 부관) Korean announcer lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 27,
+            "total_size_bytes": 4206290,
+            "source_repo": "hekkim/openpeon-sc2-adjutant-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "457f0f6912e311fd217d573ba7e4f8bad24c0ca338de8c7821ef4f6b17db8a5b",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "blizzard",
+                "korean",
+                "terran",
+                "announcer"
+            ],
+            "preview_sounds": [
+                "AdjutantResearchComplete_KR.wav",
+                "AdjutantNotEnoughMinerals_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "sc2_alarak",
             "display_name": "StarCraft II Alarak",
             "version": "1.0.0",
@@ -16007,5 +16049,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 384
+    "total_packs": 385
 }
