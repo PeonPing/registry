@@ -8537,6 +8537,48 @@
             "quality": "gold"
         },
         {
+            "name": "peasant_kr",
+            "display_name": "휴먼 일꾼 (Warcraft III, 한국어)",
+            "version": "1.0.0",
+            "description": "Warcraft III: Reforged Human Peasant (휴먼 일꾼) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 18,
+            "total_size_bytes": 2815141,
+            "source_repo": "hekkim/openpeon-wc3-peasant-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "8be18e87509c5e6a802a9ed47705518b040b61adc3c8686c9200614b37f6bfb3",
+            "tags": [
+                "gaming",
+                "warcraft",
+                "blizzard",
+                "korean",
+                "human",
+                "peasant"
+            ],
+            "preview_sounds": [
+                "PeasantReady1_KR.wav",
+                "PeasantYes2_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "peasant_ru",
             "display_name": "Human Peasant (Russian)",
             "version": "1.0.0",
@@ -8781,6 +8823,48 @@
             "added": "2026-02-12",
             "updated": "2026-02-12",
             "quality": "gold"
+        },
+        {
+            "name": "peon_kr",
+            "display_name": "오크 일꾼 (Warcraft III, 한국어)",
+            "version": "1.0.0",
+            "description": "Warcraft III: Reforged Orc Peon (오크 일꾼) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "total_size_bytes": 2271638,
+            "source_repo": "hekkim/openpeon-wc3-peon-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "06bf748dd4d5025ceaca710eb3ad9feeda490c0d8371bfc74b7c86a960f9a71d",
+            "tags": [
+                "gaming",
+                "warcraft",
+                "blizzard",
+                "korean",
+                "orc",
+                "peon"
+            ],
+            "preview_sounds": [
+                "PeonReady1_KR.wav",
+                "PeonYes3_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
         },
         {
             "name": "peon_pl",
@@ -15923,5 +16007,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 382
+    "total_packs": 384
 }
