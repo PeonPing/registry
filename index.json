@@ -4408,6 +4408,47 @@
             "quality": "gold"
         },
         {
+            "name": "dva_kr",
+            "display_name": "D.Va (Overwatch, 한국어)",
+            "version": "1.0.0",
+            "description": "Overwatch D.Va (디바) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 33,
+            "total_size_bytes": 4024281,
+            "source_repo": "hekkim/openpeon-ow-dva-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "f8dd38c69e0507b05d15bed7d9d0902777f7d10440dcef451f8b6159172e41a1",
+            "tags": [
+                "gaming",
+                "overwatch",
+                "blizzard",
+                "korean",
+                "dva"
+            ],
+            "preview_sounds": [
+                "DvaOnline_KR.wav",
+                "DvaPressStart_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "echo",
             "display_name": "Overwatch - Echo",
             "version": "1.0.0",
@@ -14236,6 +14277,47 @@
             "quality": "gold"
         },
         {
+            "name": "tracer_kr",
+            "display_name": "트레이서 (Overwatch, 한국어)",
+            "version": "1.0.0",
+            "description": "Overwatch Tracer (트레이서) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 25,
+            "total_size_bytes": 2963672,
+            "source_repo": "hekkim/openpeon-ow-tracer-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "1a8c5e6d1fe85eea15ab57533cb5aaee18691452e64f940a98d016de3aeef98a",
+            "tags": [
+                "gaming",
+                "overwatch",
+                "blizzard",
+                "korean",
+                "tracer"
+            ],
+            "preview_sounds": [
+                "TracerCavalrysHere_KR.wav",
+                "TracerRightOnTime_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "tropic-thunder",
             "display_name": "Tropic Thunder",
             "version": "1.0.0",
@@ -16172,5 +16254,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 388
+    "total_packs": 390
 }
