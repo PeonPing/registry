@@ -6642,6 +6642,47 @@
             "quality": "gold"
         },
         {
+            "name": "lol_announcer_kr",
+            "display_name": "리그 오브 레전드 아나운서 (한국어)",
+            "version": "1.0.0",
+            "description": "League of Legends in-game announcer (리그 오브 레전드 아나운서) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 27,
+            "total_size_bytes": 5850472,
+            "source_repo": "hekkim/openpeon-lol-announcer-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "50124033f3b938b2b937804a6f66bd85980ed4d9ba6a7554309baa0cf0527c19",
+            "tags": [
+                "gaming",
+                "league-of-legends",
+                "riot",
+                "korean",
+                "announcer"
+            ],
+            "preview_sounds": [
+                "AnnouncerWelcomeSummonersRift_KR.wav",
+                "AnnouncerEnemySlain_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "lol_fiddlesticks",
             "display_name": "Fiddlesticks",
             "version": "1.0.0",
@@ -6763,6 +6804,88 @@
             "added": "2026-03-19",
             "updated": "2026-03-19",
             "quality": "silver"
+        },
+        {
+            "name": "lol_jinx_kr",
+            "display_name": "징크스 (League of Legends, 한국어)",
+            "version": "1.0.0",
+            "description": "League of Legends Jinx (징크스) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 21,
+            "total_size_bytes": 3234139,
+            "source_repo": "hekkim/openpeon-lol-jinx-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "42233556d1c90825c18b8473279da55b30dc826d1cd0822b7a989ec747440ef5",
+            "tags": [
+                "gaming",
+                "league-of-legends",
+                "riot",
+                "korean",
+                "jinx"
+            ],
+            "preview_sounds": [
+                "JinxIAmJinx_KR.wav",
+                "JinxThreeTwoOne_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
+            "name": "lol_yasuo_kr",
+            "display_name": "야스오 (League of Legends, 한국어)",
+            "version": "1.0.0",
+            "description": "League of Legends Yasuo (야스오) Korean voice lines",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 21,
+            "total_size_bytes": 4544360,
+            "source_repo": "hekkim/openpeon-lol-yasuo-kr",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "5700065d7b7aa9ed2dac693dcb8f0500702619432039a835f8b8b9523fb5fd58",
+            "tags": [
+                "gaming",
+                "league-of-legends",
+                "riot",
+                "korean",
+                "yasuo"
+            ],
+            "preview_sounds": [
+                "YasuoStoryNotOver_KR.wav",
+                "YasuoOneMistake_KR.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
         },
         {
             "name": "lorenz-hellman-gloucester",
@@ -16049,5 +16172,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 385
+    "total_packs": 388
 }
