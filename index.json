@@ -2479,6 +2479,47 @@
             "quality": "gold"
         },
         {
+            "name": "cp2077_delamain",
+            "display_name": "Delamain (Cyberpunk 2077)",
+            "version": "1.0.0",
+            "description": "Delamain, the courteous AI taxi from Cyberpunk 2077",
+            "author": {
+                "name": "heecheonkim",
+                "github": "hekkim"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 27,
+            "total_size_bytes": 4695430,
+            "source_repo": "hekkim/openpeon-cp2077-delamain",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "b66bcb2286230843994be8e546a50f87e871505e79074b93c8aa9153e96d1753",
+            "tags": [
+                "gaming",
+                "cyberpunk-2077",
+                "cd-projekt-red",
+                "ai",
+                "delamain"
+            ],
+            "preview_sounds": [
+                "DelamainArrived.wav",
+                "DelamainHowCanIAssist.wav"
+            ],
+            "added": "2026-11-25",
+            "updated": "2026-11-25"
+        },
+        {
             "name": "cute-minimal",
             "display_name": "Cute UI",
             "version": "1.0.1",
@@ -16254,5 +16295,5 @@
             "quality": "silver"
         }
     ],
-    "total_packs": 390
+    "total_packs": 391
 }
